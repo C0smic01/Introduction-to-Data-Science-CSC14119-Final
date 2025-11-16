@@ -345,12 +345,10 @@ class FBrefCrawler:
 
         # --- Market value ---
         try:
-            stats["market_value"] = get_market_value(
-                player_name=stats["player_name"], club_name=stats["current_club"]
-            )
+            stats["market_value"] = get_market_value(player_name=stats["player_name"])
         except Exception as e:
             logging.warning(
-                f"Không lấy được market value cho {stats.get('player_name')}: {e}"
+                f"Can not get market value for {stats.get('player_name')}: {e}"
             )
             stats["market_value"] = None
 

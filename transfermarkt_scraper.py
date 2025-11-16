@@ -8,6 +8,8 @@ import logging
 import random
 import time
 
+from config import TRANSFERMARKT_QUICKSEARCH_URL
+
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
 )
@@ -18,9 +20,9 @@ def random_delay(a=1.0, b=2.5):
     time.sleep(random.uniform(a, b))
 
 
-def get_market_value(player_name: str, club_name: str = None):
+def get_market_value(player_name: str):
     """Return the market value of a player from Transfermarkt"""
-    url = f"https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query={player_name}"
+    url = TRANSFERMARKT_QUICKSEARCH_URL.format(player_name=player_name)
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     logging.info(f"Fetching market value for {player_name}: {url}")
 

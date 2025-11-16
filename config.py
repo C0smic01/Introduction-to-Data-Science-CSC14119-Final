@@ -53,14 +53,16 @@ BASE_SCHEMA = {
 # ============================================================================
 # FBREF DEFAULT LEAGUES
 # ============================================================================
+SEASON = "2024-2025"
+
 LEAGUE_CONFIG = {
-    "La Liga": "https://fbref.com/en/comps/12/La-Liga-Stats",
-    "Premier League": "https://fbref.com/en/comps/9/Premier-League-Stats",
-    "Serie A": "https://fbref.com/en/comps/11/Serie-A-Stats",
-    "Bundesliga": "https://fbref.com/en/comps/20/Bundesliga-Stats",
-    "Ligue 1": "https://fbref.com/en/comps/13/Ligue-1-Stats",
-    "Eredivisie": "https://fbref.com/en/comps/23/Eredivisie-Stats",
-    "Primeira Liga": "https://fbref.com/en/comps/32/Primeira-Liga-Stats",
+    "La Liga": f"https://fbref.com/en/comps/12/{SEASON}/{SEASON}-La-Liga-Stats",
+    "Premier League": f"https://fbref.com/en/comps/9/{SEASON}/{SEASON}-Premier-League-Stats",
+    "Serie A": f"https://fbref.com/en/comps/11/{SEASON}/{SEASON}-Serie-A-Stats",
+    "Bundesliga": f"https://fbref.com/en/comps/20/{SEASON}/{SEASON}-Bundesliga-Stats",
+    "Ligue 1": f"https://fbref.com/en/comps/13/{SEASON}/{SEASON}-Ligue-1-Stats",
+    "Eredivisie": f"https://fbref.com/en/comps/23/{SEASON}/{SEASON}-Eredivisie-Stats",
+    "Primeira Liga": f"https://fbref.com/en/comps/32/{SEASON}/{SEASON}-Primeira-Liga-Stats",
 }
 
 # League levels
@@ -79,3 +81,7 @@ LEAGUE_LEVELS = {
 # Delays to avoid being blocked
 DELAY_BETWEEN_REQUESTS = 2  # seconds
 DELAY_BETWEEN_PLAYERS = 1  # seconds
+
+
+# URL
+TRANSFERMARKT_QUICKSEARCH_URL = "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query={player_name}"
