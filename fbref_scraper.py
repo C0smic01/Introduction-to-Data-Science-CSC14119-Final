@@ -20,8 +20,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-from config import BASE_SCHEMA, LEAGUE_CONFIG
-from transfermarkt_scraper import get_market_value
+from config import BASE_SCHEMA, LEAGUE_CONFIG, MAX_DELAY, MIN_DELAY
+from transfermarkt_scraper import get_market_value, random_delay
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -51,11 +51,6 @@ def generate_player_id(
     hash_suffix = hash_obj.hexdigest()[:6]
 
     return f"{name}-{hash_suffix}"
-
-
-def random_delay(a: float = 1.5, b: float = 3.0) -> None:
-    """Add random delay to avoid rate limiting"""
-    time.sleep(random.uniform(a, b))
 
 
 def clean_number(val, allow_float: bool = True):
@@ -650,23 +645,32 @@ class FBrefCrawler:
         self,
         league_name: str,
         league_url: str,
-        csv_file="players.csv",
-        json_file="players.json",
+        csv_file=None,
+        json_file=None,
     ) -> None:
         """
         Scrape all players in a league and save immediately to CSV/JSON
         """
+
+        if csv_file is None:
+            csv_file = f"{league_name.replace(' ', '_').lower()}_players.csv"
+        if json_file is None:
+            json_file = f"{league_name.replace(' ', '_').lower()}_players.json"
+
         logging.info(f"Starting league: {league_name}")
+        logging.info(f"CSV file:  {csv_file}")
+        logging.info(f"JSON file: {json_file}")
+
         clubs = self.get_league_clubs(league_url)
 
-        # Open CSV and JSON files once
+        # Open CSV & JSON once
         csv_f = open(csv_file, "w", newline="", encoding="utf-8")
         csv_writer = csv.DictWriter(csv_f, fieldnames=list(BASE_SCHEMA.keys()))
         csv_writer.writeheader()
 
         json_f = open(json_file, "w", encoding="utf-8")
-        json_f.write("[\n")  # start JSON array
-        first = True  # flag for JSON commas
+        json_f.write("[\n")
+        first = True
 
         try:
             for club in clubs:
@@ -694,17 +698,18 @@ class FBrefCrawler:
 
                         self._calculate_derived_fields(full)
 
-                        # --- Write CSV ---
+                        # Write CSV
                         csv_writer.writerow(
                             {k: full.get(k, BASE_SCHEMA[k]) for k in BASE_SCHEMA.keys()}
                         )
                         csv_f.flush()
 
-                        # --- Write JSON ---
+                        # Write JSON
                         if not first:
                             json_f.write(",\n")
                         else:
                             first = False
+
                         json.dump(
                             {
                                 k: full.get(k, BASE_SCHEMA[k])
@@ -727,7 +732,7 @@ class FBrefCrawler:
 
         finally:
             csv_f.close()
-            json_f.write("\n]")  # close JSON array
+            json_f.write("\n]")
             json_f.close()
 
         logging.info(f"League {league_name} complete.")

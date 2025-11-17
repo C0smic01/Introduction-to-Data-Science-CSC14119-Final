@@ -85,3 +85,11 @@ DELAY_BETWEEN_PLAYERS = 1  # seconds
 
 # URL
 TRANSFERMARKT_QUICKSEARCH_URL = "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query={player_name}"
+
+
+# Thread
+MAX_THREADS = 5
+
+# Delay
+MIN_DELAY = 1.5
+MAX_DELAY = 3.0

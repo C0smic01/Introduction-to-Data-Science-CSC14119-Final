@@ -9,15 +9,11 @@ import random
 import time
 
 from config import TRANSFERMARKT_QUICKSEARCH_URL
+from utils import random_delay
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
 )
-
-
-def random_delay(a=1.0, b=2.5):
-    """Random delay to avoid being blocked"""
-    time.sleep(random.uniform(a, b))
 
 
 def get_market_value(player_name: str):
