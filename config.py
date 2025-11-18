@@ -88,7 +88,7 @@ TRANSFERMARKT_QUICKSEARCH_URL = "https://www.transfermarkt.com/schnellsuche/erge
 
 
 # Thread
-MAX_THREADS = 5
+MAX_THREADS = 1
 
 # Delay
 MIN_DELAY = 1.5
