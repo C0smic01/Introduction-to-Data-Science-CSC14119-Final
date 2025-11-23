@@ -4,48 +4,40 @@ Modular class for scraping player data from FBref.com
 Can be used standalone or combined with other crawlers
 """
 
-import time
-import random
-import logging
-import csv
-import json
-import hashlib
-import unicodedata
-import re
-from datetime import datetime
-from typing import List, Dict, Optional, Set
-from bs4 import BeautifulSoup, Comment
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
+from utils.imports import *
 
-from config import BASE_SCHEMA, LEAGUE_CONFIG, MAX_DELAY, MIN_DELAY
-from transfermarkt_scraper import get_market_value, random_delay
-
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+from utils.config import BASE_SCHEMA
+from scraper.transfermarkt_scraper import (
+    get_height,
+    get_market_value,
+    get_profile_url,
+    random_delay,
 )
-
-
-# ============================================================================
-# UTILITY FUNCTIONS
-# ============================================================================
 
 
 def generate_player_id(
     player_name: str, dob: Optional[str] = None, nationality: Optional[str] = None
 ) -> str:
     """
-    Generate unique player ID from name, DOB, and nationality
+    Generate a unique player ID based on player name, date of birth, and nationality.
     Format: firstname-lastname-hash6
     Example: lionel-messi-a3f8e2
+
+    Args:
+        player_name (str): Full name of the player
+        dob (Optional[str]): Date of birth in YYYY-MM-DD format
+        nationality (Optional[str]): Nationality of player
+
+    Returns:
+        str: Unique player ID
     """
+    # Normalize name to ASCII and lowercase, replace spaces/hyphens
     name = unicodedata.normalize("NFKD", player_name)
     name = name.encode("ascii", "ignore").decode("ascii")
     name = re.sub(r"[^\w\s-]", "", name.lower())
     name = re.sub(r"[-\s]+", "-", name).strip("-")
 
+    # Hash to make unique
     hash_input = f"{player_name}:{dob or ''}:{nationality or ''}"
     hash_obj = hashlib.md5(hash_input.encode("utf-8"))
     hash_suffix = hash_obj.hexdigest()[:6]
@@ -54,7 +46,16 @@ def generate_player_id(
 
 
 def clean_number(val, allow_float: bool = True):
-    """Convert string value to number, handling various formats"""
+    """
+    Convert string or number to numeric value, handling commas, %, empty strings.
+
+    Args:
+        val: Input value to convert
+        allow_float (bool): Whether to allow float conversion
+
+    Returns:
+        int or float: Converted numeric value, defaults to 0 on failure
+    """
     if val is None:
         return 0
     try:
@@ -73,17 +74,28 @@ def clean_number(val, allow_float: bool = True):
 def find_table_in_comments(
     soup: BeautifulSoup, needle: Optional[str] = None, id_contains: Optional[str] = None
 ):
-    """Find HTML table hidden in comments (FBref's anti-scraping technique)"""
+    """
+    Find a table that is hidden inside HTML comments.
+
+    Args:
+        soup (BeautifulSoup): Parsed HTML page
+        needle (Optional[str]): Text to match in comment
+        id_contains (Optional[str]): Substring to match in table id
+
+    Returns:
+        Tag or None: The first matching table element
+    """
     comments = soup.find_all(string=lambda text: isinstance(text, Comment))
     for c in comments:
         if needle and needle not in c:
             continue
         try:
             s2 = BeautifulSoup(c, "html.parser")
-            if id_contains:
-                t = s2.find("table", id=lambda x: x and id_contains in x)
-            else:
-                t = s2.find("table")
+            t = (
+                s2.find("table", id=lambda x: x and id_contains in x)
+                if id_contains
+                else s2.find("table")
+            )
             if t:
                 return t
         except Exception:
@@ -92,13 +104,11 @@ def find_table_in_comments(
 
 
 # ============================================================================
-# MAIN CRAWLER CLASS
-# ============================================================================
 
 
 class FBrefCrawler:
     """
-    Scraper for FBref.com player statistics
+    FBref Crawler class for scraping player statistics.
 
     Usage:
         crawler = FBrefCrawler(headless=True)
@@ -108,11 +118,11 @@ class FBrefCrawler:
 
     def __init__(self, headless: bool = True, user_agent: Optional[str] = None):
         """
-        Initialize crawler with Chrome WebDriver
+        Initialize crawler with Chrome WebDriver.
 
         Args:
-            headless: Run browser in headless mode
-            user_agent: Custom user agent string
+            headless (bool): Run Chrome in headless mode
+            user_agent (Optional[str]): Custom user-agent string
         """
         chrome_options = Options()
         if headless:
@@ -130,22 +140,22 @@ class FBrefCrawler:
             service=ChromeService(ChromeDriverManager().install()),
             options=chrome_options,
         )
-        self.players: List[Dict] = []
-        self.seen_ids: Set[str] = set()
+        self.players: List[Dict] = []  # All scraped players
+        self.seen_ids: Set[str] = set()  # To ensure unique player IDs
 
     def close(self) -> None:
-        """Close the browser driver"""
+        """Close the Selenium WebDriver."""
         try:
             self.driver.quit()
-        except:
+        except Exception:
             pass
 
     def __enter__(self):
-        """Context manager support"""
+        """Support 'with' context manager"""
         return self
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        """Context manager cleanup"""
+    def __exit__(self):
+        """Ensure driver closes when exiting context"""
         self.close()
 
     # ------------------------------------------------------------------------
@@ -153,7 +163,16 @@ class FBrefCrawler:
     # ------------------------------------------------------------------------
 
     def get_page_soup(self, url: str, wait: float = 1.5) -> Optional[BeautifulSoup]:
-        """Fetch page and return BeautifulSoup object"""
+        """
+        Fetch a page and return its BeautifulSoup object.
+
+        Args:
+            url (str): URL to fetch
+            wait (float): Minimum delay after loading page
+
+        Returns:
+            BeautifulSoup or None: Parsed page or None if failed
+        """
         logging.info(f"GET {url}")
         try:
             self.driver.get(url)
@@ -168,7 +187,7 @@ class FBrefCrawler:
         Extract all clubs from a league page
 
         Returns:
-            List of dicts with 'club_name' and 'club_url'
+            List of dicts with 'club_url'
         """
         soup = self.get_page_soup(league_url)
         if not soup:
@@ -250,7 +269,7 @@ class FBrefCrawler:
         logging.info(f"Found {len(players)} players")
         return players
 
-    def scrape_player_full(
+    def scrape_full_players_data(
         self,
         player_url: str,
         league_name: Optional[str] = None,
@@ -267,7 +286,7 @@ class FBrefCrawler:
         stats["league"] = league_name or ""
         stats["current_club"] = club_name or ""
 
-        # Lấy container chính
+        # Get HTML main container
         info_div = soup.find("div", id="info")
         if not info_div:
             return stats
@@ -318,11 +337,26 @@ class FBrefCrawler:
                     height_span.get_text(strip=True).replace("cm", "").strip()
                 )
             except:
-                pass
+                stats["height"] = None
+        else:
+
+            if stats.get("player_name") and stats.get("current_club"):
+                try:
+                    profile_url = get_profile_url(self.driver, stats["player_name"])
+                    if profile_url:
+                        height_cm = get_height(profile_url, stats["player_name"])
+                        stats["height"] = height_cm
+                    else:
+                        stats["height"] = None
+                except Exception as e:
+                    logging.warning(
+                        f"{stats['player_name']}: Cannot get height from fallback: {e}"
+                    )
+                    stats["height"] = None
 
         # --- Position & Footed ---
         info_text = info_div.get_text(" ", strip=True).replace("\xa0", " ")
-        # Dùng regex để tìm Position và Footed
+
         m_pos = re.search(r"Position:\s*([A-Za-z0-9\-]+)", info_text)
         m_foot = re.search(r"Footed:\s*([A-Za-z]+)", info_text)
 
@@ -535,7 +569,7 @@ class FBrefCrawler:
 
             for p in club_players:
                 try:
-                    full = self.scrape_player_full(
+                    full = self.scrape_full_players_data(
                         p["player_url"], league_name, club["club_name"]
                     )
 
@@ -679,7 +713,7 @@ class FBrefCrawler:
 
                 for p in club_players:
                     try:
-                        full = self.scrape_player_full(
+                        full = self.scrape_full_players_data(
                             p["player_url"], league_name, club["club_name"]
                         )
                         if not full:

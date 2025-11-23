@@ -1,14 +1,21 @@
-from multiprocessing.pool import Pool
-from config import LEAGUE_CONFIG, MAX_THREADS
-from fbref_scraper import FBrefCrawler
+from utils.imports import *
+from utils.config import CSV_FOLDER, HEADLESS, JSON_FOLDER, LEAGUE_CONFIG, MAX_THREADS
+from scraper.football_players_scraper import FBrefCrawler
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
 
 def scrape_one_league(args):
     league_name, league_url = args
-    crawler = FBrefCrawler(headless=True)
+    crawler = FBrefCrawler(headless=HEADLESS)
 
-    csv_file = f"{league_name.replace(' ', '_')}.csv"
-    json_file = f"{league_name.replace(' ', '_')}.json"
+    os.makedirs(CSV_FOLDER, exist_ok=True)
+    os.makedirs(JSON_FOLDER, exist_ok=True)
+
+    csv_file = os.path.join(CSV_FOLDER, f"{league_name.replace(' ', '_')}.csv")
+    json_file = os.path.join(JSON_FOLDER, f"{league_name.replace(' ', '_')}.json")
 
     crawler.scrape_league_streaming(
         league_name, league_url, csv_file=csv_file, json_file=json_file

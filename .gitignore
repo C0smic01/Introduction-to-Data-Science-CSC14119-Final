@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Optional: cache folders from IDEs
+*.egg-info/
+.eggs/
+
+# Virtual environment (if any)
+venv/
+env/
+
+# Ignore any other cache directories
+*/__pycache__/
