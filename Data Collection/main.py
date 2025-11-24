@@ -1,6 +1,6 @@
 from utils.imports import *
 from utils.config import CSV_FOLDER, HEADLESS, JSON_FOLDER, LEAGUE_CONFIG, MAX_THREADS
-from scraper.football_players_scraper import FBrefCrawler
+from scraper.football_players_scraper import FootbalPlayerCrawler
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -9,7 +9,7 @@ logging.basicConfig(
 
 def scrape_one_league(args):
     league_name, league_url = args
-    crawler = FBrefCrawler(headless=HEADLESS)
+    crawler = FootbalPlayerCrawler(headless=HEADLESS)
 
     os.makedirs(CSV_FOLDER, exist_ok=True)
     os.makedirs(JSON_FOLDER, exist_ok=True)

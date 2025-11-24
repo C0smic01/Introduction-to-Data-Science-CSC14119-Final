@@ -65,27 +65,8 @@ LEAGUE_CONFIG = {
     "Primeira Liga": f"https://fbref.com/en/comps/32/{SEASON}/{SEASON}-Primeira-Liga-Stats",
 }
 
-# League levels
-LEAGUE_LEVELS = {
-    "GB1": 1,
-    "ES1": 1,
-    "IT1": 1,
-    "L1": 1,
-    "FR1": 1,  # Top 5
-    "NL1": 2,
-    "PO1": 2,
-    "BE1": 2,  # Second tier
-}
-
-
-# Delays to avoid being blocked
-DELAY_BETWEEN_REQUESTS = 2  # seconds
-DELAY_BETWEEN_PLAYERS = 1  # seconds
-
-
 # URL
-TRANSFERMARKT_QUICKSEARCH_URL = "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query={player_name}"
-
+TRANSFERMARKT_PLAYER_SEACH_URL = "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query={player_name}"
 
 # Thread
 MAX_THREADS = 1

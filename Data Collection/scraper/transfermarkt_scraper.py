@@ -4,7 +4,7 @@ TransferMarkt Scraper - Scraper for player data
 
 from utils.imports import *
 
-from utils.config import HEADERS, TRANSFERMARKT_QUICKSEARCH_URL
+from utils.config import HEADERS, TRANSFERMARKT_PLAYER_SEACH_URL
 from utils.utils import random_delay
 
 
@@ -18,7 +18,7 @@ def get_market_value(player_name: str) -> str | None:
     Returns:
         str | None: Market value as string without '€' (e.g., '50m'), or None if not found.
     """
-    url = TRANSFERMARKT_QUICKSEARCH_URL.format(player_name=player_name)
+    url = TRANSFERMARKT_PLAYER_SEACH_URL.format(player_name=player_name)
     logging.info(f"Fetching market value for {player_name}: {url}")
 
     resp = requests.get(url, headers=HEADERS)
@@ -57,7 +57,7 @@ def get_profile_url(driver, player_name: str) -> str | None:
     Returns:
         str | None: Player profile URL, or None if not found.
     """
-    search_url = TRANSFERMARKT_QUICKSEARCH_URL.format(player_name=player_name)
+    search_url = TRANSFERMARKT_PLAYER_SEACH_URL.format(player_name=player_name)
     driver.get(search_url)
     random_delay(2, 4)
 

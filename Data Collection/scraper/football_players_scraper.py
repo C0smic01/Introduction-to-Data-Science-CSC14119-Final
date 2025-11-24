@@ -106,7 +106,7 @@ def find_table_in_comments(
 # ============================================================================
 
 
-class FBrefCrawler:
+class FootbalPlayerCrawler:
     """
     FBref Crawler class for scraping player statistics.
 
@@ -547,63 +547,6 @@ class FBrefCrawler:
     # ------------------------------------------------------------------------
     # HIGH-LEVEL SCRAPING METHODS
     # ------------------------------------------------------------------------
-
-    def scrape_league(self, league_name: str, league_url: str) -> List[Dict]:
-        """
-        Scrape all players from a league
-
-        Args:
-            league_name: Name of the league
-            league_url: FBref URL for the league
-
-        Returns:
-            List of player dicts
-        """
-        logging.info(f"Starting league: {league_name}")
-        clubs = self.get_league_clubs(league_url)
-        league_players = []
-
-        for club in clubs:
-            logging.info(f"Scraping club: {club['club_name']}")
-            club_players = self.get_club_players(club["club_url"])
-
-            for p in club_players:
-                try:
-                    full = self.scrape_full_players_data(
-                        p["player_url"], league_name, club["club_name"]
-                    )
-
-                    if not full:
-                        continue
-
-                    # Merge basic club stats
-                    full["appearances"] = p.get("appearances") or full.get(
-                        "appearances", 0
-                    )
-                    full["minutes_played"] = p.get("minutes_played") or full.get(
-                        "minutes_played", 0
-                    )
-                    full["goals"] = p.get("goals") or full.get("goals", 0)
-                    full["assists"] = p.get("assists") or full.get("assists", 0)
-                    full["xG"] = p.get("xG") or full.get("xG", 0)
-                    full["xAG"] = p.get("xAG") or full.get("xAG", 0)
-
-                    # Recalculate derived fields
-                    self._calculate_derived_fields(full)
-
-                    league_players.append(full)
-                    self.players.append(full)
-
-                    logging.info(f"✓ {full['player_name']} (ID: {full['player_id']})")
-
-                except Exception as e:
-                    logging.exception(f"✗ Error scraping {p.get('player_name')}: {e}")
-
-        logging.info(
-            f"League {league_name} complete. Total: {len(league_players)} players"
-        )
-        return league_players
-
     def scrape_all_leagues(
         self, leagues: Optional[Dict[str, str]] = None
     ) -> List[Dict]:
@@ -627,53 +570,6 @@ class FBrefCrawler:
     # ------------------------------------------------------------------------
     # DATA EXPORT METHODS
     # ------------------------------------------------------------------------
-
-    def save_to_csv(self, filename: str = "fbref_players.csv") -> None:
-        """Save all scraped players to CSV"""
-        if not self.players:
-            logging.warning("No players to save")
-            return
-
-        with open(filename, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=list(BASE_SCHEMA.keys()))
-            writer.writeheader()
-
-            for player in self.players:
-                row = {k: player.get(k, BASE_SCHEMA[k]) for k in BASE_SCHEMA.keys()}
-                writer.writerow(row)
-
-        logging.info(f"✓ Saved {len(self.players)} players to {filename}")
-
-    def save_to_json(self, filename: str = "fbref_players.json") -> None:
-        """Save all scraped players to JSON"""
-        if not self.players:
-            logging.warning("No players to save")
-            return
-
-        clean_players = [
-            {k: p.get(k, BASE_SCHEMA[k]) for k in BASE_SCHEMA.keys()}
-            for p in self.players
-        ]
-
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(clean_players, f, ensure_ascii=False, indent=2)
-
-        logging.info(f"✓ Saved {len(self.players)} players to {filename}")
-
-    def get_player_by_id(self, player_id: str) -> Optional[Dict]:
-        """Get player data by ID"""
-        for player in self.players:
-            if player.get("player_id") == player_id:
-                return player
-        return None
-
-    def get_players_by_club(self, club_name: str) -> List[Dict]:
-        """Get all players from a specific club"""
-        return [p for p in self.players if p.get("current_club") == club_name]
-
-    def get_players_by_league(self, league_name: str) -> List[Dict]:
-        """Get all players from a specific league"""
-        return [p for p in self.players if p.get("league") == league_name]
 
     def scrape_league_streaming(
         self,

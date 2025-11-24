@@ -1,5 +1,5 @@
 from utils.imports import *
-from utils.config import MAX_DELAY, MIN_DELAY
+from utils.config import BASE_SCHEMA, MAX_DELAY, MIN_DELAY
 
 
 def random_delay(a: float = MIN_DELAY, b: float = MAX_DELAY) -> None:
@@ -39,3 +39,36 @@ def combine_csv(folder_path: str, output_path: str):
     merged_df.to_csv(output_path, index=False)
 
     print(f"Successfully merged {len(csv_files)} files into: {output_path}.")
+
+
+def save_to_csv(self, filename: str) -> None:
+    """Save all scraped players to CSV"""
+    if not self.players:
+        logging.warning("No players to save")
+        return
+
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=list(BASE_SCHEMA.keys()))
+        writer.writeheader()
+
+        for player in self.players:
+            row = {k: player.get(k, BASE_SCHEMA[k]) for k in BASE_SCHEMA.keys()}
+            writer.writerow(row)
+
+    logging.info(f"Saved {len(self.players)} players to {filename}")
+
+
+def save_to_json(self, filename: str) -> None:
+    """Save all scraped players to JSON"""
+    if not self.players:
+        logging.warning("No players to save")
+        return
+
+    clean_players = [
+        {k: p.get(k, BASE_SCHEMA[k]) for k in BASE_SCHEMA.keys()} for p in self.players
+    ]
+
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(clean_players, f, ensure_ascii=False, indent=2)
+
+    logging.info(f"Saved {len(self.players)} players to {filename}")
