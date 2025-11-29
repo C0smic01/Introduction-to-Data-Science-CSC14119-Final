@@ -8,15 +8,42 @@ from utils.config import HEADERS, TRANSFERMARKT_PLAYER_SEACH_URL
 from utils.utils import random_delay
 
 
-def get_market_value(player_name: str) -> str | None:
+def parse_market_value(mv_str: str) -> float | None:
     """
-    Fetch the market value of a player from Transfermarkt.
+    Convert Transfermarkt market value string to float (million €).
+
+    Examples:
+        '€700k' -> 0.7
+        '€1m'   -> 1.0
+        '€12.5m'-> 12.5
 
     Args:
-        player_name (str): Full name of the player.
+        mv_str (str): Market value string from Transfermarkt.
 
     Returns:
-        str | None: Market value as string without '€' (e.g., '50m'), or None if not found.
+        float | None: Value in million euros, or None if cannot parse.
+    """
+    if not mv_str:
+        return None
+
+    # Bước 1: loại bỏ ký tự euro và khoảng trắng
+    mv_str = mv_str.replace("€", "").strip().lower()
+
+    try:
+        if mv_str.endswith("k"):
+            return float(mv_str[:-1].replace(".", "").replace(",", ".")) / 1000
+        elif mv_str.endswith("m"):
+            return float(mv_str[:-1].replace(",", "."))
+        else:
+            # fallback: nếu là số nguyên dạng 1000000 (euros)
+            return float(mv_str.replace(".", "").replace(",", ".")) / 1_000_000
+    except ValueError:
+        return None
+
+
+def get_market_value(player_name: str) -> float | None:
+    """
+    Fetch the market value of a player from Transfermarkt as float million €.
     """
     url = TRANSFERMARKT_PLAYER_SEACH_URL.format(player_name=player_name)
     logging.info(f"Fetching market value for {player_name}: {url}")
@@ -37,10 +64,8 @@ def get_market_value(player_name: str) -> str | None:
     for row in table.tbody.find_all("tr"):
         mv_tag = row.find("td", class_="rechts hauptlink")
         if mv_tag:
-            market_value = mv_tag.get_text(strip=True)
-            # Remove euro symbol and any leading/trailing whitespace
-            market_value = market_value.replace("€", "").strip()
-            return market_value
+            market_value_str = mv_tag.get_text(strip=True)
+            return parse_market_value(market_value_str)
 
     logging.warning(f"Player {player_name} not found")
     return None

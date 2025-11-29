@@ -5,7 +5,6 @@ Can be used standalone or combined with other crawlers
 """
 
 from utils.imports import *
-
 from utils.config import BASE_SCHEMA
 from scraper.transfermarkt_scraper import (
     get_height,
@@ -22,22 +21,12 @@ def generate_player_id(
     Generate a unique player ID based on player name, date of birth, and nationality.
     Format: firstname-lastname-hash6
     Example: lionel-messi-a3f8e2
-
-    Args:
-        player_name (str): Full name of the player
-        dob (Optional[str]): Date of birth in YYYY-MM-DD format
-        nationality (Optional[str]): Nationality of player
-
-    Returns:
-        str: Unique player ID
     """
-    # Normalize name to ASCII and lowercase, replace spaces/hyphens
     name = unicodedata.normalize("NFKD", player_name)
     name = name.encode("ascii", "ignore").decode("ascii")
     name = re.sub(r"[^\w\s-]", "", name.lower())
     name = re.sub(r"[-\s]+", "-", name).strip("-")
 
-    # Hash to make unique
     hash_input = f"{player_name}:{dob or ''}:{nationality or ''}"
     hash_obj = hashlib.md5(hash_input.encode("utf-8"))
     hash_suffix = hash_obj.hexdigest()[:6]
@@ -46,45 +35,26 @@ def generate_player_id(
 
 
 def clean_number(val, allow_float: bool = True):
-    """
-    Convert string or number to numeric value, handling commas, %, empty strings.
-
-    Args:
-        val: Input value to convert
-        allow_float (bool): Whether to allow float conversion
-
-    Returns:
-        int or float: Converted numeric value, defaults to 0 on failure
-    """
+    """Convert string or number to numeric value, handling commas, %, empty strings."""
     if val is None:
-        return 0
+        return None
     try:
         s = str(val).strip().replace(",", "").replace("%", "")
         if s == "":
-            return 0
+            return None
         if allow_float and (
             "." in s or s.replace(".", "", 1).replace("-", "", 1).isdigit()
         ):
             return float(s)
         return int(float(s))
     except Exception:
-        return 0
+        return None
 
 
 def find_table_in_comments(
     soup: BeautifulSoup, needle: Optional[str] = None, id_contains: Optional[str] = None
 ):
-    """
-    Find a table that is hidden inside HTML comments.
-
-    Args:
-        soup (BeautifulSoup): Parsed HTML page
-        needle (Optional[str]): Text to match in comment
-        id_contains (Optional[str]): Substring to match in table id
-
-    Returns:
-        Tag or None: The first matching table element
-    """
+    """Find a table that is hidden inside HTML comments."""
     comments = soup.find_all(string=lambda text: isinstance(text, Comment))
     for c in comments:
         if needle and needle not in c:
@@ -104,6 +74,85 @@ def find_table_in_comments(
 
 
 # ============================================================================
+# STAT MAPPINGS - Cần được định nghĩa đầy đủ
+# ============================================================================
+
+OUTFIELD_SCOUTING_MAPPING = {
+    # Core attacking
+    "Goals": "goals_per_90",
+    "Assists": "assists_per_90",
+    "Non-Penalty Goals": "npg_per90",
+    "xG: Expected Goals": "xg_per90",
+    "npxG: Non-Penalty xG": "npxg_per90",
+    "xAG: Exp. Assisted Goals": "xag_per90",
+    "npxG + xAG": "npxg_xag_per90",
+}
+
+OUTFIELD_DETAILED_MAPPING = {
+    # Shooting
+    "Shots Total": "shots_per90",
+    "Shots on Target": "shots_on_target_per90",
+    "Shots on Target %": "shots_on_target_pct",
+    "Average Shot Distance": "avg_shot_distance",
+    # Playmaking
+    "Shot-Creating Actions": "sca_per90",
+    "Goal-Creating Actions": "gca_per90",
+    "Key Passes": "key_passes_per90",
+    "Passes into Final Third": "passes_into_final_third_per90",
+    "Passes into Penalty Area": "passes_into_penalty_area_per90",
+    # Passing
+    "Passes Completed": "passes_completed_per90",
+    "Pass Completion %": "pass_completion_pct",
+    "Progressive Passes": "progressive_passes_per90",
+    # Progression
+    "Progressive Carries": "progressive_carries_per90",
+    "Progressive Passes Rec": "progressive_passes_rec_per90",
+    "Successful Take-Ons": "take_ons_per90",
+    "Successful Take-On %": "take_on_success_pct",
+    "Carries": "carries_per90",
+    "Carries into Final Third": "carries_into_final_third_per90",
+    # Possession
+    "Touches": "touches_per90",
+    "Touches (Att 3rd)": "touches_att_third_per90",
+    "Touches (Att Pen)": "touches_att_pen_per90",
+    "Passes Received": "passes_received_per90",
+    # Defense
+    "Tackles": "tackles_per90",
+    "Interceptions": "interceptions_per90",
+    "Blocks": "blocks_per90",
+    "Ball Recoveries": "ball_recoveries_per90",
+    "Clearances": "clearances_per90",
+    # Physical
+    "Aerials Won": "aerials_won_per90",
+    "% of Aerials Won": "aerial_win_pct",
+    # Discipline
+    "Yellow Cards": "yellow_cards_per90",
+    "Red Cards": "red_cards_per90",
+    "Fouls Committed": "fouls_committed_per90",
+}
+
+GOALKEEPER_SCOUTING_MAPPING = {
+    "Goals Against": "goals_against_per90",
+    "Shots on Target Against": "shots_on_target_against_per90",
+    "Saves": "saves_per90",
+    "Save Percentage": "save_percentage",
+    "Clean Sheet Percentage": "clean_sheet_pct",
+}
+
+GOALKEEPER_DETAILED_MAPPING = {
+    "PSxG/SoT": "psxg_per_shot",
+    "PSxG-GA": "psxg_ga_per90",
+    "Save% (Penalty Kicks)": "penalty_save_pct",
+    "Passes Attempted (GK)": "passes_attempted_per90",
+    "Launch %": "launch_pct",
+    "Average Pass Length": "avg_pass_length",
+    "Def. Actions Outside Pen. Area": "def_actions_outside_pen_per90",
+    "Avg. Distance of Def. Actions": "avg_distance_def_actions",
+    "Crosses Stopped %": "crosses_stopped_pct",
+    "Wins": "wins_per90",
+    "Draws": "draws_per90",
+    "Losses": "losses_per90",
+}
 
 
 class FootbalPlayerCrawler:
@@ -111,19 +160,13 @@ class FootbalPlayerCrawler:
     FBref Crawler class for scraping player statistics.
 
     Usage:
-        crawler = FBrefCrawler(headless=True)
-        players = crawler.scrape_league("La Liga", "https://fbref.com/...")
+        crawler = FootbalPlayerCrawler(headless=True)
+        crawler.scrape_league_streaming("La Liga", "https://fbref.com/...")
         crawler.close()
     """
 
     def __init__(self, headless: bool = True, user_agent: Optional[str] = None):
-        """
-        Initialize crawler with Chrome WebDriver.
-
-        Args:
-            headless (bool): Run Chrome in headless mode
-            user_agent (Optional[str]): Custom user-agent string
-        """
+        """Initialize crawler with Chrome WebDriver."""
         chrome_options = Options()
         if headless:
             chrome_options.add_argument("--headless=new")
@@ -140,8 +183,7 @@ class FootbalPlayerCrawler:
             service=ChromeService(ChromeDriverManager().install()),
             options=chrome_options,
         )
-        self.players: List[Dict] = []  # All scraped players
-        self.seen_ids: Set[str] = set()  # To ensure unique player IDs
+        self.seen_ids: Set[str] = set()
 
     def close(self) -> None:
         """Close the Selenium WebDriver."""
@@ -151,11 +193,9 @@ class FootbalPlayerCrawler:
             pass
 
     def __enter__(self):
-        """Support 'with' context manager"""
         return self
 
-    def __exit__(self):
-        """Ensure driver closes when exiting context"""
+    def __exit__(self, *args):
         self.close()
 
     # ------------------------------------------------------------------------
@@ -163,16 +203,7 @@ class FootbalPlayerCrawler:
     # ------------------------------------------------------------------------
 
     def get_page_soup(self, url: str, wait: float = 1.5) -> Optional[BeautifulSoup]:
-        """
-        Fetch a page and return its BeautifulSoup object.
-
-        Args:
-            url (str): URL to fetch
-            wait (float): Minimum delay after loading page
-
-        Returns:
-            BeautifulSoup or None: Parsed page or None if failed
-        """
+        """Fetch a page and return its BeautifulSoup object."""
         logging.info(f"GET {url}")
         try:
             self.driver.get(url)
@@ -183,12 +214,7 @@ class FootbalPlayerCrawler:
         return BeautifulSoup(self.driver.page_source, "html.parser")
 
     def get_league_clubs(self, league_url: str) -> List[Dict[str, str]]:
-        """
-        Extract all clubs from a league page
-
-        Returns:
-            List of dicts with 'club_url'
-        """
+        """Extract all clubs from a league page."""
         soup = self.get_page_soup(league_url)
         if not soup:
             return []
@@ -217,12 +243,7 @@ class FootbalPlayerCrawler:
         return clubs
 
     def get_club_players(self, club_url: str) -> List[Dict]:
-        """
-        Extract basic player info from club page
-
-        Returns:
-            List of dicts with player_name, player_url, and basic stats
-        """
+        """Extract basic player info from club page."""
         soup = self.get_page_soup(club_url)
         if not soup:
             return []
@@ -269,24 +290,36 @@ class FootbalPlayerCrawler:
         logging.info(f"Found {len(players)} players")
         return players
 
+    def get_scouting_report_url(self, profile_soup: BeautifulSoup) -> Optional[str]:
+        """
+        Extract the scouting report URL from player profile page.
+        Looks for link like: /en/players/xxx/scout/365_m1/Player-Name-Scouting-Report
+        """
+        for link in profile_soup.find_all("a", href=True):
+            href = link.get("href", "")
+            if "/scout/" in href and "Scouting-Report" in href:
+                full_url = "https://fbref.com" + href
+                logging.info(f"Found scouting report URL: {full_url}")
+                return full_url
+
+        logging.warning("No scouting report link found in player profile")
+        return None
+
     def scrape_full_players_data(
         self,
         player_url: str,
         league_name: Optional[str] = None,
         club_name: Optional[str] = None,
     ) -> Optional[Dict]:
-        """
-        Scrape complete player profile with all statistics
-        """
+        """Scrape complete player profile with all statistics including scouting report."""
         soup = self.get_page_soup(player_url)
         if not soup:
             return None
 
         stats = dict(BASE_SCHEMA)
-        stats["league"] = league_name or ""
-        stats["current_club"] = club_name or ""
+        stats["league"] = league_name or None
+        stats["current_club"] = club_name or None
 
-        # Get HTML main container
         info_div = soup.find("div", id="info")
         if not info_div:
             return stats
@@ -339,236 +372,238 @@ class FootbalPlayerCrawler:
             except:
                 stats["height"] = None
         else:
-
             if stats.get("player_name") and stats.get("current_club"):
                 try:
                     profile_url = get_profile_url(self.driver, stats["player_name"])
                     if profile_url:
                         height_cm = get_height(profile_url, stats["player_name"])
                         stats["height"] = height_cm
-                    else:
-                        stats["height"] = None
                 except Exception as e:
                     logging.warning(
                         f"{stats['player_name']}: Cannot get height from fallback: {e}"
                     )
-                    stats["height"] = None
 
         # --- Position & Footed ---
         info_text = info_div.get_text(" ", strip=True).replace("\xa0", " ")
-
         m_pos = re.search(r"Position:\s*([A-Za-z0-9\-]+)", info_text)
         m_foot = re.search(r"Footed:\s*([A-Za-z]+)", info_text)
-
         if m_pos:
             stats["position"] = m_pos.group(1).strip()
         if m_foot:
             stats["foot"] = m_foot.group(1).strip()
 
-        # --- Parse stats tables ---
-        self._parse_standard_stats(soup, stats)
-        self._parse_defensive_stats(soup, stats)
-        self._parse_passing_stats(soup, stats)
-        self._parse_goalkeeper_stats(soup, stats)
+        # --- Get scouting report URL and scrape it ---
+        scouting_url = self.get_scouting_report_url(soup)
+        if scouting_url:
+            logging.info(f"Parsing scouting report for {stats.get('player_name')}")
+            self._parse_full_scouting_report(scouting_url, stats)
+        else:
+            logging.warning(f"No scouting report for {stats.get('player_name')}")
+
+        # --- Calculate derived fields ---
         self._calculate_derived_fields(stats)
+        self._calculate_totals_from_per90(stats)
 
         # --- Market value ---
         try:
             stats["market_value"] = get_market_value(player_name=stats["player_name"])
         except Exception as e:
             logging.warning(
-                f"Can not get market value for {stats.get('player_name')}: {e}"
+                f"Cannot get market value for {stats.get('player_name')}: {e}"
             )
-            stats["market_value"] = None
 
         return stats
 
-    # ------------------------------------------------------------------------
-    # TABLE PARSING HELPERS
-    # ------------------------------------------------------------------------
+    def _parse_full_scouting_report(self, scouting_url: str, stats: Dict) -> None:
+        """
+        Parse the complete scouting report page.
+        This page contains scout_full tables with all detailed statistics.
+        """
+        soup = self.get_page_soup(scouting_url)
+        if not soup:
+            logging.warning("Failed to load scouting report page")
+            return
 
-    def _parse_standard_stats(self, soup: BeautifulSoup, stats: Dict) -> None:
-        """Parse standard statistics table"""
-        std_table = soup.find(
-            "table", id=lambda x: x and x.startswith("stats_standard")
-        )
-        if not std_table:
-            std_table = find_table_in_comments(soup, needle="stats_standard")
+        # Check if player is a goalkeeper
+        is_goalkeeper = stats.get("position", "").upper() == "GK"
 
-        if std_table:
-            tbody = std_table.find("tbody")
-            if tbody:
-                agg = {}
-                mapping = {
-                    "games": "appearances",
-                    "minutes": "minutes_played",
-                    "goals": "goals",
-                    "assists": "assists",
-                    "shots": "shots",
-                    "shots_on_target": "shots_on_target",
-                    "xg": "xG",
-                    "xg_assist": "xAG",
-                    "passes_completed": "passes_completed",
-                }
+        if is_goalkeeper:
+            self._parse_gk_full_scouting(soup, stats)
+        else:
+            self._parse_outfield_full_scouting(soup, stats)
 
-                for row in tbody.find_all("tr"):
-                    if row.get("class") and "thead" in row.get("class"):
-                        continue
+    def _parse_outfield_full_scouting(self, soup: BeautifulSoup, stats: Dict) -> None:
+        """Parse full scouting report for outfield players from scout_full tables."""
+        tables = soup.find_all("table", id=lambda x: x and "scout_full" in x)
 
-                    for td in row.find_all("td"):
-                        dstat = td.get("data-stat")
-                        if dstat in mapping:
-                            key = mapping[dstat]
-                            is_int = key in [
-                                "appearances",
-                                "minutes_played",
-                                "goals",
-                                "assists",
-                                "shots",
-                                "shots_on_target",
-                                "passes_completed",
-                            ]
-                            val = clean_number(
-                                td.get_text(strip=True), allow_float=not is_int
-                            )
-                            agg[key] = agg.get(key, 0) + val
+        if not tables:
+            logging.debug("No scout_full tables found, trying comments...")
+            comments = soup.find_all(string=lambda text: isinstance(text, Comment))
+            for comment in comments:
+                try:
+                    comment_soup = BeautifulSoup(comment, "html.parser")
+                    found_tables = comment_soup.find_all(
+                        "table", id=lambda x: x and "scout_full" in x
+                    )
+                    tables.extend(found_tables)
+                except:
+                    continue
 
-                for k, v in agg.items():
-                    stats[k] = v
+        if not tables:
+            logging.warning("No scout_full tables found for outfield player")
+            return
 
-    def _parse_defensive_stats(self, soup: BeautifulSoup, stats: Dict) -> None:
-        """Parse defensive statistics table"""
-        def_table = soup.find("table", id=lambda x: x and "defense" in x)
-        if not def_table:
-            def_table = find_table_in_comments(soup, needle="Defense")
+        combined_mapping = {**OUTFIELD_SCOUTING_MAPPING, **OUTFIELD_DETAILED_MAPPING}
 
-        if def_table:
-            tbody = def_table.find("tbody")
-            if tbody:
-                for row in tbody.find_all("tr"):
-                    if row.get("class") and "thead" in row.get("class"):
-                        continue
+        for table in tables:
+            tbody = table.find("tbody")
+            if not tbody:
+                continue
 
-                    def get_stat(dstat, allow_float=False):
-                        td = row.find("td", {"data-stat": dstat})
-                        return clean_number(
-                            td.get_text(strip=True) if td else None,
-                            allow_float=allow_float,
-                        )
+            for row in tbody.find_all("tr"):
+                stat_th = row.find("th", {"data-stat": "statistic"})
+                if not stat_th:
+                    continue
 
-                    if val := get_stat("tackles"):
-                        stats["tackles"] = val
-                    if val := get_stat("interceptions"):
-                        stats["interceptions"] = val
-                    if val := get_stat("clearances"):
-                        stats["clearances"] = val
-                    if val := get_stat("aerials_won"):
-                        stats["aerial_wins"] = val
-                    if val := get_stat("aerials_won_pct", allow_float=True):
-                        stats["aerial_win_rate"] = val
+                stat_name = stat_th.get_text(strip=True)
+                per90_td = row.find("td", {"data-stat": "per90"})
+                if not per90_td:
+                    continue
 
-    def _parse_passing_stats(self, soup: BeautifulSoup, stats: Dict) -> None:
-        """Parse passing statistics table"""
-        pass_table = soup.find("table", id=lambda x: x and "passing" in x)
-        if not pass_table:
-            pass_table = find_table_in_comments(soup, needle="Passes")
+                per90_value = clean_number(
+                    per90_td.get_text(strip=True), allow_float=True
+                )
 
-        if pass_table:
-            tbody = pass_table.find("tbody")
-            if tbody:
-                for row in tbody.find_all("tr"):
-                    if row.get("class") and "thead" in row.get("class"):
-                        continue
+                if stat_name in combined_mapping:
+                    field_name = combined_mapping[stat_name]
+                    stats[field_name] = per90_value
+                    logging.debug(f"  {stat_name}: {per90_value} -> {field_name}")
 
-                    def get_stat(dstat, allow_float=False):
-                        td = row.find("td", {"data-stat": dstat})
-                        return clean_number(
-                            td.get_text(strip=True) if td else None,
-                            allow_float=allow_float,
-                        )
+    def _parse_gk_full_scouting(self, soup: BeautifulSoup, stats: Dict) -> None:
+        """Parse full scouting report for goalkeepers from scout_full tables."""
+        tables = soup.find_all("table", id=lambda x: x and "scout_full" in x)
 
-                    if val := get_stat("passes_completed"):
-                        stats["passes_completed"] = val
-                    if val := get_stat("passes_pct", allow_float=True):
-                        stats["pass_accuracy"] = val
-                    if val := get_stat("progressive_passes"):
-                        stats["progressive_passes"] = val
-                    if val := get_stat("passes_into_final_third"):
-                        stats["key_passes"] = val
+        if not tables:
+            logging.debug("No scout_full tables found, trying comments...")
+            comments = soup.find_all(string=lambda text: isinstance(text, Comment))
+            for comment in comments:
+                try:
+                    comment_soup = BeautifulSoup(comment, "html.parser")
+                    found_tables = comment_soup.find_all(
+                        "table", id=lambda x: x and "scout_full" in x
+                    )
+                    tables.extend(found_tables)
+                except:
+                    continue
 
-    def _parse_goalkeeper_stats(self, soup: BeautifulSoup, stats: Dict) -> None:
-        """Parse goalkeeper statistics table"""
-        gk_table = soup.find("table", id=lambda x: x and "keeper" in x)
-        if not gk_table:
-            gk_table = find_table_in_comments(soup, needle="Goalkeeping")
+        if not tables:
+            logging.warning("No scout_full tables found for goalkeeper")
+            return
 
-        if gk_table:
-            tbody = gk_table.find("tbody")
-            if tbody:
-                for row in tbody.find_all("tr"):
-                    if row.get("class") and "thead" in row.get("class"):
-                        continue
+        combined_mapping = {
+            **GOALKEEPER_SCOUTING_MAPPING,
+            **GOALKEEPER_DETAILED_MAPPING,
+        }
 
-                    def get_stat(dstat, allow_float=False):
-                        td = row.find("td", {"data-stat": dstat})
-                        return clean_number(
-                            td.get_text(strip=True) if td else None,
-                            allow_float=allow_float,
-                        )
+        for table in tables:
+            tbody = table.find("tbody")
+            if not tbody:
+                continue
 
-                    if val := get_stat("gk_saves"):
-                        stats["saves"] = val
-                    if val := get_stat("gk_save_pct", allow_float=True):
-                        stats["save_percentage"] = val
-                    if val := get_stat("gk_goals_against"):
-                        stats["goals_conceded"] = val
-                    if val := get_stat("gk_clean_sheets"):
-                        stats["clean_sheets"] = val
-                    if val := get_stat("gk_psxg_gk", allow_float=True):
-                        stats["psxg_minus_ga"] = val
+            for row in tbody.find_all("tr"):
+                stat_th = row.find("th", {"data-stat": "statistic"})
+                if not stat_th:
+                    continue
+
+                stat_name = stat_th.get_text(strip=True)
+                per90_td = row.find("td", {"data-stat": "per90"})
+                if not per90_td:
+                    continue
+
+                per90_text = per90_td.get_text(strip=True)
+                # Handle +/- values
+                if per90_text.startswith("+"):
+                    per90_value = clean_number(per90_text[1:], allow_float=True)
+                elif per90_text.startswith("-"):
+                    per90_value = (
+                        -clean_number(per90_text[1:], allow_float=True)
+                        if clean_number(per90_text[1:], allow_float=True)
+                        else None
+                    )
+                else:
+                    per90_value = clean_number(per90_text, allow_float=True)
+
+                if stat_name in combined_mapping:
+                    field_name = combined_mapping[stat_name]
+                    stats[field_name] = per90_value
+                    logging.debug(f"  {stat_name}: {per90_value} -> {field_name}")
 
     def _calculate_derived_fields(self, stats: Dict) -> None:
-        """Calculate per-90 and other derived statistics"""
-        if stats["minutes_played"] and stats["appearances"]:
+        """Calculate per-90 and other derived statistics."""
+        if stats.get("minutes_played") and stats.get("appearances"):
             stats["minutes_per_game"] = round(
                 stats["minutes_played"] / max(1, stats["appearances"]), 1
             )
 
-        if stats["minutes_played"] > 0:
+        if stats.get("minutes_played") and stats["minutes_played"] > 0:
             mins_90 = stats["minutes_played"] / 90
-            stats["goals_per_90"] = round(stats["goals"] / mins_90, 2)
-            stats["assists_per_90"] = round(stats["assists"] / mins_90, 2)
 
-            if stats["goals_conceded"]:
+            if stats.get("goals") and stats["goals"] > 0:
+                stats["goals_per_90"] = round(stats["goals"] / mins_90, 2)
+
+            if stats.get("assists") and stats["assists"] > 0:
+                stats["assists_per_90"] = round(stats["assists"] / mins_90, 2)
+
+            if stats.get("goals_conceded") and stats["goals_conceded"] > 0:
                 stats["goals_conceded_per_90"] = round(
                     stats["goals_conceded"] / mins_90, 2
                 )
 
+    def _calculate_totals_from_per90(self, stats: Dict) -> None:
+        """Calculate total values from per_90 stats when totals are missing."""
+        if not stats.get("minutes_played") or stats["minutes_played"] <= 0:
+            return
+
+        mins_90 = stats["minutes_played"] / 90
+
+        # Only for outfield players
+        if stats.get("position", "").upper() != "GK":
+            mappings = [
+                ("shots_per90", "shots", True),
+                ("tackles_per90", "tackles", True),
+                ("interceptions_per90", "interceptions", True),
+                ("blocks_per90", "blocks", True),
+                ("clearances_per90", "clearances", True),
+                ("aerials_won_per90", "aerial_wins", True),
+                ("progressive_passes_per90", "progressive_passes", True),
+            ]
+
+            for per90_field, total_field, is_integer in mappings:
+                per90_val = stats.get(per90_field)
+                if (
+                    not stats.get(total_field) or stats.get(total_field) == 0
+                ) and per90_val is not None:
+                    calculated = per90_val * mins_90
+                    stats[total_field] = (
+                        int(round(calculated)) if is_integer else round(calculated, 2)
+                    )
+
+        # Goalkeeper specific
+        else:
+            if stats.get("saves_per90") is not None and not stats.get("saves"):
+                stats["saves"] = int(round(stats["saves_per90"] * mins_90))
+
+            if (
+                stats.get("clean_sheet_pct") is not None
+                and not stats.get("clean_sheets")
+                and stats.get("appearances")
+            ):
+                stats["clean_sheets"] = int(
+                    round(stats["appearances"] * stats["clean_sheet_pct"] / 100)
+                )
+
     # ------------------------------------------------------------------------
-    # HIGH-LEVEL SCRAPING METHODS
-    # ------------------------------------------------------------------------
-    def scrape_all_leagues(
-        self, leagues: Optional[Dict[str, str]] = None
-    ) -> List[Dict]:
-        """
-        Scrape all configured leagues
-
-        Args:
-            leagues: Dict of league_name: league_url. Uses DEFAULT_LEAGUES if None
-
-        Returns:
-            List of all player dicts
-        """
-        leagues = leagues or self.DEFAULT_LEAGUES
-
-        for name, url in leagues.items():
-            self.scrape_league_streaming(name, url)
-
-        logging.info(f"✓ All leagues complete. Total: {len(self.players)} players")
-        return self.players
-
-    # ------------------------------------------------------------------------
-    # DATA EXPORT METHODS
+    # DATA EXPORT
     # ------------------------------------------------------------------------
 
     def scrape_league_streaming(
@@ -578,10 +613,7 @@ class FootbalPlayerCrawler:
         csv_file=None,
         json_file=None,
     ) -> None:
-        """
-        Scrape all players in a league and save immediately to CSV/JSON
-        """
-
+        """Scrape all players in a league and save immediately to CSV/JSON."""
         if csv_file is None:
             csv_file = f"{league_name.replace(' ', '_').lower()}_players.csv"
         if json_file is None:
@@ -593,7 +625,6 @@ class FootbalPlayerCrawler:
 
         clubs = self.get_league_clubs(league_url)
 
-        # Open CSV & JSON once
         csv_f = open(csv_file, "w", newline="", encoding="utf-8")
         csv_writer = csv.DictWriter(csv_f, fieldnames=list(BASE_SCHEMA.keys()))
         csv_writer.writeheader()
@@ -615,7 +646,7 @@ class FootbalPlayerCrawler:
                         if not full:
                             continue
 
-                        # Merge basic stats
+                        # Merge basic stats from club page
                         for stat in [
                             "appearances",
                             "minutes_played",
@@ -624,9 +655,11 @@ class FootbalPlayerCrawler:
                             "xG",
                             "xAG",
                         ]:
-                            full[stat] = p.get(stat) or full.get(stat, 0)
+                            if p.get(stat) is not None:
+                                full[stat] = p[stat]
 
                         self._calculate_derived_fields(full)
+                        self._calculate_totals_from_per90(full)
 
                         # Write CSV
                         csv_writer.writerow(

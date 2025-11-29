@@ -12,42 +12,118 @@ HEADERS = {
 # DATA SCHEMA
 # ============================================================================
 BASE_SCHEMA = {
+    # ========================
+    # BASIC INFO
+    # ========================
     "player_id": None,
-    "player_name": "",
+    "player_name": None,
     "age": None,
-    "nationality": "",
+    "nationality": None,
     "height": None,
-    "foot": "",
-    "position": "",
-    "current_club": "",
-    "league": "",
-    "market_value": None,
+    "foot": None,
+    "position": None,
+    "current_club": None,
+    "league": None,
+    # ========================
+    # PLAYING TIME
+    # ========================
     "appearances": 0,
     "minutes_played": 0,
-    "minutes_per_game": 0.0,
+    "minutes_per_game": None,
+    # ========================
+    # OUTFIELD - ATTACKING (13 fields)
+    # ========================
     "goals": 0,
     "assists": 0,
-    "goals_per_90": 0.0,
-    "assists_per_90": 0.0,
-    "shots": 0,
-    "shots_on_target": 0,
-    "xG": 0.0,
-    "xAG": 0.0,
-    "key_passes": 0,
-    "tackles": 0,
-    "interceptions": 0,
-    "clearances": 0,
-    "aerial_wins": 0,
-    "aerial_win_rate": 0.0,
-    "clean_sheets": 0,
-    "saves": 0,
-    "save_percentage": 0.0,
-    "goals_conceded": 0,
-    "goals_conceded_per_90": 0.0,
-    "psxg_minus_ga": 0.0,
-    "passes_completed": 0,
-    "pass_accuracy": 0.0,
-    "progressive_passes": 0,
+    "goals_per_90": None,
+    "assists_per_90": None,
+    "npg_per90": None,
+    "npxg_per90": None,
+    "xag_per90": None,
+    "npxg_xag_per90": None,
+    "xg_per90": None,
+    "shots_per90": None,
+    "shots_on_target_per90": None,
+    "shots_on_target_pct": None,
+    "avg_shot_distance": None,
+    "sca_per90": None,
+    "gca_per90": None,
+    # ========================
+    # OUTFIELD - PLAYMAKING (8 fields)
+    # ========================
+    "key_passes_per90": None,
+    "passes_completed_per90": None,
+    "pass_completion_pct": None,
+    "passes_into_final_third_per90": None,
+    "passes_into_penalty_area_per90": None,
+    "progressive_passes_per90": None,
+    "progressive_passes_rec_per90": None,
+    "progressive_carries_per90": None,
+    # ========================
+    # OUTFIELD - BALL PROGRESSION (8 fields)
+    # ========================
+    "take_ons_per90": None,
+    "take_on_success_pct": None,
+    "carries_per90": None,
+    "carries_into_final_third_per90": None,
+    "touches_per90": None,
+    "touches_att_third_per90": None,
+    "touches_att_pen_per90": None,
+    "passes_received_per90": None,
+    # ========================
+    # OUTFIELD - DEFENSIVE (4 fields)
+    # ========================
+    "tackles_per90": None,
+    "interceptions_per90": None,
+    "blocks_per90": None,
+    "ball_recoveries_per90": None,
+    # ========================
+    # OUTFIELD - PHYSICAL (2 fields)
+    # ========================
+    "aerials_won_per90": None,
+    "aerial_win_pct": None,
+    # ========================
+    # OUTFIELD - DISCIPLINE (3 fields)
+    # ========================
+    "yellow_cards_per90": None,
+    "red_cards_per90": None,
+    "fouls_committed_per90": None,
+    # ========================
+    # GOALKEEPER - SHOT STOPPING (8 fields)
+    # ========================
+    "goals_against_per90": None,
+    "shots_on_target_against_per90": None,
+    "saves_per90": None,
+    "save_percentage": None,
+    "clean_sheet_pct": None,
+    "psxg_per_shot": None,
+    "psxg_ga_per90": None,
+    "penalty_save_pct": None,
+    # ========================
+    # GOALKEEPER - DISTRIBUTION (3 fields)
+    # ========================
+    "passes_attempted_per90": None,
+    "launch_pct": None,
+    "avg_pass_length": None,
+    # ========================
+    # GOALKEEPER - SWEEPING (2 fields)
+    # ========================
+    "def_actions_outside_pen_per90": None,
+    "avg_distance_def_actions": None,
+    # ========================
+    # GOALKEEPER - CROSS HANDLING (1 field)
+    # ========================
+    "crosses_stopped_pct": None,
+    # ========================
+    # GOALKEEPER - MATCH CONTEXT (3 fields)
+    # ========================
+    "wins_per90": None,
+    "draws_per90": None,
+    "losses_per90": None,
+    # ========================
+    # TARGET
+    # ========================
+    "market_value": None,
 }
 
 # ============================================================================
