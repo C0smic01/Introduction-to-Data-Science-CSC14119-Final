@@ -72,3 +72,62 @@ def save_to_json(self, filename: str) -> None:
         json.dump(clean_players, f, ensure_ascii=False, indent=2)
 
     logging.info(f"Saved {len(self.players)} players to {filename}")
+
+
+def generate_player_id(
+    player_name: str, dob: Optional[str] = None, nationality: Optional[str] = None
+) -> str:
+    """
+    Generate a unique player ID based on player name, date of birth, and nationality.
+    Format: firstname-lastname-hash6
+    Example: lionel-messi-a3f8e2
+    """
+    name = unicodedata.normalize("NFKD", player_name)
+    name = name.encode("ascii", "ignore").decode("ascii")
+    name = re.sub(r"[^\w\s-]", "", name.lower())
+    name = re.sub(r"[-\s]+", "-", name).strip("-")
+
+    hash_input = f"{player_name}:{dob or ''}:{nationality or ''}"
+    hash_obj = hashlib.md5(hash_input.encode("utf-8"))
+    hash_suffix = hash_obj.hexdigest()[:6]
+
+    return f"{name}-{hash_suffix}"
+
+
+def clean_number(val, allow_float: bool = True):
+    """Convert string or number to numeric value, handling commas, %, empty strings."""
+    if val is None:
+        return None
+    try:
+        s = str(val).strip().replace(",", "").replace("%", "")
+        if s == "":
+            return None
+        if allow_float and (
+            "." in s or s.replace(".", "", 1).replace("-", "", 1).isdigit()
+        ):
+            return float(s)
+        return int(float(s))
+    except Exception:
+        return None
+
+
+def find_table_in_comments(
+    soup: BeautifulSoup, needle: Optional[str] = None, id_contains: Optional[str] = None
+):
+    """Find a table that is hidden inside HTML comments."""
+    comments = soup.find_all(string=lambda text: isinstance(text, Comment))
+    for c in comments:
+        if needle and needle not in c:
+            continue
+        try:
+            s2 = BeautifulSoup(c, "html.parser")
+            t = (
+                s2.find("table", id=lambda x: x and id_contains in x)
+                if id_contains
+                else s2.find("table")
+            )
+            if t:
+                return t
+        except Exception:
+            continue
+    return None

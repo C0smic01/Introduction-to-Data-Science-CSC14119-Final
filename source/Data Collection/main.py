@@ -17,7 +17,7 @@ def scrape_one_league(args):
     csv_file = os.path.join(CSV_FOLDER, f"{league_name.replace(' ', '_')}.csv")
     json_file = os.path.join(JSON_FOLDER, f"{league_name.replace(' ', '_')}.json")
 
-    crawler.scrape_league_streaming(
+    crawler.scrape_league(
         league_name, league_url, csv_file=csv_file, json_file=json_file
     )
 

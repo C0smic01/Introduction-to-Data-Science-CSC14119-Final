@@ -13,3 +13,6 @@ env/
 
 # Ignore any other cache directories
 */__pycache__/
+
+# Ignore all files in the root directory
+data/
