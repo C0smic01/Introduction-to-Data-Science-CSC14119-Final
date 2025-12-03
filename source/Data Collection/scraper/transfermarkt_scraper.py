@@ -42,30 +42,42 @@ def parse_market_value(mv_str: str) -> float | None:
 def get_market_value(player_name: str) -> float | None:
     """
     Fetch the market value of a player from Transfermarkt as float million €.
+    Loops through all search results and returns the first valid market value.
     """
     url = TRANSFERMARKT_PLAYER_SEACH_URL.format(player_name=player_name)
     logging.info(f"Fetching market value for {player_name}: {url}")
 
-    resp = requests.get(url, headers=HEADERS)
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+    except Exception as e:
+        logging.error(f"Request error for {player_name}: {e}")
+        return None
+
     random_delay()
+
     if resp.status_code != 200:
-        logging.warning(f"Failed to load page for {player_name}")
+        logging.warning(f"Failed to load page for {player_name} ({resp.status_code})")
         return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
     table = soup.find("table", class_="items")
-    if not table:
+    if not table or not table.tbody:
         logging.warning(f"No search results table found for {player_name}")
         return None
 
-    # Extract market value from the first search result
+    # Loop through all rows to find the first valid market value
     for row in table.tbody.find_all("tr"):
         mv_tag = row.find("td", class_="rechts hauptlink")
         if mv_tag:
             market_value_str = mv_tag.get_text(strip=True)
-            return parse_market_value(market_value_str)
+            # Ignore rows with "-" or empty
+            if market_value_str and "€" in market_value_str:
+                value = parse_market_value(market_value_str)
+                if value is not None:
+                    logging.info(f"{player_name}: Market value found: {value}m €")
+                    return value
 
-    logging.warning(f"Player {player_name} not found")
+    logging.warning(f"No valid market value found for {player_name}")
     return None
 
 

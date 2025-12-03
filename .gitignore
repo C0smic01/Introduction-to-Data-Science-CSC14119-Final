@@ -16,3 +16,6 @@ env/
 
 # Ignore all files in the root directory
 data/
+
+# VSCode settings
+.vscode/
