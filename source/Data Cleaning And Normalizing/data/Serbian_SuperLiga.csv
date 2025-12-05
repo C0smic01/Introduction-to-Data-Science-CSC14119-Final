@@ -1,0 +1,646 @@
+player_id,player_name,age,nationality,height,foot,position,current_club,league,appearances,minutes_played,minutes_per_game,goals,assists,goals_per_90,assists_per_90,npg_per90,npxg_per90,xag_per90,npxg_xag_per90,xg_per90,shots_per90,shots_on_target_per90,shots_on_target_pct,avg_shot_distance,sca_per90,gca_per90,key_passes_per90,passes_completed_per90,pass_completion_pct,passes_into_final_third_per90,passes_into_penalty_area_per90,progressive_passes_per90,progressive_passes_rec_per90,progressive_carries_per90,take_ons_per90,take_on_success_pct,carries_per90,carries_into_final_third_per90,touches_per90,touches_att_third_per90,touches_att_pen_per90,passes_received_per90,tackles_per90,interceptions_per90,blocks_per90,ball_recoveries_per90,aerials_won_per90,aerial_win_pct,yellow_cards_per90,red_cards_per90,fouls_committed_per90,goals_against_per90,shots_on_target_against_per90,saves_per90,save_percentage,clean_sheet_pct,psxg_per_shot,psxg_ga_per90,penalty_save_pct,passes_attempted_per90,launch_pct,avg_pass_length,def_actions_outside_pen_per90,avg_distance_def_actions,crosses_stopped_pct,wins_per90,draws_per90,losses_per90,market_value
+seol-young-woo-2bc81d,Seol Young-woo,26.0,Korea Republic,180.0,Right,DF,Red Star,Serbian SuperLiga,30,2533,84.4,6,5,0.21,0.18,0.0,0.01,0.09,0.12,0.01,0.39,0.13,33.3,20.9,1.54,0.39,0.64,47.57,81.7,2.57,0.9,3.09,3.99,1.54,0.39,42.9,36.64,1.54,68.14,13.63,1.16,39.86,1.8,0.9,1.03,3.6,0.26,33.3,0.13,0.0,0.51,,,,,,,,,,,,,,,,,,
+timi-elsnik-c2e38f,Timi Elšnik,27.0,Slovenia,170.0,Right,MF,Red Star,Serbian SuperLiga,29,2293,79.1,4,10,0.16,0.39,0.0,0.04,0.1,0.12,0.04,0.95,0.41,42.9,22.1,3.14,0.0,1.77,42.82,77.0,4.09,1.09,5.59,1.91,1.64,0.82,75.0,35.59,2.05,66.82,17.18,1.09,42.41,2.73,1.09,0.95,4.23,1.09,50.0,0.0,0.0,2.45,,,,,,,,,,,,,,,,,,
+guelor-kanga-8dd012,Guélor Kanga,35.0,Gabon,167.0,Right,MF,Red Star,Serbian SuperLiga,31,1916,61.8,1,10,0.05,0.47,0.18,0.05,0.22,0.29,0.35,1.64,0.55,33.3,30.0,3.83,0.37,2.56,56.96,82.3,7.48,2.01,10.59,1.83,1.46,1.46,61.5,50.02,1.28,77.22,13.87,0.73,55.5,1.64,0.91,0.37,7.48,0.0,0.0,0.18,0.0,1.28,,,,,,,,,,,,,,,,,,0.35
+cherif-ndiaye-e67fd4,Cherif Ndiaye,29.0,Senegal,190.0,Right,FW-MF,Red Star,Serbian SuperLiga,29,1849,63.8,19,5,0.92,0.24,0.16,0.35,0.11,0.46,0.48,1.27,0.32,25.0,13.6,2.39,0.48,0.48,13.36,75.7,1.11,0.32,1.75,3.5,0.64,0.8,50.0,15.42,0.64,26.87,10.18,3.66,20.83,0.48,0.16,0.95,2.23,2.39,39.5,0.32,0.0,1.59,,,,,,,,,,,,,,,,,,6.0
+bruno-duarte-fc902f,Bruno Duarte,29.0,Brazil,182.0,Right,FW,Red Star,Serbian SuperLiga,32,1834,57.3,16,4,0.79,0.2,0.4,0.4,0.12,0.52,0.4,3.2,0.8,25.0,13.9,3.6,0.4,1.6,25.2,75.0,3.2,2.8,5.6,9.2,2.8,1.2,75.0,28.8,2.0,48.0,14.8,3.2,35.6,1.6,0.4,2.0,3.2,1.2,33.3,0.0,0.0,0.4,,,,,,,,,,,,,,,,,,5.0
+luka-ilic-e8e5f6,Luka Ilić,26.0,Serbia,182.0,Left,MF,Red Star,Serbian SuperLiga,34,1689,49.7,12,6,0.64,0.32,0.17,0.07,0.02,0.08,0.07,0.67,0.5,75.0,14.8,0.5,0.0,0.17,20.61,75.5,1.84,0.5,2.51,2.01,0.5,0.0,0.0,17.93,0.5,36.87,9.05,1.17,21.79,1.34,0.67,1.51,3.02,0.34,25.0,0.67,0.17,2.18,,,,,,,,,,,,,,,,,,2.0
+rade-krunic-cc0b00,Rade Krunić,32.0,Bosnia and Herzegovina,184.0,Right,MF,Red Star,Serbian SuperLiga,23,1647,71.6,3,1,0.16,0.05,0.0,0.03,0.05,0.1,0.03,1.02,0.0,0.0,14.7,2.55,0.17,0.85,39.91,90.0,2.89,1.02,5.26,1.7,1.36,0.0,0.0,30.74,1.36,55.87,11.72,2.04,35.15,2.21,1.7,1.36,3.23,1.53,60.0,0.17,0.0,0.68,,,,,,,,,,,,,,,,,,4.5
+mirko-ivanic-7a0e69,Mirko Ivanić,32.0,Montenegro,182.0,Right,MF,Red Star,Serbian SuperLiga,21,1474,70.2,11,4,0.67,0.24,0.0,0.25,0.18,0.42,0.25,2.45,0.95,38.9,16.8,3.13,0.41,1.63,21.79,65.3,3.0,0.95,4.36,5.72,3.68,1.5,45.8,26.69,2.04,44.66,18.93,4.08,28.05,1.36,1.5,0.82,5.04,0.27,25.0,0.14,0.0,0.54,,,,,,,,,,,,,,,,,,4.0
+milson-3f52ed,Milson,26.0,Angola,174.0,Right,MF,Red Star,Serbian SuperLiga,27,1317,48.8,5,4,0.34,0.27,0.0,0.09,0.23,0.34,0.09,1.76,0.44,25.0,17.4,2.93,0.73,1.17,22.24,75.2,2.05,0.88,2.63,10.98,6.29,2.93,47.6,32.49,3.07,45.95,22.98,4.24,31.76,2.49,0.73,0.59,6.73,0.15,10.0,0.0,0.0,1.02,,,,,,,,,,,,,,,,,,15.0
+andrija-maksimovic-6eef65,Andrija Maksimović,18.0,Serbia,182.0,,FW,Red Star,Serbian SuperLiga,27,1314,48.7,4,5,0.27,0.34,0.0,0.09,0.24,0.33,0.09,1.74,0.22,12.5,18.8,2.83,0.43,0.65,29.13,83.8,1.96,1.52,5.22,4.13,2.17,0.43,33.3,21.3,1.52,41.96,15.65,2.17,27.17,0.87,0.22,0.0,4.13,0.22,14.3,0.43,0.0,1.09,,,,,,,,,,,,,,,,,,15.0
+milan-rodic-c0019c,Milan Rodić,34.0,Serbia,185.0,Left,DF,Red Star,Serbian SuperLiga,18,1246,69.2,2,2,0.14,0.14,0.0,0.02,0.15,0.15,0.02,0.65,0.22,33.3,16.9,1.52,0.0,0.65,26.46,70.1,1.73,0.87,2.39,2.39,1.08,0.43,100.0,16.48,0.43,47.28,9.11,0.65,23.2,1.95,0.87,1.52,2.6,2.82,65.0,0.43,0.0,1.3,,,,,,,,,,,,,,,,,,0.3
+nasser-djiga-433fc0,Nasser Djiga,23.0,Burkina Faso,187.0,,DF,Wolves,Premier League,5,66,13.2,0,0,0.15,0.15,0.15,0.06,0.11,0.15,0.06,0.46,0.15,33.3,8.1,0.46,0.15,0.3,47.06,90.4,2.74,0.15,4.11,1.07,0.91,0.46,50.0,38.98,0.76,59.24,3.96,0.61,39.29,0.61,2.13,0.46,4.57,2.44,66.7,0.15,0.0,0.46,,,,,,,,,,,,,,,,,,8.0
+ivan-gutesa-23e8bf,Ivan Guteša,23.0,Serbia,189.0,,GK,Red Star,Serbian SuperLiga,14,1260,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,5.0,4.0,80.0,33.3,0.34,0.6,,20.67,50.0,38.5,0.33,10.7,2.6,0.67,0.0,0.33,1.2
+ebenezer-annan-4a84d9,Ebenezer Annan,23.0,Ghana,178.0,Left,DF,Red Star,Serbian SuperLiga,16,1221,76.3,1,4,0.07,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.5
+aleksandar-katai-bd73a4,Aleksandar Katai,34.0,Serbia,182.0,Right,FW-MF,Red Star,Serbian SuperLiga,27,1274,47.2,13,9,0.92,0.64,0.46,0.16,0.09,0.25,0.16,2.51,1.14,45.5,19.3,2.96,0.91,0.91,21.65,71.4,2.73,1.82,5.47,5.92,0.91,0.46,25.0,23.7,2.05,40.78,16.63,2.51,28.71,1.14,0.0,1.14,4.56,0.91,33.3,0.46,0.0,2.05,,,,,,,,,,,,,,,,,,0.7
+andrej-uric-a06706,Andrej Đurić,22.0,Montenegro,190.0,Right,DF,Red Star,Serbian SuperLiga,13,1085,83.5,0,0,0.0,0.0,0.0,0.25,0.0,0.25,0.25,0.7,0.0,0.0,5.8,0.35,0.0,0.0,49.57,87.0,2.11,0.35,2.81,0.35,0.35,0.0,,40.78,0.0,69.61,1.76,1.05,47.11,2.81,0.7,1.41,3.52,2.46,63.6,0.0,0.0,0.7,,,,,,,,,,,,,,,,,,
+omri-glazer-23ed52,Omri Glazer,29.0,Israel,190.0,Right,GK,Red Star,Serbian SuperLiga,12,1052,87.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,5.0,2.0,46.7,0.0,0.3,-1.27,0.0,23.33,25.7,30.6,0.0,8.0,2.9,0.0,0.0,1.0,4.0
+veljko-milosavljevic-8a8dfe,Veljko Milosavljević,18.0,Serbia,192.0,,MF,Red Star,Serbian SuperLiga,14,1082,77.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.0
+ognjen-mimovic-8369c9,Ognjen Mimovic,21.0,Serbia,179.0,,DF,Zenit,Russian Premier League,4,110,27.5,0,0,0.0,0.0,0.0,0.05,0.02,0.07,0.05,0.49,0.24,50.0,8.0,1.46,0.0,0.24,41.59,81.0,2.43,0.73,3.41,5.35,2.43,0.97,36.4,32.84,1.7,64.22,19.7,0.97,33.81,3.41,1.22,1.22,6.08,0.49,50.0,0.0,0.0,0.49,,,,,,,,,,,,,,,,,,3.5
+silas-katompa-613763,Silas Katompa,27.0,Congo DR,189.0,Right,FW-MF,Stuttgart,Bundesliga,0,0,42.1,0,0,0.29,0.0,0.29,0.17,0.09,0.26,0.17,1.75,0.58,33.3,16.3,1.6,0.15,0.87,13.11,62.5,2.04,0.58,2.62,6.12,2.33,2.48,63.0,22.28,1.02,32.91,13.84,3.5,23.88,1.46,0.73,0.73,3.79,0.29,14.3,0.15,0.0,1.75,,,,,,,,,,,,,,,,,,4.0
+marko-ilic-8ba56a,Marko Ilić,27.0,Serbia,191.0,Right,GK,Red Star,Serbian SuperLiga,10,838,83.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,8.5,3.5,41.2,0.0,0.51,-0.65,,18.5,67.6,45.9,0.0,5.7,6.9,0.0,0.0,1.0,0.7
+vanja-drkusic-ea76ac,Vanja Drkušič,26.0,Slovenia,186.0,Right,DF,Zenit,Russian Premier League,7,444,63.4,0,0,0.0,0.0,0.0,0.0,0.02,0.02,0.0,0.0,0.0,,,0.23,0.0,0.23,19.38,77.1,0.92,0.23,0.69,0.23,0.0,0.23,100.0,15.46,0.0,33.69,0.46,0.23,17.31,2.77,0.23,0.69,3.0,1.38,60.0,0.23,0.0,1.62,,,,,,,,,,,,,,,,,,4.0
+dalcio-e0e9b2,Dálcio,29.0,Guinea-Bissau,180.0,Left,FW-MF,Red Star,Serbian SuperLiga,13,760,58.5,0,1,0.0,0.12,0.0,0.05,0.05,0.1,0.05,1.97,0.0,0.0,28.9,1.97,0.0,0.98,29.51,77.9,3.93,0.98,2.95,2.46,0.0,1.48,75.0,25.08,1.48,49.18,12.79,0.0,32.95,1.97,0.49,1.48,3.44,0.98,33.3,0.0,0.0,1.97,,,,,,,,,,,,,,,,,,1.0
+stefan-lekovic-968200,Stefan Lekovic,21.0,Serbia,192.0,,DF,Red Star,Serbian SuperLiga,9,735,81.7,1,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+uros-spajic-0bf0aa,Uroš Spajić,32.0,Serbia,188.0,Right,DF,Beijing Guoan,Chinese Super League,11,703,63.9,0,1,0.0,0.13,0.0,0.0,0.01,0.01,0.0,0.29,0.0,0.0,28.2,0.14,0.0,0.14,35.0,89.7,1.29,0.0,0.29,0.14,0.14,0.0,,24.0,0.29,51.29,1.71,0.57,30.57,1.57,2.29,1.29,3.29,1.0,38.9,0.14,0.0,1.29,,,,,,,,,,,,,,,,,,1.2
+jovan-sljivic-73b2bb,Jovan Šljivić,20.0,Serbia,178.0,,MF,Red Star,Serbian SuperLiga,15,700,46.7,2,1,0.26,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+egor-prutsev-85259f,Egor Prutsev,22.0,Russia,181.0,,MF,Red Star,Serbian SuperLiga,11,489,44.5,0,1,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+hwang-in-beom-152ec8,Hwang In-beom,29.0,Korea Republic,177.0,Right,MF,Feyenoord,Eredivisie,21,1618,77.0,3,2,0.17,0.11,0.09,0.06,0.17,0.23,0.06,0.98,0.36,36.4,23.0,2.68,0.54,1.25,46.25,82.7,4.38,0.63,4.91,1.96,0.98,0.45,45.5,34.91,2.14,65.89,17.41,0.8,43.75,2.32,0.8,1.07,5.98,1.16,56.5,0.27,0.0,0.98,,,,,,,,,,,,,,,,,,8.0
+peter-olayinka-ded98e,Peter Olayinka,30.0,Nigeria,188.0,Right,FW-MF,Red Star,Serbian SuperLiga,7,394,56.3,2,3,0.46,0.69,0.0,0.07,0.04,0.11,0.07,1.44,0.72,50.0,13.2,1.44,0.0,0.36,21.6,69.0,1.8,0.72,2.52,6.84,2.16,1.44,44.4,25.56,1.44,47.52,18.0,3.96,29.88,2.52,0.36,1.44,3.6,0.72,40.0,0.0,0.0,1.44,,,,,,,,,,,,,,,,,,3.5
+nemanja-radonjic-d8eb19,Nemanja Radonjić,29.0,Serbia,178.0,Right,FW-MF,Red Star,Serbian SuperLiga,21,734,35.0,5,3,0.61,0.37,0.0,0.1,0.07,0.17,0.1,1.03,0.34,33.3,22.4,2.75,0.69,0.34,20.61,70.6,1.37,2.06,5.15,7.56,2.4,2.4,50.0,28.86,2.75,42.6,15.46,1.72,33.32,1.03,0.69,0.0,4.12,0.0,0.0,0.34,0.0,1.03,,,,,,,,,,,,,,,,,,3.0
+jose-luis-rodriguez-d2ec5e,José Luis Rodríguez,27.0,Panama,177.0,Left,FW-MF,FC Juárez,Liga MX,26,1937,74.5,1,2,0.05,0.09,0.06,0.08,0.19,0.27,0.08,1.48,0.55,37.0,22.4,3.85,0.32,1.7,25.63,74.2,2.12,1.38,3.53,8.8,3.4,2.18,52.3,28.3,2.79,45.87,22.97,2.18,32.28,1.41,0.64,0.8,3.95,0.58,46.2,0.13,0.0,0.77,,,,,,,,,,,,,,,,,,1.7
+nemanja-stojic-a5dd55,Nemanja Stojić,27.0,Serbia,190.0,Right,DF,Red Star,Serbian SuperLiga,4,270,67.5,0,1,0.14,0.33,0.14,0.06,0.01,0.06,0.06,0.55,0.28,50.0,9.6,0.83,0.0,0.28,43.82,87.3,2.49,0.41,2.07,0.0,0.41,0.0,0.0,36.22,0.55,60.83,1.66,0.55,40.78,0.55,1.11,1.66,4.01,1.66,60.0,0.28,0.0,0.28,,,,,,,,,,,,,,,,,,2.7
+savo-radanovic-872f4b,Savo Radanović,16.0,Serbia,195.0,,GK,Red Star,Serbian SuperLiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+strahinja-stojkovic-3070f0,Strahinja Stojković,18.0,Serbia,188.0,,DF,Red Star,Serbian SuperLiga,4,158,39.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+keimer-sandoval-808a93,Keimer Sandoval,20.0,Colombia,180.0,,DF,Red Star,Serbian SuperLiga,1,78,78.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+lazar-jovanovic-862357,Lazar Jovanović,19.0,Serbia,184.0,,FW,Red Star,Serbian SuperLiga,5,104,20.8,1,2,0.87,1.73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0
+sran-mijailovic-189ae0,Srđan Mijailović,32.0,Serbia,178.0,Right,MF,Red Star,Serbian SuperLiga,1,45,45.0,0,0,0.0,0.0,0.0,0.02,0.0,0.02,0.02,0.55,0.37,66.7,20.8,0.92,0.18,0.18,27.54,71.3,2.4,0.18,2.77,1.29,0.37,0.37,50.0,17.19,0.18,48.23,7.95,0.55,22.92,2.59,1.11,2.59,5.54,0.55,42.9,0.55,0.0,2.22,,,,,,,,,,,,,,,,,,
+vasilije-kostov-10573b,Vasilije Kostov,17.0,Serbia,176.0,,MF,Red Star,Serbian SuperLiga,3,33,11.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5
+milos-degenek-e62eb5,Miloš Degenek,31.0,Australia,187.0,Right,DF-MF,Red Star,Serbian SuperLiga,1,8,8.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,52.0,89.7,3.5,0.0,4.0,0.0,1.0,0.0,,44.0,0.5,67.5,1.0,0.0,45.0,0.5,1.0,1.5,3.0,3.0,60.0,0.0,0.0,1.0,,,,,,,,,,,,,,,,,,0.5
+vuk-draskic-204412,Vuk Draškić,18.0,Serbia,189.0,,GK,Red Star,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+moustapha-fall-c2a694,Moustapha Fall,20.0,Senegal,186.0,Right,DF,Red Star,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+nikola-knezevic-9c7b85,Nikola Knezevic,22.0,Serbia,180.0,,MF,Red Star,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+uros-sremcevic-4f236f,Uroš Sremčević,19.0,Serbia,186.0,,FW,Red Star,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+david-uric-5b5532,David Đurić,19.0,Serbia,,,DF,Red Star,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksandar-jovanovic-c4c334,Aleksandar Jovanović,32.0,Serbia,191.0,Right,GK,Partizan,Serbian SuperLiga,37,3330,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4,3.4,2.0,64.7,40.0,0.29,-0.22,0.0,25.6,35.2,32.8,1.0,14.4,6.8,0.2,0.2,0.6,1.5
+aldo-kalulu-306abc,Aldo Kalulu,29.0,Congo DR,166.0,Right,FW-MF,Partizan,Serbian SuperLiga,34,2454,72.2,6,5,0.22,0.18,0.0,0.1,0.1,0.19,0.1,0.77,0.19,25.0,16.7,2.13,0.39,1.16,16.26,63.6,0.77,0.77,2.32,7.74,1.94,0.97,38.5,21.29,0.97,36.0,16.06,3.1,22.45,1.74,1.35,0.19,4.45,0.39,12.5,0.39,0.0,1.94,,,,,,,,,,,,,,,,,,1.5
+mihajlo-ilic-27458c,Mihajlo Ilić,22.0,Serbia,192.0,,DF,Partizan,Serbian SuperLiga,29,2503,86.3,3,1,0.11,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5
+bibras-natkho-2ccda8,Bibras Natkho,37.0,Israel,175.0,Right,MF,Partizan,Serbian SuperLiga,35,2217,63.3,15,13,0.61,0.53,0.0,0.04,0.22,0.27,0.16,0.29,0.0,0.0,22.3,3.98,0.59,2.21,29.17,71.7,3.68,1.18,5.45,1.33,0.74,0.15,25.0,23.13,0.59,49.05,11.78,0.74,28.13,1.91,0.74,1.33,5.6,0.0,0.0,0.29,0.0,0.29,,,,,,,,,,,,,,,,,,0.3
+aleksandar-filipovic-111f39,Aleksandar Filipović,30.0,Serbia,184.0,Right,DF,Partizan,Serbian SuperLiga,28,2360,84.3,4,0,0.15,0.0,0.0,0.02,0.04,0.04,0.02,0.38,0.0,0.0,24.2,1.35,0.0,0.58,22.69,61.5,1.15,0.38,2.5,1.35,0.19,0.19,50.0,13.46,0.0,49.62,8.65,0.19,16.15,1.35,1.35,1.15,5.19,3.46,78.3,0.19,0.0,0.77,,,,,,,,,,,,,,,,,,0.5
+nihad-mujakic-01fc85,Nihad Mujakić,27.0,Bosnia and Herzegovina,189.0,,DF,Partizan,Serbian SuperLiga,26,2282,87.8,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+mario-jurcevic-45bd55,Mario Jurčevič,30.0,Slovenia,186.0,,DF-MF,Partizan,Serbian SuperLiga,27,2165,80.2,0,3,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+zubairu-ibrahim-a4a83d,Zubairu Ibrahim,21.0,Ghana,,,FW,Partizan,Serbian SuperLiga,26,1850,71.2,9,3,0.44,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-kovac-6aa1e8,Stefan Kovač,26.0,Bosnia and Herzegovina,185.0,,MF,Partizan,Serbian SuperLiga,29,2020,69.7,4,3,0.18,0.13,0.0,0.17,0.06,0.23,0.17,0.85,0.0,0.0,14.5,3.13,0.57,1.71,15.66,65.5,1.99,0.57,3.7,2.28,0.57,0.57,28.6,18.23,0.28,35.32,9.68,2.56,19.94,1.14,1.14,1.71,3.42,0.57,20.0,0.28,0.0,1.42,,,,,,,,,,,,,,,,,,1.8
+aleksandar-scekic-b0197b,Aleksandar Šćekić,33.0,Montenegro,193.0,Right,MF,Partizan,Serbian SuperLiga,27,1571,58.2,2,0,0.11,0.0,0.0,0.16,0.1,0.26,0.16,0.98,0.0,0.0,14.0,1.64,0.0,0.65,41.56,81.9,6.55,0.98,9.49,1.31,0.33,0.0,,30.11,0.65,61.85,9.82,1.96,30.76,1.64,1.96,1.96,10.47,1.64,41.7,0.65,0.0,1.31,,,,,,,,,,,,,,,,,,0.075
+nemanja-nikolic-ec6b47,Nemanja Nikolić,33.0,Montenegro,188.0,Right,FW,Partizan,Serbian SuperLiga,28,1380,49.3,10,2,0.65,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kervin-arriaga-98d0ed,Kervin Arriaga,27.0,Honduras,191.0,Right,MF,Partizan,Serbian SuperLiga,15,1209,80.6,0,1,0.15,0.07,0.15,0.02,0.02,0.03,0.02,0.62,0.31,50.0,25.6,1.08,0.0,0.31,35.51,82.7,4.63,0.15,4.17,0.46,0.93,0.62,30.8,27.63,0.77,55.42,5.87,0.93,29.18,2.78,0.93,1.39,6.33,2.16,51.9,0.15,0.0,1.24,,,,,,,,,,,,,,,,,,1.5
+milan-roganovic-6f47d0,Milan Roganović,20.0,Montenegro,182.0,,DF,Partizan,Serbian SuperLiga,17,1085,63.8,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+ore-jovanovic-987f9c,Đorđe Jovanović,26.0,Serbia,,,FW,Partizan,Serbian SuperLiga,19,954,50.2,6,1,0.57,0.09,0.16,0.36,0.03,0.39,0.36,2.98,0.94,31.6,15.5,2.04,0.0,0.79,13.51,63.2,0.94,0.16,1.41,6.6,0.47,0.31,50.0,15.55,0.31,30.47,14.92,3.14,24.03,0.63,0.31,0.47,1.57,1.88,41.4,0.0,0.0,1.1,,,,,,,,,,,,,,,,,,
+ghayas-zahid-85c038,Ghayas Zahid,31.0,Norway,177.0,Right,MF,Partizan,Serbian SuperLiga,13,878,67.5,1,2,0.1,0.21,0.0,0.06,0.1,0.15,0.06,1.15,0.38,33.3,19.6,2.88,0.0,1.35,26.54,75.4,2.12,0.19,2.31,2.31,2.12,0.19,33.3,27.5,0.77,42.31,10.77,1.35,27.12,0.58,0.58,0.96,5.0,0.0,0.0,0.0,0.0,0.38,,,,,,,,,,,,,,,,,,1.5
+vanja-dragojevic-79ae43,Vanja Dragojević,19.0,Serbia,184.0,,MF,Partizan,Serbian SuperLiga,9,801,89.0,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+milan-vukotic-c64115,Milan Vukotić,23.0,Montenegro,178.0,,MF,Partizan,Serbian SuperLiga,16,804,50.2,3,2,0.34,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.5
+nemanja-trifunovic-7558af,Nemanja Trifunović,21.0,Serbia,172.0,,FW,Partizan,Serbian SuperLiga,19,796,41.9,1,1,0.11,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+ognjen-ugresic-4e7164,Ognjen Ugrešić,19.0,Serbia,188.0,,MF,Partizan,Serbian SuperLiga,11,590,53.6,3,0,0.46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5
+vukasin-djurdjevic-ff8855,Vukasin Djurdjevic,21.0,Serbia,186.0,Right,DF,Partizan,Serbian SuperLiga,12,586,48.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+leonard-owusu-8aac59,Leonard Owusu,28.0,Ghana,181.0,Right,MF,Partizan,Serbian SuperLiga,8,551,68.9,0,0,0.0,0.0,0.0,0.01,0.03,0.04,0.01,0.31,0.1,33.3,30.2,1.64,0.0,0.62,30.58,90.6,3.18,0.21,3.69,1.13,0.41,0.72,63.6,28.32,1.03,41.66,6.67,0.1,28.84,1.13,0.92,0.92,5.23,0.31,27.3,0.1,0.0,0.72,,,,,,,,,,,,,,,,,,0.8
+nikola-simic-b3e511,Nikola Simić,18.0,Serbia,192.0,,DF,Partizan,Serbian SuperLiga,9,499,55.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+nikola-antic-c675e6,Nikola Antić,31.0,Serbia,178.0,,DF,Partizan,Serbian SuperLiga,6,450,75.0,0,2,,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+svetozar-markovic-05a65e,Svetozar Marković,25.0,Serbia,186.0,Right,DF,Viktoria Plzeň,Czech First League,17,1453,85.5,1,0,0.06,0.0,0.0,0.01,0.03,0.04,0.01,0.41,0.0,0.0,10.4,0.68,0.0,0.55,24.72,80.8,0.82,0.14,0.41,0.14,0.0,0.0,0.0,15.57,0.14,42.88,2.05,0.96,17.62,1.09,0.82,1.09,4.1,2.19,50.0,0.14,0.0,0.55,,,,,,,,,,,,,,,,,,4.0
+jovan-milosevic-328e99,Jovan Milošević,20.0,Serbia,190.0,,FW,Partizan,Serbian SuperLiga,5,331,66.2,3,0,0.82,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+dimitrije-jankovic-9f8f6a,Dimitrije Janković,19.0,Serbia,,,MF,Partizan,Serbian SuperLiga,5,274,54.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+goh-youngjun-cc50a9,Goh Youngjun,24.0,Korea Republic,168.0,Right,MF,Partizan,Serbian SuperLiga,16,449,28.1,1,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dusan-jovanovic-56105c,Dušan Jovanović,19.0,Serbia,,,FW,Partizan,Serbian SuperLiga,13,287,22.1,0,1,,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+xander-severina-5db1c8,Xander Severina,24.0,Curaçao,185.0,,FW-MF,Partizan,Serbian SuperLiga,5,228,45.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+joao-grimaldo-6a6aad,Joao Grimaldo,22.0,Peru,176.0,,FW-MF,Sporting Cristal,Liga 1,17,1340,78.8,3,3,0.2,0.2,0.23,0.25,0.32,0.55,0.25,1.82,0.68,37.5,15.6,2.96,0.46,1.37,16.18,72.4,1.14,0.91,2.28,7.75,4.33,2.51,44.0,21.65,3.65,33.72,17.54,3.19,24.61,0.91,0.68,1.14,4.1,1.14,71.4,0.0,0.0,1.37,,,,,,,,,,,,,,,,,,0.7
+mateja-stjepanovic-8dd697,Mateja Stjepanović,21.0,Serbia,185.0,,MF,Partizan,Serbian SuperLiga,15,309,20.6,0,0,0.0,0.0,0.0,0.02,0.01,0.03,0.02,0.56,0.09,16.7,18.8,0.65,0.0,0.09,36.8,84.0,3.17,0.19,3.07,0.28,0.19,0.0,0.0,23.29,0.37,51.24,4.84,0.47,34.29,1.12,0.84,0.19,3.26,0.47,31.3,0.19,0.0,0.93,,,,,,,,,,,,,,,,,,2.0
+zoran-alilovic-1654e0,Zoran Alilović,19.0,Serbia,175.0,,MF,Partizan,Serbian SuperLiga,11,236,21.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+saldanha-7f6336,Saldanha,26.0,Brazil,185.0,,FW,Ferencváros,NB I,22,1003,45.6,10,3,0.9,0.27,0.2,0.24,0.02,0.26,0.24,2.43,0.61,25.0,19.1,2.64,0.0,0.61,10.54,62.7,0.61,0.41,1.62,5.47,2.64,2.64,50.0,21.49,1.62,35.27,15.2,3.65,23.72,1.82,0.0,1.82,3.45,2.03,38.5,0.41,0.0,1.82,,,,,,,,,,,,,,,,,,4.2
+zlatan-sehovic-947031,Zlatan Šehović,25.0,Serbia,180.0,Right,FW,Partizan,Serbian SuperLiga,2,77,38.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+pape-fuhrer-f2a86b,Pape Fuhrer,19.0,Senegal,180.0,,FW,Partizan,Serbian SuperLiga,9,134,14.9,0,1,,0.67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+milan-lazarevic-99a1dd,Milan Lazarević,28.0,Serbia,177.0,,DF,Partizan,Serbian SuperLiga,5,132,26.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+bojan-dimoski-ad91a9,Bojan Dimoski,24.0,North Macedonia,176.0,,MF,Partizan,Serbian SuperLiga,3,59,19.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+marko-zivkovic-ec9a58,Marko Živković,31.0,Serbia,173.0,Right,DF,Partizan,Serbian SuperLiga,2,55,27.5,0,0,0.0,0.0,0.0,0.0,0.08,0.08,0.0,0.0,0.0,,,1.6,0.0,1.6,34.4,74.1,1.6,1.2,4.0,2.4,0.8,0.0,0.0,30.8,0.4,58.0,12.8,0.0,28.8,2.8,1.6,1.2,4.4,0.4,33.3,0.0,0.0,0.8,,,,,,,,,,,,,,,,,,
+marko-kerkez-da5353,Marko Kerkez,25.0,Serbia,184.0,Left,DF,Partizan,Serbian SuperLiga,1,33,33.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+mihajlo-petrovic-e7c871,Mihajlo Petrović,20.0,Serbia,184.0,,MF,Partizan,Serbian SuperLiga,1,14,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+janko-jevremovic-b0cef2,Janko Jevremović,21.0,Serbia,181.0,,MF,Partizan,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+milos-krunic-72e30a,Milos Krunic,29.0,Serbia,198.0,,GK,Partizan,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+nathan-de-medina-dfff82,Nathan de Medina,28.0,Belgium,180.0,Right,DF,Partizan,Serbian SuperLiga,0,0,,0,0,0.0,0.0,0.0,0.02,0.0,0.02,0.02,0.58,0.12,20.0,20.8,0.12,0.0,0.0,25.43,69.7,0.93,0.12,1.28,0.81,0.35,0.0,0.0,20.9,0.35,48.66,7.2,0.7,23.34,1.97,1.16,1.63,4.99,0.93,36.4,0.23,0.0,1.63,,,,,,,,,,,,,,,,,,0.1
+nemanja-stevanovic-376cab,Nemanja Stevanović,33.0,Serbia,183.0,,GK,Partizan,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nemanja-miletic-ea1f7e,Nemanja Miletić,34.0,Serbia,187.0,Left,DF,Novi Pazar,Serbian SuperLiga,35,3089,88.3,3,3,0.09,0.09,0.0,0.0,0.02,0.02,0.0,0.0,0.0,,,1.83,0.17,0.33,27.17,60.6,2.83,0.0,4.33,5.83,2.17,0.67,57.1,21.83,1.83,55.5,16.5,0.33,22.5,0.83,1.5,0.83,4.83,3.33,64.5,0.5,0.0,1.5,,,,,,,,,,,,,,,,,,0.25
+adem-ljajic-416572,Adem Ljajić,34.0,Serbia,182.0,Right,FW-MF,Novi Pazar,Serbian SuperLiga,35,2947,84.2,8,11,0.24,0.34,0.0,0.06,0.37,0.43,0.74,1.14,0.0,0.0,33.4,8.0,0.57,3.14,52.86,83.3,5.71,1.71,6.29,8.29,2.0,1.43,50.0,36.57,1.43,70.57,30.0,4.0,52.86,0.57,0.29,0.29,3.43,0.0,0.0,0.57,0.0,0.57,,,,,,,,,,,,,,,,,,0.5
+adetunji-adeshina-efd2ee,Adetunji Adeshina,20.0,Nigeria,,,MF,Novi Pazar,Serbian SuperLiga,35,2435,69.6,6,1,0.22,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rodney-antwi-105325,Rodney Antwi,30.0,Netherlands,176.0,Right,FW,Novi Pazar,Serbian SuperLiga,30,2367,78.9,9,3,0.34,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+dragan-bojat-c68dc9,Dragan Bojat,22.0,Serbia,177.0,,DF,Novi Pazar,Serbian SuperLiga,30,2490,83.0,2,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+aleksandar-mesarovic-f267f5,Aleksandar Mesarović,27.0,Serbia,176.0,,MF,Novi Pazar,Serbian SuperLiga,30,2418,80.6,4,10,0.15,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+ognjen-mrsic-0f72b7,Ognjen Mršić,,Serbia,193.0,,DF,Novi Pazar,Serbian SuperLiga,20,1666,83.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+sead-islamovic-579432,Sead Islamović,26.0,Serbia,183.0,Right,MF,Novi Pazar,Serbian SuperLiga,28,1612,57.6,2,4,0.11,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+zeljko-samcovic-1ef90d,Željko Samčović,23.0,Serbia,198.0,,GK,Novi Pazar,Serbian SuperLiga,16,1440,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+ejike-opara-d37a46,Ejike Opara,20.0,Nigeria,184.0,,MF,Novi Pazar,Serbian SuperLiga,28,1397,49.9,3,1,0.19,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+filip-backulja-f28a78,Filip Bačkulja,23.0,Serbia,187.0,,MF,Novi Pazar,Serbian SuperLiga,20,1288,64.4,3,0,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+vladan-vidakovic-499b81,Vladan Vidaković,,Serbia,193.0,,MF,Novi Pazar,Serbian SuperLiga,21,1172,55.8,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+slobodan-rubezic-271ba4,Slobodan Rubežić,25.0,Montenegro,194.0,Right,DF,Aberdeen,Scottish Premiership,20,1701,85.0,0,0,0.0,0.0,0.0,0.0,0.02,0.02,0.0,0.0,0.0,,,0.33,0.0,0.17,20.17,72.5,0.67,0.0,2.17,0.33,0.0,0.33,66.7,14.67,0.67,39.67,3.5,1.5,15.17,0.67,2.67,1.33,3.5,2.0,46.2,0.17,0.0,1.83,,,,,,,,,,,,,,,,,,1.0
+uros-uranovic-2c3602,Uroš Đuranović,31.0,Montenegro,,,FW,Novi Pazar,Serbian SuperLiga,14,1051,75.1,5,0,0.43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-popovic-3c65a3,Stefan Popović,32.0,Montenegro,184.0,,GK,Novi Pazar,Serbian SuperLiga,12,1080,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+numan-kurdic-f574cd,Numan Kurdic,26.0,Bosnia and Herzegovina,187.0,Right,DF,Novi Pazar,Serbian SuperLiga,11,945,85.9,0,1,,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+abdoulaye-cisse-850b0e,Abdoulaye Cissé,31.0,Guinea,181.0,Right,DF,Novi Pazar,Serbian SuperLiga,12,927,77.2,3,0,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ivan-lakicevic-8c2eee,Ivan Lakićević,26.0,Serbia,180.0,Right,DF,Novi Pazar,Serbian SuperLiga,17,986,58.0,1,2,0.09,0.18,0.0,0.01,0.06,0.07,0.01,0.08,0.0,0.0,20.7,2.12,0.0,0.49,33.73,70.7,2.86,1.06,3.43,3.68,0.82,0.16,33.3,24.17,0.65,56.11,13.07,0.33,28.26,0.9,1.31,1.06,4.82,0.49,22.2,0.08,0.0,0.65,,,,,,,,,,,,,,,,,,0.25
+ognjen-bjelicic-73bc2e,Ognjen Bjeličić,28.0,Serbia,187.0,,DF,Novi Pazar,Serbian SuperLiga,10,855,85.5,0,1,0.0,0.11,0.0,0.08,0.05,0.13,0.08,1.25,0.5,40.0,21.3,2.26,0.0,1.0,39.86,83.7,4.26,0.25,4.01,0.75,0.75,1.0,100.0,34.6,0.75,56.66,6.52,1.0,36.1,2.26,1.5,1.5,5.52,0.0,0.0,0.25,0.0,1.25,,,,,,,,,,,,,,,,,,0.35
+john-mary-b6d335,John Mary,32.0,Cameroon,185.0,,FW,Novi Pazar,Serbian SuperLiga,12,721,60.1,5,0,0.62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+andrej-uric-a06706-1,Andrej Đurić,22.0,Montenegro,190.0,Right,DF,Novi Pazar,Serbian SuperLiga,8,698,87.2,0,1,0.0,0.13,0.0,0.25,0.0,0.25,0.25,0.7,0.0,0.0,5.8,0.35,0.0,0.0,49.57,87.0,2.11,0.35,2.81,0.35,0.35,0.0,,40.78,0.0,69.61,1.76,1.05,47.11,2.81,0.7,1.41,3.52,2.46,63.6,0.0,0.0,0.7,,,,,,,,,,,,,,,,,,
+semir-alic-84e673,Semir Alić,21.0,Serbia,187.0,,DF,Novi Pazar,Serbian SuperLiga,17,696,40.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+almedin-zilkic-461082,Almedin Zilkic,,Serbia,174.0,,MF,Novi Pazar,Serbian SuperLiga,19,613,32.3,1,3,0.15,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+filip-pajovic-a82311,Filip Pajović,32.0,Serbia,187.0,Right,GK,Novi Pazar,Serbian SuperLiga,5,450,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+ajia-yakub-675ce0,Ajia Yakub,,Nigeria,189.0,,GK,Novi Pazar,Serbian SuperLiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+aleksandar-kovacevic-1a602c,Aleksandar Kovačević,,Serbia,173.0,Right,MF,Novi Pazar,Serbian SuperLiga,18,427,23.7,1,0,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+irfan-kahrovic-42379a,Irfan Kahrovic,,Serbia,181.0,,FW,Novi Pazar,Serbian SuperLiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jovan-mituljikic-aa05f1,Jovan Mituljikic,22.0,Serbia,180.0,,FW,Novi Pazar,Serbian SuperLiga,11,158,14.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+lazar-zlicic-b5053e,Lazar Zličić,28.0,Serbia,182.0,Left,MF,Novi Pazar,Serbian SuperLiga,6,147,24.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+darko-isailovic-019eb3,Darko Isailovic,30.0,Serbia,187.0,Right,DF,Novi Pazar,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+viktor-zivojinovic-2be417,Viktor Živojinović,26.0,Serbia,177.0,,FW,Novi Pazar,Serbian SuperLiga,5,72,14.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ensar-bruncevic-a88717,Ensar Brunčević,26.0,Serbia,196.0,,DF,Novi Pazar,Serbian SuperLiga,3,29,9.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+toheeb-bamigboye-5aa517,Toheeb Bamigboye,21.0,Nigeria,,Left,DF,Novi Pazar,Serbian SuperLiga,2,24,12.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ensar-brahic-c8fafe,Ensar Brahic,21.0,Serbia,,,FW,Novi Pazar,Serbian SuperLiga,2,23,11.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+stefan-dimic-7192cb,Stefan Dimić,,Serbia,184.0,Right,MF,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+uros-filimonovic-9885d0,Uros Filimonovic,19.0,Serbia,182.0,,MF,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+saladin-mecinovic-75cb4c,Saladin Mecinovic,19.0,Serbia,191.0,Right,GK,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amar-nurovic-36bdfd,Amar Nurovic,,Serbia,176.0,Right,DF,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luciano-sanchez-01448f,Luciano Sanchez,20.0,United States,169.0,,FW,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+skima-togbe-b1d92d,Skima Togbe,19.0,Ghana,173.0,,MF,Novi Pazar,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+balsa-popovic-bf4727,Balša Popović,25.0,Montenegro,194.0,,GK,OFK Beograd,Serbian SuperLiga,37,3330,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+aleksandar-ermanovic-2af052,Aleksandar Đermanović,23.0,Serbia,188.0,,DF,OFK Beograd,Serbian SuperLiga,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gleofilo-hasselbaink-966c79,Gleofilo Hasselbaink,26.0,Suriname,178.0,Left,FW,OFK Beograd,Serbian SuperLiga,32,2270,70.9,10,5,0.4,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+aleksej-vukicevic-ce02a5,Aleksej Vukičević,20.0,Serbia,184.0,,DF,OFK Beograd,Serbian SuperLiga,27,2425,89.8,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+marko-gobeljic-851d8e,Marko Gobeljić,33.0,Serbia,185.0,Right,DF-MF,OFK Beograd,Serbian SuperLiga,27,2299,85.1,0,2,0.0,0.08,0.0,0.03,0.13,0.17,0.03,1.0,0.33,33.3,27.5,2.33,0.33,1.67,29.33,73.9,2.67,1.0,3.67,4.33,0.67,0.0,0.0,24.0,1.0,49.33,13.0,0.33,25.0,1.0,1.33,0.33,5.67,1.0,50.0,0.0,0.0,1.33,,,,,,,,,,,,,,,,,,0.2
+aleksa-cvetkovic-3eccb1,Aleksa Cvetković,20.0,Serbia,180.0,,MF,OFK Beograd,Serbian SuperLiga,36,2288,63.6,4,3,0.16,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+edmund-addo-984370,Edmund Addo,25.0,Ghana,180.0,,MF,OFK Beograd,Serbian SuperLiga,26,2175,83.7,0,0,0.0,0.0,0.0,0.0,0.04,0.06,0.0,0.18,0.0,0.0,31.8,1.48,0.0,0.92,22.87,86.1,2.58,0.37,2.4,0.18,0.74,0.74,50.0,22.5,0.92,40.02,3.5,0.0,18.26,3.5,2.03,2.4,6.27,0.18,16.7,0.55,0.0,2.58,,,,,,,,,,,,,,,,,,1.0
+nikola-knezevic-9c7b85-1,Nikola Knezevic,22.0,Serbia,180.0,,MF,OFK Beograd,Serbian SuperLiga,27,2173,80.5,4,4,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+miljan-momcilovic-954620,Miljan Momcilovic,24.0,Serbia,184.0,,MF,OFK Beograd,Serbian SuperLiga,31,1663,53.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+nikola-mituljikic-dd5245,Nikola Mituljikić,22.0,Serbia,180.0,,MF,OFK Beograd,Serbian SuperLiga,31,1558,50.3,4,1,0.23,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+ebenezer-annan-4a84d9-1,Ebenezer Annan,23.0,Ghana,178.0,Left,DF,OFK Beograd,Serbian SuperLiga,19,1375,72.4,0,4,,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.5
+aleksandar-palocevic-3af4fc,Aleksandar Paločević,32.0,Serbia,180.0,Both,MF,FC Seoul,K League 1,21,871,41.5,1,4,0.1,0.41,0.06,0.12,0.11,0.22,0.12,1.56,0.37,24.0,22.8,3.3,0.25,1.43,29.83,70.5,3.74,0.44,6.17,2.62,2.24,0.87,66.7,28.4,1.25,50.95,14.51,1.0,30.71,1.31,1.31,1.31,6.54,0.75,38.7,0.12,0.0,0.81,,,,,,,,,,,,,,,,,,0.65
+diogo-bezerra-3ad9cc,Diogo Bezerra,23.0,Brazil,186.0,,MF,OFK Beograd,Serbian SuperLiga,15,1210,80.7,3,3,0.22,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+stefan-despotovski-b1843c,Stefan Despotovski,22.0,North Macedonia,185.0,,DF,OFK Beograd,Serbian SuperLiga,14,1176,84.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+filip-stojilkovic-1c97fb,Filip Stojilković,25.0,Switzerland,186.0,,FW,OFK Beograd,Serbian SuperLiga,26,1163,44.7,7,3,0.54,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+lazar-jovanovic-862357-1,Lazar Jovanović,19.0,Serbia,184.0,,FW,OFK Beograd,Serbian SuperLiga,15,917,61.1,4,1,0.39,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0
+stefan-obradovic-2c5935,Stefan Obradovic,22.0,Serbia,193.0,Right,DF,OFK Beograd,Serbian SuperLiga,17,865,50.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+samuel-owusu-4925e6,Samuel Owusu,29.0,Ghana,168.0,,MF,OFK Beograd,Serbian SuperLiga,23,1033,44.9,3,2,0.26,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+nikola-vujadinovic-f226b9,Nikola Vujadinović,39.0,Montenegro,191.0,,DF,OFK Beograd,Serbian SuperLiga,10,822,82.2,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uros-lazic-c2af6c,Uroš Lazić,22.0,Serbia,175.0,,DF,OFK Beograd,Serbian SuperLiga,11,533,48.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+aleksandar-kahvic-d6da82,Aleksandar Kahvić,21.0,Bosnia and Herzegovina,192.0,,FW,OFK Beograd,Serbian SuperLiga,6,501,83.5,5,0,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+slobodan-stanojlovic-527630,Slobodan Stanojlovic,23.0,Serbia,185.0,,FW,OFK Beograd,Serbian SuperLiga,18,471,26.2,1,2,0.19,0.38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+adem-avdic-579595,Adem Avdić,18.0,Serbia,173.0,,MF,OFK Beograd,Serbian SuperLiga,8,437,54.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+sasa-markovic-de20f3,Saša Marković,34.0,Serbia,184.0,Right,MF,OFK Beograd,Serbian SuperLiga,17,395,23.2,1,0,0.23,0.0,0.37,0.19,0.02,0.2,0.19,2.41,0.74,30.8,27.3,1.3,0.19,0.37,51.03,90.2,3.34,0.56,4.45,0.56,0.93,0.56,50.0,37.48,1.11,67.73,7.05,0.37,45.84,3.53,0.93,1.11,6.68,0.74,28.6,0.19,0.0,1.86,,,,,,,,,,,,,,,,,,0.1
+michael-bermudez-25ea99,Michael Bermúdez,19.0,Ecuador,177.0,,FW,OFK Beograd,Serbian SuperLiga,9,276,30.7,0,1,,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+richard-odada-ef4cbf,Richard Odada,25.0,Kenya,191.0,,MF,OFK Beograd,Serbian SuperLiga,6,194,32.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+stefan-scepovic-ee4a14,Stefan Šćepović,35.0,Serbia,186.0,Right,FW,OFK Beograd,Serbian SuperLiga,13,165,12.7,2,3,1.09,1.64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+filip-halabrin-d1b35c,Filip Halabrin,19.0,Serbia,169.0,,MF,OFK Beograd,Serbian SuperLiga,6,63,10.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+dragan-stoisavljevic-59ff33,Dragan Stoisavljević,22.0,Serbia,189.0,,FW,OFK Beograd,Serbian SuperLiga,2,35,17.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+srdjan-nikolic-f49e4c,Srdjan Nikolić,28.0,Serbia,186.0,,DF,OFK Beograd,Serbian SuperLiga,1,34,34.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+issiaka-dembele-2aaae9,Issiaka Dembele,20.0,Côte d'Ivoire,180.0,,MF,OFK Beograd,Serbian SuperLiga,1,16,16.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+novak-gojkov-4d7955,Novak Gojkov,20.0,Serbia,174.0,,MF,OFK Beograd,Serbian SuperLiga,2,11,5.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+danii-duseuski-41c58d,Daniił Dušeŭski,21.0,Belarus,185.0,,MF,OFK Beograd,Serbian SuperLiga,1,10,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prince-obasi-a945d4,Prince Obasi,20.0,Nigeria,,Right,FW,OFK Beograd,Serbian SuperLiga,2,4,2.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kwadwo-opoku-ackah-c723ab,Kwadwo Opoku Ackah,20.0,Ghana,178.0,Right,DF,OFK Beograd,Serbian SuperLiga,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+darko-gojkovic-5ffcf7,Darko Gojković,37.0,Serbia,184.0,,DF,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+vasilije-grbovic-7d188b,Vasilije Grbovic,17.0,Serbia,190.0,,FW,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+andrej-pavlovic-4ad44b,Andrej Pavlovic,18.0,Serbia,,,DF,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-simonovic-fa5b46,Nikola Simonovic,,Serbia,190.0,Right,GK,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+dimitrije-stevanovic-ed143c,Dimitrije Stevanović,21.0,Serbia,191.0,,GK,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+nedeljko-stojisic-61391d,Nedeljko Stojisic,28.0,Serbia,202.0,,GK,OFK Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+milos-ristic-00ee8b,Miloš Ristić,30.0,Serbia,189.0,,DF,Radnički Kragujevac,Serbian SuperLiga,35,2697,77.1,1,3,0.03,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+mehmed-cosic-89eff2,Mehmed Ćosić,28.0,Bosnia and Herzegovina,177.0,,DF,Radnički Kragujevac,Serbian SuperLiga,34,2814,82.8,2,5,0.06,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+kilian-bevis-e711f2,Kilian Bevis,27.0,Guadeloupe,173.0,Both,FW,Radnički Kragujevac,Serbian SuperLiga,36,2710,75.3,7,7,0.23,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+marko-milosevic-c604e9,Marko Milošević,34.0,Serbia,188.0,,GK,Radnički Kragujevac,Serbian SuperLiga,26,2295,88.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+samir-zeljkovic-e26cc6,Samir Zeljković,,Bosnia and Herzegovina,184.0,Right,MF,Radnički Kragujevac,Serbian SuperLiga,28,2289,81.8,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+louay-ben-hassine-eacb44,Louay Ben Hassine,25.0,Tunisia,175.0,Both,DF,Radnički Kragujevac,Serbian SuperLiga,34,2189,64.4,3,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+tomislav-dadic-89f335,Tomislav Dadić,27.0,Croatia,185.0,,MF,Radnički Kragujevac,Serbian SuperLiga,30,2127,70.9,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+bogdan-mircetic-fd14ee,Bogdan Mirčetić,20.0,Serbia,184.0,Left,FW,Radnički Kragujevac,Serbian SuperLiga,33,2166,65.6,6,6,0.25,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+luka-stankovski-f3da81,Luka Stankovski,23.0,North Macedonia,190.0,,MF,Radnički Kragujevac,Serbian SuperLiga,27,1612,59.7,3,0,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+matija-gluscevic-04e6e6,Matija Gluščević,21.0,Serbia,186.0,,FW,Radnički Kragujevac,Serbian SuperLiga,30,1419,47.3,2,1,0.13,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+evandro-da-silva-eb857f,Evandro da Silva,28.0,Brazil,174.0,Left,FW,Radnički Kragujevac,Serbian SuperLiga,21,982,46.8,7,0,0.64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+bojan-adzic-2d094e,Bojan Adžić,21.0,Montenegro,183.0,,DF,Radnički Kragujevac,Serbian SuperLiga,23,1060,46.1,4,0,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+luka-lijeskic-08b524,Luka Lijeskić,20.0,Serbia,195.0,,GK,Radnički Kragujevac,Serbian SuperLiga,11,945,85.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+issa-bah-28e6e8,Issa Bah,23.0,Luxembourg,181.0,Right,FW,Radnički Kragujevac,Serbian SuperLiga,14,820,58.6,5,0,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+milutin-vidosavljevic-1580b8,Milutin Vidosavljević,24.0,Serbia,180.0,,FW,Radnički Kragujevac,Serbian SuperLiga,12,799,66.6,5,3,0.56,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+aleksej-golijanin-aed4e0,Aleksej Golijanin,22.0,Bosnia and Herzegovina,187.0,,MF,Radnički Kragujevac,Serbian SuperLiga,14,750,53.6,1,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+besim-serbecic-6328fc,Besim Šerbečić,27.0,Bosnia and Herzegovina,194.0,Right,DF,Radnički Kragujevac,Serbian SuperLiga,9,692,76.9,1,0,0.13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,29.5,83.1,1.5,0.0,1.0,0.0,1.0,1.0,100.0,18.0,0.0,46.5,1.5,0.0,24.5,0.5,1.5,3.0,3.5,1.0,66.7,0.5,0.0,1.5,,,,,,,,,,,,,,,,,,0.2
+slavisa-radovic-248e1b,Slaviša Radović,32.0,Bosnia and Herzegovina,180.0,,DF,Radnički Kragujevac,Serbian SuperLiga,15,671,44.7,1,1,0.13,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+aleksa-jankovic-44e6a5,Aleksa Janković,25.0,Serbia,183.0,,FW,Radnički Kragujevac,Serbian SuperLiga,16,652,40.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jovan-ilic-6e024b,Jovan Ilic,25.0,Bosnia and Herzegovina,176.0,,MF,Radnički Kragujevac,Serbian SuperLiga,13,613,47.2,2,3,0.29,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+stephen-chinedu-71b53a,Stephen Chinedu,25.0,Nigeria,188.0,Right,FW,Radnički Kragujevac,Serbian SuperLiga,10,448,44.8,2,0,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+milan-aleksic-c23452,Milan Aleksić,20.0,Serbia,179.0,,FW,Radnički Kragujevac,Serbian SuperLiga,5,440,88.0,0,1,,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+dilan-ortiz-71bf52,Dilan Ortiz,25.0,Colombia,191.0,,FW,Radnički Kragujevac,Serbian SuperLiga,14,458,32.7,2,1,0.39,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+shane-oneill-7776a5,Shane O'Neill,29.0,United States,188.0,Right,DF-MF,Radnički Kragujevac,Serbian SuperLiga,3,143,47.7,0,0,0.0,0.0,0.0,0.0,0.04,0.04,0.0,0.0,0.0,,,0.79,0.0,0.4,37.19,79.6,2.7,0.24,2.85,1.19,0.63,0.56,43.8,27.59,0.63,56.93,7.22,0.87,33.54,1.9,1.27,1.11,4.2,2.06,68.4,0.56,0.0,2.22,,,,,,,,,,,,,,,,,,0.1
+alfa-mussa-1d6719,Alfa Mussá,20.0,Portugal,170.0,,FW,Radnički Kragujevac,Serbian SuperLiga,12,320,26.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+nikola-bukumira-3a5535,Nikola Bukumira,20.0,Serbia,181.0,,MF,Radnički Kragujevac,Serbian SuperLiga,12,257,21.4,0,1,,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+darly-nlandu-c18633,Darly Nlandu,25.0,France,175.0,Left,MF,Radnički Kragujevac,Serbian SuperLiga,7,220,31.4,0,0,0.0,0.0,0.0,0.17,0.12,0.29,0.17,1.94,0.39,20.0,25.1,1.74,0.0,0.97,27.1,78.7,3.68,0.19,5.23,1.35,0.97,0.77,80.0,20.71,0.58,43.74,8.71,0.58,27.29,0.77,0.97,0.97,4.84,0.77,80.0,0.0,0.0,1.16,,,,,,,,,,,,,,,,,,0.3
+wajdi-sahli-0067aa,Wajdi Sahli,28.0,Tunisia,183.0,Right,FW,Radnički Kragujevac,Serbian SuperLiga,2,115,57.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+stojan-lekovic-5b0dd6,Stojan Leković,24.0,Serbia,199.0,,GK,Radnički Kragujevac,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+milos-rosevic-fbf11a,Miloš Rošević,,Serbia,188.0,,FW,Radnički Kragujevac,Serbian SuperLiga,3,58,19.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+milan-vidakov-8649ae,Milan Vidakov,25.0,Serbia,184.0,Right,FW,Radnički Kragujevac,Serbian SuperLiga,3,43,14.3,0,1,,2.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+anastasios-tselios-7a9bbc,Anastasios Tselios,,Greece,172.0,,MF,Radnički Kragujevac,Serbian SuperLiga,2,42,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+vanja-tomic-617d48,Vanja Tomić,20.0,Serbia,183.0,,MF,Radnički Kragujevac,Serbian SuperLiga,1,23,23.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+vukasin-bulatovic-6d5b36,Vukasin Bulatovic,25.0,United States,185.0,Left,DF,Radnički Kragujevac,Serbian SuperLiga,2,19,9.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+alpha-turay-ae3189,Alpha Turay,20.0,Sierra Leone,,,DF,Radnički Kragujevac,Serbian SuperLiga,1,14,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+vuk-toplicevic-ff3912,Vuk Toplicevic,19.0,Serbia,196.0,,DF,Radnički Kragujevac,Serbian SuperLiga,1,13,13.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-milojevic-1b1ee8,Luka Milojević,22.0,Serbia,190.0,,MF,Radnički Kragujevac,Serbian SuperLiga,2,6,3.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+seid-korac-f143c7,Seid Korac,24.0,Luxembourg,191.0,,DF,Vojvodina,Serbian SuperLiga,30,2550,85.0,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.4
+dele-52cb81,Dele,24.0,Nigeria,180.0,Right,FW,Vojvodina,Serbian SuperLiga,34,2399,70.6,15,4,0.56,0.15,0.41,0.49,0.21,0.7,0.49,2.88,1.23,42.9,12.3,1.23,0.41,1.23,9.45,57.5,1.23,1.23,2.05,8.63,2.47,1.23,42.9,20.96,2.47,30.41,20.14,8.63,20.55,0.41,1.23,0.41,4.52,0.82,20.0,0.41,0.0,1.64,,,,,,,,,,,,,,,,,,1.5
+ore-crnomarkovic-615cb8,Đorđe Crnomarković,32.0,Serbia,188.0,Left,DF,Vojvodina,Serbian SuperLiga,27,2276,84.3,1,0,0.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.36,0.0,0.0,48.38,93.2,3.56,0.0,4.27,0.0,0.36,0.0,,39.49,0.0,60.83,0.0,0.0,40.91,0.71,1.07,1.78,5.69,0.71,22.2,1.07,0.36,1.78,,,,,,,,,,,,,,,,,,
+dragan-kokanovic-08cda4,Dragan Kokanović,23.0,Serbia,180.0,,MF,Vojvodina,Serbian SuperLiga,29,2220,76.6,5,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+mihai-butean-f7ef5e,Mihai Butean,29.0,Romania,181.0,Right,DF-MF,Vojvodina,Serbian SuperLiga,29,2295,79.1,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+lucas-barros-84fef1,Lucas Barros,26.0,Brazil,189.0,,DF,Vojvodina,Serbian SuperLiga,29,2097,72.3,0,3,0.0,0.13,0.0,0.0,0.02,0.02,0.0,0.16,0.0,0.0,35.1,0.81,0.0,0.32,33.39,75.3,1.77,0.0,1.77,4.84,1.13,0.81,50.0,27.9,1.45,56.45,10.32,0.0,27.74,1.77,0.65,1.29,5.16,2.42,68.2,0.16,0.0,1.94,,,,,,,,,,,,,,,,,,0.75
+caleb-zady-sery-485e5f,Caleb Zady Sery,25.0,Côte d'Ivoire,177.0,Both,MF,Vojvodina,Serbian SuperLiga,26,2105,81.0,8,6,0.34,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.8
+slobodan-medojevic-06ff9d,Slobodan Medojević,35.0,Serbia,183.0,Right,MF,Vojvodina,Serbian SuperLiga,26,1777,68.3,1,2,0.05,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+collins-sichenje-47c657,Collins Sichenje,22.0,Kenya,189.0,,DF,Vojvodina,Serbian SuperLiga,25,1792,71.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+dragan-rosic-bc3725,Dragan Rosić,29.0,Serbia,195.0,,GK,Vojvodina,Serbian SuperLiga,19,1710,90.0,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+uros-nikolic-d9daa4,Uroš Nikolić,31.0,Serbia,184.0,,MF,Vojvodina,Serbian SuperLiga,24,1339,55.8,4,5,0.27,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+matija-gocmanac-99be2b,Matija Gočmanac,22.0,Serbia,192.0,,GK,Vojvodina,Serbian SuperLiga,15,1350,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+lazar-romanic-f3225c,Lazar Romanić,27.0,Serbia,179.0,Right,FW-MF,Vojvodina,Serbian SuperLiga,17,1208,71.1,5,3,0.37,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+lazar-nikolic-accd50,Lazar Nikolić,26.0,Serbia,176.0,,MF,Vojvodina,Serbian SuperLiga,23,1330,57.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+vukan-savicevic-942b26,Vukan Savićević,31.0,Montenegro,180.0,,MF,Vojvodina,Serbian SuperLiga,27,1317,48.8,1,3,0.07,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+marko-poletanovic-884fc5,Marko Poletanović,32.0,Serbia,187.0,Right,MF,Vojvodina,Serbian SuperLiga,16,904,56.5,1,2,0.1,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+andrija-radulovic-4c13ed,Andrija Radulović,23.0,Montenegro,173.0,Left,FW,Vojvodina,Serbian SuperLiga,17,861,50.6,3,1,0.31,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+marko-velickovic-644e17,Marko Veličković,21.0,Serbia,179.0,,MF,Vojvodina,Serbian SuperLiga,19,842,44.3,4,1,0.43,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+stefan-bukinac-b0a8ae,Stefan Bukinac,20.0,Serbia,183.0,,DF,Vojvodina,Serbian SuperLiga,10,693,69.3,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+stefan-orevic-0a64d9,Stefan Đorđević,34.0,Serbia,186.0,Left,DF,Vojvodina,Serbian SuperLiga,7,555,79.3,0,1,,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mihailo-ivanovic-6acd2d,Mihailo Ivanović,21.0,Serbia,191.0,,FW,Vojvodina,Serbian SuperLiga,5,335,67.0,1,0,0.27,0.03,0.37,0.3,0.09,0.39,0.35,2.09,0.86,41.1,13.3,1.63,0.09,0.57,9.6,52.9,0.91,0.43,1.71,4.34,0.46,0.4,32.6,12.6,0.49,28.71,13.71,3.8,19.26,0.43,0.17,0.51,1.94,4.71,39.7,0.0,0.0,1.34,,,,,,,,,,,,,,,,,,4.5
+marko-mladenovic-9750fc,Marko Mladenović,20.0,Serbia,174.0,,MF,Vojvodina,Serbian SuperLiga,14,485,34.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+lazar-carevic-75b762,Lazar Carević,26.0,Montenegro,193.0,,GK,Famalicão,Primeira Liga,18,1620,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.93,4.0,3.07,80.0,46.7,0.26,0.25,20.0,25.9,29.0,31.3,0.97,13.9,2.7,0.4,0.3,0.3,2.5
+depu-ac4327,Depú,25.0,Angola,182.0,,FW,Gil Vicente FC,Primeira Liga,3,43,14.3,0,0,0.35,0.0,0.35,0.47,0.01,0.49,0.47,2.32,1.16,50.0,9.7,0.7,0.0,0.46,9.27,69.6,0.35,0.23,0.7,4.4,0.7,0.35,21.4,12.74,0.93,24.67,11.47,3.94,17.61,0.58,0.23,0.35,1.85,3.24,39.4,0.23,0.12,0.7,,,,,,,,,,,,,,,,,,3.2
+lazar-ranelovic-e8afa5,Lazar Ranđelović,28.0,Serbia,178.0,,FW-MF,Vojvodina,Serbian SuperLiga,7,209,29.9,0,0,0.0,0.0,0.0,0.04,0.0,0.04,0.04,0.76,0.38,50.0,14.7,0.76,0.0,0.0,21.36,70.0,1.14,0.76,3.05,7.25,1.91,1.53,50.0,25.55,1.53,40.04,15.25,2.67,30.51,2.67,1.14,0.0,4.58,0.38,10.0,0.0,0.0,1.14,,,,,,,,,,,,,,,,,,
+luka-drobnjak-519b54,Luka Drobnjak,21.0,Serbia,184.0,,DF,Vojvodina,Serbian SuperLiga,3,160,53.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+aleksa-vukanovic-54edf5,Aleksa Vukanović,33.0,Serbia,189.0,Right,FW,Vojvodina,Serbian SuperLiga,4,93,23.2,1,1,0.97,0.97,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+sinisa-tanjga-7bd9e3,Sinisa Tanjga,21.0,Serbia,189.0,,MF,Vojvodina,Serbian SuperLiga,4,85,21.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+petar-sukacev-2eb2be,Petar Sukacev,20.0,Serbia,173.0,,FW,Vojvodina,Serbian SuperLiga,3,78,26.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+milos-popovic-2b0e80,Milos Popovic,21.0,Serbia,179.0,Right,MF,Vojvodina,Serbian SuperLiga,4,72,18.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jonathan-bolingi-80d268,Jonathan Bolingi,31.0,Congo DR,185.0,Right,FW,Vojvodina,Serbian SuperLiga,5,61,12.2,0,0,0.27,0.0,0.27,0.31,0.03,0.35,0.31,2.1,0.68,32.3,12.5,2.04,0.07,0.75,21.99,70.4,1.76,0.41,1.83,7.87,1.02,0.54,47.1,24.91,1.02,44.8,19.14,3.8,34.41,0.95,0.95,0.27,3.39,6.65,50.8,0.41,0.07,2.85,,,,,,,,,,,,,,,,,,0.05
+sran-borovina-50c529,Srđan Borovina,18.0,Serbia,,,FW,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vuk-boskan-a3c6de,Vuk Boškan,,Serbia,191.0,,FW,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mihajlo-butrakovic-0b7bb2,Mihajlo Butrakovic,,Serbia,177.0,,MF,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+igor-jelicic-501fa9,Igor Jeličić,25.0,Serbia,190.0,,DF,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+lazar-peranovic-161ae6,Lazar Peranović,17.0,Serbia,,Left,FW,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ranko-puskic-e3adfa,Ranko Puškić,25.0,Serbia,189.0,,GK,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+luka-serdar-72f20d,Luka Serdar,,Serbia,186.0,Right,MF,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+damjan-okanovic-cae29c,Damjan Đokanović,17.0,Serbia,,,FW,Vojvodina,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+veljko-ilic-5b5922,Veljko Ilic,22.0,Serbia,195.0,Right,GK,TSC,Serbian SuperLiga,31,2716,87.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.38,5.5,3.25,59.1,0.0,0.42,0.0,0.0,40.75,36.2,32.7,1.63,19.2,4.1,0.25,0.13,0.63,3.5
+milan-radin-320c7c,Milan Radin,34.0,Serbia,173.0,Both,MF,TSC,Serbian SuperLiga,32,2288,71.5,0,2,0.0,0.08,0.0,0.11,0.11,0.23,0.11,1.57,0.14,9.1,16.8,2.71,0.14,1.29,49.0,83.3,6.0,0.86,6.0,2.14,1.29,0.71,50.0,37.86,1.43,70.71,15.0,3.0,47.29,1.29,1.57,1.57,5.14,1.86,72.2,0.71,0.0,3.0,,,,,,,,,,,,,,,,,,0.125
+stefan-jovanovic-047f55,Stefan Jovanović,31.0,Serbia,178.0,,DF,TSC,Serbian SuperLiga,29,2290,79.0,0,0,0.0,0.0,0.0,0.01,0.04,0.05,0.01,0.26,0.0,0.0,28.0,2.46,0.39,0.91,36.34,81.0,2.72,0.91,2.97,2.59,1.03,0.26,66.7,24.57,0.78,56.25,13.84,0.78,26.51,2.72,1.68,1.16,5.82,0.52,28.6,0.26,0.0,2.33,,,,,,,,,,,,,,,,,,0.4
+petar-stanic-f02c9f,Petar Stanic,24.0,Serbia,186.0,Both,MF,TSC,Serbian SuperLiga,33,2255,68.3,8,6,0.32,0.24,0.43,0.17,0.15,0.34,0.68,2.13,0.43,20.0,25.7,4.48,0.43,2.35,28.36,76.0,2.35,0.21,3.63,2.35,1.92,0.85,40.0,26.45,0.85,47.56,17.27,2.77,28.58,0.64,0.43,1.49,4.27,0.85,57.1,0.0,0.0,1.07,,,,,,,,,,,,,,,,,,2.5
+milos-pantovic-8e3d4c,Miloš Pantović,23.0,Serbia,185.0,,MF,TSC,Serbian SuperLiga,34,2204,64.8,10,6,0.41,0.25,0.87,0.66,0.09,0.75,0.66,3.82,1.39,36.4,14.7,4.68,0.52,1.39,26.19,79.9,1.39,0.52,1.91,8.5,1.21,1.73,62.5,26.01,1.56,45.61,24.62,5.72,32.77,0.69,0.35,0.52,1.91,1.21,41.2,0.0,0.0,1.04,,,,,,,,,,,,,,,,,,3.0
+prestige-mboungou-e6cc15,Prestige Mboungou,25.0,Congo,175.0,,FW-MF,TSC,Serbian SuperLiga,29,1926,66.4,11,3,0.51,0.14,0.29,0.09,0.03,0.09,0.09,1.75,0.58,33.3,18.3,4.09,0.29,0.58,23.08,73.8,0.58,2.05,3.21,9.64,5.84,2.34,33.3,33.31,3.21,47.92,27.47,4.38,34.77,1.75,0.0,0.88,4.68,1.75,40.0,0.0,0.0,0.58,,,,,,,,,,,,,,,,,,2.5
+mateja-orevic-6e0a75,Mateja Đorđević,22.0,Serbia,,,DF,TSC,Serbian SuperLiga,23,1808,78.6,0,1,0.0,0.05,0.0,0.01,0.0,0.01,0.01,0.13,0.0,0.0,13.8,0.13,0.0,0.0,36.82,82.3,2.38,0.26,2.38,0.26,0.0,0.4,60.0,33.39,0.26,53.97,2.51,0.26,36.16,1.19,0.66,1.19,3.3,0.66,45.5,0.26,0.0,1.58,,,,,,,,,,,,,,,,,,
+vukasin-krstic-404799,Vukašin Krstić,22.0,Serbia,184.0,,DF,TSC,Serbian SuperLiga,22,1626,73.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+luka-capan-538f46,Luka Capan,30.0,Croatia,186.0,,DF,TSC,Serbian SuperLiga,21,1583,75.4,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.43,0.0,0.0,70.38,93.8,3.84,0.0,2.99,0.0,0.0,0.0,0.0,48.63,0.43,81.47,2.99,0.85,67.39,1.28,0.43,0.43,0.43,0.0,0.0,1.28,0.0,2.13,,,,,,,,,,,,,,,,,,0.15
+viktor-radojevic-6f0a31,Viktor Radojevic,21.0,Serbia,175.0,,DF,TSC,Serbian SuperLiga,21,1550,73.8,0,0,0.0,0.0,0.0,0.05,0.05,0.05,0.05,2.0,0.0,0.0,27.2,3.0,0.0,0.5,49.5,71.7,7.0,0.0,6.0,4.5,0.5,1.0,40.0,40.0,0.0,82.0,19.0,0.0,45.5,2.5,1.5,1.5,5.0,2.5,71.4,0.0,0.0,1.0,,,,,,,,,,,,,,,,,,1.5
+marko-lazetic-3d9ca9,Marko Lazetić,21.0,Serbia,190.0,,FW,TSC,Serbian SuperLiga,32,1478,46.2,1,0,0.06,0.0,0.2,0.2,0.06,0.26,0.2,2.0,0.8,40.0,14.4,1.6,0.2,1.0,9.8,80.3,0.2,0.2,0.4,3.4,1.0,1.0,41.7,13.4,1.0,22.2,9.6,3.2,14.2,0.8,0.2,0.4,2.4,1.0,38.5,0.6,0.0,2.4,,,,,,,,,,,,,,,,,,0.8
+milos-degenek-e62eb5-1,Miloš Degenek,31.0,Australia,187.0,Right,DF-MF,TSC,Serbian SuperLiga,16,1440,90.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,52.0,89.7,3.5,0.0,4.0,0.0,1.0,0.0,,44.0,0.5,67.5,1.0,0.0,45.0,0.5,1.0,1.5,3.0,3.0,60.0,0.0,0.0,1.0,,,,,,,,,,,,,,,,,,0.5
+mihajlo-banjac-1bf104,Mihajlo Banjac,26.0,Serbia,182.0,Right,MF,TSC,Serbian SuperLiga,19,1305,68.7,1,4,0.07,0.28,0.0,0.23,0.19,0.42,0.23,3.02,0.93,30.8,20.4,3.49,0.23,1.86,37.21,79.6,5.12,0.93,4.88,3.26,1.63,0.0,0.0,30.7,1.4,61.63,28.14,3.02,42.79,2.09,0.93,0.93,4.42,1.63,70.0,0.47,0.0,1.63,,,,,,,,,,,,,,,,,,1.7
+ifet-akovac-9a1a48,Ifet Đakovac,27.0,Bosnia and Herzegovina,180.0,,MF,TSC,Serbian SuperLiga,15,1207,80.5,6,6,0.45,0.45,0.41,0.29,0.2,0.49,0.47,3.89,1.02,26.3,22.0,3.48,0.41,1.64,29.86,73.7,2.05,1.43,4.7,4.7,1.02,2.25,57.9,33.55,1.02,56.25,23.73,4.5,38.86,2.45,0.41,1.23,5.11,0.2,25.0,0.2,0.0,1.64,,,,,,,,,,,,,,,,,,
+nemanja-petrovic-33f37a,Nemanja Petrović,33.0,Serbia,176.0,Left,DF,TSC,Serbian SuperLiga,17,1261,74.2,0,0,0.0,0.2,0.0,0.04,0.16,0.22,0.04,0.8,0.2,25.0,17.4,2.4,0.6,0.6,44.4,77.6,4.8,0.6,6.6,4.0,0.6,0.8,40.0,35.2,1.4,67.0,17.0,2.2,39.2,1.0,1.8,0.4,5.0,1.2,50.0,0.2,0.0,0.4,,,,,,,,,,,,,,,,,,0.4
+milos-vulic-29dc76,Miloš Vulić,29.0,Serbia,183.0,Right,MF,TSC,Serbian SuperLiga,25,1217,48.7,4,2,0.3,0.15,0.0,0.08,0.04,0.12,0.08,1.57,0.39,25.0,25.2,2.36,0.39,1.18,43.23,82.7,3.14,0.39,1.97,1.57,1.18,0.0,0.0,23.58,0.39,64.06,8.65,1.18,41.66,1.18,1.18,0.0,6.29,0.0,0.0,0.0,0.0,2.36,,,,,,,,,,,,,,,,,,0.4
+aleksandar-cirkovic-1e086c,Aleksandar Ćirković,24.0,Serbia,179.0,,MF,Ferencváros,NB I,5,180,36.0,0,0,0.0,0.75,0.0,0.24,0.15,0.41,0.24,3.01,1.32,43.8,20.2,4.89,0.56,2.25,23.3,70.5,1.5,1.69,2.63,11.65,3.76,1.69,56.3,28.0,3.01,41.9,25.18,3.95,30.63,0.75,0.56,0.75,3.38,0.0,,0.19,0.0,0.56,,,,,,,,,,,,,,,,,,2.0
+ivan-milosavljevic-4bffbd,Ivan Milosavljević,,Serbia,178.0,Left,DF,TSC,Serbian SuperLiga,23,889,38.7,2,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+aleksa-pejic-bc6521,Aleksa Pejić,26.0,Serbia,190.0,,MF,TSC,Serbian SuperLiga,25,1113,44.5,1,0,0.08,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,1.46,0.0,0.36,37.89,87.4,2.92,0.0,2.92,1.09,2.19,2.19,75.0,27.33,0.0,59.76,8.02,1.09,34.98,4.01,1.46,1.82,5.47,2.92,53.3,0.36,0.0,4.01,,,,,,,,,,,,,,,,,,0.7
+dusan-stevanovic-7eb19d,Dušan Stevanović,27.0,Serbia,186.0,,DF,TSC,Serbian SuperLiga,12,919,76.6,0,0,0.0,0.0,0.0,0.04,0.0,0.04,0.04,0.53,0.0,0.0,18.8,0.53,0.0,0.18,58.17,85.0,3.71,0.18,3.18,0.18,0.35,0.35,100.0,45.62,0.53,78.68,2.12,0.35,52.51,0.71,1.95,0.71,3.71,2.12,57.1,0.0,0.0,0.53,,,,,,,,,,,,,,,,,,0.275
+dragoljub-savic-6b8dfb,Dragoljub Savić,24.0,Serbia,181.0,Right,FW,TSC,Serbian SuperLiga,14,899,64.2,3,2,0.3,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+andrej-todoroski-1c5108,Andrej Todoroski,26.0,North Macedonia,175.0,,MF,TSC,Serbian SuperLiga,10,572,57.2,2,1,0.31,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+sasa-jovanovic-6fceae,Saša Jovanović,33.0,Serbia,184.0,,FW-MF,TSC,Serbian SuperLiga,13,517,39.8,3,4,0.52,0.7,0.0,0.0,0.25,0.25,0.0,0.85,0.28,33.3,28.5,1.41,0.56,0.85,8.46,53.6,0.28,0.56,0.85,7.9,1.69,0.28,100.0,10.44,0.56,23.98,12.98,3.39,17.21,0.56,0.28,0.56,3.95,0.0,0.0,0.0,0.0,0.85,,,,,,,,,,,,,,,,,,0.4
+bence-sos-2cbfca,Bence Sós,31.0,Hungary,178.0,,MF,TSC,Serbian SuperLiga,23,597,26.0,1,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+nikola-simic-23bc58,Nikola Simić,28.0,Serbia,182.0,,GK-MF,TSC,Serbian SuperLiga,6,524,87.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+macky-bagnack-f198e1,Macky Bagnack,27.0,Cameroon,182.0,Right,DF,TSC,Serbian SuperLiga,6,375,62.5,1,0,0.24,0.0,0.0,0.03,0.0,0.03,0.03,0.33,0.0,0.0,11.9,0.0,0.0,0.17,18.17,64.1,1.67,0.17,2.67,0.0,0.0,0.0,,13.5,0.5,41.0,1.0,0.5,13.17,2.17,2.0,1.17,7.17,1.83,52.4,0.33,0.0,0.83,,,,,,,,,,,,,,,,,,0.35
+jovan-vlalukin-c0fed6,Jovan Vlalukin,27.0,Serbia,176.0,,DF,TSC,Serbian SuperLiga,6,326,54.3,0,0,0.0,0.0,0.0,0.02,0.0,0.02,0.02,0.25,0.0,0.0,15.6,0.98,0.0,0.25,20.11,69.5,1.72,0.98,1.96,2.21,1.47,0.49,28.6,20.11,0.25,43.65,7.6,0.98,19.62,2.7,2.7,0.98,3.68,0.98,50.0,0.0,0.0,0.25,,,,,,,,,,,,,,,,,,0.25
+ore-gordic-49021e,Đorđe Gordić,21.0,Serbia,,,FW,TSC,Serbian SuperLiga,9,189,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksandar-stancic-94b689,Aleksandar Stančić,19.0,Serbia,178.0,,MF,TSC,Serbian SuperLiga,6,172,28.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+stefan-mladenovic-de0cbb,Stefan Mladenović,18.0,Serbia,179.0,,FW,TSC,Serbian SuperLiga,3,122,40.7,1,0,0.74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nemanja-jorgic-46e3fc,Nemanja Jorgić,37.0,Serbia,186.0,Left,GK,TSC,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+nikola-kuveljic-f33b3c,Nikola Kuveljić,28.0,Serbia,194.0,,MF,TSC,Serbian SuperLiga,1,6,6.0,0,0,0.0,0.0,0.0,0.07,0.03,0.14,0.07,1.39,0.35,25.0,25.2,0.7,0.0,0.35,20.15,76.3,1.39,1.04,2.43,3.47,1.39,0.35,33.3,13.55,0.7,38.57,8.69,1.04,24.67,1.04,2.78,1.74,3.47,2.43,100.0,1.04,0.35,2.08,,,,,,,,,,,,,,,,,,0.5
+milos-jovicic-5c5414,Miloš Jovičić,19.0,Croatia,189.0,,MF,TSC,Serbian SuperLiga,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ilja-pantelin-1ae533,Ilja Pantelin,18.0,Serbia,185.0,,GK,TSC,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-tomovic-d03c86,Stefan Tomovic,17.0,Serbia,184.0,,MF,TSC,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+david-trajkovic-5550b1,David Trajkovic,19.0,Serbia,178.0,,MF,TSC,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sasa-stamenkovic-5f52bc,Saša Stamenković,40.0,Serbia,194.0,Right,GK,Mladost Lučani,Serbian SuperLiga,35,3150,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+aleksandar-pejovic-cf08f5,Aleksandar Pejović,34.0,Serbia,174.0,,MF,Mladost Lučani,Serbian SuperLiga,34,3030,89.1,10,4,0.3,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+nikola-andric-b90077,Nikola Andrić,33.0,Serbia,183.0,,DF,Mladost Lučani,Serbian SuperLiga,33,2834,85.9,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+nikola-cirkovic-5cbd64,Nikola Ćirković,33.0,Serbia,188.0,Right,DF-FW,Mladost Lučani,Serbian SuperLiga,28,2475,88.4,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+zarko-udovicic-754d47,Žarko Udovičić,38.0,Serbia,185.0,,DF-MF,Mladost Lučani,Serbian SuperLiga,32,2421,75.7,1,3,0.04,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milan-joksimovic-9521a9,Milan Joksimović,35.0,Serbia,184.0,,DF,Mladost Lučani,Serbian SuperLiga,27,2245,83.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+uros-ljubomirac-fe6145,Uroš Ljubomirac,36.0,Serbia,181.0,,MF,Mladost Lučani,Serbian SuperLiga,32,2206,68.9,3,2,0.12,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+janko-tumbasevic-043825,Janko Tumbasević,40.0,Montenegro,178.0,Right,MF,Mladost Lučani,Serbian SuperLiga,24,2041,85.0,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+dusan-cvetinovic-54536b,Dusan Cvetinovic,36.0,Serbia,186.0,Both,DF,Mladost Lučani,Serbian SuperLiga,24,1697,70.7,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+petar-bojic-f8ad83,Petar Bojić,34.0,Serbia,185.0,Both,MF,Mladost Lučani,Serbian SuperLiga,31,2117,68.3,4,1,0.17,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+filip-zunic-8715de,Filip Zunic,25.0,Serbia,180.0,,MF,Mladost Lučani,Serbian SuperLiga,28,1865,66.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+nikola-lekovic-02f978,Nikola Leković,35.0,Serbia,176.0,Left,DF,Mladost Lučani,Serbian SuperLiga,22,1537,69.9,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ognjen-krsmanovic-931feb,Ognjen Krsmanovic,20.0,Serbia,187.0,Right,MF,Mladost Lučani,Serbian SuperLiga,32,1444,45.1,2,3,0.12,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+jovan-ciric-fa113a,Jovan Ćirić,18.0,Serbia,175.0,,FW,Mladost Lučani,Serbian SuperLiga,24,1129,47.0,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+aleksandar-varjacic-2aa891,Aleksandar Varjačić,34.0,Serbia,187.0,Right,DF,Mladost Lučani,Serbian SuperLiga,23,1432,62.3,2,1,0.13,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+ognjen-bondzulic-5aa4a2,Ognjen Bondžulić,18.0,Serbia,178.0,,MF,Mladost Lučani,Serbian SuperLiga,16,1352,84.5,6,1,0.4,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+dilan-ortiz-71bf52-1,Dilan Ortiz,25.0,Colombia,191.0,,FW,Mladost Lučani,Serbian SuperLiga,15,746,49.7,2,2,0.24,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+nikola-jojic-32fb24,Nikola Jojić,22.0,Serbia,183.0,,MF,Mladost Lučani,Serbian SuperLiga,12,583,48.6,1,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+vladimir-golemic-7c0967,Vladimir Golemić,34.0,Slovenia,192.0,Right,DF,Mladost Lučani,Serbian SuperLiga,6,409,68.2,0,0,0.12,0.06,0.12,0.03,0.02,0.05,0.03,0.35,0.24,66.7,19.2,0.59,0.0,0.3,37.19,73.5,1.83,0.06,2.72,0.06,0.18,0.0,,29.39,0.12,60.73,2.07,1.01,28.92,1.01,2.42,0.95,6.33,3.31,65.9,0.3,0.0,1.48,,,,,,,,,,,,,,,,,,0.1
+milos-divac-b1eed4,Miloš Divac,21.0,Serbia,183.0,,DF,Mladost Lučani,Serbian SuperLiga,9,405,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+ibrahima-mame-ndiaye-7b1384,Ibrahima Mame N'Diaye,31.0,Senegal,178.0,Both,FW,Mladost Lučani,Serbian SuperLiga,9,379,42.1,1,1,0.24,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vuk-bogdanovic-ac0197,Vuk Bogdanović,23.0,Serbia,189.0,Right,DF,Mladost Lučani,Serbian SuperLiga,6,237,39.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+ognjen-alempijevic-9aba75,Ognjen Alempijevic,18.0,Serbia,175.0,,FW,Mladost Lučani,Serbian SuperLiga,6,183,30.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+patrick-friday-eze-1a192b,Patrick Friday Eze,32.0,Nigeria,187.0,,FW,Mladost Lučani,Serbian SuperLiga,13,258,19.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+uro-zec-fc4fc0,Đuro Zec,35.0,Serbia,178.0,,MF,Mladost Lučani,Serbian SuperLiga,5,106,21.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-popovic-71f169,Nikola Popović,19.0,Serbia,188.0,,GK,Mladost Lučani,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+luka-savic-89c5a5,Luka Savić,24.0,Serbia,202.0,,GK,Mladost Lučani,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+sava-pribakovic-efb528,Sava Pribaković,22.0,Serbia,179.0,,DF,Mladost Lučani,Serbian SuperLiga,6,44,7.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ore-marinkovic-0353d2,Đorđe Marinković,19.0,Serbia,,Right,MF,Mladost Lučani,Serbian SuperLiga,4,22,5.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bogdan-matijasevic-cb1214,Bogdan Matijašević,21.0,Serbia,195.0,,GK,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+aleksa-milosevic-97621e,Aleksa Milosevic,18.0,Serbia,183.0,,DF,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+danilo-nacic-1265de,Danilo Nacic,18.0,Serbia,178.0,,FW,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vladimir-radivojevic-7e18c0,Vladimir Radivojević,39.0,Serbia,182.0,,MF,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+zeljko-samcovic-1ef90d-1,Željko Samčović,23.0,Serbia,198.0,,GK,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+ognjen-vucicevic-bc62b1,Ognjen Vucicevic,19.0,Serbia,183.0,,DF,Mladost Lučani,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+sambou-sissoko-a124cb,Sambou Sissoko,25.0,Mali,171.0,Right,MF,Čukarički,Serbian SuperLiga,34,2823,83.0,2,2,0.06,0.06,0.0,0.0,0.0,0.0,0.0,0.36,0.0,0.0,29.4,0.36,0.0,0.0,21.64,74.4,2.36,0.18,2.18,0.36,0.18,0.0,0.0,18.36,0.55,39.82,2.73,0.0,19.45,2.91,1.45,0.91,5.09,1.27,58.3,0.18,0.0,1.64,,,,,,,,,,,,,,,,,,0.85
+nikola-stankovic-2ed8b0,Nikola Stanković,22.0,Serbia,181.0,,DF,Čukarički,Serbian SuperLiga,31,2723,87.8,3,0,0.1,0.0,0.0,0.02,0.0,0.02,0.02,0.39,0.39,100.0,21.6,0.58,0.0,0.0,24.19,69.1,1.94,0.58,4.06,1.55,0.97,0.58,60.0,20.52,0.39,45.1,8.9,0.77,20.32,2.9,2.13,1.35,5.42,0.77,50.0,0.19,0.0,0.97,,,,,,,,,,,,,,,,,,1.5
+ore-ivanovic-1c549f,Đorđe Ivanović,30.0,Serbia,177.0,,FW-MF,Čukarički,Serbian SuperLiga,30,2289,76.3,3,1,0.12,0.04,0.33,0.23,0.0,0.23,0.23,2.0,0.67,33.3,17.5,0.67,0.0,0.0,26.0,73.6,1.0,0.0,1.67,11.0,2.0,1.33,40.0,28.33,0.67,49.33,26.0,2.67,37.0,1.0,0.33,0.67,3.67,0.67,18.2,0.0,0.0,1.33,,,,,,,,,,,,,,,,,,
+marko-docic-7bb28a,Marko Docić,32.0,Serbia,177.0,Left,MF,Čukarički,Serbian SuperLiga,31,2464,79.5,2,4,0.07,0.15,0.0,0.0,0.09,0.09,0.0,0.0,0.0,,,2.27,0.0,1.36,28.64,70.0,5.0,0.45,4.09,0.45,0.91,0.45,100.0,21.82,0.0,44.55,8.18,0.45,28.18,0.45,0.45,1.36,4.09,0.45,20.0,0.91,0.0,1.82,,,,,,,,,,,,,,,,,,1.0
+vojin-serafimovic-01a3af,Vojin Serafimović,20.0,Serbia,190.0,,DF,Čukarički,Serbian SuperLiga,27,2136,79.1,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+vukasin-jovanovic-46d17e,Vukašin Jovanović,29.0,Serbia,188.0,Right,DF,Čukarički,Serbian SuperLiga,24,2012,83.8,0,1,0.0,0.04,0.0,0.0,0.0,0.0,0.0,0.47,0.0,0.0,13.8,0.47,0.0,0.0,52.58,84.7,0.47,0.0,0.0,0.0,0.0,0.0,,48.79,0.0,71.05,0.47,0.47,48.32,1.42,0.47,1.42,7.58,1.89,44.4,0.47,0.0,0.95,,,,,,,,,,,,,,,,,,0.6
+mihajlo-cvetkovic-6ecef5,Mihajlo Cvetković,18.0,Serbia,175.0,,FW,Čukarički,Serbian SuperLiga,31,1672,53.9,8,1,0.43,0.05,0.0,0.09,0.09,0.16,0.09,0.94,0.31,33.3,14.7,0.94,0.0,1.25,13.8,77.2,0.63,0.63,0.94,5.33,0.63,0.63,66.7,18.5,0.63,30.73,12.86,2.82,19.44,0.31,0.63,0.63,3.14,0.94,15.8,0.0,0.0,0.63,,,,,,,,,,,,,,,,,,5.0
+nikola-mirkovic-2b48ce,Nikola Mirković,34.0,Serbia,193.0,Right,GK,Čukarički,Serbian SuperLiga,20,1800,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+lazar-tufegdzic-c0412b,Lazar Tufegdžić,28.0,Serbia,185.0,,MF,Čukarički,Serbian SuperLiga,29,1519,52.4,3,4,0.18,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+uros-miladinovic-70bbfe,Uroš Miladinović,21.0,Serbia,177.0,,FW,Čukarički,Serbian SuperLiga,24,1515,63.1,3,3,0.18,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+miladin-stevanovic-673acb,Miladin Stevanović,29.0,Serbia,180.0,Right,DF,Čukarički,Serbian SuperLiga,18,1498,83.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+milos-cvetkovic-19c41b,Miloš Cvetković,35.0,Serbia,175.0,Right,DF,Čukarički,Serbian SuperLiga,20,1460,73.0,1,0,0.06,0.0,0.0,0.0,0.06,0.06,0.0,0.0,0.0,,,2.17,0.0,0.99,29.41,74.5,2.96,0.99,3.16,3.16,1.18,0.2,50.0,18.75,0.79,45.79,10.26,0.0,24.28,2.37,0.59,0.79,5.13,0.0,0.0,0.2,0.0,1.78,,,,,,,,,,,,,,,,,,0.1
+lazar-kalicanin-bd7eed,Lazar Kaličanin,24.0,Serbia,189.0,,GK,Čukarički,Serbian SuperLiga,16,1440,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+bojica-nikcevic-120ca6,Bojica Nikčević,25.0,Serbia,182.0,,MF,Čukarički,Serbian SuperLiga,25,1203,48.1,1,0,0.07,0.24,0.0,0.0,0.07,0.07,0.0,0.47,0.0,0.0,21.7,1.89,0.24,0.71,20.61,74.4,1.89,0.95,3.08,4.26,0.95,0.24,100.0,18.95,1.18,34.58,10.66,0.95,20.61,0.95,0.47,0.47,4.03,0.71,50.0,0.47,0.0,1.89,,,,,,,,,,,,,,,,,,0.7
+dusan-jovancic-05393b,Dušan Jovančić,35.0,Serbia,186.0,Both,MF,Čukarički,Serbian SuperLiga,14,1041,74.4,0,0,0.0,0.0,0.0,0.09,0.09,0.19,0.09,0.94,0.0,0.0,17.9,1.41,0.0,0.94,36.09,90.6,3.75,0.47,3.75,0.47,1.41,1.41,37.5,32.81,0.47,59.06,9.38,0.94,34.22,6.56,1.41,1.88,7.03,0.94,100.0,0.94,0.47,2.34,,,,,,,,,,,,,,,,,,0.1
+lazar-stojanovic-4d4562,Lazar Stojanovic,20.0,Serbia,187.0,,DF,Čukarički,Serbian SuperLiga,12,960,80.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+andrej-bacanin-bca205,Andrej Bačanin,18.0,Serbia,187.0,,MF,Čukarički,Serbian SuperLiga,17,987,58.1,1,2,0.09,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.8
+nemanja-milojevic-fc183b,Nemanja Milojević,27.0,Serbia,183.0,,MF,Čukarički,Serbian SuperLiga,15,668,44.5,2,1,0.27,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+slobodan-tedic-0e74a2,Slobodan Tedić,25.0,Serbia,190.0,Both,FW,Čukarički,Serbian SuperLiga,27,1152,42.7,5,0,0.39,0.0,0.0,0.29,0.05,0.34,0.29,3.17,0.6,19.0,13.0,2.11,0.0,0.6,13.14,58.4,1.28,0.23,1.21,5.96,0.3,0.76,52.6,16.69,0.38,33.98,17.74,5.13,26.2,0.38,0.23,0.38,1.96,4.61,39.6,0.15,0.0,1.21,,,,,,,,,,,,,,,,,,0.8
+hamady-diop-221871,Hamady Diop,23.0,Senegal,183.0,,DF,Čukarički,Serbian SuperLiga,8,504,63.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+vinicius-mello-1a563b,Vinicius Mello,23.0,Brazil,180.0,Left,FW,Čukarički,Serbian SuperLiga,8,515,64.4,5,2,0.87,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+viktor-rogan-9e2f7a,Viktor Rogan,22.0,Serbia,178.0,,DF,Čukarički,Serbian SuperLiga,14,544,38.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+marinos-tzionis-28c81b,Marinos Tzionis,24.0,Cyprus,162.0,Right,FW-MF,UTA Arad,Liga I,12,627,52.2,2,0,0.29,0.12,0.0,0.12,0.02,0.15,0.12,1.99,0.37,18.8,21.0,2.73,0.12,0.37,26.94,79.8,1.37,1.12,3.23,9.31,2.61,2.36,43.2,32.4,2.23,48.79,27.81,2.48,35.26,2.61,0.37,1.49,3.85,0.37,23.1,0.0,0.0,1.37,,,,,,,,,,,,,,,,,,0.9
+stefan-hajdin-c5cded,Stefan Hajdin,31.0,Croatia,188.0,Left,DF,Čukarički,Serbian SuperLiga,7,441,63.0,0,1,,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+stefan-kovac-6aa1e8-1,Stefan Kovač,26.0,Bosnia and Herzegovina,185.0,,MF,Čukarički,Serbian SuperLiga,4,345,86.2,1,1,0.26,0.26,0.0,0.17,0.06,0.23,0.17,0.85,0.0,0.0,14.5,3.13,0.57,1.71,15.66,65.5,1.99,0.57,3.7,2.28,0.57,0.57,28.6,18.23,0.28,35.32,9.68,2.56,19.94,1.14,1.14,1.71,3.42,0.57,20.0,0.28,0.0,1.42,,,,,,,,,,,,,,,,,,1.8
+filip-matijasevic-02818e,Filip Matijašević,17.0,Serbia,,,MF,Čukarički,Serbian SuperLiga,6,294,49.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uros-kabic-f7b52f,Uroš Kabić,21.0,Serbia,183.0,,MF,Čukarički,Serbian SuperLiga,17,480,28.2,1,1,0.19,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+veljko-radosavljevic-240798,Veljko Radosavljević,20.0,Serbia,180.0,,MF,Čukarički,Serbian SuperLiga,8,310,38.8,1,1,0.29,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+luka-orevic-f3516c,Luka Đorđević,19.0,Serbia,182.0,,FW,Čukarički,Serbian SuperLiga,7,227,32.4,1,1,0.4,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+slavoljub-srnic-34c4a2,Slavoljub Srnić,33.0,Serbia,173.0,Right,MF,Čukarički,Serbian SuperLiga,8,211,26.4,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.35,0.0,0.35,25.87,76.0,1.06,0.71,3.9,4.61,1.42,0.35,33.3,25.87,1.06,38.62,10.98,1.06,25.51,0.71,1.06,1.42,4.96,0.0,0.0,0.35,0.0,1.06,,,,,,,,,,,,,,,,,,0.075
+godwill-vadze-27c57d,Godwill Vadze,24.0,Ghana,,,FW,Čukarički,Serbian SuperLiga,4,151,37.8,0,1,,0.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milan-pavkov-78d306,Milan Pavkov,31.0,Serbia,188.0,Right,FW,Čukarički,Serbian SuperLiga,18,360,20.0,1,2,0.25,0.5,0.0,0.18,0.18,0.36,0.18,2.8,1.02,36.4,17.6,3.06,0.0,1.02,10.96,50.6,2.29,1.27,3.31,4.59,0.26,0.0,0.0,22.44,0.76,33.14,15.55,3.31,27.03,0.26,0.0,0.26,3.06,5.61,52.4,0.76,0.0,2.04,,,,,,,,,,,,,,,,,,0.4
+vladan-carapic-0d2107,Vladan Čarapić,18.0,Serbia,191.0,,GK,Čukarički,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mateja-prokopijevic-26da91,Mateja Prokopijević,18.0,Serbia,186.0,,MF,Čukarički,Serbian SuperLiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+andrej-subotic-4bc8b9,Andrej Subotić,,Serbia,178.0,,FW,Čukarički,Serbian SuperLiga,4,79,19.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+emmanuel-dzigbah-e1b745,Emmanuel Dzigbah,19.0,Ghana,171.0,,MF,Čukarički,Serbian SuperLiga,3,31,10.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+mitar-ergelas-dabb8b,Mitar Ergelas,,Serbia,178.0,,MF,Čukarički,Serbian SuperLiga,1,4,4.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+jovan-vojnovic-328e02,Jovan Vojnović,19.0,Serbia,185.0,,DF,Čukarički,Serbian SuperLiga,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marko-arsovic-e8bc77,Marko Arsovic,,Serbia,183.0,,FW,Čukarički,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+marko-kandic-091077,Marko Kandic,18.0,Serbia,,,GK,Čukarički,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-subotic-38ecb0,Luka Subotić,22.0,Serbia,190.0,,DF,Čukarički,Serbian SuperLiga,0,0,,0,0,0.0,0.0,0.0,0.0,0.03,0.03,0.0,0.0,0.0,,,0.59,0.0,0.59,25.97,80.7,1.18,0.0,2.36,0.0,0.0,0.0,0.0,18.89,0.0,46.92,0.0,0.0,22.72,2.66,1.77,1.48,5.31,0.59,40.0,0.59,0.3,1.48,,,,,,,,,,,,,,,,,,0.65
+branislav-knezevic-e65651,Branislav Knežević,23.0,Serbia,183.0,,DF,Železničar Pančevo,Serbian SuperLiga,35,2673,76.4,7,0,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+matija-mitrovic-0eb7da,Matija Mitrovic,20.0,Serbia,182.0,,MF,Železničar Pančevo,Serbian SuperLiga,34,2276,66.9,2,5,0.08,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+zoran-popovic-766595,Zoran Popović,37.0,Serbia,188.0,Right,GK,Železničar Pančevo,Serbian SuperLiga,27,2365,87.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+stefan-cvetkovic-7e0194,Stefan Cvetkovic,27.0,Serbia,184.0,,FW,Železničar Pančevo,Serbian SuperLiga,33,2285,69.2,8,3,0.32,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+nikola-uricic-1bf267,Nikola Đuričić,25.0,Serbia,180.0,,DF,Železničar Pančevo,Serbian SuperLiga,26,2233,85.9,1,3,0.04,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uros-stojanovic-b93013,Uroš Stojanović,30.0,Serbia,181.0,,DF,Železničar Pančevo,Serbian SuperLiga,28,2292,81.9,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+nemanja-milunovic-d2ebcf,Nemanja Milunović,36.0,Serbia,194.0,Right,DF,Železničar Pančevo,Serbian SuperLiga,27,2169,80.3,1,1,0.04,0.04,0.0,0.05,0.0,0.05,0.05,0.73,0.24,33.3,9.7,1.22,0.0,0.0,44.03,76.1,1.7,0.73,4.38,0.49,0.0,0.49,100.0,41.35,0.73,69.81,2.92,1.46,37.95,0.73,2.68,2.43,9.73,3.41,66.7,0.24,0.0,0.49,,,,,,,,,,,,,,,,,,0.05
+mirko-milikic-5d6edb,Mirko Milikic,23.0,Montenegro,194.0,,DF,Železničar Pančevo,Serbian SuperLiga,28,2084,74.4,2,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+dario-grgic-f3b171,Dario Grgić,22.0,Serbia,181.0,,MF,Železničar Pančevo,Serbian SuperLiga,33,1983,60.1,5,4,0.23,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+abdul-razak-yusif-1048d0,Abdul Razak Yusif,24.0,Ghana,181.0,,DF,Železničar Pančevo,Serbian SuperLiga,29,1760,60.7,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+lazar-romanic-f3225c-1,Lazar Romanić,27.0,Serbia,179.0,Right,FW-MF,Železničar Pančevo,Serbian SuperLiga,19,1697,89.3,9,4,0.48,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+francis-ezeh-4fb0ff,Francis Ezeh,28.0,Nigeria,178.0,,FW,Železničar Pančevo,Serbian SuperLiga,20,1394,69.7,5,5,0.32,0.32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+marko-curic-b69392,Marko Curic,22.0,Serbia,180.0,,MF,Železničar Pančevo,Serbian SuperLiga,26,1308,50.3,2,2,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+nikola-jovanovic-3a2754,Nikola Jovanovic,22.0,Serbia,178.0,,FW,Železničar Pančevo,Serbian SuperLiga,25,1302,52.1,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+boris-sekulic-35d848,Boris Sekulić,34.0,Slovakia,186.0,Right,DF-MF,Železničar Pančevo,Serbian SuperLiga,20,1195,59.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+marko-konatar-aaa595,Marko Konatar,25.0,Serbia,180.0,,DF,Železničar Pančevo,Serbian SuperLiga,18,1139,63.3,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+sekou-sanogo-d5e5ad,Sékou Sanogo,36.0,Côte d'Ivoire,183.0,Left,MF,Železničar Pančevo,Serbian SuperLiga,16,1095,68.4,0,1,0.0,0.08,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.78,0.0,0.0,26.77,81.2,1.55,0.39,1.94,0.0,0.0,0.0,,22.11,0.0,39.57,1.16,0.0,20.17,1.55,1.16,0.78,6.59,1.16,60.0,0.78,0.0,3.1,,,,,,,,,,,,,,,,,,
+stefan-pirgic-746e4b,Stefan Pirgic,22.0,Serbia,182.0,,MF,Železničar Pančevo,Serbian SuperLiga,17,995,58.5,0,3,,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+ognjen-lukic-959346,Ognjen Lukić,22.0,Serbia,193.0,Right,GK,Železničar Pančevo,Serbian SuperLiga,8,720,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kevin-soni-3d3f41,Kévin Soni,27.0,Cameroon,183.0,Right,MF,Železničar Pančevo,Serbian SuperLiga,10,441,44.1,1,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+janko-jevremovic-b0cef2-1,Janko Jevremović,21.0,Serbia,181.0,,MF,Železničar Pančevo,Serbian SuperLiga,15,420,28.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+jovan-milosavljevic-1b6d3f,Jovan Milosavljević,18.0,Serbia,186.0,,MF,Železničar Pančevo,Serbian SuperLiga,13,405,31.2,1,0,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+anthony-lokosa-013704,Anthony Lokosa,28.0,Nigeria,185.0,,FW,Železničar Pančevo,Serbian SuperLiga,11,276,25.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+filip-novic-43153d,Filip Nović,23.0,Serbia,186.0,Right,GK,Železničar Pančevo,Serbian SuperLiga,3,245,81.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+veljko-vukojevic-1ba016,Veljko Vukojević,19.0,Serbia,178.0,,MF,Železničar Pančevo,Serbian SuperLiga,5,171,34.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+djakaridja-traore-239528,Djakaridja Traoré,27.0,Côte d'Ivoire,180.0,,FW,Železničar Pančevo,Serbian SuperLiga,6,161,26.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bojan-balaz-d87151,Bojan Balaž,,Serbia,,,DF,Železničar Pančevo,Serbian SuperLiga,5,160,32.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+ben-nabouhane-326f58,Ben Nabouhane,36.0,Comoros,173.0,Left,FW-MF,Železničar Pančevo,Serbian SuperLiga,5,75,15.0,0,1,0.21,1.2,0.0,0.36,0.08,0.44,0.53,2.54,0.63,25.0,18.0,2.11,0.0,0.85,13.52,63.4,1.06,0.21,1.48,7.61,0.63,0.85,66.7,17.32,1.06,30.85,16.69,3.8,18.38,0.85,0.0,0.21,3.17,1.69,40.0,0.42,0.0,0.85,,,,,,,,,,,,,,,,,,0.05
+luka-vidic-471f9f,Luka Vidić,18.0,Serbia,187.0,,MF,Železničar Pančevo,Serbian SuperLiga,2,69,34.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+bozidar-blagojevic-9c25ba,Bozidar Blagojevic,,Serbia,188.0,,DF,Železničar Pančevo,Serbian SuperLiga,1,66,66.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+mihajlo-spasojevic-ae9b14,Mihajlo Spasojević,21.0,Serbia,181.0,,FW,Železničar Pančevo,Serbian SuperLiga,4,57,14.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+dimitrije-novicevic-1f0e21,Dimitrije Novicevic,19.0,Serbia,,,MF,Železničar Pančevo,Serbian SuperLiga,1,5,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+david-ivic-605b8c,David Ivić,,,185.0,,FW,Železničar Pančevo,Serbian SuperLiga,1,3,3.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+leon-borkovic-4ed8fa,Leon Borkovic,22.0,Germany,183.0,,GK,Železničar Pančevo,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timileyin-joseph-f039e4,Timileyin Joseph,20.0,Nigeria,178.0,,MF,Železničar Pančevo,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marko-krstic-fc6733,Marko Krstic,19.0,Serbia,,,DF,Železničar Pančevo,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milos-vlahovic-20a8df,Miloš Vlahović,,Serbia,190.0,,MF,Železničar Pančevo,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+veljko-okic-589fcc,Veljko Đokić,,Serbia,,,DF,Železničar Pančevo,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+antoine-batisse-695a78,Antoine Batisse,30.0,France,186.0,Right,DF-MF,Novi Beograd,Serbian SuperLiga,36,3240,90.0,2,2,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+nikola-krstic-bb3eeb,Nikola Krstic,20.0,Serbia,178.0,,MF,Novi Beograd,Serbian SuperLiga,33,2491,75.5,6,2,0.22,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+nikola-glisic-ff2e41,Nikola Glišić,26.0,Serbia,175.0,,DF,Novi Beograd,Serbian SuperLiga,33,2579,78.2,4,3,0.14,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+goran-vuklis-bc90f5,Goran Vukliš,36.0,Bosnia and Herzegovina,187.0,,GK,Novi Beograd,Serbian SuperLiga,28,2520,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sinisa-popovic-c6354b,Siniša Popović,20.0,Serbia,184.0,Right,DF,Novi Beograd,Serbian SuperLiga,30,2209,73.6,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+vladimir-lucic-c36e7a,Vladimir Lučić,23.0,Serbia,185.0,,FW,Novi Beograd,Serbian SuperLiga,25,2126,85.0,6,3,0.25,0.13,0.0,0.04,0.09,0.13,0.04,1.32,0.0,0.0,19.5,5.27,0.0,3.07,39.51,76.3,2.63,1.32,5.27,7.9,5.27,5.27,70.6,36.88,2.63,61.46,25.9,7.02,43.9,0.88,0.44,1.32,7.46,0.88,40.0,0.44,0.0,1.32,,,,,,,,,,,,,,,,,,1.7
+vasilije-novicic-b37d10,Vasilije Novičić,17.0,Serbia,175.0,,MF,Novi Beograd,Serbian SuperLiga,23,1898,82.5,1,2,0.05,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+aleksandar-lutovac-e5d45f,Aleksandar Lutovac,28.0,Serbia,180.0,,FW,Novi Beograd,Serbian SuperLiga,28,2108,75.3,0,1,0.0,0.04,0.0,0.05,0.1,0.14,0.05,0.96,0.0,0.0,27.1,0.96,0.0,0.96,20.11,60.9,2.87,0.96,3.83,4.31,2.87,0.0,0.0,23.46,1.91,44.52,11.97,1.44,25.37,1.44,0.96,1.44,4.79,1.44,60.0,0.0,0.0,1.91,,,,,,,,,,,,,,,,,,0.4
+vladimir-radocaj-f0fbe8,Vladimir Radocaj,26.0,Serbia,176.0,,FW,Novi Beograd,Serbian SuperLiga,31,1888,60.9,5,4,0.24,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+luka-krstovic-db8728,Luka Krstović,19.0,Serbia,191.0,,MF,Novi Beograd,Serbian SuperLiga,26,1662,63.9,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+stefan-bastaja-0c3fbc,Stefan Bastaja,20.0,Serbia,179.0,Right,MF,Novi Beograd,Serbian SuperLiga,23,1469,63.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+marko-jevtic-d27c9d,Marko Jevtić,29.0,Serbia,190.0,,DF,Novi Beograd,Serbian SuperLiga,23,1336,58.1,2,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yoann-court-845fe9,Yoann Court,35.0,France,172.0,Left,FW-MF,Novi Beograd,Serbian SuperLiga,28,1428,51.0,3,1,0.19,0.06,0.18,0.11,0.17,0.28,0.11,2.09,0.68,32.4,22.2,2.95,0.61,1.04,22.79,67.0,2.64,0.92,3.99,5.84,2.03,0.74,52.2,25.92,1.54,47.12,19.29,2.09,30.9,2.95,0.92,1.29,3.93,0.68,34.4,0.37,0.0,1.41,,,,,,,,,,,,,,,,,,
+alen-stevanovic-465c9f,Alen Stevanović,34.0,Serbia,180.0,Right,FW-MF,Novi Beograd,Serbian SuperLiga,29,1139,39.3,2,1,0.16,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irfan-zulfic-2f6b8c,Irfan Zulfic,25.0,Serbia,183.0,,MF,Novi Beograd,Serbian SuperLiga,19,1025,53.9,1,2,0.09,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ugo-bonnet-4107ff,Ugo Bonnet,32.0,France,180.0,Left,FW,Novi Beograd,Serbian SuperLiga,24,1064,44.3,4,1,0.34,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ishak-belfodil-fb7828,Ishak Belfodil,33.0,Algeria,192.0,Right,FW-MF,Novi Beograd,Serbian SuperLiga,14,1009,72.1,4,4,0.36,0.36,0.22,0.17,0.12,0.29,0.2,1.71,0.94,54.8,13.1,2.92,0.44,1.21,17.99,69.4,0.61,0.61,1.87,7.1,1.93,0.99,45.0,20.35,0.77,35.37,16.23,4.4,26.9,0.5,0.28,0.5,2.37,2.09,46.9,0.06,0.0,1.05,,,,,,,,,,,,,,,,,,0.3
+lazar-konstantinov-129d03,Lazar Konstantinov,20.0,Serbia,178.0,,DF,Novi Beograd,Serbian SuperLiga,15,998,66.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+nemanja-belic-9e76c4,Nemanja Belić,,Serbia,188.0,Right,GK,Novi Beograd,Serbian SuperLiga,9,810,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.36,6.72,3.36,55.6,0.0,0.34,-0.75,0.0,22.41,46.7,35.2,1.87,16.2,8.6,0.0,0.0,0.75,
+milos-jovic-a94a8f,Milos Jovic,19.0,Serbia,189.0,,FW,Novi Beograd,Serbian SuperLiga,15,662,44.1,2,1,0.27,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+luka-lukovic-912b36,Luka Luković,29.0,Serbia,189.0,,MF,Novi Beograd,Serbian SuperLiga,20,809,40.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+oriyomi-lebi-8a0cf0,Oriyomi Lebi,19.0,Nigeria,185.0,,FW,Novi Beograd,Serbian SuperLiga,11,511,46.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+veljko-kijevcanin-fd5169,Veljko Kijevčanin,26.0,Serbia,185.0,,MF,Novi Beograd,Serbian SuperLiga,9,285,31.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+nikola-terzic-cdca9a,Nikola Terzić,25.0,Serbia,177.0,Left,FW,Novi Beograd,Serbian SuperLiga,4,268,67.0,1,0,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+filip-malbasic-993902,Filip Malbašić,33.0,Serbia,182.0,Right,FW-MF,Novi Beograd,Serbian SuperLiga,8,240,30.0,1,0,0.38,0.1,0.0,0.08,0.07,0.16,0.08,0.94,0.1,11.1,17.5,1.05,0.21,0.42,9.42,52.9,1.15,0.42,1.88,4.29,1.99,0.73,53.8,15.38,1.26,28.57,14.13,2.41,18.94,1.26,0.42,1.05,2.41,1.26,20.0,0.21,0.0,1.78,,,,,,,,,,,,,,,,,,0.15
+maxime-do-couto-teixeira-7ae76e,Maxime Do Couto Teixeira,,France,172.0,Right,FW-MF,Novi Beograd,Serbian SuperLiga,7,243,34.7,1,1,0.37,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kenroy-campbell-a4f0c2,Kenroy Campbell,23.0,Jamaica,180.0,,DF,Novi Beograd,Serbian SuperLiga,7,229,32.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+milan-spremo-90b3e1,Milan Spremo,30.0,Serbia,175.0,,MF,Novi Beograd,Serbian SuperLiga,3,147,49.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+dusan-zagar-773ca9,Dušan Žagar,19.0,Serbia,175.0,,MF,Novi Beograd,Serbian SuperLiga,4,70,17.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+emmanuel-adimchukwunobi-e095aa,Emmanuel Adimchukwunobi,20.0,Nigeria,180.0,,MF,Novi Beograd,Serbian SuperLiga,3,51,17.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milos-basic-93454d,Miloš Bašić,19.0,Serbia,,Left,FW,Novi Beograd,Serbian SuperLiga,2,37,18.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mustapha-abiodun-ae7f7a,Mustapha Abiodun,20.0,Nigeria,170.0,Right,FW,Novi Beograd,Serbian SuperLiga,3,25,8.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+boston-billups-30b536,Boston Billups,20.0,United States,170.0,,MF,Novi Beograd,Serbian SuperLiga,4,21,5.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+lazar-pavlovic-c426d4,Lazar Pavlović,24.0,Serbia,171.0,,MF,Novi Beograd,Serbian SuperLiga,1,15,15.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ore-radivojevic-35ff3b,Đorđe Radivojević,17.0,Serbia,,,MF,Novi Beograd,Serbian SuperLiga,1,13,13.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+radoslaw-wypart-6c1990,Radoslaw Wypart,19.0,Poland,177.0,,MF,Novi Beograd,Serbian SuperLiga,1,5,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+zeljko-arsic-a9c3ab,Željko Arsić,28.0,Serbia,173.0,,FW,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+serigne-coly-c22fe9,Serigne Coly,19.0,Senegal,,,DF,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-curuvija-7cae66,Nikola Curuvija,19.0,Austria,194.0,,GK,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mohammad-fazal-970855,Mohammad Fazal,23.0,Pakistan,173.0,,DF,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+kadir-gicic-84589b,Kadir Gicić,18.0,Serbia,185.0,,GK,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-jovic-b7c03e,Stefan Jovic,,Serbia,180.0,,MF,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dusan-markovic-5815f3,Dušan Marković,27.0,Serbia,195.0,,GK,Novi Beograd,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+aleksandar-vulic-6d27b9,Aleksandar Vulić,24.0,Serbia,202.0,,GK,Spartak Subotica,Serbian SuperLiga,35,3150,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+ilija-babic-68e908,Ilija Babić,23.0,Serbia,185.0,,FW,Spartak Subotica,Serbian SuperLiga,36,2931,81.4,3,4,0.09,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+mihailo-bogicevic-401b03,Mihailo Bogicevic,27.0,Switzerland,191.0,Right,DF,Spartak Subotica,Serbian SuperLiga,36,3006,83.5,1,1,0.03,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+stefan-tomovic-aeca7d,Stefan Tomović,24.0,Serbia,184.0,,FW,Spartak Subotica,Serbian SuperLiga,32,2325,72.7,9,2,0.35,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+vladimir-vitorovic-9a0c3d,Vladimir Vitorović,25.0,Serbia,182.0,Left,DF,Spartak Subotica,Serbian SuperLiga,31,2249,72.5,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+vladimir-prijovic-5f4253,Vladimir Prijović,23.0,Serbia,185.0,Left,DF,Spartak Subotica,Serbian SuperLiga,25,1980,79.2,0,5,,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+kayque-4effe3,Kayque,25.0,Brazil,176.0,,MF,Spartak Subotica,Serbian SuperLiga,24,1581,65.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+marko-mijailovic-32c3da,Marko Mijailović,28.0,Serbia,188.0,,DF,Spartak Subotica,Serbian SuperLiga,27,1746,64.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+andrej-todoroski-1c5108-1,Andrej Todoroski,26.0,North Macedonia,175.0,,MF,Spartak Subotica,Serbian SuperLiga,20,1607,80.3,6,3,0.34,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+danijel-kolaric-355af1,Danijel Kolarić,20.0,Serbia,190.0,,DF,Spartak Subotica,Serbian SuperLiga,20,1505,75.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+milos-mijic-1c3a51,Miloš Mijić,36.0,Serbia,175.0,,MF,Spartak Subotica,Serbian SuperLiga,33,1713,51.9,1,3,0.05,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+nemanja-calasan-43ea26,Nemanja Ćalasan,29.0,Serbia,188.0,,DF,Spartak Subotica,Serbian SuperLiga,16,1395,87.2,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+jovan-lukic-64ae7e,Jovan Lukić,23.0,Serbia,177.0,,MF,Philadelphia Union,MLS,32,2617,81.8,2,2,0.07,0.07,0.07,0.08,0.06,0.13,0.08,1.69,0.34,20.4,23.7,2.72,0.17,0.83,39.89,83.1,5.26,0.76,5.88,1.1,1.13,0.69,50.0,31.12,1.2,59.81,13.48,0.79,37.07,2.79,1.48,1.34,6.71,0.96,62.2,0.31,0.03,1.44,,,,,,,,,,,,,,,,,,1.0
+vojo-ubiparip-cce016,Vojo Ubiparip,37.0,Serbia,180.0,,FW,Spartak Subotica,Serbian SuperLiga,31,1487,48.0,4,3,0.24,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yohan-bilingi-c08b38,Yohan Bilingi,26.0,France,189.0,Right,DF,Spartak Subotica,Serbian SuperLiga,15,1191,79.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+luka-bijelovic-d18075,Luka Bijelovic,24.0,Serbia,186.0,,FW,Spartak Subotica,Serbian SuperLiga,23,1156,50.3,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+luka-subotic-38ecb0-1,Luka Subotić,22.0,Serbia,190.0,,DF,Spartak Subotica,Serbian SuperLiga,13,1036,79.7,0,0,0.0,0.0,0.0,0.0,0.03,0.03,0.0,0.0,0.0,,,0.59,0.0,0.59,25.97,80.7,1.18,0.0,2.36,0.0,0.0,0.0,0.0,18.89,0.0,46.92,0.0,0.0,22.72,2.66,1.77,1.48,5.31,0.59,40.0,0.59,0.3,1.48,,,,,,,,,,,,,,,,,,0.65
+nenad-lukic-2e8944,Nenad Lukić,33.0,Serbia,181.0,Left,MF,Spartak Subotica,Serbian SuperLiga,15,743,49.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+nigel-robertha-5930e4,Nigel Robertha,27.0,Netherlands,181.0,Right,FW,Spartak Subotica,Serbian SuperLiga,13,685,52.7,4,0,0.53,0.38,0.13,0.09,0.29,0.38,0.09,1.26,0.5,40.0,16.4,4.03,0.5,2.39,16.11,73.6,0.76,0.76,1.64,10.32,3.65,0.88,25.0,21.9,1.13,32.1,18.38,5.54,25.3,0.25,0.25,0.5,3.02,1.13,33.3,0.25,0.0,0.63,,,,,,,,,,,,,,,,,,0.45
+nikola-kuveljic-f33b3c-1,Nikola Kuveljić,28.0,Serbia,194.0,,MF,Spartak Subotica,Serbian SuperLiga,7,549,78.4,0,0,0.0,0.0,0.0,0.07,0.03,0.14,0.07,1.39,0.35,25.0,25.2,0.7,0.0,0.35,20.15,76.3,1.39,1.04,2.43,3.47,1.39,0.35,33.3,13.55,0.7,38.57,8.69,1.04,24.67,1.04,2.78,1.74,3.47,2.43,100.0,1.04,0.35,2.08,,,,,,,,,,,,,,,,,,0.5
+leo-antonio-8dc20d,Léo Antônio,28.0,Brazil,184.0,Right,MF,Spartak Subotica,Serbian SuperLiga,13,546,42.0,1,1,0.16,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+kwaku-osei-bonsu-31ef8c,Kwaku Osei Bonsu,25.0,Ghana,,,FW,Spartak Subotica,Serbian SuperLiga,19,633,33.3,3,0,0.43,0.0,0.18,0.21,0.09,0.32,0.21,2.82,0.53,18.8,21.0,3.7,0.0,1.59,18.32,70.3,1.59,1.59,3.52,6.34,2.64,1.76,58.8,23.95,1.94,36.28,19.55,2.99,23.95,0.35,0.18,0.18,5.81,0.18,20.0,0.18,0.0,0.88,,,,,,,,,,,,,,,,,,
+dejan-kerkez-bc505c,Dejan Kerkez,29.0,Serbia,190.0,Right,DF,Spartak Subotica,Serbian SuperLiga,6,396,66.0,0,0,0.0,0.0,0.0,0.03,0.01,0.04,0.03,0.27,0.0,0.0,10.3,0.54,0.13,0.07,32.4,82.5,1.28,0.07,1.68,0.27,0.13,0.0,,23.58,0.13,49.65,1.35,0.94,28.97,0.67,1.62,1.28,2.49,3.1,52.3,0.2,0.0,0.94,,,,,,,,,,,,,,,,,,0.25
+muhamed-besic-2d538f,Muhamed Bešić,33.0,Bosnia and Herzegovina,177.0,Right,DF-MF,Spartak Subotica,Serbian SuperLiga,5,247,49.4,0,0,0.0,0.0,0.0,0.05,0.08,0.14,0.05,1.1,0.0,0.0,23.7,3.02,0.27,1.1,34.3,79.6,4.66,0.55,3.02,1.37,2.2,0.82,50.0,32.1,1.1,56.25,8.78,0.27,32.38,3.57,1.37,0.55,7.13,0.82,50.0,0.82,0.0,1.37,,,,,,,,,,,,,,,,,,0.4
+atule-collins-0d5fb8,Atule Collins,21.0,Nigeria,188.0,,FW,Spartak Subotica,Serbian SuperLiga,10,375,37.5,1,0,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jose-mulato-def114,José Mulato,22.0,Colombia,180.0,,FW,Spartak Subotica,Serbian SuperLiga,7,235,33.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+marin-dulic-d096f6,Marin Dulić,21.0,Serbia,198.0,,GK,Spartak Subotica,Serbian SuperLiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+nemanja-krsmanovic-8e0f8c,Nemanja Krsmanović,22.0,Serbia,183.0,Right,MF,Spartak Subotica,Serbian SuperLiga,4,175,43.8,0,1,,0.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+stefan-simin-de163b,Stefan Simin,20.0,Serbia,189.0,,FW,Spartak Subotica,Serbian SuperLiga,1,74,74.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-tukuljac-55d7fa,Luka Tukuljac,20.0,Serbia,182.0,Right,DF,Spartak Subotica,Serbian SuperLiga,3,72,24.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+david-dunerski-8d83a3,David Dunđerski,26.0,Serbia,180.0,,MF,Spartak Subotica,Serbian SuperLiga,5,97,19.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-peic-28af24,Luka Peic,20.0,Serbia,182.0,Right,DF,Spartak Subotica,Serbian SuperLiga,2,47,23.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+veljko-jocic-34975d,Veljko Jocić,19.0,Serbia,175.0,,FW,Spartak Subotica,Serbian SuperLiga,4,45,11.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+marko-kerkez-da5353-1,Marko Kerkez,25.0,Serbia,184.0,Left,DF,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+andjelko-pavlovic-fedac0,Andjelko Pavlovic,18.0,Serbia,178.0,,FW,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+nikola-puskar-9da518,Nikola Puskar,19.0,Serbia,189.0,,DF,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ezekiel-ruben-657fe0,Ezekiel Ruben,19.0,Nigeria,178.0,,MF,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tomas-trajkovic-72c036,Tomaš Trajković,22.0,Serbia,186.0,,GK,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-vujovic-55b094,Nikola Vujovic,19.0,Serbia,186.0,,FW,Spartak Subotica,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+basile-yamkam-1be2a5,Basile Yamkam,27.0,Cameroon,,,DF,Radnički Niš,Serbian SuperLiga,33,2807,85.1,3,2,0.1,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+trivante-stewart-b55a59,Trivante Stewart,25.0,Jamaica,192.0,,FW,Radnički Niš,Serbian SuperLiga,33,2679,81.2,13,4,0.44,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+vanja-ilic-f14449,Vanja Ilić,26.0,Serbia,178.0,,MF,Radnički Niš,Serbian SuperLiga,35,2459,70.3,4,3,0.15,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+andreja-stojanovic-81eff3,Andreja Stojanović,27.0,Serbia,183.0,,DF,Radnički Niš,Serbian SuperLiga,30,2306,76.9,2,2,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+aleksandar-vojnovic-d5bba1,Aleksandar Vojnović,29.0,Bosnia and Herzegovina,190.0,Right,DF,Radnički Niš,Serbian SuperLiga,27,2239,82.9,3,1,0.12,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+radivoj-bosic-7d581d,Radivoj Bosić,24.0,Serbia,183.0,,FW,Radnički Niš,Serbian SuperLiga,31,2250,72.6,5,7,0.2,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+strahinja-manojlovic-2cc650,Strahinja Manojlović,23.0,Bosnia and Herzegovina,188.0,,GK,Radnički Niš,Serbian SuperLiga,25,2250,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4
+jo-jinho-bc597f,Jo Jinho,22.0,Korea Republic,,,MF,Radnički Niš,Serbian SuperLiga,30,2144,71.5,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jovan-nisic-81faeb,Jovan Nišić,27.0,Serbia,177.0,,MF,Radnički Niš,Serbian SuperLiga,31,2136,68.9,4,6,0.17,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+iliya-yurukov-278d09,Iliya Yurukov,26.0,Bulgaria,170.0,Right,MF,Radnički Niš,Serbian SuperLiga,26,1775,68.3,2,3,0.1,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+nemanja-belakovic-7e42dd,Nemanja Belaković,28.0,Serbia,173.0,Right,MF,Radnički Niš,Serbian SuperLiga,26,1736,66.8,1,1,0.05,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+dusan-pavlovic-3bf9f9,Dušan Pavlović,21.0,Serbia,,,DF,Radnički Niš,Serbian SuperLiga,23,1764,76.7,2,2,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+radomir-milosavljevic-9dc79d,Radomir Milosavljević,33.0,Serbia,183.0,,FW-MF,Radnički Niš,Serbian SuperLiga,15,1087,72.5,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+milorad-stajic-eaa7bf,Milorad Stajić,23.0,Bosnia and Herzegovina,178.0,Both,MF,Radnički Niš,Serbian SuperLiga,21,989,47.1,0,1,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+uros-vitas-7e0bca,Uroš Vitas,33.0,Serbia,189.0,Right,DF,Radnički Niš,Serbian SuperLiga,10,692,69.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+stefan-nikolic-bf1ba9,Stefan Nikolic,19.0,Serbia,194.0,,MF,Radnički Niš,Serbian SuperLiga,14,773,55.2,1,2,0.12,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dejan-stanivukovic-b6c7d9,Dejan Stanivuković,31.0,Serbia,186.0,,GK,Radnički Niš,Serbian SuperLiga,8,720,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ibrahim-tanko-36c10b,Ibrahim Tanko,26.0,Ghana,180.0,,FW,Radnički Niš,Serbian SuperLiga,17,716,42.1,1,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+miodrag-gemovic-456c2f,Miodrag Gemović,30.0,Serbia,184.0,,FW,Radnički Niš,Serbian SuperLiga,14,690,49.3,1,1,0.13,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+brian-bayeye-a44374,Brian Bayeye,25.0,Congo DR,182.0,,DF,Radnički Niš,Serbian SuperLiga,7,522,74.6,0,0,0.0,0.0,0.0,0.02,0.05,0.07,0.02,0.32,0.0,0.0,19.5,1.95,0.0,0.57,31.14,69.9,3.08,1.22,3.24,4.05,1.7,0.81,37.0,25.54,1.54,55.62,18.57,0.65,27.0,1.78,1.05,0.81,7.62,0.73,40.9,0.08,0.0,0.73,,,,,,,,,,,,,,,,,,0.25
+mihajlo-terzic-c68525,Mihajlo Terzić,20.0,Serbia,184.0,Right,MF,Radnički Niš,Serbian SuperLiga,14,511,36.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+marko-petkovic-6899a6,Marko Petković,33.0,Serbia,185.0,Right,DF,Radnički Niš,Serbian SuperLiga,12,418,34.8,1,1,0.22,0.22,0.0,0.0,0.02,0.02,0.0,0.0,0.0,,,0.98,0.0,0.39,35.76,65.9,4.13,0.0,4.72,1.97,0.98,0.2,33.3,27.71,0.39,66.22,11.0,0.0,32.03,3.73,2.16,0.98,4.52,0.59,60.0,0.0,0.0,1.77,,,,,,,,,,,,,,,,,,0.1
+amougou-etongou-4aec6a,Amougou Etongou,26.0,Cameroon,,,DF,Radnički Niš,Serbian SuperLiga,14,519,37.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-frei-20e287,Filip Frei,24.0,Switzerland,175.0,,DF,Radnički Niš,Serbian SuperLiga,9,440,48.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+dimitrije-stevanovic-ed143c-1,Dimitrije Stevanović,21.0,Serbia,191.0,,GK,Radnički Niš,Serbian SuperLiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+pavle-ivelja-fcfa45,Pavle Ivelja,27.0,Serbia,190.0,Left,FW,Radnički Niš,Serbian SuperLiga,18,527,29.3,6,0,1.02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+jovan-mituljikic-aa05f1-1,Jovan Mituljikic,22.0,Serbia,180.0,,FW,Radnički Niš,Serbian SuperLiga,8,341,42.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+david-petrovic-253bc4,David Petrovic,22.0,Serbia,184.0,,DF,Radnički Niš,Serbian SuperLiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+simon-amin-05f3fa,Simon Amin,28.0,Syria,182.0,Right,MF,Radnički Niš,Serbian SuperLiga,5,151,30.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+luka-izderic-d2de94,Luka Izderic,19.0,Austria,170.0,,FW,Radnički Niš,Serbian SuperLiga,5,132,26.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+boris-tyutyukov-6a42a2,Boris Tyutyukov,28.0,Bulgaria,185.0,,FW,Radnički Niš,Serbian SuperLiga,3,72,24.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-colovic-7ca090,Stefan Čolović,31.0,Serbia,175.0,,DF,Radnički Niš,Serbian SuperLiga,1,45,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+uro-zec-fc4fc0-1,Đuro Zec,35.0,Serbia,178.0,,MF,Radnički Niš,Serbian SuperLiga,3,65,21.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-curuvija-7cae66-1,Nikola Curuvija,19.0,Austria,194.0,,GK,Radnički Niš,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+novak-kljajic-28d931,Novak Kljajic,20.0,Australia,188.0,,FW,Radnički Niš,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+joseph-opoku-00da1e,Joseph Opoku,21.0,Ghana,,,DF,Radnički Niš,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+mateja-pantic-2b932c,Mateja Pantić,,Serbia,,,FW,Radnički Niš,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mateja-radonjic-689d88,Mateja Radonjić,20.0,Serbia,180.0,,MF,Radnički Niš,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+filip-krstic-b7e6be,Filip Krstić,28.0,Serbia,182.0,,MF,Napredak Kruševac,Serbian SuperLiga,36,3094,85.9,4,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-bukorac-ac1ef8,Stefan Bukorac,34.0,Serbia,192.0,Right,DF-MF,Napredak Kruševac,Serbian SuperLiga,33,2961,89.7,2,2,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+nikola-vukajlovic-47aa61,Nikola Vukajlović,37.0,Serbia,181.0,,DF,Napredak Kruševac,Serbian SuperLiga,33,2843,86.2,0,1,,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+nebojsa-bastajic-311f48,Nebojša Bastajić,35.0,Serbia,184.0,,MF,Napredak Kruševac,Serbian SuperLiga,33,2704,81.9,6,3,0.2,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+uros-ignjatovic-308ebe,Uroš Ignjatović,24.0,Serbia,171.0,,DF,Napredak Kruševac,Serbian SuperLiga,29,2221,76.6,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+nikola-karaklajic-075bf2,Nikola Karaklajić,,Serbia,175.0,Both,MF,Napredak Kruševac,Serbian SuperLiga,28,2012,71.9,2,2,0.09,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+dusan-stoiljkovic-a96ed4,Dušan Stoiljković,,Serbia,183.0,,FW,Napredak Kruševac,Serbian SuperLiga,32,1990,62.2,4,1,0.18,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+mihajlo-petkovic-a0d764,Mihajlo Petkovic,21.0,Serbia,182.0,,FW,Napredak Kruševac,Serbian SuperLiga,31,1687,54.4,1,2,0.05,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+lazar-balevic-59e988,Lazar Balević,18.0,Serbia,188.0,,GK,Napredak Kruševac,Serbian SuperLiga,21,1890,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+nemanja-djekovic-aa955a,Nemanja Djekovic,22.0,Serbia,195.0,,DF,Napredak Kruševac,Serbian SuperLiga,21,1719,81.9,2,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+marko-saric-2f049e,Marko Šarić,27.0,Serbia,188.0,,FW,Napredak Kruševac,Serbian SuperLiga,28,1519,54.2,7,3,0.41,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+milos-tosesk-59fc33,Miloš Tošesk,27.0,Serbia,178.0,,MF,Napredak Kruševac,Serbian SuperLiga,29,1535,52.9,1,1,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+vladimir-miletic-a5094d,Vladimir Miletić,22.0,Serbia,185.0,,DF,Napredak Kruševac,Serbian SuperLiga,26,1473,56.7,2,1,0.12,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+jovan-marinkovic-6d30f5,Jovan Marinković,29.0,Serbia,186.0,Right,DF,Napredak Kruševac,Serbian SuperLiga,17,1287,75.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+miloje-prekovic-257b8c,Miloje Preković,34.0,Serbia,193.0,,GK,Napredak Kruševac,Serbian SuperLiga,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+ivan-ostojic-8c1c46,Ivan Ostojić,,Serbia,190.0,,DF,Napredak Kruševac,Serbian SuperLiga,19,906,47.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+uros-lazic-c2af6c-1,Uroš Lazić,22.0,Serbia,175.0,,DF,Napredak Kruševac,Serbian SuperLiga,12,722,60.2,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+marko-obradovic-f8fefe,Marko Obradović,,Montenegro,185.0,Right,FW,Napredak Kruševac,Serbian SuperLiga,21,800,38.1,1,1,0.11,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+mateja-bubanj-efca59,Mateja Bubanj,20.0,Serbia,184.0,,FW,Napredak Kruševac,Serbian SuperLiga,27,848,31.4,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+dragan-cubra-ce3925,Dragan Čubra,23.0,Serbia,185.0,,DF,Napredak Kruševac,Serbian SuperLiga,12,612,51.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+nikola-milicic-ee6796,Nikola Miličić,21.0,Serbia,186.0,,MF,Napredak Kruševac,Serbian SuperLiga,6,463,77.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+sasa-marjanovic-b81588,Saša Marjanović,,Serbia,182.0,,MF,Napredak Kruševac,Serbian SuperLiga,20,596,29.8,1,1,0.15,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vladimir-savic-1c6590,Vladimir Savić,29.0,Serbia,190.0,,GK,Napredak Kruševac,Serbian SuperLiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-jovic-45a970,Filip Jović,28.0,Serbia,182.0,,MF,Napredak Kruševac,Serbian SuperLiga,6,297,49.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+nikola-bogdanovski-9fa25b,Nikola Bogdanovski,26.0,North Macedonia,179.0,,MF,Napredak Kruševac,Serbian SuperLiga,12,343,28.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+petar-cirkovic-92557d,Petar Ćirković,26.0,Serbia,173.0,,DF,Napredak Kruševac,Serbian SuperLiga,7,328,46.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+andrija-lukovic-229d73,Andrija Luković,26.0,Serbia,189.0,Right,MF,Napredak Kruševac,Serbian SuperLiga,9,273,30.3,1,1,0.33,0.33,0.0,0.07,0.14,0.21,0.07,1.82,0.61,33.3,25.5,2.42,0.1,1.01,26.16,70.6,3.03,0.4,2.32,1.31,0.81,0.3,50.0,20.61,0.61,46.06,9.8,0.81,25.96,1.41,1.41,0.81,4.14,0.81,42.1,0.4,0.0,1.72,,,,,,,,,,,,,,,,,,0.15
+milos-milivojevic-6087a4,Milos Milivojevic,23.0,Serbia,183.0,Right,FW,Napredak Kruševac,Serbian SuperLiga,3,91,30.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pavle-mihajlovic-73e485,Pavle Mihajlović,19.0,Serbia,191.0,,DF,Napredak Kruševac,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+strahinja-ristic-090efd,Strahinja Ristić,,Serbia,187.0,,DF,Napredak Kruševac,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+andrej-smiljkovic-7db70e,Andrej Smiljkovic,18.0,Serbia,178.0,,MF,Napredak Kruševac,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-marjanovic-2768c1,Nikola Marjanovic,27.0,Serbia,190.0,Right,DF,Tekstilac Odžaci,Serbian SuperLiga,36,3134,87.1,1,1,0.03,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bojan-brac-d19453,Bojan Brać,36.0,Serbia,191.0,Right,GK,Tekstilac Odžaci,Serbian SuperLiga,33,2904,88.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+marko-lukovic-491c07,Marko Luković,22.0,Serbia,182.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,30,2463,82.1,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ivan-davidovic-9dd47a,Ivan Davidović,29.0,Serbia,180.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,32,2219,69.3,6,2,0.24,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+leontije-vasic-a60c58,Leontije Vasic,21.0,Serbia,184.0,Right,MF,Tekstilac Odžaci,Serbian SuperLiga,31,2054,66.3,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+milijan-ilic-b1a9ad,Milijan Ilić,32.0,Serbia,180.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,25,1915,76.6,0,4,,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+milos-zekic-e2bd79,Milos Zekic,22.0,Serbia,191.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,28,1766,63.1,3,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+stefan-stojanovic-00373c,Stefan Stojanović,24.0,Serbia,188.0,Right,FW,Tekstilac Odžaci,Serbian SuperLiga,33,1773,53.7,2,4,0.1,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milan-jezdimirovic-710d9d,Milan Jezdimirović,29.0,Serbia,180.0,Right,DF,Tekstilac Odžaci,Serbian SuperLiga,26,1706,65.6,0,2,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+branimir-jocic-013ec5,Branimir Jočić,31.0,Serbia,181.0,,DF-MF,Tekstilac Odžaci,Serbian SuperLiga,17,1399,82.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+nemanja-ahcin-b8724d,Nemanja Ahčin,31.0,Serbia,182.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,16,1182,73.9,3,0,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+prince-ukachukwu-cd9383,Prince Ukachukwu,22.0,Nigeria,186.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,17,1033,60.8,0,2,,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-skrobonja-516bd4,Nikola Skrobonja,20.0,Serbia,187.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,20,1044,52.2,1,1,0.09,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+dejan-uric-799901,Dejan Đurić,24.0,Serbia,180.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,18,998,55.4,2,1,0.18,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-sredojevic-66f3b8,Filip Sredojević,29.0,Bosnia and Herzegovina,189.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,12,1001,83.4,1,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+milan-marcic-03c733,Milan Marčić,29.0,Serbia,185.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,17,876,51.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+irfan-zulfic-2f6b8c-1,Irfan Zulfic,25.0,Serbia,183.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,10,809,80.9,3,2,0.33,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+nikola-kodzic-135fc1,Nikola Kodžić,27.0,Serbia,186.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,17,969,57.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+nemanja-kojcic-e5ea8a,Nemanja Kojcic,28.0,Serbia,192.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,11,862,78.4,1,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ismael-maiga-c35ab0,Ismael Maiga,22.0,Côte d'Ivoire,187.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,12,846,70.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+irfan-hadzic-7d3df1,Irfan Hadžić,32.0,Bosnia and Herzegovina,193.0,Right,FW,Tekstilac Odžaci,Serbian SuperLiga,9,558,62.0,4,0,0.65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+rob-rudonja-41f4d0,Rob Rudonja,24.0,Slovenia,,,FW,Tekstilac Odžaci,Serbian SuperLiga,13,684,52.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ognjen-tripkovic-67c0d4,Ognjen Tripković,20.0,Montenegro,185.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,9,552,61.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+petar-barac-90e2b4,Petar Barac,20.0,Montenegro,185.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,14,551,39.4,2,1,0.33,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+miljan-drincic-80150f,Miljan Drinčić,27.0,Serbia,195.0,,GK,Tekstilac Odžaci,Serbian SuperLiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-savija-6caf92,Stefan Šavija,24.0,Serbia,187.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,8,301,37.6,1,0,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+mirza-delimeac-b9b43b,Mirza Delimeđac,26.0,Serbia,,,MF,Tekstilac Odžaci,Serbian SuperLiga,4,238,59.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+veljko-dimkovic-b2e75f,Veljko Dimković,22.0,Serbia,187.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,4,269,67.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mustapha-abiodun-ae7f7a-1,Mustapha Abiodun,20.0,Nigeria,170.0,Right,FW,Tekstilac Odžaci,Serbian SuperLiga,12,384,32.0,1,0,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+obeng-regan-a04311,Obeng Regan,31.0,Ghana,174.0,Left,MF,Tekstilac Odžaci,Serbian SuperLiga,10,309,30.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-ninkovic-cf62e0,Nikola Ninković,30.0,Serbia,182.0,Right,FW-MF,Tekstilac Odžaci,Serbian SuperLiga,9,305,33.9,1,1,0.3,0.3,0.34,0.29,0.26,0.55,0.33,2.27,0.88,38.9,20.3,4.92,0.63,2.65,33.15,69.2,4.33,1.39,6.05,6.55,2.69,1.26,61.2,33.53,2.44,55.76,24.41,2.27,40.55,0.76,0.46,0.55,3.87,0.42,31.3,0.25,0.04,1.76,,,,,,,,,,,,,,,,,,0.15
+miljan-skrbic-1fa638,Miljan Škrbić,30.0,Serbia,190.0,Right,FW,Tekstilac Odžaci,Serbian SuperLiga,5,157,31.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jovan-dasic-ec9b60,Jovan Dašić,22.0,Montenegro,185.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,7,167,23.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+uros-stamenic-3cdaff,Uroš Stamenić,29.0,Serbia,174.0,Left,FW,Tekstilac Odžaci,Serbian SuperLiga,7,161,23.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dejan-stankovic-91ba4a,Dejan Stanković,33.0,Serbia,172.0,,DF,Tekstilac Odžaci,Serbian SuperLiga,3,92,30.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milos-kapur-708914,Miloš Kapur,,Serbia,191.0,Right,FW,Tekstilac Odžaci,Serbian SuperLiga,6,165,27.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+veljko-trifunovic-5acabf,Veljko Trifunović,27.0,Serbia,183.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,6,133,22.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+vojin-stajkovic-b581ab,Vojin Stajkovic,24.0,Serbia,187.0,,GK,Tekstilac Odžaci,Serbian SuperLiga,1,66,66.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dragoslav-burkic-1ad098,Dragoslav Burkić,25.0,Austria,171.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,2,58,29.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksandar-popovic-60ec1c,Aleksandar Popovic,27.0,Serbia,176.0,Left,DF,Tekstilac Odžaci,Serbian SuperLiga,1,33,33.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+aleksandar-stevanovic-c7d8db,Aleksandar Stevanović,,Serbia,185.0,,MF,Tekstilac Odžaci,Serbian SuperLiga,1,21,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-serdar-72f20d-1,Luka Serdar,,Serbia,186.0,Right,MF,Tekstilac Odžaci,Serbian SuperLiga,1,17,17.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+marko-susnjar-d99145,Marko Susnjar,22.0,Serbia,183.0,Right,MF,Tekstilac Odžaci,Serbian SuperLiga,2,17,8.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+alesander-azzam-53b2be,Alesander Azzam,22.0,Russia,178.0,,FW,Tekstilac Odžaci,Serbian SuperLiga,1,10,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikolaj-ostojic-9a29bc,Nikolaj Ostojic,19.0,Slovenia,,,GK,Tekstilac Odžaci,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-paljevic-292b6b,Nikola Paljevic,19.0,Serbia,,Right,MF,Tekstilac Odžaci,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+viktor-damjanic-85f668,Viktor Damjanić,20.0,Croatia,195.0,,DF,Jedinstvo Ub,Serbian SuperLiga,32,2714,84.8,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+stefan-golubovic-f9dc0a,Stefan Golubović,26.0,Serbia,183.0,,DF,Jedinstvo Ub,Serbian SuperLiga,27,2288,84.7,2,2,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+strahinja-rakic-d2efd1,Strahinja Rakić,19.0,Serbia,184.0,,MF,Jedinstvo Ub,Serbian SuperLiga,29,2170,74.8,2,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+danilo-miladinovic-cbf88f,Danilo Miladinović,23.0,Serbia,174.0,,MF,Jedinstvo Ub,Serbian SuperLiga,29,2154,74.3,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+vukasin-jovanovic-baaaef,Vukašin Jovanović,18.0,Serbia,188.0,,GK,Jedinstvo Ub,Serbian SuperLiga,20,1800,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+dimitrije-acimovic-3269e4,Dimitrije Aćimović,21.0,Serbia,191.0,,DF,Jedinstvo Ub,Serbian SuperLiga,24,1711,71.3,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+nemanja-doderovic-23a3fd,Nemanja Doderović,32.0,Bosnia and Herzegovina,183.0,,FW,Jedinstvo Ub,Serbian SuperLiga,25,1600,64.0,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+ethan-hoard-0a5732,Ethan Hoard,24.0,United States,196.0,,FW,Jedinstvo Ub,Serbian SuperLiga,17,1529,89.9,6,2,0.35,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+ivan-rogac-abbd74,Ivan Rogač,33.0,Serbia,192.0,,MF,Jedinstvo Ub,Serbian SuperLiga,17,1519,89.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+aleksa-paic-eb7c03,Aleksa Paić,22.0,Serbia,191.0,Right,DF,Jedinstvo Ub,Serbian SuperLiga,17,1515,89.1,3,0,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+richardson-denzell-a107d1,Richardson Denzell,21.0,Ghana,,,FW,Jedinstvo Ub,Serbian SuperLiga,23,1378,59.9,4,0,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marko-mitrovic-344b28,Marko Mitrović,21.0,Serbia,180.0,,MF,Jedinstvo Ub,Serbian SuperLiga,22,1105,50.2,1,3,0.08,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abass-issah-07cb37,Abass Issah,27.0,Ghana,173.0,Right,FW-MF,Jedinstvo Ub,Serbian SuperLiga,15,1289,85.9,3,2,0.21,0.14,0.26,0.23,0.06,0.29,0.23,2.3,0.98,42.9,17.1,2.36,0.26,0.59,16.53,72.8,1.12,0.98,2.03,7.41,2.03,1.12,36.2,22.37,1.31,34.64,16.27,4.4,24.14,1.05,0.52,0.59,4.46,0.46,35.0,0.39,0.07,2.56,,,,,,,,,,,,,,,,,,0.4
+uros-matic-39f50b,Uroš Matić,,North Macedonia,184.0,Left,MF,Jedinstvo Ub,Serbian SuperLiga,13,1170,90.0,0,1,0.26,0.08,0.26,0.05,0.15,0.2,0.05,1.02,0.26,25.0,21.1,1.53,0.26,1.28,45.77,81.7,6.14,0.0,5.37,0.51,2.3,1.02,100.0,36.05,1.53,64.18,11.51,1.02,44.23,1.28,1.02,0.77,3.84,0.51,40.0,0.26,0.0,0.77,,,,,,,,,,,,,,,,,,
+tomas-perez-51531c,Tomás Pérez,19.0,Argentina,181.0,Right,FW,Jedinstvo Ub,Serbian SuperLiga,19,1128,59.4,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+veljko-kijevcanin-fd5169-1,Veljko Kijevčanin,26.0,Serbia,185.0,,MF,Jedinstvo Ub,Serbian SuperLiga,13,1117,85.9,0,2,,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+justin-bengui-18bb11,Justin Bengui,20.0,France,187.0,,GK,Jedinstvo Ub,Serbian SuperLiga,12,1079,89.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+pablo-ferreira-9f1a63,Pablo Ferreira,21.0,Argentina,178.0,,MF,Jedinstvo Ub,Serbian SuperLiga,15,834,55.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+igor-milanovic-18105c,Igor Milanović,31.0,Serbia,187.0,,FW,Jedinstvo Ub,Serbian SuperLiga,13,829,63.8,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+uros-stevancevic-4c267c,Uroš Stevančević,20.0,Serbia,171.0,,FW,Jedinstvo Ub,Serbian SuperLiga,23,975,42.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+uros-savkovic-7e56fb,Uros Savkovic,22.0,Serbia,180.0,,MF,Jedinstvo Ub,Serbian SuperLiga,16,809,50.6,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+simon-moreno-8b03c2,Simón Moreno,28.0,Spain,174.0,,FW,Jedinstvo Ub,Serbian SuperLiga,12,550,45.8,1,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+darko-jevtic-d52ea3,Darko Jevtić,,Switzerland,182.0,Left,FW-MF,Jedinstvo Ub,Serbian SuperLiga,6,360,60.0,1,0,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ibrahim-kargbo-jr-68ca8c,Ibrahim Kargbo Jr.,25.0,Belgium,190.0,Right,FW,Jedinstvo Ub,Serbian SuperLiga,7,318,45.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+aleksandar-popovic-26b3a7,Aleksandar Popovic,26.0,Serbia,171.0,Right,DF,Jedinstvo Ub,Serbian SuperLiga,9,490,54.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+ognjen-dimitric-4a31b3,Ognjen Dimitrić,,Serbia,171.0,,MF,Jedinstvo Ub,Serbian SuperLiga,7,441,63.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+edrissa-ceesay-e406de,Edrissa Ceesay,24.0,Gambia,190.0,,DF,Jedinstvo Ub,Serbian SuperLiga,6,387,64.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+miso-dubljanic-5585bc,Mišo Dubljanić,25.0,Montenegro,202.0,,GK,Jedinstvo Ub,Serbian SuperLiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+julian-kristoffersen-d34f19,Julian Kristoffersen,28.0,Norway,195.0,Right,FW,Jedinstvo Ub,Serbian SuperLiga,6,324,54.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-radivojevic-fa367a,Luka Radivojević,,Serbia,188.0,,MF,Jedinstvo Ub,Serbian SuperLiga,5,318,63.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+branislav-runjajic-a59416,Branislav Runjajić,21.0,Serbia,185.0,,FW,Jedinstvo Ub,Serbian SuperLiga,13,330,25.4,1,1,0.27,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jovan-stojanovic-cf2244,Jovan Stojanović,,Serbia,191.0,Right,FW-MF,Jedinstvo Ub,Serbian SuperLiga,8,316,39.5,0,0,0.22,0.33,0.22,0.35,0.21,0.56,0.35,1.54,0.55,35.7,11.7,2.09,0.44,0.88,24.98,69.4,2.31,1.54,3.63,9.13,1.65,0.55,41.7,22.45,0.99,46.43,20.24,3.3,37.19,0.99,0.22,0.77,4.4,1.54,28.6,0.0,0.0,1.43,,,,,,,,,,,,,,,,,,
+stefan-denic-079a07,Stefan Denić,26.0,Serbia,181.0,Right,MF,Jedinstvo Ub,Serbian SuperLiga,5,271,54.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+levan-jordania-752a0c,Levan Jordania,28.0,Georgia,195.0,,MF,Jedinstvo Ub,Serbian SuperLiga,13,354,27.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stefan-cimbaljevic-f9ef3c,Stefan Cimbaljević,20.0,North Macedonia,180.0,,DF,Jedinstvo Ub,Serbian SuperLiga,5,225,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+joe-arana-0ff845,Joe Arana,21.0,Ecuador,,,FW,Jedinstvo Ub,Serbian SuperLiga,5,168,33.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amirbek-saidov-5618e8,Amirbek Saidov,19.0,Uzbekistan,182.0,,FW,Jedinstvo Ub,Serbian SuperLiga,5,110,22.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+ivan-jovanovic-a53949,Ivan Jovanović,36.0,Serbia,185.0,,GK,Jedinstvo Ub,Serbian SuperLiga,2,91,45.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+richard-nagy-cfc430,Richard Nagy,25.0,Slovakia,189.0,,DF,Jedinstvo Ub,Serbian SuperLiga,1,45,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+luka-mladenovic-c67c69,Luka Mladenović,19.0,Belgium,163.0,,MF,Jedinstvo Ub,Serbian SuperLiga,12,174,14.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+radomir-lazic-a0b64d,Radomir Lazic,18.0,Serbia,,,FW,Jedinstvo Ub,Serbian SuperLiga,11,69,6.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+kristijan-boskovic-ba2c43,Kristijan Bošković,23.0,Serbia,179.0,,DF,Jedinstvo Ub,Serbian SuperLiga,3,48,16.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+uros-damnjanovic-262f72,Uros Damnjanovic,17.0,Serbia,184.0,,FW,Jedinstvo Ub,Serbian SuperLiga,2,46,23.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+goran-babic-58e42f,Goran Babic,22.0,England,175.0,,MF,Jedinstvo Ub,Serbian SuperLiga,1,24,24.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gustavo-vieira-e969ea,Gustavo Vieira,,Brazil,180.0,,DF,Jedinstvo Ub,Serbian SuperLiga,1,8,8.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mladen-kiselcic-14ca7d,Mladen Kiselcic,19.0,Serbia,,,FW,Jedinstvo Ub,Serbian SuperLiga,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nemanja-majkic-6b935e,Nemanja Majkic,18.0,Bosnia and Herzegovina,,,FW,Jedinstvo Ub,Serbian SuperLiga,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vojin-veskovic-930fc6,Vojin Vesković,18.0,Serbia,,,FW,Jedinstvo Ub,Serbian SuperLiga,2,3,1.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+pavle-mandic-1abb1a,Pavle Mandic,,,178.0,,,Jedinstvo Ub,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nikola-popadic-afff55,Nikola Popadic,17.0,Serbia,,,MF,Jedinstvo Ub,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ivan-radovanovic-ea3bc6,Ivan Radovanović,,Serbia,186.0,Right,DF-MF,Jedinstvo Ub,Serbian SuperLiga,0,0,,0,0,0.0,0.0,0.0,0.03,0.0,0.03,0.03,0.94,0.0,0.0,33.0,0.27,0.0,0.13,28.7,80.8,2.55,0.0,2.15,0.27,0.27,0.0,0.0,23.47,0.13,43.32,1.88,0.27,27.23,1.61,0.94,1.21,6.3,1.07,40.0,0.13,0.13,0.54,,,,,,,,,,,,,,,,,,
+sulemana-toffic-bfa7be,Sulemana Toffic,19.0,Ghana,180.0,Right,FW,Jedinstvo Ub,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksa-urasovic-4deee7,Aleksa Đurasović,21.0,Bosnia and Herzegovina,,,MF,Jedinstvo Ub,Serbian SuperLiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
