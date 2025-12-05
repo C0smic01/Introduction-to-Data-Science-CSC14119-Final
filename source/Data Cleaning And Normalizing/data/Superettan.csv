@@ -1,0 +1,457 @@
+player_id,player_name,age,nationality,height,foot,position,current_club,league,appearances,minutes_played,minutes_per_game,goals,assists,goals_per_90,assists_per_90,npg_per90,npxg_per90,xag_per90,npxg_xag_per90,xg_per90,shots_per90,shots_on_target_per90,shots_on_target_pct,avg_shot_distance,sca_per90,gca_per90,key_passes_per90,passes_completed_per90,pass_completion_pct,passes_into_final_third_per90,passes_into_penalty_area_per90,progressive_passes_per90,progressive_passes_rec_per90,progressive_carries_per90,take_ons_per90,take_on_success_pct,carries_per90,carries_into_final_third_per90,touches_per90,touches_att_third_per90,touches_att_pen_per90,passes_received_per90,tackles_per90,interceptions_per90,blocks_per90,ball_recoveries_per90,aerials_won_per90,aerial_win_pct,yellow_cards_per90,red_cards_per90,fouls_committed_per90,goals_against_per90,shots_on_target_against_per90,saves_per90,save_percentage,clean_sheet_pct,psxg_per_shot,psxg_ga_per90,penalty_save_pct,passes_attempted_per90,launch_pct,avg_pass_length,def_actions_outside_pen_per90,avg_distance_def_actions,crosses_stopped_pct,wins_per90,draws_per90,losses_per90,market_value
+gustav-lindgren-78ee74,Gustav Lindgren,24.0,Sweden,,,FW,Degerfors,Superettan,28,2384,85.1,13,6,0.49,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+kevin-holmen-fd459f,Kevin Holmén,23.0,Sweden,178.0,Left,MF,Degerfors,Superettan,29,2215,76.4,2,9,0.08,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+mamadouba-diaby-e8a3e0,Mamadouba Diaby,28.0,Guinea,175.0,,DF,Degerfors,Superettan,28,2298,82.1,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+sebastian-ohlsson-520be5,Sebastian Ohlsson,32.0,Sweden,186.0,Right,DF-MF,Degerfors,Superettan,24,1887,78.6,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+bernardo-morgado-85b117,Bernardo Morgado,27.0,Portugal,187.0,Right,DF,Degerfors,Superettan,22,1877,85.3,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+wille-jakobsson-57e3f1,Wille Jakobsson,23.0,Sweden,189.0,Right,GK,Degerfors,Superettan,21,1832,87.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+dijan-vukojevic-cecded,Dijan Vukojevic,30.0,Sweden,183.0,,FW,Degerfors,Superettan,28,1715,61.2,14,5,0.73,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+oscar-wallin-712d81,Oscar Wallin,24.0,Sweden,191.0,,DF,Degerfors,Superettan,16,1440,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+johan-martensson-3722f0,Johan Mårtensson,,Sweden,180.0,Right,MF,Degerfors,Superettan,21,1306,62.2,0,2,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nasiru-moro-455456,Nasiru Moro,29.0,Ghana,190.0,Right,DF,Degerfors,Superettan,16,1325,82.8,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+karim-mammar-9793a1,Karim Mammar,,Sweden,180.0,Left,DF,Degerfors,Superettan,13,1117,85.9,2,2,0.16,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+erik-lindell-631407,Erik Lindell,29.0,Sweden,177.0,Left,MF,Degerfors,Superettan,13,1061,81.6,3,1,0.25,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+carlos-moros-garcia-80a6da,Carlos Moros Garcia,,Spain,183.0,Right,DF,Degerfors,Superettan,12,1079,89.9,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nahom-netabay-5c7a97,Nahom Netabay,31.0,Sweden,172.0,,MF,Degerfors,Superettan,12,1005,83.8,2,0,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+teo-gronborg-b21380,Teo Grönborg,23.0,Sweden,,,MF,Degerfors,Superettan,24,1115,46.5,1,1,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+elias-pihlstrom-b6f3f9,Elias Pihlström,19.0,Sweden,187.0,,MF,Degerfors,Superettan,25,1004,40.2,2,7,0.18,0.63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+rasmus-forsell-d9ba79,Rasmus Forsell,23.0,Sweden,200.0,,GK,Degerfors,Superettan,10,868,86.8,0,1,,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+christos-gravius-03082e,Christos Gravius,28.0,Sweden,179.0,Right,MF,Degerfors,Superettan,11,743,67.5,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+elyas-bouzaiene-0e49b1,Elyas Bouzaiene,28.0,Sweden,180.0,,MF,Degerfors,Superettan,9,679,75.4,0,2,,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+alper-demirol-bfdc46,Alper Demirol,23.0,Sweden,184.0,,MF,Degerfors,Superettan,12,615,51.2,1,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+pashang-abdulla-14981c,Pashang Abdulla,,Iraq,184.0,,FW,Degerfors,Superettan,7,476,68.0,5,0,0.95,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+alexander-heden-lindskog-4f55bc,Alexander Hedén Lindskog,21.0,Sweden,187.0,,DF,Degerfors,Superettan,10,464,46.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+luc-kassi-5edb9d,Luc Kassi,31.0,Côte d'Ivoire,179.0,Right,MF,Degerfors,Superettan,20,547,27.4,0,2,0.0,0.33,0.0,0.05,0.0,0.05,0.05,0.99,0.0,0.0,25.7,1.49,0.0,0.0,22.38,80.4,2.49,0.0,4.97,0.0,0.0,0.5,50.0,19.39,0.5,34.81,2.49,0.5,22.38,0.99,0.0,0.5,5.97,1.49,60.0,0.0,0.0,0.5,,,,,,,,,,,,,,,,,,0.15
+adi-fisic-632452,Adi Fisic,21.0,Sweden,195.0,,FW,Degerfors,Superettan,28,584,20.9,1,1,0.15,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jamie-bichis-0f0e37,Jamie Bichis,21.0,Sweden,185.0,,FW,Degerfors,Superettan,5,27,5.4,1,0,3.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lorik-bunjaku-356e3d,Lorik Bunjaku,18.0,Sweden,191.0,,MF,Degerfors,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-jarlesand-3988c7,Filip Järlesand,21.0,Sweden,186.0,,GK,Degerfors,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marcus-nilsson-7df6ef,Marcus Nilsson,,,194.0,,MF,Degerfors,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+de-pievre-ilunga-3d7fbd,De Pievre Ilunga,19.0,Sweden,,,MF,Degerfors,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+robin-wallinder-9b6fda,Robin Wallinder,26.0,Sweden,179.0,,GK,Öster,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+adam-bergmark-wiberg-7eb774,Adam Bergmark Wiberg,28.0,Sweden,182.0,,FW,Öster,Superettan,30,2643,88.1,10,12,0.34,0.41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+lukas-bergquist-ba2cf3,Lukas Bergquist,25.0,Sweden,180.0,,DF,Öster,Superettan,29,2490,85.9,2,5,0.07,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+ivan-kricak-b63ad1,Ivan Kričak,29.0,Serbia,182.0,Right,DF,Öster,Superettan,27,2417,89.5,3,1,0.11,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+david-seger-f56245,David Seger,26.0,Sweden,180.0,Right,MF,Öster,Superettan,28,2325,83.0,6,7,0.23,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+mattis-adolfsson-890d72,Mattis Adolfsson,23.0,Sweden,198.0,,DF,Öster,Superettan,27,2264,83.9,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+alibek-aliev-9cd11b,Alibek Aliev,29.0,Sweden,189.0,Right,FW,Öster,Superettan,26,1736,66.8,13,4,0.67,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+tatu-varmanen-9bbc48,Tatu Varmanen,27.0,Finland,177.0,,DF,Öster,Superettan,25,1689,67.6,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+daniel-ljung-fdc32f,Daniel Ljung,27.0,Sweden,182.0,,FW,Öster,Superettan,28,1669,59.6,7,2,0.38,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+manasse-kusu-d12059,Manasse Kusu,23.0,Sweden,178.0,,MF,Öster,Superettan,17,1435,84.4,1,2,0.06,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+albin-morfelt-ead562,Albin Mörfelt,25.0,Sweden,174.0,,FW,Öster,Superettan,24,1413,58.9,4,3,0.25,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+niklas-soderberg-ecb772,Niklas Söderberg,28.0,Sweden,185.0,,MF,Öster,Superettan,22,1212,55.1,0,2,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+adam-herdonsson-70a0a1,Adam Herdonsson,21.0,Sweden,,,MF,Öster,Superettan,14,1163,83.1,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+vladimir-rodic-d8b315,Vladimir Rodić,32.0,Montenegro,176.0,Right,DF-MF,Öster,Superettan,24,1083,45.1,5,0,0.42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+kevin-hoog-jansson-3c429e,Kevin Höög-Jansson,25.0,Sweden,190.0,Left,MF,Öster,Superettan,10,880,88.0,1,2,0.1,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sebastian-starke-hedlund-8aaec1,Sebastian Starke Hedlund,30.0,Sweden,184.0,Right,DF,Öster,Superettan,19,793,41.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+petar-petrovic-df2da0,Petar Petrović,30.0,Serbia,179.0,,MF,Öster,Superettan,5,238,47.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+martin-andersen-b952d7,Martin Andersen,29.0,Norway,187.0,,FW,Öster,Superettan,11,456,41.5,1,4,0.2,0.79,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theodor-johansson-86aac9,Theodor Johansson,25.0,Sweden,175.0,,MF,Öster,Superettan,14,287,20.5,1,0,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+hannes-pijaca-000cda,Hannes Pijaca,20.0,Sweden,,,MF,Öster,Superettan,6,241,40.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+orri-mar-orisson-cf1108,Þorri Mar Þórisson,26.0,Iceland,,,FW,Öster,Superettan,11,273,24.8,0,1,,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+raymond-adjei-a8888e,Raymond Adjei,21.0,Sweden,175.0,,DF,Öster,Superettan,7,117,16.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+oskar-gabrielsson-f99130,Oskar Gabrielsson,25.0,Sweden,185.0,,MF,Öster,Superettan,6,52,8.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mirsad-basic-108eef,Mirsad Basic,,Sweden,,,MF,Öster,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gustav-falth-081fb1,Gustav Fälth,,Sweden,,,FW,Öster,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+carl-persson-77bd94,Carl Persson,25.0,Sweden,,,GK,Öster,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+adam-egnell-26b741,Adam Egnell,26.0,Sweden,183.0,,MF,Landskrona,Superettan,28,2465,88.0,5,2,0.18,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+amr-kaddoura-17698e,Amr Kaddoura,31.0,Palestine,183.0,Right,GK,Landskrona,Superettan,28,2459,87.8,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+max-nilsson-cb693f,Max Nilsson,20.0,Sweden,,,MF,Landskrona,Superettan,28,2451,87.5,4,2,0.15,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+robin-dzabic-ecce18,Robin Dzabic,24.0,Sweden,179.0,,MF,Landskrona,Superettan,30,2336,77.9,6,7,0.23,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+philip-andersson-59735d,Philip Andersson,,Sweden,185.0,,DF,Landskrona,Superettan,28,2378,84.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rassa-rahmani-117bae,Rassa Rahmani,25.0,Sweden,,,DF,Landskrona,Superettan,28,2375,84.8,2,2,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+vincent-sundberg-7d352c,Vincent Sundberg,21.0,Sweden,,,DF,Landskrona,Superettan,28,2272,81.1,5,6,0.2,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kofi-asare-38b912,Kofi Asare,23.0,Sweden,171.0,,FW,Landskrona,Superettan,25,1491,59.6,4,1,0.24,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+victor-karlsson-cc4729,Victor Karlsson,24.0,Sweden,176.0,Left,MF,Landskrona,Superettan,30,1634,54.5,1,4,0.06,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+melker-jonsson-d9f7dc,Melker Jonsson,23.0,Sweden,186.0,Both,DF,Landskrona,Superettan,21,1543,73.5,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+david-edvardsson-209191,David Edvardsson,23.0,Sweden,174.0,,MF,Landskrona,Superettan,17,1440,84.7,1,2,0.06,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+gustaf-bruzelius-e81977,Gustaf Bruzelius,23.0,Sweden,,,DF,Landskrona,Superettan,18,1397,77.6,0,2,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+frederik-ihler-17ac09,Frederik Ihler,22.0,Denmark,181.0,,FW,Molde,Eliteserien,11,311,28.3,2,1,0.58,0.29,1.2,0.57,0.06,0.63,0.57,2.41,1.51,62.5,12.0,0.9,0.0,0.6,10.54,61.4,0.0,0.3,0.3,4.52,0.6,0.3,25.0,11.44,0.6,25.89,12.34,4.52,16.56,1.2,0.3,0.6,1.51,2.41,44.4,0.0,0.0,0.6,,,,,,,,,,,,,,,,,,1.6
+edi-sylisufaj-2197ae,Edi Sylisufaj,25.0,Kosovo,178.0,Right,FW,Landskrona,Superettan,13,1079,83.0,5,2,0.42,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+filip-sachpekidis-927d71,Filip Sachpekidis,,Sweden,180.0,Right,FW-MF,Landskrona,Superettan,19,606,31.9,0,2,,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+jesper-strid-951cee,Jesper Strid,,Sweden,177.0,,MF,Landskrona,Superettan,21,553,26.3,2,1,0.33,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+samuel-burakovsky-013184,Samuel Burakovsky,22.0,Sweden,186.0,,FW,Landskrona,Superettan,11,472,42.9,3,1,0.57,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+erik-hedenquist-fd2741,Erik Hedenquist,26.0,Sweden,,,DF,Landskrona,Superettan,14,368,26.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+constantino-capotondi-cfd1e5,Constantino Capotondi,25.0,Sweden,170.0,,MF,Landskrona,Superettan,10,374,37.4,0,1,,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+svante-hildeman-5136ae,Svante Hildeman,30.0,Sweden,190.0,,GK,Landskrona,Superettan,3,241,80.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+emil-lindman-c19067,Emil Lindman,22.0,Sweden,177.0,,DF,Landskrona,Superettan,9,151,16.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+christian-stark-d09e04,Christian Stark,19.0,Sweden,177.0,Left,FW,Landskrona,Superettan,10,197,19.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+maxmed-mohamed-dc2ab0,Max'Med Mohamed,24.0,Sweden,180.0,Right,MF,Landskrona,Superettan,9,92,10.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+xavier-odhiambo-9d8dc9,Xavier Odhiambo,21.0,Kenya,,,FW,Landskrona,Superettan,3,47,15.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+gustaf-weststrom-0acdc9,Gustaf Westström,21.0,Sweden,,,DF,Landskrona,Superettan,1,23,23.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+sam-hegdal-7e8f38,Sam Hegdal,,Sweden,,,MF,Landskrona,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hampus-pauli-060c5e,Hampus Pauli,22.0,Sweden,184.0,,GK,Landskrona,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kalle-joelsson-64fc55,Kalle Joelsson,27.0,Sweden,189.0,,GK,Helsingborg,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+wilhelm-nilsson-b91746,Wilhelm Nilsson,28.0,Sweden,183.0,,DF,Helsingborg,Superettan,30,2691,89.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+lukas-kjellnas-f71c44,Lukas Kjellnäs,21.0,Sweden,179.0,,MF,Helsingborg,Superettan,29,2579,88.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+taylor-silverholt-d0b6d1,Taylor Silverholt,24.0,Sweden,181.0,Right,FW,Helsingborg,Superettan,30,2346,78.2,13,0,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+wilhelm-loeper-d98a3e,Wilhelm Loeper,27.0,Sweden,189.0,Left,MF,Helsingborg,Superettan,29,2382,82.1,6,7,0.23,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+ervin-gigovic-49562e,Ervin Gigovic,22.0,Sweden,186.0,,DF,Helsingborg,Superettan,27,2117,78.4,2,8,0.09,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+benjamin-acquah-9c80ff,Benjamin Acquah,24.0,Ghana,180.0,Right,MF,Helsingborg,Superettan,30,2133,71.1,5,2,0.21,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+jon-birkfeldt-8dd7e5,Jon Birkfeldt,29.0,Sweden,183.0,Right,DF,Helsingborg,Superettan,24,2075,86.5,2,4,0.09,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+dennis-olsson-a6a7ea,Dennis Olsson,26.0,Sweden,181.0,,FW,Helsingborg,Superettan,27,1886,69.9,1,4,0.05,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+adrian-svanback-b99fe5,Adrian Svanbäck,21.0,Finland,179.0,,FW,Helsingborg,Superettan,27,1477,54.7,6,4,0.37,0.24,0.0,0.31,0.19,0.5,0.31,1.93,0.77,40.0,16.3,2.7,0.0,1.55,20.86,80.6,1.55,1.93,4.25,4.64,1.16,1.55,40.0,17.0,2.32,39.01,18.15,3.09,24.33,1.93,0.77,1.16,3.48,1.16,75.0,0.0,0.0,0.77,,,,,,,,,,,,,,,,,,1.0
+johannes-orn-8f598f,Johannes Örn,21.0,Sweden,,,DF,Helsingborg,Superettan,24,1619,67.5,1,1,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+thomas-rogne-71ea1c,Thomas Rogne,,Norway,193.0,Right,DF,Helsingborg,Superettan,18,1468,81.6,1,0,0.06,0.0,0.0,0.03,0.0,0.03,0.03,0.33,0.0,0.0,11.1,0.0,0.0,0.0,59.0,92.2,2.0,0.0,3.67,0.0,0.0,0.33,100.0,49.0,0.33,74.0,1.0,0.33,55.0,1.67,1.0,0.67,2.0,3.33,62.5,0.0,0.0,0.67,,,,,,,,,,,,,,,,,,
+milan-rasmussen-f00f7b,Milan Rasmussen,22.0,Denmark,186.0,,FW,Helsingborg,Superettan,26,1359,52.3,2,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+william-westerlund-3c97a8,William Westerlund,21.0,Sweden,180.0,,DF,Helsingborg,Superettan,22,1047,47.6,0,1,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+adam-hellborg-3da55c,Adam Hellborg,,Sweden,188.0,,MF,Helsingborg,Superettan,21,492,23.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+daniel-bergman-66bd00,Daniel Bergman,,Sweden,180.0,,DF,Helsingborg,Superettan,15,331,22.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arian-kabashi-fc8c06,Arian Kabashi,28.0,Sweden,182.0,,MF,Helsingborg,Superettan,16,377,23.6,0,2,,0.48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+amar-muhsin-ce00a6,Amar Muhsin,27.0,Iraq,190.0,,FW,Helsingborg,Superettan,10,206,20.6,1,0,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+sumar-al-madjed-ff7fc7,Sumar Al Madjed,,Iraq,,,MF,Helsingborg,Superettan,3,124,41.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+chisomnazu-chika-chidi-0617b0,Chisomnazu Chika Chidi,25.0,Sweden,187.0,,MF,Helsingborg,Superettan,14,210,15.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-nilsson-f8cd8a,Anton Nilsson,,Sweden,,,FW,Helsingborg,Superettan,4,36,9.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+simon-bengtsson-8cb583,Simon Bengtsson,21.0,Sweden,177.0,,DF,Helsingborg,Superettan,2,15,7.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+baker-amer-aefb47,Baker Amer,20.0,Sweden,180.0,,DF,Helsingborg,Superettan,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nils-arvidsson-beacf5,Nils Arvidsson,22.0,Sweden,191.0,,GK,Helsingborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+casper-hofvendahl-72a7ac,Casper Hofvendahl,19.0,Sweden,,,MF,Helsingborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+alvin-nordin-1d02f2,Alvin Nordin,17.0,Sweden,,,MF,Helsingborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+hampus-gustafsson-0e9ba6,Hampus Gustafsson,24.0,Sweden,190.0,,GK,Örgryte,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+amel-mujanic-c33e25,Amel Mujanic,24.0,Sweden,180.0,,MF,Örgryte,Superettan,29,2592,89.4,3,5,0.1,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+isak-dahlqvist-3289e8,Isak Dahlqvist,24.0,Sweden,173.0,Right,MF,Örgryte,Superettan,28,2507,89.5,5,5,0.18,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+jonathan-azulay-43b93b,Jonathan Azulay,32.0,Sweden,182.0,,DF,Örgryte,Superettan,27,2186,81.0,4,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+anton-andreasson-2e3876,Anton Andreasson,32.0,Sweden,175.0,,MF,Örgryte,Superettan,27,1969,72.9,3,3,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+charlie-vindehall-a7fc1a,Charlie Vindehall,29.0,Sweden,175.0,,MF,Örgryte,Superettan,26,1795,69.0,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+abdoulaye-faye-1407eb,Abdoulaye Faye,21.0,Senegal,184.0,,DF,Örgryte,Superettan,22,1786,81.2,0,1,0.0,0.05,0.0,0.08,0.0,0.08,0.08,0.94,0.16,16.7,11.0,0.63,0.16,0.0,49.32,88.0,3.3,0.0,2.98,0.16,0.16,0.31,66.7,40.84,0.31,68.8,3.61,1.57,46.18,1.88,1.88,1.1,2.51,2.51,66.7,0.79,0.0,2.04,,,,,,,,,,,,,,,,,,3.0
+mikael-dyrestam-540a24,Mikael Dyrestam,33.0,Guinea,187.0,Right,DF,Örgryte,Superettan,21,1583,75.4,2,1,0.11,0.06,0.0,0.02,0.02,0.02,0.02,0.17,0.0,0.0,17.7,0.33,0.0,0.33,40.0,83.6,2.67,0.0,3.33,0.33,0.67,0.17,100.0,37.67,0.67,57.0,3.67,0.67,35.5,0.5,0.83,1.17,4.5,2.33,60.9,0.17,0.0,0.67,,,,,,,,,,,,,,,,,,0.1
+tobias-sana-9418a0,Tobias Sana,36.0,Sweden,173.0,Right,FW-MF,Örgryte,Superettan,20,1577,78.8,3,3,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+william-svensson-88c752,William Svensson,23.0,Sweden,,,MF,Örgryte,Superettan,24,1546,64.4,3,2,0.17,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+daniel-paulson-837ed5,Daniel Paulson,30.0,Sweden,183.0,,MF,Örgryte,Superettan,18,1350,75.0,1,5,0.07,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+noah-christoffersson-54a519,Noah Christoffersson,26.0,Sweden,190.0,,FW,Örgryte,Superettan,29,1452,50.1,8,2,0.5,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+christoffer-styffe-2c1ba6,Christoffer Styffe,24.0,Sweden,,,DF,Örgryte,Superettan,21,1350,64.3,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+edi-sylisufaj-2197ae-1,Edi Sylisufaj,25.0,Kosovo,178.0,Right,FW,Örgryte,Superettan,15,1182,78.8,6,3,0.46,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+erion-sadiku-f2c8d7,Erion Sadiku,23.0,Kosovo,183.0,,MF,Örgryte,Superettan,18,1133,62.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+aydarus-abukar-bce569,Aydarus Abukar,23.0,Sweden,,,MF,Örgryte,Superettan,23,898,39.0,3,2,0.3,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+william-kenndal-ca86db,William Kenndal,29.0,Sweden,173.0,,MF,Örgryte,Superettan,11,659,59.9,1,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+viktor-lundberg-b8c4cc,Viktor Lundberg,,Sweden,183.0,Right,FW-MF,Örgryte,Superettan,20,403,20.1,4,1,0.89,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nicklas-barkroth-d64beb,Nicklas Bärkroth,33.0,Sweden,172.0,Right,FW-MF,Örgryte,Superettan,14,408,29.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+filip-trpchevski-407695,Filip Trpchevski,22.0,North Macedonia,183.0,,FW,Örgryte,Superettan,8,319,39.9,1,2,0.28,0.56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+linus-tagesson-841696,Linus Tagesson,23.0,Sweden,180.0,Both,DF,Örgryte,Superettan,6,221,36.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+emmanuel-ekpenyong-13c7a4,Emmanuel Ekpenyong,21.0,Nigeria,172.0,,FW,Örgryte,Superettan,2,15,7.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+olle-johansson-4491da,Olle Johansson,,Sweden,,,FW,Örgryte,Superettan,1,10,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+manz-karlsson-87c612,Månz Karlsson,18.0,Sweden,191.0,,FW,Örgryte,Superettan,2,2,1.0,0,1,,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+william-alder-f6dbff,William Alder,20.0,Sweden,,,DF,Örgryte,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eric-hakansson-65d2a5,Eric Hakansson,,Sweden,,,GK,Örgryte,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alex-rahm-b473ca,Alex Rahm,22.0,Sweden,186.0,,GK,Örgryte,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+jonatan-vennberg-0a3367,Jonatan Vennberg,,Sweden,,,MF,Örgryte,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+felix-jakobsson-b1c833,Felix Jakobsson,26.0,Sweden,185.0,,GK,Sandvikens IF,Superettan,28,2461,87.9,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+john-junior-igbarumah-082542,John Junior Igbarumah,,Nigeria,,,MF,Sandvikens IF,Superettan,28,2323,83.0,8,5,0.31,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+emil-engqvist-6789d8,Emil Engqvist,26.0,Sweden,188.0,,DF,Sandvikens IF,Superettan,26,2300,88.5,5,2,0.2,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+calvin-kabuye-a67f2d,Calvin Kabuye,22.0,Uganda,183.0,,FW,Sandvikens IF,Superettan,29,2136,73.7,9,5,0.38,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+daniel-soderberg-c121e0,Daniel Söderberg,28.0,Sweden,185.0,,MF,Sandvikens IF,Superettan,27,2205,81.7,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kasper-harletun-f999dc,Kasper Harletun,23.0,Sweden,,,DF,Sandvikens IF,Superettan,27,2089,77.4,0,3,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+jonathan-karlsson-31baaf,Jonathan Karlsson,22.0,Sweden,180.0,,DF,Sandvikens IF,Superettan,28,1995,71.2,1,5,0.05,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+ludwig-malachowski-thorell-78f60a,Ludwig Malachowski Thorell,20.0,Sweden,176.0,,MF,Sandvikens IF,Superettan,30,1907,63.6,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+mamadou-kouyate-608b8e,Mamadou Kouyaté,28.0,Mali,181.0,,MF,Sandvikens IF,Superettan,25,1700,68.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+mohammed-sadat-abubakari-c5e65a,Mohammed Sadat Abubakari,26.0,Ghana,,,MF,Sandvikens IF,Superettan,25,1443,57.7,0,4,,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+amin-raafat-89506b,Amin Raafat,21.0,Iraq,180.0,,FW,Sandvikens IF,Superettan,21,1374,65.4,8,1,0.52,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gustav-thorn-77ba8e,Gustav Thörn,28.0,Sweden,185.0,,DF,Sandvikens IF,Superettan,16,1335,83.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+adam-kiani-aec251,Adam Kiani,22.0,Sweden,,,MF,Sandvikens IF,Superettan,15,1084,72.3,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+james-kirby-65363a,James Kirby,29.0,England,185.0,,FW,Sandvikens IF,Superettan,23,1174,51.0,7,1,0.54,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+mohammed-mahammed-ce9e88,Mohammed Mahammed,28.0,Sweden,,,MF,Sandvikens IF,Superettan,18,915,50.8,2,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+martin-springfeldt-eae808,Martin Springfeldt,,Sweden,,,FW,Sandvikens IF,Superettan,16,767,47.9,1,3,0.12,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+zinedin-smajlovic-9cc97f,Zinedin Smajlovic,21.0,Sweden,191.0,,DF,Sandvikens IF,Superettan,10,544,54.4,2,0,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+lague-byiringiro-c5b3f6,Lague Byiringiro,,Rwanda,185.0,,MF,Sandvikens IF,Superettan,15,340,22.7,1,3,0.26,0.79,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+liam-vabo-66a51f,Liam Vabö,21.0,Sweden,,,MF,Sandvikens IF,Superettan,16,317,19.8,1,0,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+oscar-sjostrand-57a7ee,Oscar Sjöstrand,21.0,Sweden,,,FW,Sandvikens IF,Superettan,13,264,20.3,1,2,0.34,0.68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+alexandar-mutic-abf686,Alexandar Mutic,,Sweden,190.0,,FW,Sandvikens IF,Superettan,9,240,26.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yannick-mukunzi-098ff1,Yannick Mukunzi,,Rwanda,175.0,,MF,Sandvikens IF,Superettan,9,155,17.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jay-tee-kamara-ac86ba,Jay Tee Kamara,23.0,Sierra Leone,,,MF,Sandvikens IF,Superettan,8,150,18.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+max-croon-38ed70,Max Croon,20.0,Sweden,187.0,,GK,Sandvikens IF,Superettan,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+hannes-sveijer-f1633a,Hannes Sveijer,23.0,Sweden,186.0,Right,GK,Sandvikens IF,Superettan,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+lukas-vikgren-5b27eb,Lukas Vikgren,21.0,Sweden,,,FW,Sandvikens IF,Superettan,2,52,26.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+emanuel-sjogren-svedberg-f52964,Emanuel Sjögren Svedberg,,Sweden,,,GK,Sandvikens IF,Superettan,1,56,56.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+isac-lindholm-46a0f7,Isac Lindholm,21.0,Sweden,,,FW,Sandvikens IF,Superettan,1,13,13.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+taulant-parallangaj-75d96b,Taulant Parallangaj,23.0,Sweden,,,MF,Sandvikens IF,Superettan,2,13,6.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+edvin-devic-a63939,Edvin Devic,19.0,Sweden,,,DF,Sandvikens IF,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mahmoud-kiki-kharsi-88dbcd,Mahmoud Kiki Kharsi,18.0,Sweden,,,DF,Sandvikens IF,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,Sandvikens IF,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pierre-larsen-683beb,Pierre Larsen,31.0,Denmark,,,FW,Trelleborg,Superettan,29,2297,79.2,5,1,0.2,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+felix-horberg-3a2d80,Felix Hörberg,26.0,Sweden,180.0,Right,DF-MF,Trelleborg,Superettan,27,2389,88.5,0,4,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+eren-alievski-4f2618,Eren Alievski,21.0,Sweden,177.0,,DF,Trelleborg,Superettan,29,2188,75.4,1,3,0.04,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+andreas-larsen-0d28ec,Andreas Larsen,35.0,Denmark,185.0,Right,GK,Trelleborg,Superettan,26,2340,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+filip-bohman-0815ae,Filip Bohman,29.0,Sweden,185.0,,FW,Trelleborg,Superettan,27,2127,78.8,5,2,0.21,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+hady-saleh-karim-02f087,Hady Saleh Karim,,Sweden,180.0,,FW,Trelleborg,Superettan,26,2079,80.0,10,1,0.43,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+tobias-karlsson-f5962c,Tobias Karlsson,27.0,Sweden,187.0,,DF,Trelleborg,Superettan,27,2036,75.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+armin-culum-a4ea61,Armin Culum,22.0,Sweden,175.0,Left,FW,Trelleborg,Superettan,27,1854,68.7,3,5,0.15,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+othmane-salama-bc3ce7,Othmane Salama,24.0,Sweden,171.0,,FW,Trelleborg,Superettan,29,1680,57.9,2,1,0.11,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abel-ogwuche-2433f2,Abel Ogwuche,22.0,Nigeria,188.0,,DF,Trelleborg,Superettan,24,1862,77.6,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+samuel-asoma-65c46b,Samuel Asoma,23.0,Belgium,173.0,,MF,Trelleborg,Superettan,15,1319,87.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+charlie-weberg-9f7843,Charlie Weberg,27.0,Sweden,,,DF,Trelleborg,Superettan,17,1256,73.9,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+zander-hyltoft-87ef27,Zander Hyltoft,30.0,Denmark,190.0,,MF,Trelleborg,Superettan,13,1108,85.2,2,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+tim-martinsson-211bda,Tim Martinsson,28.0,Sweden,,,DF,Trelleborg,Superettan,12,823,68.6,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+markus-bjorkvist-035f9c,Markus Björkvist,22.0,Sweden,181.0,Right,MF,Trelleborg,Superettan,16,783,48.9,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kalle-wendt-d326b7,Kalle Wendt,20.0,Sweden,183.0,,MF,Trelleborg,Superettan,13,681,52.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+fritiof-bjorken-f02f12,Fritiof Björkén,,Sweden,180.0,Right,DF,Trelleborg,Superettan,15,527,35.1,3,0,0.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+emmanuel-godwin-442d02,Emmanuel Godwin,20.0,Nigeria,185.0,,DF,Trelleborg,Superettan,25,760,30.4,0,3,,0.36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+melker-ellborg-e2fd17,Melker Ellborg,22.0,Sweden,191.0,Right,GK,Trelleborg,Superettan,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.67,6.33,4.33,73.7,0.0,0.35,0.67,100.0,25.67,41.6,35.9,0.33,8.2,1.5,0.0,0.33,0.67,0.5
+viktor-christiansson-ed01ce,Viktor Christiansson,24.0,Sweden,189.0,,MF,Trelleborg,Superettan,9,286,31.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ammar-asani-6c1d83,Ammar Asani,19.0,Sweden,,,FW,Trelleborg,Superettan,12,252,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+mattias-andersson-54368c,Mattias Andersson,27.0,Sweden,,,DF,Trelleborg,Superettan,14,373,26.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abbe-rehn-4607d7,Abbe Rehn,20.0,Sweden,178.0,,DF,Trelleborg,Superettan,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nicolas-mortensen-4589d2,Nicolas Mortensen,,Denmark,180.0,,FW,Trelleborg,Superettan,7,125,17.9,1,1,0.72,0.72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+johannes-kack-bbb9ff,Johannes Käck,19.0,Sweden,,,DF,Trelleborg,Superettan,10,65,6.5,0,2,,2.77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+herman-hallberg-93ed7c,Herman Hallberg,,Sweden,180.0,,MF,Trelleborg,Superettan,2,28,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niko-soderstrom-a45777,Niko Söderström,,Sweden,,,FW,Trelleborg,Superettan,1,9,9.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+loke-mattsson-ba30c7,Loke Mattsson,20.0,Sweden,,,MF,Trelleborg,Superettan,2,2,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hjalmar-fredricson-5970f7,Hjalmar Fredricson,,Sweden,,,MF,Trelleborg,Superettan,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+carl-brandin-5cad09,Carl Brandin,18.0,Sweden,,,MF,Trelleborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+andreas-harry-beyer-c9334a,Andreas Harry Beyer,,Sweden,,,MF,Trelleborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+henry-palven-fad485,Henry Palvén,,Sweden,,,MF,Trelleborg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+viktor-frodig-f17ea9,Viktor Frodig,28.0,Sweden,,,GK,Brage,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+oskar-agren-e92447,Oskar Ågren,27.0,Sweden,191.0,,DF,Brage,Superettan,29,2556,88.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+christopher-redenstrand-e125ff,Christopher Redenstrand,27.0,Sweden,177.0,,DF,Brage,Superettan,30,2517,83.9,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+cesar-weilid-71280f,Cesar Weilid,28.0,Sweden,177.0,,MF,Brage,Superettan,29,2473,85.3,0,2,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+henry-sletsje-6536b9,Henry Sletsjøe,25.0,Sweden,189.0,,MF,Brage,Superettan,28,2510,89.6,2,5,0.07,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+gustav-berggren-3c0e0f,Gustav Berggren,25.0,Sweden,187.0,,MF,Brage,Superettan,29,2357,81.3,2,1,0.08,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+alexander-zetterstrom-5af75f,Alexander Zetterström,30.0,Sweden,181.0,,DF,Brage,Superettan,28,2425,86.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ieltsin-camoes-9fce83,Ieltsin Camões,26.0,Portugal,,,FW,Brage,Superettan,27,2275,84.3,13,4,0.51,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+johan-arvidsson-fda681,Johan Arvidsson,25.0,Sweden,178.0,Left,MF,Brage,Superettan,29,1987,68.5,3,3,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+emil-tot-wikstrom-f0d5fe,Emil Töt Wikström,26.0,Sweden,176.0,Right,MF,Brage,Superettan,24,1629,67.9,1,4,0.06,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+amar-muhsin-ce00a6-1,Amar Muhsin,27.0,Iraq,190.0,,FW,Brage,Superettan,16,1307,81.7,4,0,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+pontus-jonsson-cbcfa2,Pontus Jonsson,24.0,Sweden,,,FW,Brage,Superettan,30,1462,48.7,0,4,,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+adil-titi-b226e2,Adil Titi,26.0,Togo,185.0,,MF,Brage,Superettan,26,913,35.1,3,0,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jacob-stensson-07c608,Jacob Stensson,28.0,Sweden,177.0,,MF,Brage,Superettan,9,475,52.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+teodor-walemark-dd68da,Teodor Wålemark,24.0,Sweden,190.0,,DF,Brage,Superettan,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+kevin-nyarko-e6c25f,Kevin Nyarko,23.0,Netherlands,,,FW,Brage,Superettan,5,244,48.8,1,1,0.37,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-sjoberg-e8c90a,Filip Sjöberg,,Sweden,,,MF,Brage,Superettan,13,313,24.1,0,1,,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+samouil-izountouemoi-2ebb40,Samouil Izountouemoi,26.0,Sweden,,,MF,Brage,Superettan,12,312,26.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+omur-pektas-d99260,Ömür Pektas,23.0,Sweden,,,FW,Brage,Superettan,10,225,22.5,0,1,,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ferhan-abic-1bc0a6,Ferhan Abic,,Sweden,,,MF,Brage,Superettan,16,240,15.0,1,0,0.38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+malte-persson-bec44f,Malte Persson,25.0,Sweden,,,DF,Brage,Superettan,10,192,19.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+eirik-gayi-88f0e8,Eirik Gayi,24.0,Norway,185.0,Both,FW,Brage,Superettan,5,62,12.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oliwer-stark-e7c597,Oliwer Stark,19.0,Sweden,,,MF,Brage,Superettan,2,33,16.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jonah-almquist-db57fc,Jonah Almquist,20.0,Sweden,,,MF,Brage,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+andre-bernardini-421aa2,Andre Bernardini,29.0,Brazil,190.0,,GK,Brage,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+emrik-eriksson-4bcb47,Emrik Eriksson,,,,,GK,Brage,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+suren-hagop-c47d66,Suren Hagop,18.0,Sweden,,,MF,Brage,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+albin-pihlstrom-a478c2,Albin Pihlström,18.0,Sweden,,,FW,Brage,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+elias-hadaya-569210,Elias Hadaya,27.0,Syria,194.0,,GK,Utsikten,Superettan,30,2694,89.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+jesper-brandt-ada690,Jesper Brandt,32.0,Sweden,183.0,,MF,Utsikten,Superettan,29,2490,85.9,2,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+sebastian-lagerlund-8770bb,Sebastian Lagerlund,23.0,Sweden,186.0,,DF,Utsikten,Superettan,28,2496,89.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+robin-book-7673bd,Robin Book,33.0,Sweden,178.0,Right,MF,Utsikten,Superettan,30,2442,81.4,5,3,0.18,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+lucas-lima-80578d,Lucas Lima,23.0,Sweden,189.0,Right,FW,Utsikten,Superettan,28,2275,81.2,7,2,0.28,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kevin-rodeblad-b634ff,Kevin Rodeblad,24.0,Sweden,195.0,,DF,Utsikten,Superettan,23,1969,85.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+malkolm-moenza-eff31d,Malkolm Moënza,32.0,Sweden,178.0,Left,DF,Utsikten,Superettan,23,1808,78.6,3,5,0.15,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+alexander-faltsetas-48d75c,Alexander Faltsetas,38.0,Sweden,181.0,Right,MF,Utsikten,Superettan,26,1263,48.6,2,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+predrag-ranelovic-3d6f6e,Predrag Ranđelović,35.0,North Macedonia,176.0,,MF,Utsikten,Superettan,23,1090,47.4,1,1,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+albin-skoglund-2fb747,Albin Skoglund,28.0,Sweden,183.0,Right,MF,Utsikten,Superettan,16,1128,70.5,2,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+erik-westermark-017f36,Erik Westermark,,Sweden,181.0,,DF,Utsikten,Superettan,27,1443,53.4,2,2,0.12,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+suleman-zurmati-9d9663,Suleman Zurmati,25.0,Afghanistan,181.0,,DF,Utsikten,Superettan,28,1282,45.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+allan-mohideen-bdaaa0,Allan Mohideen,32.0,Iraq,176.0,Both,DF,Utsikten,Superettan,26,1222,47.0,1,2,0.07,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+ivo-pekalski-c7c0ce,Ivo Pękalski,,Sweden,183.0,,MF,Utsikten,Superettan,20,1175,58.8,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tim-martinsson-211bda-1,Tim Martinsson,28.0,Sweden,,,DF,Utsikten,Superettan,14,876,62.6,0,3,,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+karl-bohm-66c819,Karl Bohm,30.0,Sweden,178.0,,MF,Utsikten,Superettan,13,720,55.4,3,2,0.38,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+filip-trpchevski-407695-1,Filip Trpchevski,22.0,North Macedonia,183.0,,FW,Utsikten,Superettan,14,785,56.1,5,0,0.57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kalipha-jawla-c83061,Kalipha Jawla,19.0,Sweden,176.0,,FW,Utsikten,Superettan,8,622,77.8,4,2,0.58,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+daniel-hermansson-87fab2,Daniel Hermansson,27.0,Sweden,178.0,,DF,Utsikten,Superettan,17,620,36.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+abundance-salaou-51d904,Abundance Salaou,21.0,Côte d'Ivoire,174.0,,MF,Utsikten,Superettan,10,537,53.7,1,2,0.17,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+ben-engdahl-d3e655,Ben Engdahl,22.0,Sweden,,,DF,Utsikten,Superettan,3,145,48.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+wiggo-hjort-e8a437,Wiggo Hjort,21.0,Sweden,,,FW,Utsikten,Superettan,8,126,15.8,0,1,,0.71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+dijar-ferati-a16b08,Dijar Ferati,,Albania,175.0,,MF,Utsikten,Superettan,7,112,16.0,0,1,,0.8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+lorent-mehmeti-8d817e,Lorent Mehmeti,21.0,Sweden,180.0,,FW,Utsikten,Superettan,10,203,20.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jaheem-burke-3dab54,Jaheem Burke,,Sweden,182.0,,DF,Utsikten,Superettan,4,103,25.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vilhelm-gunnarsson-da0ed7,Vilhelm Gunnarsson,19.0,Sweden,,,MF,Utsikten,Superettan,2,27,13.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+william-nilsson-72d30a,William Nilsson,,Sweden,,,FW,Utsikten,Superettan,2,23,11.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mark-gorgos-b0a660,Mark Gorgos,25.0,Sweden,,,MF,Utsikten,Superettan,2,15,7.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oliver-gustafsson-fb8af3,Oliver Gustafsson,32.0,Sweden,190.0,,GK,Utsikten,Superettan,1,6,6.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+filip-fredriksson-5fb3ac,Filip Fredriksson,,Sweden,,,MF,Utsikten,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lukas-lehto-68e26d,Lukas Lehto,19.0,Sweden,,,GK,Utsikten,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+isak-bjerkebo-86e759,Isak Bjerkebo,22.0,Sweden,172.0,,FW,Varberg,Superettan,30,2577,85.9,11,3,0.38,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+olle-edlund-68a898,Olle Edlund,25.0,Sweden,,,MF,Varberg,Superettan,29,2195,75.7,3,2,0.12,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+anton-kurochkin-90d51f,Anton Kurochkin,22.0,Sweden,173.0,,MF,Varberg,Superettan,29,2176,75.0,3,10,0.12,0.41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+oskar-sverrisson-c5632c,Oskar Sverrisson,,Iceland,185.0,Left,DF,Varberg,Superettan,23,1946,84.6,0,3,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niklas-dahlstrom-bfa8e8,Niklas Dahlström,28.0,Sweden,193.0,,DF,Varberg,Superettan,26,2011,77.3,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+fredrik-andersson-31b496,Fredrik Andersson,37.0,Sweden,197.0,Right,GK,Varberg,Superettan,21,1890,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+hampus-zackrisson-508191,Hampus Zackrisson,31.0,Sweden,187.0,Right,DF-MF,Varberg,Superettan,24,1663,69.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+marc-tokich-16d8db,Marc Tokich,26.0,Australia,187.0,,MF,Varberg,Superettan,19,1340,70.5,2,2,0.13,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+gustav-broman-bd71ea,Gustav Broman,24.0,Sweden,183.0,Both,DF,Varberg,Superettan,15,1350,90.0,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+robin-tranberg-6e4ca9,Robin Tranberg,32.0,Sweden,183.0,Right,MF,Varberg,Superettan,22,1301,59.1,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+leo-frigell-b82d9b,Leo Frigell,22.0,Sweden,,,DF,Varberg,Superettan,19,1241,65.3,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+kevin-custovic-7e6e88,Kevin Custovic,25.0,Sweden,187.0,,DF,Varberg,Superettan,14,1184,84.6,3,2,0.23,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+diego-montiel-fa990d,Diego Montiel,30.0,Sweden,183.0,,MF,Varberg,Superettan,22,1038,47.2,2,5,0.17,0.43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+azeez-yusuf-7066f7,Azeez Yusuf,,Nigeria,183.0,Both,FW,Varberg,Superettan,20,1096,54.8,3,2,0.25,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aulon-bitiqi-66cec6,Aulon Bitiqi,21.0,Sweden,,,FW,Varberg,Superettan,24,1082,45.1,5,3,0.42,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+emil-hellman-7b5b7e,Emil Hellman,24.0,Sweden,,,DF,Varberg,Superettan,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+david-olsson-c2c559,David Olsson,,Sweden,197.0,,GK,Varberg,Superettan,9,810,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kevin-nyarko-e6c25f-1,Kevin Nyarko,23.0,Netherlands,,,FW,Varberg,Superettan,12,611,50.9,3,0,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alexander-johansson-4c0bfc,Alexander Johansson,25.0,Sweden,183.0,Right,FW,Varberg,Superettan,10,638,63.8,5,0,0.71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+joakim-lindner-fd283c,Joakim Lindner,34.0,Sweden,193.0,Right,DF-MF,Varberg,Superettan,7,622,88.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+erion-sadiku-f2c8d7-1,Erion Sadiku,23.0,Kosovo,183.0,,MF,Varberg,Superettan,9,599,66.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+isak-vidjeskog-2c632c,Isak Vidjeskog,21.0,Finland,180.0,Right,MF,Varberg,Superettan,5,361,72.2,0,1,,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+oliver-alfonsi-3c1fa3,Oliver Alfonsi,22.0,Sweden,,,FW,Varberg,Superettan,16,421,26.3,1,0,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+liam-olausson-026a55,Liam Olausson,23.0,Sweden,,,FW,Varberg,Superettan,13,267,20.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+arvid-wiklund-bb1223,Arvid Wiklund,19.0,Sweden,,,DF,Varberg,Superettan,2,104,52.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.01
+diego-alfonsi-354494,Diego Alfonsi,,Sweden,,,MF,Varberg,Superettan,6,107,17.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oliver-silverholt-0e765d,Oliver Silverholt,,Sweden,176.0,,DF-MF,Varberg,Superettan,5,38,7.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+mans-andersson-21f10a,Måns Andersson,19.0,Sweden,,,MF,Varberg,Superettan,1,5,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+albin-berggren-a4af5a,Albin Berggren,,Sweden,,,DF,Varberg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+viktor-dryselius-f8b4b5,Viktor Dryselius,22.0,Sweden,180.0,,GK,Varberg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-liljenback-6a1da0,Anton Liljenbäck,30.0,Sweden,183.0,Right,DF-MF,Varberg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+maxime-sainte-caba69,Maxime Sainte,,Sweden,,,MF,Varberg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+albin-winbo-c5e9de,Albin Winbo,28.0,Sweden,180.0,Left,MF,Varberg,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+malte-pahlsson-c032f9,Malte Påhlsson,26.0,Sweden,183.0,Right,GK,Örebro,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kalle-holmberg-702001,Kalle Holmberg,32.0,Sweden,181.0,Right,FW-MF,Örebro,Superettan,29,2578,88.9,14,6,0.49,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+erik-mccue-6f30fc,Erik McCue,24.0,United States,190.0,Right,DF,Örebro,Superettan,27,2400,88.9,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+jesper-modig-109ce4,Jesper Modig,31.0,Sweden,180.0,Right,DF,Örebro,Superettan,23,2069,90.0,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+valgeir-valgeirsson-6dbd4a,Valgeir Valgeirsson,23.0,Iceland,179.0,,MF,Örebro,Superettan,24,1916,79.8,1,2,0.05,0.09,0.0,0.12,0.2,0.32,0.12,1.44,0.29,20.0,19.4,2.01,0.0,1.15,31.05,77.1,1.15,0.58,2.01,3.16,1.73,2.01,63.6,28.47,1.73,54.06,13.8,2.59,26.74,2.3,1.44,1.15,5.75,0.58,66.7,0.0,0.0,0.29,,,,,,,,,,,,,,,,,,0.35
+tobias-bjrnstad-2815cd,Tobias Bjørnstad,23.0,Norway,,,DF,Örebro,Superettan,23,1870,81.3,2,4,0.1,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+samuel-kroon-b5d9ad,Samuel Kroon,29.0,Sweden,186.0,Right,DF-MF,Örebro,Superettan,24,1809,75.4,2,3,0.1,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+elias-barsoum-82b737,Elias Barsoum,23.0,Sweden,177.0,,MF,Örebro,Superettan,25,1691,67.6,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+niclas-bergmark-69a4c1,Niclas Bergmark,,Sweden,191.0,Right,DF,Örebro,Superettan,28,1687,60.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+lucas-shlimon-9567d1,Lucas Shlimon,22.0,Iraq,182.0,,MF,Örebro,Superettan,24,1619,67.5,0,2,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+sebastian-crona-c18414,Sebastian Crona,,Sweden,185.0,,FW,Örebro,Superettan,22,1361,61.9,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mohammed-saeid-234733,Mohammed Saeid,,Eritrea,170.0,Left,FW-MF,Örebro,Superettan,21,1315,62.6,2,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ahmed-yasin-ghani-7370ce,Ahmed Yasin Ghani,34.0,Iraq,183.0,Both,FW-MF,Örebro,Superettan,16,1335,83.4,4,1,0.27,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+victor-backman-f81e55,Victor Backman,24.0,Sweden,168.0,Left,MF,Örebro,Superettan,22,1009,45.9,1,2,0.09,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+erik-andersson-f4d542,Erik Andersson,28.0,Sweden,179.0,,MF,Örebro,Superettan,13,804,61.8,2,1,0.22,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+adam-bark-0f0b9f,Adam Bark,25.0,Sweden,165.0,,MF,Örebro,Superettan,21,780,37.1,1,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+peter-gwargis-b97202,Peter Gwargis,25.0,Iraq,180.0,Right,MF,Örebro,Superettan,15,752,50.1,1,2,0.12,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+oskar-kack-bbae13,Oskar Käck,22.0,Sweden,179.0,,MF,Örebro,Superettan,15,689,45.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+hamse-shagaxle-45dbc3,Hamse Shagaxle,20.0,Sweden,194.0,,FW,Örebro,Superettan,24,820,34.2,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+theodor-hansemon-801c30,Theodor Hansemon,23.0,Sweden,192.0,Right,DF,Örebro,Superettan,24,337,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+wessam-dukhan-92fd48,Wessam Dukhan,20.0,Syria,180.0,,MF,Örebro,Superettan,4,47,11.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.01
+karl-alperud-8bfd8f,Karl Alperud,20.0,Sweden,,,MF,Örebro,Superettan,1,33,33.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bilal-fousseni-cc7335,Bilal Fousseni,,Sweden,,,FW,Örebro,Superettan,1,32,32.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+charlie-swartling-8f13fa,Charlie Swartling,20.0,Sweden,184.0,,MF,Örebro,Superettan,5,22,4.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+malik-mokede-65201b,Malïk Mokédé,20.0,Sweden,178.0,,MF,Örebro,Superettan,1,11,11.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oli-melander-601ff8,Oli Melander,,Iceland,,,MF,Örebro,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+daniel-strindholm-f5b985,Daniel Strindholm,24.0,Sweden,190.0,,GK,Örebro,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+alexander-almqvist-02ccb6,Alexander Almqvist,25.0,Sweden,,,DF,Oddevold,Superettan,29,2560,88.3,2,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+assad-al-hamalawi-517ee7,Assad Al Hamalawi,25.0,Palestine,,,FW,Oddevold,Superettan,28,2319,82.8,14,2,0.54,0.08,0.0,0.14,0.03,0.17,0.42,1.73,0.69,40.0,18.0,2.42,0.0,1.04,14.19,62.1,1.04,0.69,2.08,3.46,0.69,0.69,40.0,15.23,0.69,38.42,14.19,2.08,21.81,1.04,0.0,0.35,4.5,4.5,76.5,0.35,0.0,1.38,,,,,,,,,,,,,,,,,,
+liridon-kalludra-49a835,Liridon Kalludra,34.0,Sweden,170.0,Right,MF,Oddevold,Superettan,28,2045,73.0,4,6,0.18,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+filip-karlin-c52d22,Filip Karlin,27.0,Sweden,,Right,DF,Oddevold,Superettan,26,2146,82.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+gabriel-sandberg-6f4737,Gabriel Sandberg,22.0,Sweden,188.0,,MF,Oddevold,Superettan,26,2169,83.4,2,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+olle-kjellman-olblad-f2d9bf,Olle Kjellman Olblad,23.0,Sweden,,,MF,Oddevold,Superettan,29,2010,69.3,2,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+adam-engelbrektsson-6a3ea6,Adam Engelbrektsson,29.0,Sweden,171.0,,MF,Oddevold,Superettan,28,1742,62.2,1,3,0.05,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+daniel-krezic-b3e884,Daniel Krezic,29.0,North Macedonia,186.0,Left,MF,Oddevold,Superettan,25,1608,64.3,3,3,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+gustav-forssell-150a5e,Gustav Forssell,25.0,Sweden,,,MF,Oddevold,Superettan,25,1599,64.0,0,4,,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+oscar-ekman-409fa9,Oscar Ekman,26.0,Sweden,,,GK,Oddevold,Superettan,17,1530,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+philip-engelbrektsson-e94106,Philip Engelbrektsson,25.0,Sweden,,,FW,Oddevold,Superettan,19,1424,74.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+anton-snibb-f9f62c,Anton Snibb,29.0,Sweden,179.0,,DF,Oddevold,Superettan,23,1307,56.8,0,2,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+oscar-iglicar-berntsson-69f90a,Oscar Iglicar Berntsson,28.0,Sweden,177.0,,MF,Oddevold,Superettan,26,1399,53.8,1,2,0.06,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+viktor-kruger-0c5181,Viktor Krüger,25.0,Sweden,,,DF,Oddevold,Superettan,16,1242,77.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+armin-ibrahimovic-a0b49c,Armin Ibrahimovic,27.0,Sweden,187.0,,GK,Oddevold,Superettan,13,1170,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+noa-bernhardtz-e4fcbf,Noa Bernhardtz,26.0,Sweden,,,MF,Oddevold,Superettan,20,653,32.6,1,1,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+julius-johansson-d69023,Julius Johansson,25.0,Sweden,183.0,,MF,Oddevold,Superettan,13,599,46.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+linus-tornblad-f0e7cd,Linus Tornblad,32.0,Sweden,180.0,,FW-MF,Oddevold,Superettan,15,565,37.7,1,2,0.16,0.32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+pontus-johansson-2a1ced,Pontus Johansson,,Sweden,,,DF,Oddevold,Superettan,6,406,67.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+axel-pettersson-3ecaf2,Axel Pettersson,,Sweden,,,MF,Oddevold,Superettan,13,476,36.6,2,0,0.38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kenan-mehovic-521d85,Kenan Mehovic,,Sweden,183.0,Left,MF,Oddevold,Superettan,7,261,37.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+john-paul-dembe-ea6a02,John Paul Dembe,20.0,Uganda,191.0,,FW,Oddevold,Superettan,3,76,25.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+kristoffer-grauberg-b1616f,Kristoffer Grauberg,24.0,Estonia,197.0,,FW,Oddevold,Superettan,8,98,12.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hugo-tilly-2c5f2a,Hugo Tilly,23.0,Sweden,191.0,,FW,Oddevold,Superettan,8,94,11.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+adam-stroud-d1f86e,Adam Stroud,20.0,Sweden,182.0,,MF,Oddevold,Superettan,6,78,13.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+alexander-jojo-3ca436,Alexander Jojo,26.0,Hong Kong,182.0,,DF,Oddevold,Superettan,3,15,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+carl-adahl-3c99e2,Carl Ådahl,21.0,Sweden,,,FW,Oddevold,Superettan,1,14,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+andreas-skanberg-f3cd42,Andreas Skånberg,,Sweden,183.0,,GK,Oddevold,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+josef-yousofi-ba163b,Josef Yousofi,,,,,GK,Oddevold,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jonas-olsson-cf08e2,Jonas Olsson,31.0,Sweden,186.0,,GK,Sundsvall,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abdul-halik-hudu-d7373e,Abdul-Halik Hudu,,Ghana,170.0,,MF,Sundsvall,Superettan,29,2400,82.8,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+ludvig-svanberg-c84be0,Ludvig Svanberg,22.0,Sweden,194.0,Left,DF,Sundsvall,Superettan,26,2214,85.2,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+monir-jelassi-6d2eed,Monir Jelassi,26.0,Sweden,185.0,,MF,Sundsvall,Superettan,26,1819,70.0,2,2,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+lucas-forsberg-468302,Lucas Forsberg,22.0,Sweden,176.0,Right,DF,Sundsvall,Superettan,25,2054,82.2,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+kojo-peprah-oppong-ff4368,Kojo Peprah Oppong,21.0,Ghana,185.0,Right,DF,Sundsvall,Superettan,25,1989,79.6,0,0,0.07,0.0,0.07,0.06,0.02,0.08,0.06,0.56,0.14,25.0,16.2,1.12,0.0,0.42,44.44,90.1,3.14,0.21,3.49,0.42,0.98,0.63,75.0,37.88,0.84,60.49,4.95,0.7,40.26,1.74,1.19,1.12,2.79,1.4,51.3,0.07,0.0,1.12,,,,,,,,,,,,,,,,,,3.0
+gustav-nordh-775bf8,Gustav Nordh,25.0,Sweden,175.0,,MF,Sundsvall,Superettan,26,1665,64.0,3,2,0.16,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+dennis-olsson-641020,Dennis Olsson,31.0,Sweden,182.0,Right,DF-MF,Sundsvall,Superettan,23,1610,70.0,0,3,,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+yaqub-finey-bfd198,Yaqub Finey,22.0,Sweden,,,MF,Sundsvall,Superettan,30,1508,50.3,8,3,0.48,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marc-manchon-cdbecd,Marc Manchón,28.0,Spain,177.0,,MF,Sundsvall,Superettan,23,1369,59.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+hugo-aviander-3361c4,Hugo Aviander,20.0,Sweden,,,MF,Sundsvall,Superettan,25,1755,70.2,1,2,0.05,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+marcelo-palomino-251537,Marcelo Palomino,24.0,United States,178.0,Right,MF,Sundsvall,Superettan,27,1292,47.9,2,1,0.14,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+pontus-engblom-fae4de,Pontus Engblom,34.0,Sweden,184.0,,FW,Sundsvall,Superettan,28,1517,54.2,3,2,0.18,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+johan-bengtsson-edaf88,Johan Bengtsson,21.0,Sweden,178.0,,FW,Sundsvall,Superettan,26,1137,43.7,5,1,0.4,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pontus-lindgren-66e3bb,Pontus Lindgren,24.0,Sweden,187.0,,DF,Sundsvall,Superettan,18,1136,63.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+marcus-burman-f9b2ac,Marcus Burman,29.0,Sweden,180.0,,MF,Sundsvall,Superettan,24,1039,43.3,2,0,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-kralj-0abf97,Anton Kralj,27.0,Sweden,164.0,Left,DF,Sundsvall,Superettan,8,644,80.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+taiki-kagayama-abb45f,Taiki Kagayama,29.0,Japan,168.0,,FW,Sundsvall,Superettan,12,629,52.4,1,2,0.14,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+jesper-carstrom-f8c383,Jesper Carström,23.0,Sweden,178.0,,MF,Sundsvall,Superettan,18,475,26.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amaro-bahtijar-a451b2,Amaro Bahtijar,27.0,Sweden,176.0,,DF-MF,Sundsvall,Superettan,4,255,63.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+oliver-stojanovic-fredin-532eed,Oliver Stojanovic Fredin,27.0,Sweden,183.0,,MF,Sundsvall,Superettan,7,211,30.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+edvard-carrick-c6de81,Edvard Carrick,20.0,Sweden,,,DF,Sundsvall,Superettan,7,235,33.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+elvis-hansson-130bfd,Elvis Hansson,,Sweden,,,MF,Sundsvall,Superettan,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ahmed-during-980404,Ahmed During,21.0,Sweden,,,FW,Sundsvall,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+daniel-henareh-19409c,Daniel Henareh,21.0,Sweden,,,GK,Sundsvall,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-mossnelid-3c9b91,Anton Mossnelid,,Sweden,,,DF,Sundsvall,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yannick-adjoumani-bbc46c,Yannick Adjoumani,22.0,Côte d'Ivoire,168.0,Left,DF,Östersund,Superettan,30,2692,89.7,3,4,0.1,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+ali-suljic-8e8a51,Ali Suljic,28.0,Sweden,189.0,,DF,Östersund,Superettan,28,2500,89.3,4,1,0.14,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+mykola-musolitin-4cab25,Mykola Musolitin,26.0,Ukraine,175.0,,MF,Östersund,Superettan,30,2328,77.6,2,2,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+albin-sporrong-c5744a,Albin Sporrong,25.0,Sweden,,,MF,Östersund,Superettan,27,2312,85.6,2,3,0.08,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+erick-3b75a5,Erick,30.0,Brazil,182.0,,DF,Östersund,Superettan,28,2196,78.4,2,3,0.08,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0
+simon-marklund-538a1c,Simon Marklund,26.0,Sweden,173.0,,MF,Östersund,Superettan,29,1820,62.8,2,4,0.1,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+philip-bonde-f14b68,Philip Bonde,21.0,Sweden,196.0,,DF,Östersund,Superettan,20,1731,86.5,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+sebastian-grach-8f244f,Sebastian Grach,24.0,Sweden,185.0,Both,FW,Östersund,Superettan,26,1607,61.8,6,0,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jakob-hedenquist-58e90a,Jakob Hedenquist,24.0,Sweden,187.0,,DF,Östersund,Superettan,24,1519,63.3,1,2,0.06,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+jamie-hopcutt-3c4ccc,Jamie Hopcutt,33.0,England,180.0,Right,FW-MF,Östersund,Superettan,24,1373,57.2,1,1,0.07,0.07,0.0,0.13,0.0,0.13,0.13,1.7,0.0,0.0,20.3,1.7,0.0,0.42,22.5,74.6,0.85,0.42,2.12,5.09,4.67,2.12,50.0,30.14,2.55,39.06,14.86,3.82,31.42,1.27,0.42,0.42,3.82,0.85,50.0,0.0,0.0,1.7,,,,,,,,,,,,,,,,,,0.1
+adam-benediktsson-ff055a,Adam Benediktsson,23.0,Iceland,196.0,Left,GK,Östersund,Superettan,15,1350,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+chrisnovic-nsa-e3dfa3,Chrisnovic N’Sa,26.0,Canada,,,DF,Östersund,Superettan,20,1202,60.1,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nebiyou-perry-65f105,Nebiyou Perry,26.0,Sweden,170.0,Right,FW-MF,Östersund,Superettan,21,950,45.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+arquimides-ordonez-353447,Arquimides Ordonez,22.0,Guatemala,188.0,,FW,Östersund,Superettan,26,912,35.1,4,0,0.39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ziad-ghanoum-52ab26,Ziad Ghanoum,24.0,Syria,,Right,DF,Östersund,Superettan,14,775,55.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kevin-jablinski-4b4ea3,Kevin Jablinski,29.0,Norway,194.0,,DF,Östersund,Superettan,9,700,77.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+simon-kroon-da26b8,Simon Kroon,,Sweden,183.0,Right,MF,Östersund,Superettan,13,659,50.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+andrew-mills-ecb7f0,Andrew Mills,31.0,England,183.0,Left,GK,Östersund,Superettan,7,630,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+ahmed-bonnah-fbb7f1,Ahmed Bonnah,25.0,Sweden,178.0,,MF,Östersund,Superettan,17,620,36.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+aly-keita-ce7bf7,Aly Keita,,Guinea,185.0,Right,GK,Östersund,Superettan,6,540,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,4.88,4.0,79.5,37.5,0.27,0.43,,30.63,29.4,33.1,1.5,13.1,8.5,0.5,0.25,0.25,
+michael-oluwayemi-9e732f,Michael Oluwayemi,20.0,Nigeria,177.0,,MF,Östersund,Superettan,10,439,43.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+henrik-norrby-4af9c1,Henrik Norrby,26.0,Sweden,192.0,,MF,Östersund,Superettan,15,404,26.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arnold-origi-e29938,Arnold Origi,42.0,Kenya,184.0,Right,GK,Östersund,Superettan,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.01
+malcolm-stolt-eb15e2,Malcolm Stolt,24.0,Sweden,188.0,Right,MF,Östersund,Superettan,3,83,27.7,0,1,,1.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+andre-nader-c05a68,André Nader,,Sweden,,,MF,Östersund,Superettan,3,74,24.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+albin-winbo-c5e9de-1,Albin Winbo,28.0,Sweden,180.0,Left,MF,Östersund,Superettan,3,60,20.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+sunday-anyanwu-cb32b2,Sunday Anyanwu,25.0,Nigeria,188.0,,DF,Östersund,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+christopher-lundhall-335afd,Christopher Lundhall,19.0,Sweden,192.0,,DF,Östersund,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jesper-merbom-adolfsson-ef99a5,Jesper Merbom Adolfsson,26.0,Sweden,183.0,,DF,Gefle,Superettan,30,2700,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+martin-rauschenberg-89055c,Martin Rauschenberg,33.0,Denmark,185.0,Right,DF,Gefle,Superettan,29,2610,90.0,3,3,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+adrian-edqvist-67e3d4,Adrian Edqvist,26.0,Sweden,178.0,,FW,Gefle,Superettan,29,2490,85.9,3,1,0.11,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+iu-ranera-4193b7,Iu Ranera,30.0,Spain,,,MF,Gefle,Superettan,30,2070,69.0,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+leo-englund-4d90d4,Leo Englund,34.0,Sweden,190.0,,FW,Gefle,Superettan,27,2019,74.8,7,0,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lukas-browning-lagerfeldt-3a4f10,Lukas Browning Lagerfeldt,26.0,Sweden,183.0,,MF,Gefle,Superettan,25,1785,71.4,2,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+york-rafael-9fe20e,York Rafael,26.0,Rwanda,177.0,,MF,Gefle,Superettan,26,1804,69.4,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+samuel-adrian-6a6f1e,Samuel Adrian,,Sweden,183.0,,MF,Gefle,Superettan,24,1655,69.0,1,2,0.05,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+jacob-hjelte-6fca9d,Jacob Hjelte,,Sweden,188.0,,FW,Gefle,Superettan,25,1316,52.6,10,1,0.68,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kevin-persson-7a4d02,Kevin Persson,27.0,Sweden,184.0,,MF,Gefle,Superettan,23,1278,55.6,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gustav-friberg-9211df,Gustav Friberg,23.0,Sweden,182.0,,DF,Gefle,Superettan,15,1240,82.7,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+constantino-capotondi-cfd1e5-1,Constantino Capotondi,25.0,Sweden,170.0,,MF,Gefle,Superettan,17,1055,62.1,6,4,0.51,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+anton-lundin-763d53,Anton Lundin,29.0,Sweden,184.0,,FW,Gefle,Superettan,22,1158,52.6,3,3,0.23,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+tobias-johansson-a7a65e,Tobias Johansson,43.0,Sweden,183.0,,MF,Gefle,Superettan,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0
+mattias-nilsson-ded3c0,Mattias Nilsson,26.0,Sweden,197.0,Both,GK,Gefle,Superettan,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+christoffer-aspgren-0ce0aa,Christoffer Aspgren,,Sweden,177.0,,MF,Gefle,Superettan,14,812,58.0,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oscar-jonsson-fa39f0,Oscar Jonsson,28.0,Sweden,186.0,Right,GK,Gefle,Superettan,8,720,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niclas-hakansson-0bc9ea,Niclas Håkansson,29.0,Sweden,198.0,,MF,Gefle,Superettan,12,668,55.7,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+antonio-yakoub-0a6d22,Antonio Yakoub,23.0,Syria,180.0,,FW,Gefle,Superettan,14,735,52.5,0,3,,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+samouil-izountouemoi-2ebb40-1,Samouil Izountouemoi,26.0,Sweden,,,MF,Gefle,Superettan,8,517,64.6,0,1,,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+sebastian-friman-174132,Sebastian Friman,,Sweden,178.0,,FW,Gefle,Superettan,18,569,31.6,0,2,,0.32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+henrik-bellman-5a173a,Henrik Bellman,,Sweden,170.0,Right,MF,Gefle,Superettan,12,426,35.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+albin-hjelm-c2adf2,Albin Hjelm,,,,,MF,Gefle,Superettan,4,40,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alvin-lattman-beca6e,Alvin Lättman,21.0,Sweden,178.0,Right,FW,Gefle,Superettan,4,37,9.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fakta-adel-aa701e,Fakta Ädel,,Sweden,182.0,,FW,Gefle,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+philip-ekman-7a79d5,Philip Ekman,22.0,Sweden,192.0,,DF,Gefle,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+william-hedvall-bc15ad,William Hedvall,17.0,Sweden,,,,Gefle,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+noel-sallum-17b551,Noel Sallum,,Sweden,,,GK,Gefle,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-schyberg-188480,Filip Schyberg,26.0,Sweden,191.0,,DF,Skövde,Superettan,28,2472,88.3,3,1,0.11,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+adrian-zendejas-55036f,Adrian Zendejas,30.0,Mexico,196.0,Right,GK,Skövde,Superettan,27,2430,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+edvin-tellgren-611909,Edvin Tellgren,20.0,Sweden,,,DF,Skövde,Superettan,30,2404,80.1,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+samuel-sorman-c6a7a0,Samuel Sörman,,Sweden,173.0,,DF,Skövde,Superettan,26,2062,79.3,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sargon-abraham-0c33da,Sargon Abraham,34.0,Sweden,181.0,Left,FW,Skövde,Superettan,26,1989,76.5,3,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+elmar-abraham-7e8dc6,Elmar Abraham,26.0,Syria,175.0,,MF,Skövde,Superettan,29,2018,69.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+marcus-mikhail-cdcee4,Marcus Mikhail,,,179.0,,MF,Skövde,Superettan,30,2021,67.4,1,3,0.04,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+stefan-ljubicic-5d74bf,Stefan Ljubicic,,Iceland,,,FW,Skövde,Superettan,26,1597,61.4,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hugo-engstrom-6f759b,Hugo Engström,24.0,Sweden,,,MF,Skövde,Superettan,23,1575,68.5,6,2,0.34,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+mamadou-diagne-19b0db,Mamadou Diagne,22.0,Sweden,,,MF,Skövde,Superettan,22,1466,66.6,4,1,0.25,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fritiof-hellichius-e57a98,Fritiof Hellichius,22.0,Sweden,184.0,,FW,Skövde,Superettan,26,1472,56.6,0,2,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+emil-skillermo-9d71de,Emil Skillermo,23.0,Sweden,,,FW,Skövde,Superettan,26,1244,47.8,1,2,0.07,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+filip-drinic-89d7db,Filip Drinic,,Sweden,,,DF,Skövde,Superettan,26,1293,49.7,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+armend-suljev-c87f72,Armend Suljev,29.0,Sweden,183.0,,MF,Skövde,Superettan,25,1189,47.6,1,1,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mamudo-moro-551b41,Mamudo Moro,,Ghana,184.0,Right,FW,Skövde,Superettan,17,1082,63.6,4,1,0.33,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ziga-ovsenek-03802e,Žiga Ovsenek,27.0,Slovenia,180.0,Right,MF,Skövde,Superettan,16,957,59.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alper-demirol-bfdc46-1,Alper Demirol,23.0,Sweden,184.0,,MF,Skövde,Superettan,8,628,78.5,0,1,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+elias-lindell-228601,Elias Lindell,,Sweden,185.0,,MF,Skövde,Superettan,12,403,33.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kenan-bilalovic-b0aa35,Kenan Bilalovic,20.0,Sweden,186.0,,FW,Skövde,Superettan,8,371,46.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+markus-frojd-d6e260,Markus Fröjd,,Sweden,188.0,,GK,Skövde,Superettan,3,270,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shergo-shhab-6577f9,Shergo Shhab,,Sweden,186.0,,FW,Skövde,Superettan,11,351,31.9,1,1,0.26,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gustav-broman-bd71ea-1,Gustav Broman,24.0,Sweden,183.0,Both,DF,Skövde,Superettan,7,178,25.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+alex-hall-4f9dfb,Alex Hall,20.0,Sweden,,,FW,Skövde,Superettan,4,111,27.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+mikael-mork-d44ed6,Mikael Mork,,Sweden,190.0,,MF,Skövde,Superettan,3,61,20.3,1,0,1.48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,Skövde,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nelson-pierre-4d5b77,Nelson Pierre,20.0,Haiti,188.0,,FW,Skövde,Superettan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
