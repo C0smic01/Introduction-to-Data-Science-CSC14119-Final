@@ -209,11 +209,10 @@ GOALKEEPER_DETAILED_MAPPING = {
 # ============================================================================
 # FBREF DEFAULT LEAGUES
 # ============================================================================
-SEASON = "2024-2025"
+SEASON = "{SEASON}"
 
 LEAGUE_CONFIG = {
-    # @ "La Liga": f"https://fbref.com/en/comps/12/{SEASON}/{SEASON}-La-Liga-Stats",
-    # "La Liga": f"https://fbref.com/en/comps/12/{SEASON}/{SEASON}-La-Liga-Stats",
+    "La Liga": f"https://fbref.com/en/comps/12/{SEASON}/{SEASON}-La-Liga-Stats",
     "Premier League": f"https://fbref.com/en/comps/9/{SEASON}/{SEASON}-Premier-League-Stats",
     "Serie A": f"https://fbref.com/en/comps/11/{SEASON}/{SEASON}-Serie-A-Stats",
     "Bundesliga": f"https://fbref.com/en/comps/20/{SEASON}/{SEASON}-Bundesliga-Stats",
@@ -222,7 +221,54 @@ LEAGUE_CONFIG = {
     "Primeira Liga": f"https://fbref.com/en/comps/32/{SEASON}/{SEASON}-Primeira-Liga-Stats",
     "Saudi Pro League": f"https://fbref.com/en/comps/70/{SEASON}/{SEASON}-Saudi-Pro-League-Stats",
     "Austrian Bundesliga": f"https://fbref.com/en/comps/56/{SEASON}/{SEASON}-Austrian-Bundesliga-Stats",
+    "J1 League": "https://fbref.com/en/comps/25/J1-League-Stats",
+    "MLS": "https://fbref.com/en/comps/22/Major-League-Soccer-Stats",
     "Belgian Pro League": f"https://fbref.com/en/comps/37/{SEASON}/{SEASON}-Belgian-Pro-League-Stats",
+    "Süper Lig": f"https://fbref.com/en/comps/26/{SEASON}/{SEASON}-Super-Lig-Stats",
+    "Scottish Premiership": f"https://fbref.com/en/comps/40/{SEASON}/{SEASON}-Scottish-Premiership-Stats",
+    "Argentine Liga": f"https://fbref.com/en/comps/21/Liga-Profesional-Argentina-Stats",
+    "Liga MX": f"https://fbref.com/en/comps/31/{SEASON}/{SEASON}-Liga-MX-Stats",
+    "Eliteserien": f"https://fbref.com/en/comps/28/2024/2024-Eliteserien-Stats",
+    "Serbian SuperLiga": f"https://fbref.com/en/comps/54/{SEASON}/{SEASON}-Serbian-SuperLiga-Stats",
+    "Russian Premier League": f"https://fbref.com/en/comps/30/{SEASON}/{SEASON}-Russian-Premier-League-Stats",
+    "Hrvatska NL": f"https://fbref.com/en/comps/63/{SEASON}/{SEASON}-Hrvatska-NL-Stats",
+    "Czech First League": f"https://fbref.com/en/comps/66/{SEASON}/{SEASON}-Czech-First-League-Stats",
+    "Chinese Super League": f"https://fbref.com/en/comps/62/Chinese-Super-League-Stats",
+    "Allsvenskan": f"https://fbref.com/en/comps/29/{SEASON}/{SEASON}-Allsvenskan-Stats",
+    "Ekstraklasa": f"https://fbref.com/en/comps/36/{SEASON}/{SEASON}-Ekstraklasa-Stats",
+    "Swiss Super League": f"https://fbref.com/en/comps/57/{SEASON}/{SEASON}-Swiss-Super-League-Stats",
+    "Liga 1": "https://fbref.com/en/comps/44/2024/2024-Liga-1-Stats",
+    "Uruguayan Primera División": "https://fbref.com/en/comps/45/2024/2024-Uruguayan-Primera-Division-Stats",
+    "Superettan": "https://fbref.com/en/comps/48/2024/2024-Superettan-Stats",
+    "A-League Men": f"https://fbref.com/en/comps/65/{SEASON}/{SEASON}-A-League-Men-Stats",
+    "Veikkausliiga": "https://fbref.com/en/comps/43/2024/2024-Veikkausliiga-Stats",
+    "J2 League": "https://fbref.com/en/comps/49/2024/2024-J2-League-Stats",
+    "South African Premiership": f"https://fbref.com/en/comps/52/{SEASON}/{SEASON}-South-African-Premiership-Stats",
+    "Challenger Pro League": f"https://fbref.com/en/comps/69/{SEASON}/{SEASON}-Challenger-Pro-League-Stats",
+    "Venezuelan Primera División": f"https://fbref.com/en/comps/105/2024/2024-Venezuelan-Primera-Division-Stats",
+    "NB I": f"https://fbref.com/en/comps/46/{SEASON}/{SEASON}-NB-I-Stats",
+    "Croatian Football League": f"https://fbref.com/en/comps/63/{SEASON}/{SEASON}-Hrvatska-NL-Stats",
+    "Paraguayan Primera División": f"https://fbref.com/en/comps/61/2024/2024-Primera-Division-Stats",
+    "Segunda División": f"https://fbref.com/en/comps/17/{SEASON}/{SEASON}-Segunda-Division-Stats",
+    "Bolivian Primera División": f"https://fbref.com/en/comps/74/2024/2024-Bolivian-Primera-Division-Stats",
+    "EFL League One": f"https://fbref.com/en/comps/15/{SEASON}/{SEASON}-League-One-Stats",
+    "Ligue 2": f"https://fbref.com/en/comps/60/{SEASON}/{SEASON}-Ligue-2-Stats",
+    "Liga Profesional Ecuador": f"https://fbref.com/en/comps/58/2024/2024-Serie-A-Stats",
+    "National League": f"https://fbref.com/en/comps/34/{SEASON}/{SEASON}-National-League-Stats",
+    "Danish Superliga": f"https://fbref.com/en/comps/50/{SEASON}/{SEASON}-Danish-Superliga-Stats",
+    "League of Ireland Premier Division": f"https://fbref.com/en/comps/80/2024/2024-League-of-Ireland-Premier-Division-Stats",
+    "Eerste Divisie": f"https://fbref.com/en/comps/51/{SEASON}/{SEASON}-Eerste-Divisie-Stats",
+    "Liga I": f"https://fbref.com/en/comps/47/{SEASON}/{SEASON}-Liga-I-Stats",
+    "Persian Gulf Pro League": f"https://fbref.com/en/comps/64/{SEASON}/stats/{SEASON}-Persian-Gulf-Pro-League-Stats",
+    "Primera A": f"https://fbref.com/en/comps/41/2024/2024-Primera-A-Stats",
+    "Canadian Premier League": f"https://fbref.com/en/comps/211/2024/2024-Canadian-Premier-League-Stats",
+    "K League 1": f"https://fbref.com/en/comps/55/2024/2024-K-League-1-Stats",
+    "Super League Greece": f"https://fbref.com/en/comps/27/{SEASON}/{SEASON}-Super-League-Greece-Stats",
+    "Série B": f"https://fbref.com/en/comps/38/2024/2024-Serie-B-Stats",
+    "Chilean Primera División": f"https://fbref.com/en/comps/35/2024/2024-Chilean-Primera-Division-Stats",
+    "Ukrainian Premier League": f"https://fbref.com/en/comps/39/{SEASON}/{SEASON}-Ukrainian-Premier-League-Stats",
+    "Indian Super League": f"https://fbref.com/en/comps/82/Indian-Super-League-Stats",
+    "EFL League Two": f"https://fbref.com/en/comps/16/{SEASON}/{SEASON}-League-Two-Stats"
 }
 
 # URL
