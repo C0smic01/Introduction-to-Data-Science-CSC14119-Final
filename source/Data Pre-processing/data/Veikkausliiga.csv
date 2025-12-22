@@ -1,0 +1,375 @@
+player_id,player_name,age,nationality,height,foot,position,current_club,league,appearances,minutes_played,minutes_per_game,goals,assists,goals_per_90,assists_per_90,npg_per90,npxg_per90,xag_per90,npxg_xag_per90,xg_per90,shots_per90,shots_on_target_per90,shots_on_target_pct,avg_shot_distance,sca_per90,gca_per90,key_passes_per90,passes_completed_per90,pass_completion_pct,passes_into_final_third_per90,passes_into_penalty_area_per90,progressive_passes_per90,progressive_passes_rec_per90,progressive_carries_per90,take_ons_per90,take_on_success_pct,carries_per90,carries_into_final_third_per90,touches_per90,touches_att_third_per90,touches_att_pen_per90,passes_received_per90,tackles_per90,interceptions_per90,blocks_per90,ball_recoveries_per90,aerials_won_per90,aerial_win_pct,yellow_cards_per90,red_cards_per90,fouls_committed_per90,goals_against_per90,shots_on_target_against_per90,saves_per90,save_percentage,clean_sheet_pct,psxg_per_shot,psxg_ga_per90,penalty_save_pct,passes_attempted_per90,launch_pct,avg_pass_length,def_actions_outside_pen_per90,avg_distance_def_actions,crosses_stopped_pct,wins_per90,draws_per90,losses_per90,market_value
+johannes-kreidl-bf8c38,Johannes Kreidl,29.0,Austria,193.0,,GK,KuPS,Veikkausliiga,24,2134,88.9,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75,4.25,3.5,82.4,25.0,0.3,0.53,,51.0,28.4,30.0,1.5,17.0,8.1,0.25,0.5,0.25,0.5
+clinton-antwi-7a2762,Clinton Antwi,26.0,Ghana,170.0,,DF,KuPS,Veikkausliiga,27,2133,79.0,1,3,0.04,0.13,0.36,0.04,0.04,0.07,0.04,1.08,1.08,100.0,20.2,2.89,0.0,0.36,57.11,80.6,4.7,3.61,8.31,9.04,3.61,1.08,75.0,38.31,2.53,83.13,33.61,1.08,61.08,1.08,0.36,0.72,3.61,0.36,33.3,0.0,0.0,0.36,,,,,,,,,,,,,,,,,,0.3
+ibrahim-cisse-87f5a1,Ibrahim Cissé,26.0,Côte d'Ivoire,188.0,,DF,KuPS,Veikkausliiga,24,2100,87.5,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.26,0.0,0.0,32.0,0.77,0.0,0.0,65.9,90.5,6.15,0.0,4.62,0.51,1.03,0.51,50.0,45.13,0.26,88.72,1.79,0.26,58.46,3.08,2.05,2.56,6.15,2.05,57.1,0.51,0.0,1.03,,,,,,,,,,,,,,,,,,0.6
+samuli-miettinen-f9ca23,Samuli Miettinen,21.0,Finland,188.0,,DF,KuPS,Veikkausliiga,24,2070,86.2,0,0,0.0,0.0,0.0,0.05,0.0,0.05,0.05,0.5,0.0,0.0,5.5,0.0,0.0,0.0,72.5,89.0,5.0,0.0,5.5,0.0,0.0,0.0,,43.0,0.0,92.0,1.0,0.5,68.5,1.0,0.5,1.5,3.0,2.0,50.0,1.0,0.0,1.0,,,,,,,,,,,,,,,,,,0.5
+jaakko-oksanen-ab4d41,Jaakko Oksanen,25.0,Finland,184.0,Right,MF,KuPS,Veikkausliiga,24,1986,82.8,3,0,0.14,0.0,0.25,0.03,0.03,0.05,0.03,0.75,0.25,33.3,19.2,0.75,0.25,0.5,66.75,91.4,9.0,0.5,6.0,0.5,1.25,0.0,0.0,40.0,1.0,82.25,11.5,0.5,59.25,2.5,1.25,1.25,3.0,1.5,75.0,0.0,0.0,0.5,,,,,,,,,,,,,,,,,,0.5
+axel-vidjeskog-5290fe,Axel Vidjeskog,24.0,Finland,178.0,Right,FW-MF,KuPS,Veikkausliiga,26,1921,73.9,4,3,0.19,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+petteri-pennanen-f810fe,Petteri Pennanen,35.0,Finland,172.0,,MF,KuPS,Veikkausliiga,26,1892,72.8,7,3,0.33,0.14,0.0,0.09,0.06,0.15,0.09,1.78,0.59,33.3,24.4,1.19,0.0,0.89,44.85,87.8,2.38,0.89,5.35,6.24,3.56,0.0,0.0,35.05,1.49,58.22,24.36,3.27,46.63,0.59,0.89,0.89,2.67,0.3,33.3,0.3,0.0,1.19,,,,,,,,,,,,,,,,,,0.1
+taneli-hamalainen-df7066,Taneli Hämäläinen,24.0,Finland,184.0,,DF,KuPS,Veikkausliiga,24,1610,67.1,2,2,0.11,0.11,0.0,0.0,0.12,0.12,0.0,0.0,0.0,,,1.23,0.0,0.41,53.01,89.6,3.29,0.41,3.29,4.93,1.23,0.82,50.0,28.77,0.82,69.86,8.22,0.82,48.08,2.47,0.0,0.82,4.11,1.23,60.0,0.0,0.0,1.23,,,,,,,,,,,,,,,,,,0.25
+joslyn-luyeye-lutumba-18f507,Joslyn Luyeye-Lutumba,22.0,Finland,174.0,Right,FW,KuPS,Veikkausliiga,18,1099,61.1,4,2,0.33,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+saku-savolainen-994942,Saku Savolainen,29.0,Finland,184.0,,DF-FW,KuPS,Veikkausliiga,19,1179,62.1,5,2,0.38,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,1.0,0.0,0.0,42.0,71.2,4.0,0.0,3.5,6.0,2.0,1.0,40.0,27.0,1.0,78.5,26.5,1.5,45.0,2.5,2.0,3.0,2.5,0.0,0.0,0.0,0.0,3.5,,,,,,,,,,,,,,,,,,0.25
+lauri-sahimaa-72a74f,Lauri Sahimaa,20.0,Finland,184.0,,MF,KuPS,Veikkausliiga,15,1035,69.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+matias-siltanen-3817a1,Matias Siltanen,18.0,Finland,175.0,,MF,KuPS,Veikkausliiga,13,1060,81.5,1,2,0.08,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5
+seth-saarinen-cf4007,Seth Saarinen,24.0,Finland,,Right,DF,KuPS,Veikkausliiga,19,1053,55.4,1,1,0.09,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ousmane-diawara-468e8d,Ousmane Diawara,26.0,Sweden,,,FW,SCR Altach,Austrian Bundesliga,14,765,54.6,1,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+otto-ruoppi-7b3b51,Otto Ruoppi,19.0,Finland,178.0,,MF,KuPS,Veikkausliiga,25,893,35.7,3,0,0.3,0.0,0.0,0.28,0.05,0.33,0.28,2.0,1.0,50.0,14.8,2.5,0.25,1.25,39.25,78.9,2.75,1.5,6.25,10.5,1.25,1.25,71.4,27.25,1.75,59.25,32.75,5.5,45.25,1.0,0.25,0.75,3.75,0.0,0.0,0.0,0.0,1.0,,,,,,,,,,,,,,,,,,0.6
+jonathan-muzinga-494733,Jonathan Muzinga,,Finland,184.0,,FW,KuPS,Veikkausliiga,19,828,43.6,3,1,0.33,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+arttu-heinonen-bd4ea8,Arttu Heinonen,26.0,Finland,184.0,,MF,KuPS,Veikkausliiga,23,710,30.9,4,0,0.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kristopher-da-graca-7029d8,Kristopher Da Graca,27.0,Cape Verde,190.0,,DF,KuPS,Veikkausliiga,11,507,46.1,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.8,0.0,0.4,34.8,87.9,1.2,0.0,1.2,0.0,0.0,0.4,50.0,28.0,0.0,48.0,0.0,0.0,26.8,0.8,0.8,0.8,6.8,2.0,71.4,0.0,0.0,0.8,,,,,,,,,,,,,,,,,,0.225
+jerry-voutilainen-9821f3,Jerry Voutilainen,30.0,Finland,174.0,Right,MF,KuPS,Veikkausliiga,17,513,30.2,0,1,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+paul-ogunkoya-978c20,Paul Ogunkoya,,Nigeria,178.0,,FW,KuPS,Veikkausliiga,9,380,42.2,1,0,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aatu-hakala-949b65,Aatu Hakala,25.0,Finland,182.0,,GK,KuPS,Veikkausliiga,4,296,74.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+pyry-lampinen-16c4dc,Pyry Lampinen,,Finland,176.0,,FW,KuPS,Veikkausliiga,5,159,31.8,1,0,0.57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lucas-rangel-nunes-goncalves-2c7afc,Lucas Rangel Nunes Gonçalves,30.0,Brazil,185.0,Right,FW-MF,KuPS,Veikkausliiga,6,169,28.2,1,0,0.53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+mohammed-muritala-9d4030,Mohammed Muritala,,Nigeria,183.0,Right,FW,KuPS,Veikkausliiga,6,114,19.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+samu-koistinen-273be7,Samu Koistinen,,Finland,179.0,,MF,KuPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+miilo-pitkanen-5f2805,Miilo Pitkänen,19.0,Finland,177.0,,GK,KuPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tatu-miettunen-f71efc,Tatu Miettunen,30.0,Finland,185.0,,DF,Ilves,Veikkausliiga,27,2363,87.5,2,1,0.08,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+anton-popovitch-ad68b3,Anton Popovitch,29.0,Finland,185.0,,MF,Ilves,Veikkausliiga,26,2250,86.5,3,1,0.12,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+juhani-pikkarainen-7de06c,Juhani Pikkarainen,27.0,Finland,195.0,,DF,Ilves,Veikkausliiga,25,2207,88.3,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+otso-virtanen-646edd,Otso Virtanen,31.0,Finland,195.0,Right,GK,Ilves,Veikkausliiga,24,2082,86.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+joona-veteli-79d4e1,Joona Veteli,30.0,Finland,178.0,Right,MF,Ilves,Veikkausliiga,25,2040,81.6,3,5,0.13,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+oiva-jukkola-1a7113,Oiva Jukkola,23.0,Finland,,,MF,Ilves,Veikkausliiga,26,1894,72.8,5,7,0.24,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+doni-arifi-79406e,Doni Arifi,23.0,Finland,195.0,,MF,Ilves,Veikkausliiga,23,1864,81.0,2,3,0.1,0.14,0.0,0.03,0.06,0.09,0.03,0.3,0.0,0.0,18.8,3.0,0.3,1.5,75.6,91.6,12.0,1.2,9.3,1.2,0.9,0.9,50.0,46.2,0.9,91.8,16.5,0.9,67.8,3.3,0.3,1.8,8.7,0.6,40.0,0.3,0.0,1.5,,,,,,,,,,,,,,,,,,0.45
+aapo-maenpaa-7a1b2f,Aapo Mäenpää,27.0,Finland,183.0,,DF,Ilves,Veikkausliiga,22,1680,76.4,1,2,0.05,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jorginho-0fdcc8,Jorginho,27.0,Portugal,173.0,,DF,Dukla Prague,Czech First League,8,419,52.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+santeri-haarala-27a870,Santeri Haarala,25.0,Finland,180.0,,FW-MF,Djurgården,Allsvenskan,11,745,67.7,1,2,0.12,0.24,0.0,0.3,0.2,0.5,0.3,1.5,0.5,33.3,16.2,2.99,0.0,1.99,16.7,66.3,0.25,1.75,2.74,8.48,1.25,0.0,0.0,24.93,1.0,40.39,19.94,5.24,25.18,1.5,0.0,1.0,3.99,0.25,10.0,0.0,0.0,0.25,,,,,,,,,,,,,,,,,,0.45
+roope-riski-f11b8e,Roope Riski,34.0,Finland,181.0,Right,FW,Ilves,Veikkausliiga,26,1330,51.2,11,0,0.74,0.37,0.18,0.29,0.17,0.46,0.29,1.65,0.55,33.3,15.3,1.1,0.37,0.55,8.98,62.0,0.0,0.37,0.55,5.68,1.1,0.73,66.7,13.38,0.37,22.18,11.36,3.67,14.3,0.18,0.18,0.55,1.28,0.18,20.0,0.0,0.0,0.73,,,,,,,,,,,,,,,,,,0.1
+marius-soderback-ee2316,Marius Söderbäck,21.0,Finland,176.0,,MF,Ilves,Veikkausliiga,26,1348,51.8,1,2,0.07,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+lauri-ala-myllymaki-4d49d6,Lauri Ala-Myllymäki,28.0,Finland,182.0,,MF,Ilves,Veikkausliiga,21,974,46.4,5,6,0.46,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+maksim-stjopin-05a76d,Maksim Stjopin,22.0,Finland,178.0,,FW,Ilves,Veikkausliiga,16,622,38.9,3,3,0.43,0.43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+joshua-akpudje-5f4a57,Joshua Akpudje,27.0,Nigeria,192.0,Right,DF,Ilves,Veikkausliiga,10,563,56.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+vincent-ulundu-5b1a8c,Vincent Ulundu,20.0,Finland,180.0,,FW,Ilves,Veikkausliiga,9,405,45.0,2,0,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+felipe-aspegren-2dd602,Felipe Aspegren,31.0,Finland,173.0,Right,DF,Ilves,Veikkausliiga,8,366,45.8,1,1,0.25,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+matias-kivikko-edc21a,Matias Kivikko,,Finland,179.0,,DF,Ilves,Veikkausliiga,10,377,37.7,0,1,,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+ville-seppa-d4fdf7,Ville Seppä,29.0,Finland,184.0,,GK,Ilves,Veikkausliiga,4,344,86.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+adeleke-akinyemi-0c2b11,Adeleke Akinyemi,27.0,Nigeria,181.0,,FW,Ilves,Veikkausliiga,6,342,57.0,3,0,0.79,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+sander-sybrandy-8cc573,Sander Sybrandy,,Netherlands,174.0,,FW,Ilves,Veikkausliiga,1,56,56.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abdoulaye-kante-a29fde,Abdoulaye Kanté,,France,180.0,,FW,Ilves,Veikkausliiga,5,97,19.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+isaac-atanga-788fde,Isaac Atanga,25.0,Ghana,172.0,,FW,Ilves,Veikkausliiga,5,95,19.0,2,0,1.89,0.18,0.09,0.2,0.15,0.35,0.2,1.67,0.7,42.1,17.2,1.32,0.18,0.79,12.92,75.8,0.7,0.53,0.97,6.06,1.85,1.05,48.0,17.84,1.67,27.95,12.74,3.52,18.9,0.97,0.35,0.7,3.43,0.35,25.0,0.0,0.09,1.23,,,,,,,,,,,,,,,,,,0.225
+jere-riissanen-e68112,Jere Riissanen,20.0,Finland,181.0,,DF,Ilves,Veikkausliiga,4,84,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+danila-bulgakov-fb14c4,Danila Bulgakov,20.0,Finland,181.0,,FW,Ilves,Veikkausliiga,6,61,10.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+umar-mohammed-9bd411,Umar Mohammed,22.0,Ghana,193.0,,DF,Ilves,Veikkausliiga,4,56,14.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+noel-hasa-886475,Noel Hasa,,Finland,180.0,,MF,Ilves,Veikkausliiga,1,15,15.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+topi-ala-bc3ed0,Topi Ala,,Finland,,,MF,Ilves,Veikkausliiga,1,12,12.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arttu-tulehmo-e6a0ae,Arttu Tulehmo,18.0,Finland,171.0,,FW,Ilves,Veikkausliiga,1,4,4.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+seynabou-benga-5ad48a,Seynabou Benga,29.0,Senegal,192.0,,DF,Ilves,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oskari-paavola-5b902f,Oskari Paavola,,Finland,,,FW,Ilves,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lucas-vayrynen-064e03,Lucas Väyrynen,20.0,Finland,187.0,,GK,Ilves,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+johannes-viitala-c906d4,Johannes Viitala,19.0,Finland,,,GK,Ilves,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+noah-pallas-f70ceb,Noah Pallas,24.0,Finland,173.0,,DF-MF,HJK,Veikkausliiga,23,1820,79.1,1,3,0.05,0.15,0.0,0.02,0.04,0.06,0.02,0.37,0.0,0.0,12.6,1.29,0.18,0.92,34.71,79.4,2.2,1.1,3.49,5.33,2.02,0.73,28.6,30.12,0.92,58.41,13.96,0.92,32.14,3.31,1.29,1.65,6.24,0.37,20.0,0.0,0.0,0.92,,,,,,,,,,,,,,,,,,0.3
+lucas-lingman-7e39cb,Lucas Lingman,27.0,Finland,174.0,Right,MF,HJK,Veikkausliiga,22,1808,82.2,4,6,0.2,0.3,0.0,0.04,0.16,0.16,0.04,0.81,0.4,50.0,27.0,2.42,0.4,2.02,55.29,78.7,8.88,0.81,6.05,1.21,1.21,0.4,100.0,47.22,0.4,76.68,8.88,0.81,52.87,1.21,0.81,0.4,6.86,0.81,100.0,0.4,0.0,1.21,,,,,,,,,,,,,,,,,,0.4
+jesse-ost-fdbdce,Jesse Öst,35.0,Finland,193.0,,GK,HJK,Veikkausliiga,18,1563,86.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.49,8.72,5.23,64.0,0.0,0.36,-0.1,0.0,27.91,28.8,32.4,0.0,6.3,1.8,0.0,0.35,0.35,0.05
+hassane-bande-9d536e,Hassane Bandé,27.0,Burkina Faso,178.0,Right,FW-MF,HJK,Veikkausliiga,21,1417,67.5,3,1,0.19,0.06,0.0,0.03,0.09,0.09,0.03,0.92,0.92,100.0,29.3,1.53,0.0,0.92,18.98,80.5,1.84,0.92,2.45,6.12,1.53,1.84,37.5,24.49,1.53,37.96,12.86,0.92,23.88,1.22,2.14,2.45,5.2,0.61,28.6,0.61,0.0,1.22,,,,,,,,,,,,,,,,,,0.4
+giorgos-kanellopoulos-c1e728,Giorgos Kanellopoulos,25.0,Greece,173.0,Right,MF,HJK,Veikkausliiga,20,1393,69.7,0,1,0.0,0.06,0.0,0.04,0.0,0.04,0.04,0.18,0.18,100.0,6.3,0.54,0.0,0.18,39.11,87.3,3.75,0.0,3.04,1.79,0.89,0.54,75.0,27.68,0.54,55.71,5.89,0.54,33.93,4.64,1.43,1.61,4.82,1.61,60.0,0.18,0.0,0.89,,,,,,,,,,,,,,,,,,
+topi-keskinen-f906d1,Topi Keskinen,22.0,Finland,180.0,Both,FW-MF,Aberdeen,Scottish Premiership,36,2435,67.6,5,2,0.18,0.07,0.0,0.04,0.4,0.48,0.04,1.76,0.44,25.0,23.1,1.76,0.44,0.88,13.61,72.1,0.88,0.0,1.32,6.15,3.07,1.32,25.0,17.56,2.2,28.98,14.93,3.95,18.88,1.32,0.0,0.0,3.51,0.44,25.0,0.44,0.0,2.2,,,,,,,,,,,,,,,,,,1.8
+aapo-halme-a7e5ea,Aapo Halme,28.0,Finland,193.0,Right,DF,HJK,Veikkausliiga,18,1349,74.9,2,0,0.13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,43.47,87.1,2.72,0.0,3.06,0.0,0.0,0.0,,32.26,0.0,60.79,2.72,1.02,43.47,1.36,1.02,2.04,2.38,1.7,62.5,0.0,0.0,0.34,,,,,,,,,,,,,,,,,,0.175
+joona-toivio-9fe0dd,Joona Toivio,37.0,Finland,183.0,Right,DF,HJK,Veikkausliiga,18,1355,75.3,1,0,0.07,0.0,0.0,0.03,0.0,0.03,0.03,0.7,0.0,0.0,19.8,0.0,0.0,0.35,38.57,81.0,3.82,0.35,1.74,0.0,0.0,0.0,,31.97,0.35,61.16,2.78,1.04,35.79,0.7,1.39,1.39,2.08,2.08,60.0,0.35,0.0,1.04,,,,,,,,,,,,,,,,,,
+brooklyn-lyons-foster-703cf9,Brooklyn Lyons-Foster,25.0,England,181.0,Right,DF-MF,HJK,Veikkausliiga,18,1238,68.8,1,0,0.07,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.33,0.0,0.0,27.0,69.8,1.0,0.0,1.33,5.33,0.33,0.67,33.3,22.67,0.33,49.67,13.33,2.33,25.67,1.0,1.0,1.0,3.0,0.67,28.6,0.67,0.0,1.33,,,,,,,,,,,,,,,,,,0.2
+diogo-tomas-0cc38c,Diogo Tomas,28.0,Finland,182.0,Right,DF,HJK,Veikkausliiga,17,1303,76.6,2,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+luke-plange-22f764,Luke Plange,23.0,England,178.0,,FW,Motherwell,Scottish Premiership,4,127,31.8,0,0,0.22,0.11,0.22,0.19,0.06,0.25,0.19,1.19,0.59,50.0,15.1,1.35,0.22,0.49,10.68,76.4,0.32,0.16,0.59,4.31,0.97,0.81,34.9,14.45,0.92,23.3,12.94,2.64,17.26,0.32,0.05,0.65,1.51,1.24,19.5,0.05,0.0,0.97,,,,,,,,,,,,,,,,,,0.8
+kevin-kouassivi-benissan-4b15a7,Kevin Kouassivi-Benissan,26.0,Finland,185.0,,DF,HJK,Veikkausliiga,17,1049,61.7,0,4,,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+anthony-olusanya-8b5608,Anthony Olusanya,25.0,Finland,183.0,,FW,HJK,Veikkausliiga,16,1076,67.2,2,1,0.17,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+santeri-hostikka-3979e8,Santeri Hostikka,28.0,Finland,177.0,Left,DF-FW-MF,HJK,Veikkausliiga,14,953,68.1,2,2,0.19,0.19,0.0,0.0,0.06,0.06,0.0,0.0,0.0,,,1.43,0.0,0.61,26.53,72.6,1.63,0.61,4.08,5.71,1.43,1.84,42.9,32.65,0.61,51.22,16.94,0.61,34.08,2.45,0.41,1.43,6.12,0.41,40.0,0.2,0.0,2.24,,,,,,,,,,,,,,,,,,0.4
+hans-nunoo-sarpei-64ffb0,Hans Nunoo Sarpei,27.0,Ghana,178.0,Right,MF,HJK,Veikkausliiga,14,783,55.9,0,1,0.0,0.11,0.0,0.01,0.0,0.01,0.01,0.42,0.0,0.0,14.6,0.7,0.0,0.0,36.67,80.6,1.96,0.14,2.24,0.0,0.28,0.42,75.0,32.47,0.28,55.71,1.68,0.56,32.33,2.24,1.96,1.12,6.02,1.4,47.6,0.28,0.0,0.98,,,,,,,,,,,,,,,,,,0.25
+lee-erwin-e9fc39,Lee Erwin,31.0,Scotland,188.0,Right,FW,HJK,Veikkausliiga,11,825,75.0,5,2,0.55,0.22,0.18,0.16,0.07,0.21,0.16,3.04,1.07,35.3,19.7,1.61,0.18,0.36,11.45,67.4,1.43,0.18,1.07,4.47,1.25,0.54,60.0,17.36,0.54,25.41,11.09,3.22,20.93,0.18,0.0,0.54,2.15,1.25,24.1,0.18,0.0,1.25,,,,,,,,,,,,,,,,,,0.5
+kevor-palumets-2defc8,Kevor Palumets,23.0,Estonia,187.0,,MF,HJK,Veikkausliiga,11,723,65.7,1,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+daniel-oshaughnessy-472a22,Daniel O'Shaughnessy,31.0,Finland,186.0,Right,DF,HJK,Veikkausliiga,8,681,85.1,0,0,0.0,0.0,0.0,0.03,0.0,0.03,0.03,0.51,0.17,33.3,19.9,0.34,0.0,0.0,55.74,80.0,5.45,0.34,5.97,0.17,0.68,0.0,0.0,47.05,0.68,80.97,4.26,0.34,52.84,1.02,1.53,3.58,2.9,2.56,71.4,0.0,0.0,0.85,,,,,,,,,,,,,,,,,,0.15
+giorgos-antzoulas-a54c67,Giorgos Antzoulas,25.0,Greece,188.0,Right,DF,HJK,Veikkausliiga,7,558,79.7,0,0,0.0,0.0,0.0,0.0,0.0,0.02,0.0,0.17,0.17,100.0,6.9,0.87,0.0,0.17,46.04,80.5,2.08,0.87,3.3,0.35,0.35,0.0,,33.88,0.35,69.85,4.69,1.04,39.61,3.13,1.39,1.74,3.13,1.74,55.6,0.52,0.0,1.91,,,,,,,,,,,,,,,,,,0.4
+liam-moller-b26403,Liam Möller,20.0,Finland,177.0,,MF,HJK,Veikkausliiga,12,546,45.5,2,1,0.33,0.16,0.27,0.4,0.08,0.48,0.4,1.07,0.27,25.0,14.6,2.4,0.0,1.33,19.7,69.2,1.6,0.27,2.66,4.53,2.13,0.8,75.0,26.63,1.86,38.34,14.65,3.2,27.43,1.6,1.07,0.53,2.93,1.07,28.6,0.27,0.0,2.4,,,,,,,,,,,,,,,,,,0.2
+ozan-kokcu-23d55e,Ozan Kökcü,27.0,Azerbaijan,176.0,,FW-MF,HJK,Veikkausliiga,8,434,54.2,0,1,0.13,0.21,0.13,0.11,0.08,0.18,0.11,1.58,0.26,16.7,21.8,3.16,0.4,1.32,29.12,80.4,2.5,0.79,4.74,4.48,2.64,0.26,22.2,28.33,2.24,44.8,18.45,1.45,29.52,0.92,0.53,0.53,3.69,0.0,0.0,0.0,0.0,0.92,,,,,,,,,,,,,,,,,,0.35
+michael-boamah-757d66,Michael Boamah,22.0,Finland,190.0,,DF,HJK,Veikkausliiga,12,540,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+thijmen-nijhuis-16790d,Thijmen Nijhuis,27.0,Netherlands,197.0,Right,GK,HJK,Veikkausliiga,5,450,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5,5.5,4.17,72.7,16.7,0.33,0.48,,29.0,20.1,28.2,0.17,12.4,3.2,0.17,0.17,0.67,0.3
+alessandro-albanese-390d18,Alessandro Albanese,25.0,Belgium,174.0,Right,MF,RFC Liège,Challenger Pro League,8,146,18.2,1,1,0.62,0.62,0.0,0.13,0.16,0.29,0.13,2.4,1.28,53.3,22.5,3.2,0.32,1.28,37.15,73.7,3.04,1.76,5.28,8.49,3.36,1.76,42.3,40.84,1.92,64.7,20.82,2.72,35.39,3.36,1.28,1.6,9.29,0.16,50.0,0.48,0.32,1.44,,,,,,,,,,,,,,,,,,0.2
+elmo-henriksson-e4eff3,Elmo Henriksson,22.0,Finland,200.0,,GK,HJK,Veikkausliiga,4,282,70.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kai-meriluoto-0cdda7,Kai Meriluoto,22.0,Finland,183.0,,FW,HJK,Veikkausliiga,7,264,37.7,2,0,0.68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+miska-ylitolva-d4ef76,Miska Ylitolva,21.0,Finland,178.0,,DF,HJK,Veikkausliiga,6,266,44.3,0,0,0.0,0.0,0.0,0.06,0.11,0.17,0.06,0.56,0.28,50.0,16.8,1.4,0.0,0.84,23.2,72.2,0.56,0.28,1.4,3.35,1.12,0.84,37.5,25.16,0.84,46.4,11.74,2.24,28.23,1.4,0.28,1.96,3.35,1.12,66.7,0.28,0.0,1.96,,,,,,,,,,,,,,,,,,0.3
+david-ezeh-bfe23e,David Ezeh,19.0,Finland,187.0,,FW,HJK,Veikkausliiga,10,231,23.1,1,1,0.39,0.39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+carlos-moros-garcia-80a6da,Carlos Moros Garcia,,Spain,183.0,Right,DF,Degerfors,Superettan,12,1079,89.9,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niki-maenpaa-2b70e8,Niki Mäenpää,40.0,Finland,192.0,Right,GK,Kallithea,Super League Greece,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.23,7.34,5.43,69.6,0.0,0.43,0.61,,26.17,29.3,32.4,0.32,7.5,2.2,0.0,0.32,0.96,
+aaro-toivonen-b6c9bf,Aaro Toivonen,20.0,Finland,175.0,,MF,HJK,Veikkausliiga,5,83,16.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+atomu-tanaka-f56b5f,Atomu Tanaka,38.0,Japan,167.0,Right,MF,HJK,Veikkausliiga,8,158,19.8,0,0,0.43,0.0,0.43,0.04,0.3,0.34,0.04,0.86,0.43,50.0,24.3,2.15,0.43,1.29,27.99,77.4,0.43,1.29,4.31,2.15,1.29,0.0,0.0,34.45,1.29,46.94,11.63,0.43,31.87,2.15,3.01,1.29,8.18,0.43,50.0,0.43,0.0,2.15,,,,,,,,,,,,,,,,,,
+johannes-yli-kokko-a5a00e,Johannes Yli-Kokko,24.0,Finland,176.0,,MF,HJK,Veikkausliiga,4,92,23.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+samuel-anini-jr-acddcb,Samuel Anini Jr,,Finland,175.0,,MF,HJK,Veikkausliiga,1,18,18.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+roni-hudd-8facb2,Roni Hudd,20.0,Finland,174.0,,FW,HJK,Veikkausliiga,1,16,16.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+stanislav-baranov-59ff55,Stanislav Baranov,20.0,Finland,188.0,,FW,HJK,Veikkausliiga,1,7,7.0,1,0,12.86,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+nils-svensson-39c4b7,Nils Svensson,23.0,Sweden,,Left,DF,HJK,Veikkausliiga,1,3,3.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niilo-kujasalo-55b144,Niilo Kujasalo,21.0,Finland,182.0,,MF,HJK,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+alex-ramula-aca894,Alex Ramula,20.0,Finland,184.0,,GK,HJK,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pyry-hannola-f732a5,Pyry Hannola,24.0,Finland,185.0,,MF,SJK,Veikkausliiga,27,2243,83.1,4,7,0.16,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ville-tikkanen-ba085b,Ville Tikkanen,26.0,Finland,186.0,,DF,SJK,Veikkausliiga,25,2239,89.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+jaime-moreno-ciorciari-561e64,Jaime Moreno Ciorciari,30.0,Nicaragua,181.0,Left,FW,SJK,Veikkausliiga,25,2069,82.8,11,2,0.48,0.09,0.0,0.25,0.14,0.38,0.25,1.91,0.55,28.6,15.1,2.18,0.27,1.36,14.45,66.3,0.55,0.27,0.82,8.73,0.55,1.64,100.0,21.0,1.09,32.45,15.0,3.82,26.73,1.91,0.0,1.09,3.55,1.64,25.0,0.27,0.0,4.09,,,,,,,,,,,,,,,,,,
+djack-9f7e82,Djack,25.0,Cape Verde,193.0,,DF,SJK,Veikkausliiga,24,2038,84.9,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+babacar-fati-957f2e,Babacar Fati,25.0,Guinea-Bissau,177.0,,DF,SJK,Veikkausliiga,25,1936,77.4,3,3,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+roope-paunio-5ab318,Roope Paunio,22.0,Finland,190.0,Left,GK,SJK,Veikkausliiga,22,1872,85.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+markus-arsalo-a5fa92,Markus Arsalo,23.0,Finland,183.0,,MF,SJK,Veikkausliiga,26,1863,71.7,1,1,0.05,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+valentin-gasc-7f078e,Valentín Gasc,25.0,Argentina,172.0,,MF,SJK,Veikkausliiga,23,1845,80.2,2,5,0.1,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+rasmus-karjalainen-74e6d3,Rasmus Karjalainen,29.0,Finland,185.0,,FW-MF,SJK,Veikkausliiga,27,1743,64.6,7,3,0.36,0.15,0.17,0.24,0.07,0.31,0.24,1.4,0.17,12.5,16.2,1.57,0.0,0.7,14.5,59.7,1.05,0.35,1.57,6.47,1.22,0.7,66.7,19.05,0.7,33.03,16.43,2.27,22.54,1.75,0.35,0.7,3.5,2.45,45.2,0.35,0.0,0.7,,,,,,,,,,,,,,,,,,0.3
+dario-naamo-0631a5,Dario Naamo,20.0,Finland,,,DF,SJK,Veikkausliiga,21,1715,81.7,0,5,,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+kasper-paananen-5f45a7,Kasper Paananen,22.0,Finland,180.0,,MF,SJK,Veikkausliiga,26,1413,54.3,7,0,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+fallou-ndiaye-f45abb,Fallou Ndiaye,,Senegal,198.0,Right,DF,SJK,Veikkausliiga,21,1395,66.4,4,0,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+salim-giabo-yussif-3b6e2c,Salim Giabo Yussif,23.0,Ghana,178.0,,DF,SJK,Veikkausliiga,13,585,45.0,1,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+tuomas-kaukua-85d3be,Tuomas Kaukua,25.0,Finland,,,MF,SJK,Veikkausliiga,13,692,53.2,1,2,0.13,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+lewis-strapp-d38ee7,Lewis Strapp,26.0,Scotland,178.0,,DF-MF,SJK,Veikkausliiga,10,439,43.9,1,1,0.21,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+eetu-mommo-0d2017,Eetu Mömmö,23.0,Finland,183.0,,FW,SJK,Veikkausliiga,21,664,31.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+hemmo-riihimaki-69256b,Hemmo Riihimäki,22.0,Finland,188.0,,GK,SJK,Veikkausliiga,6,423,70.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+otto-kemppainen-9b7e64,Otto Kemppainen,22.0,Finland,184.0,,DF,SJK,Veikkausliiga,10,405,40.5,1,0,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+lauri-laine-0f0542,Lauri Laine,20.0,Finland,180.0,,MF,SJK,Veikkausliiga,12,281,23.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+jeremiah-streng-f53862,Jeremiah Streng,24.0,Finland,188.0,,FW,SJK,Veikkausliiga,11,325,29.5,1,0,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+miguel-rodriguez-1dcf4f,Miguel Rodríguez,22.0,Nicaragua,179.0,,GK,SJK,Veikkausliiga,2,135,67.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5
+tuomas-koivisto-38744e,Tuomas Koivisto,21.0,Finland,190.0,,DF,SJK,Veikkausliiga,1,45,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+kingsley-ofori-30f799,Kingsley Ofori,,Ghana,178.0,Right,MF,SJK,Veikkausliiga,3,112,37.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+gabriel-oksanen-06e1f3,Gabriel Oksanen,19.0,Finland,175.0,,DF,SJK,Veikkausliiga,4,38,9.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+gonzalo-miceli-a9656a,Gonzalo Miceli,,Argentina,175.0,,MF,SJK,Veikkausliiga,1,29,29.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+momodou-bojang-35b26a,Momodou Bojang,24.0,Gambia,182.0,,FW,SJK,Veikkausliiga,1,21,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+artur-atarah-dd101d,Artur Atarah,20.0,Finland,,,FW,SJK,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+denis-cukici-ce38b1,Denis Cukici,,Finland,181.0,,MF,SJK,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+elias-lahti-3a21e9,Elias Lahti,16.0,Finland,,,GK,SJK,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+martti-haukioja-16f543,Martti Haukioja,26.0,Finland,183.0,Left,DF,VPS,Veikkausliiga,26,2320,89.2,4,1,0.16,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+yevgeni-bashkirov-b88a18,Yevgeni Bashkirov,34.0,Russia,175.0,Both,MF,VPS,Veikkausliiga,26,2257,86.8,3,3,0.12,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prosper-deyegbe-bff0ed,Prosper Deyegbe,26.0,Ghana,,,MF,VPS,Veikkausliiga,25,2221,88.8,0,2,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+samu-alanko-538a8c,Samu Alanko,27.0,Finland,184.0,,FW-MF,VPS,Veikkausliiga,25,1828,73.1,2,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+teemu-hytonen-75505d,Teemu Hytönen,23.0,Finland,194.0,,FW,VPS,Veikkausliiga,26,1525,58.7,7,1,0.41,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+mikko-pitkanen-8892a3,Mikko Pitkänen,28.0,Finland,198.0,Right,DF,VPS,Veikkausliiga,21,1575,75.0,2,1,0.11,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+pedro-justiniano-f871ba,Pedro Justiniano,25.0,Portugal,190.0,,DF,VPS,Veikkausliiga,17,1495,87.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+alfie-cicale-f293cf,Alfie Cicale,23.0,England,182.0,,MF,VPS,Veikkausliiga,18,1337,74.3,1,4,0.07,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+antti-ville-raisanen-188df6,Antti-Ville Räisänen,27.0,Finland,174.0,Right,MF,VPS,Veikkausliiga,24,1536,64.0,1,3,0.06,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+teppo-marttinen-514a89,Teppo Marttinen,28.0,Finland,187.0,,GK,VPS,Veikkausliiga,17,1471,86.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+miika-niemi-361c9f,Miika Niemi,31.0,Finland,176.0,,DF,VPS,Veikkausliiga,23,1411,61.3,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+mads-borchers-8765b3,Mads Borchers,23.0,Denmark,188.0,,FW,VPS,Veikkausliiga,16,1308,81.8,10,2,0.69,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+joonas-vahtera-7f603e,Joonas Vahtera,29.0,Finland,176.0,,MF,VPS,Veikkausliiga,21,1018,48.5,2,4,0.18,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+jesper-engstrom-c6f726,Jesper Engström,33.0,Finland,175.0,,DF-MF,VPS,Veikkausliiga,20,951,47.5,1,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+juho-hyvarinen-2d4323,Juho Hyvärinen,,Finland,178.0,,MF,VPS,Veikkausliiga,16,913,57.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rasmus-leislahti-9cea83,Rasmus Leislahti,25.0,Finland,184.0,,GK,VPS,Veikkausliiga,9,779,86.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ogude-ifeanyi-bc5aeb,Ogude Ifeanyi,,Nigeria,180.0,,MF,VPS,Veikkausliiga,6,394,65.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gleofilo-hasselbaink-966c79,Gleofilo Hasselbaink,26.0,Suriname,178.0,Left,FW,OFK Beograd,Serbian SuperLiga,32,2270,70.9,10,5,0.4,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+samuel-lindeman-d7b941,Samuel Lindeman,27.0,Finland,188.0,,DF,VPS,Veikkausliiga,10,409,40.9,2,0,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+roni-hudd-8facb2-1,Roni Hudd,20.0,Finland,174.0,,FW,VPS,Veikkausliiga,8,301,37.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+luka-smyth-697b5d,Luka Smyth,21.0,Australia,192.0,,FW,VPS,Veikkausliiga,5,267,53.4,0,1,,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+kalle-multanen-08302b,Kalle Multanen,36.0,Finland,185.0,Right,FW,VPS,Veikkausliiga,16,281,17.6,1,0,0.32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lauri-vetri-ead602,Lauri Vetri,22.0,Finland,,,GK,VPS,Veikkausliiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+josep-nuorela-ea86e9,Josep Nuorela,22.0,Finland,184.0,,DF,VPS,Veikkausliiga,2,96,48.0,0,1,,0.94,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+antonio-almen-5039ea,Antonio Almen,21.0,Finland,184.0,,MF,VPS,Veikkausliiga,13,176,13.5,1,1,0.51,0.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+akon-kuek-ccc761,Akon Kuek,21.0,Finland,,,DF,VPS,Veikkausliiga,2,11,5.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+riku-jaaska-a71266,Riku Jääskä,,Finland,182.0,,FW,VPS,Veikkausliiga,1,10,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+madut-deng-efd39d,Madut Deng,19.0,Finland,,,DF,VPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eino-ehrnrooth-da8cef,Eino Ehrnrooth,18.0,Finland,183.0,,GK,VPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+peter-eletu-88fb28,Peter Eletu,,Nigeria,183.0,,MF,VPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+franklin-matib-5deba7,Franklin Matib,,Nigeria,185.0,,FW,VPS,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-lepola-ff9c8a,Anton Lepola,29.0,Finland,185.0,,GK,Haka,Veikkausliiga,27,2430,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+maissa-fall-467347,Maissa Fall,,Italy,193.0,,MF,Haka,Veikkausliiga,25,2081,83.2,7,4,0.3,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+guilherme-morais-981f0f,Guilherme Morais,29.0,Portugal,182.0,Both,MF,Haka,Veikkausliiga,24,2020,84.2,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+haymenn-bah-traore-08305d,Haymenn Bah-Traore,28.0,Togo,170.0,Right,DF,Haka,Veikkausliiga,20,1712,85.6,0,4,,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+evangelos-patoulidis-d4aa1d,Evangelos Patoulidis,24.0,Belgium,176.0,Left,MF,Haka,Veikkausliiga,25,1679,67.2,9,2,0.48,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+nikolas-talo-ed756c,Nikolas Talo,22.0,Finland,,,DF,Haka,Veikkausliiga,21,1610,76.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ryan-mahuta-914d97,Ryan Mahuta,23.0,Finland,182.0,Left,DF,FK Pardubice,Czech First League,12,753,62.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+elias-mastokangas-0b4675,Elias Mastokangas,24.0,Finland,173.0,,FW-MF,Haka,Veikkausliiga,26,1558,59.9,0,3,,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+juho-teemu-kilo-84acd3,Juho Teemu Kilo,23.0,Finland,,,MF,Haka,Veikkausliiga,18,1524,84.7,3,2,0.18,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nicolas-6e3c80,Nicolas,27.0,Brazil,187.0,Right,DF,Haka,Veikkausliiga,21,1656,78.9,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.0
+niklas-friberg-fbf3ce,Niklas Friberg,29.0,Finland,186.0,,DF,Haka,Veikkausliiga,19,1536,80.8,1,1,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+ollie-whyte-032a46,Ollie Whyte,25.0,New Zealand,179.0,,MF,Haka,Veikkausliiga,23,1372,59.7,2,2,0.13,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+imani-lanquedoc-55f4a9,Imani Lanquedoc,22.0,England,169.0,,MF,Haka,Veikkausliiga,21,944,45.0,4,2,0.38,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hassan-ndam-32b783,Hassan Ndam,27.0,Cameroon,193.0,Right,DF,Haka,Veikkausliiga,17,853,50.2,0,0,0.0,0.0,0.0,0.09,0.0,0.09,0.09,1.02,0.38,37.5,16.2,0.26,0.0,0.0,35.44,76.2,2.04,0.13,2.68,0.26,0.26,0.13,33.3,29.32,0.26,58.0,2.29,1.02,31.1,2.04,1.91,1.78,8.41,2.29,52.9,0.64,0.13,0.89,,,,,,,,,,,,,,,,,,
+marko-bacanin-4f608d,Marko Bačanin,27.0,Serbia,183.0,Right,FW,Haka,Veikkausliiga,22,828,37.6,3,2,0.33,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+arlind-sejdiu-a1239e,Arlind Sejdiu,24.0,Kosovo,170.0,,MF,Haka,Veikkausliiga,25,715,28.6,4,2,0.5,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+tuure-siira-6d6545,Tuure Siira,,Finland,173.0,Right,MF,Haka,Veikkausliiga,19,663,34.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oskari-sallinen-8fc4c4,Oskari Sallinen,24.0,Finland,173.0,,MF,Haka,Veikkausliiga,9,646,71.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+anthony-olusanya-8b5608-1,Anthony Olusanya,25.0,Finland,183.0,,FW,Haka,Veikkausliiga,6,504,84.0,4,0,0.71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+benjamin-reemst-392976,Benjamin Reemst,25.0,Netherlands,,,MF,Haka,Veikkausliiga,7,459,65.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rodrigo-macedo-350335,Rodrigo Macedo,,Portugal,185.0,,DF,Haka,Veikkausliiga,6,330,55.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+akseli-lehtomaki-2f959d,Akseli Lehtomäki,19.0,Finland,181.0,,MF,Haka,Veikkausliiga,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+oliver-heino-305872,Oliver Heino,20.0,Finland,192.0,,GK,Haka,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+oiva-laaksonen-117760,Oiva Laaksonen,,Finland,181.0,,FW,Haka,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eemeli-makela-5159f3,Eemeli Mäkelä,,Finland,184.0,,MF,Haka,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jesse-nikki-1f56e7,Jesse Nikki,22.0,Finland,190.0,,DF,Haka,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+tuukka-torma-d3eb8a,Tuukka Törmä,,Finland,182.0,,MF,Haka,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+iiro-jarvinen-805e1d,Iiro Järvinen,29.0,Finland,172.0,,MF,Inter Turku,Veikkausliiga,27,2222,82.3,3,1,0.12,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+florian-krebs-66edaa,Florian Krebs,26.0,Germany,176.0,,MF,Inter Turku,Veikkausliiga,25,1857,74.3,3,3,0.15,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+eetu-huuhtanen-01d804,Eetu Huuhtanen,22.0,Finland,184.0,Right,GK,Inter Turku,Veikkausliiga,21,1861,88.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+juuso-hamalainen-aeca40,Juuso Hämäläinen,31.0,Finland,185.0,,DF,Inter Turku,Veikkausliiga,20,1705,85.2,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+dimitri-legbo-b01088,Dimitri Legbo,24.0,Côte d'Ivoire,175.0,,DF-MF,Inter Turku,Veikkausliiga,25,1655,66.2,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+timo-stavitski-b8c4e4,Timo Stavitski,26.0,Finland,180.0,Right,FW-MF,Mjällby,Allsvenskan,11,600,54.5,1,3,0.15,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+matias-tamminen-b77f7d,Matias Tamminen,24.0,Finland,193.0,,FW-MF,Inter Turku,Veikkausliiga,26,1420,54.6,2,6,0.13,0.38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+luka-kuittinen-e7c7ee,Luka Kuittinen,22.0,Finland,190.0,,DF,Inter Turku,Veikkausliiga,22,1723,78.3,3,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+albin-granlund-73c5b6,Albin Granlund,36.0,Finland,179.0,Right,DF-MF,Inter Turku,Veikkausliiga,18,1558,86.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+axel-kouame-f15906,Axel Kouame,22.0,Côte d'Ivoire,178.0,,MF,Inter Turku,Veikkausliiga,21,1465,69.8,1,8,0.06,0.49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+kouame-botue-7d9be8,Kouamé Botué,23.0,Burkina Faso,184.0,,FW,Inter Turku,Veikkausliiga,25,1367,54.7,6,2,0.4,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jussi-niska-8eba6e,Jussi Niska,23.0,Finland,177.0,,DF,Inter Turku,Veikkausliiga,23,1365,59.3,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+darren-smith-739500,Darren Smith,29.0,South Africa,183.0,,FW,Inter Turku,Veikkausliiga,25,1285,51.4,9,3,0.63,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+bismark-ampofo-1063a7,Bismark Ampofo,23.0,Ghana,170.0,,MF,Inter Turku,Veikkausliiga,11,986,89.6,0,2,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+mikael-almen-8354a2,Mikael Almen,25.0,Finland,185.0,,DF,Inter Turku,Veikkausliiga,8,716,89.5,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+djoully-nzoko-437bc2,Djoully Nzoko,18.0,Finland,164.0,,FW,Jong Genk,Challenger Pro League,9,290,32.2,0,1,,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+johannes-yli-kokko-a5a00e-1,Johannes Yli-Kokko,24.0,Finland,176.0,,MF,Inter Turku,Veikkausliiga,10,537,53.7,1,0,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kevin-jansen-a8cdd6,Kevin Jansen,,Netherlands,183.0,Both,MF,Inter Turku,Veikkausliiga,7,521,74.4,0,1,,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eero-vuorjoki-8436a3,Eero Vuorjoki,19.0,Finland,195.0,,GK,Inter Turku,Veikkausliiga,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+derik-osede-c6ed54,Derik Osede,,Spain,183.0,Right,DF,Inter Turku,Veikkausliiga,7,335,47.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bart-straalman-fe915d,Bart Straalman,29.0,Netherlands,191.0,,DF,Inter Turku,Veikkausliiga,3,210,70.0,0,0,0.04,0.0,0.04,0.04,0.0,0.05,0.04,0.48,0.08,16.7,10.1,0.44,0.0,0.08,33.81,80.6,2.22,0.08,3.29,0.36,1.07,0.16,66.7,24.98,0.28,51.12,2.49,0.79,26.96,1.31,1.07,1.15,5.35,2.57,52.8,0.12,0.0,0.95,,,,,,,,,,,,,,,,,,0.25
+joonas-kekarainen-cc4cad,Joonas Kekarainen,20.0,Finland,188.0,,MF,Inter Turku,Veikkausliiga,19,349,18.4,3,0,0.77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+valentin-purosalo-947dd3,Valentin Purosalo,20.0,Finland,183.0,,DF,Inter Turku,Veikkausliiga,8,202,25.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ville-seppa-d4fdf7-1,Ville Seppä,29.0,Finland,184.0,,GK,Inter Turku,Veikkausliiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+viktor-kanizaj-cda2b7,Viktor Kanizaj,,Croatia,,,FW,Inter Turku,Veikkausliiga,5,143,28.6,0,1,,0.63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+thomas-lahdensuo-1498e3,Thomas Lahdensuo,20.0,Finland,180.0,,FW,Inter Turku,Veikkausliiga,20,288,14.4,2,1,0.62,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+daniel-rokman-69faf9,Daniel Rökman,,Finland,177.0,,FW,Inter Turku,Veikkausliiga,8,162,20.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+otto-eloluoto-5c938a,Otto Eloluoto,17.0,Finland,183.0,,FW,Inter Turku,Veikkausliiga,2,35,17.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+tino-kangasaho-f67c16,Tino Kangasaho,19.0,Finland,188.0,,GK,Inter Turku,Veikkausliiga,1,25,25.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+otto-lehtisalo-59b950,Otto Lehtisalo,,Finland,180.0,,FW,Inter Turku,Veikkausliiga,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+elohim-nzoko-246a12,Elohim Nzoko,,Finland,,,FW,Inter Turku,Veikkausliiga,2,6,3.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+saku-heiskanen-069f4e,Saku Heiskanen,24.0,Finland,171.0,,DF-MF,IF Gnistan,Veikkausliiga,27,2296,85.0,4,1,0.16,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+jukka-raitala-b658f1,Jukka Raitala,37.0,Finland,181.0,Left,DF,IF Gnistan,Veikkausliiga,24,2140,89.2,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,27.22,71.4,1.45,0.0,0.73,1.81,0.36,0.0,,20.69,0.0,47.18,4.72,0.0,26.13,0.36,0.73,1.81,3.99,1.45,50.0,0.0,0.0,2.18,,,,,,,,,,,,,,,,,,
+juhani-ojala-97bd7d,Juhani Ojala,36.0,Finland,191.0,Right,DF,IF Gnistan,Veikkausliiga,24,2107,87.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+joakim-latonen-9c2873,Joakim Latonen,27.0,Finland,173.0,,FW,IF Gnistan,Veikkausliiga,27,1733,64.2,10,4,0.52,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jonas-enkerud-b24d39,Jonas Enkerud,35.0,Norway,190.0,,FW,IF Gnistan,Veikkausliiga,22,1589,72.2,5,3,0.28,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+teemu-penninkangas-62c628,Teemu Penninkangas,,Finland,194.0,Right,DF,IF Gnistan,Veikkausliiga,21,1443,68.7,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+momodou-sarr-ba829d,Momodou Sarr,25.0,Finland,188.0,,FW,IF Gnistan,Veikkausliiga,17,1354,79.6,1,5,0.07,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+armend-kabashi-020544,Armend Kabashi,29.0,Finland,183.0,,MF,IF Gnistan,Veikkausliiga,18,1311,72.8,0,3,,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+roman-eremenko-53d44f,Roman Eremenko,38.0,Finland,180.0,Right,MF,IF Gnistan,Veikkausliiga,17,1295,76.2,2,1,0.14,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vertti-hanninen-4744e4,Vertti Hänninen,23.0,Finland,178.0,Right,MF,IF Gnistan,Veikkausliiga,14,1113,79.5,6,2,0.49,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+aj-marcucci-3dbf6c,AJ Marcucci,26.0,United States,191.0,,GK,NY Red Bulls,MLS,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+elias-aijala-240a71,Elias Äijälä,22.0,Finland,179.0,,DF,IF Gnistan,Veikkausliiga,19,1079,56.8,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gabriel-europaeus-26cb00,Gabriel Europaeus,20.0,Finland,193.0,,MF,IF Gnistan,Veikkausliiga,16,1072,67.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+benjamin-tatar-a67f7f,Benjamin Tatar,31.0,Bosnia and Herzegovina,180.0,,FW,IF Gnistan,Veikkausliiga,26,1092,42.0,3,3,0.25,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+tim-vayrynen-1dee33,Tim Väyrynen,32.0,Finland,191.0,Both,FW,IF Gnistan,Veikkausliiga,12,880,73.3,4,3,0.41,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+oliver-pettersson-e8d9f6,Oliver Pettersson,22.0,Finland,189.0,,DF,IF Gnistan,Veikkausliiga,9,798,88.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+roope-pyyskanen-7ad1a0,Roope Pyyskänen,23.0,Finland,187.0,,MF,IF Gnistan,Veikkausliiga,15,733,48.9,2,1,0.25,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jiri-koski-91bcb9,Jiri Koski,30.0,Finland,188.0,Right,GK,IF Gnistan,Veikkausliiga,8,720,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+hannes-woivalin-6d8bdc,Hannes Woivalin,23.0,Finland,176.0,,MF,IF Gnistan,Veikkausliiga,12,705,58.8,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+mattias-nilsson-ded3c0,Mattias Nilsson,26.0,Sweden,197.0,Both,GK,Gefle,Superettan,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+henrik-olander-347c5d,Henrik Ölander,,Finland,181.0,,DF,IF Gnistan,Veikkausliiga,18,645,35.8,0,1,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+david-agbo-7a6f57,David Agbo,25.0,Ghana,172.0,,MF,IF Gnistan,Veikkausliiga,18,298,16.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+tomas-castro-4a0def,Tomás Castro,,Portugal,181.0,,MF,IF Gnistan,Veikkausliiga,11,184,16.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+robbie-malolo-2aee55,Robbie Malolo,,Finland,180.0,,MF,IF Gnistan,Veikkausliiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+toni-takamaki-77e32e,Toni Takamäki,,Finland,187.0,,DF,IF Gnistan,Veikkausliiga,1,79,79.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pauli-katajamaki-525087,Pauli Katajamäki,,Finland,176.0,,MF,IF Gnistan,Veikkausliiga,7,153,21.9,1,0,0.59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kasperi-liikonen-7f7c53,Kasperi Liikonen,31.0,Finland,175.0,,FW,IF Gnistan,Veikkausliiga,3,63,21.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jean-mabinda-ef86ef,Jean Mabinda,25.0,Finland,169.0,,DF,IF Gnistan,Veikkausliiga,2,24,12.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kristian-yli-hietanen-5858d1,Kristian Yli-Hietanen,,Finland,186.0,,FW,IF Gnistan,Veikkausliiga,1,9,9.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sampo-ala-iso-00a36c,Sampo Ala-Iso,22.0,Finland,194.0,,DF,IF Gnistan,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+calum-ward-e88639,Calum Ward,25.0,England,188.0,,GK,Motherwell,Scottish Premiership,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+liiban-abdirahman-abadid-275273,Liiban Abdirahman Abadid,23.0,Norway,185.0,,DF,AC Oulu,Veikkausliiga,25,1967,78.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+ashley-coffey-9c73fa,Ashley Coffey,,England,191.0,,FW,AC Oulu,Veikkausliiga,23,1943,84.5,12,0,0.56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+jere-kallinen-08590d,Jere Kallinen,23.0,Finland,178.0,,MF,AC Oulu,Veikkausliiga,19,1603,84.4,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+niklas-jokelainen-4a3e7f,Niklas Jokelainen,25.0,Finland,181.0,,MF,AC Oulu,Veikkausliiga,21,1589,75.7,3,3,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jake-dunwoody-e94605,Jake Dunwoody,,Northern Ireland,180.0,,MF,AC Oulu,Veikkausliiga,25,1693,67.7,1,4,0.05,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+juho-lehtiranta-f24f9a,Juho Lehtiranta,23.0,Finland,174.0,,DF,AC Oulu,Veikkausliiga,19,1513,79.6,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jose-elo-84fa17,José Elo,25.0,Equatorial Guinea,,,DF,AC Oulu,Veikkausliiga,17,1470,86.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+yassin-daoussi-3e4e91,Yassin Daoussi,25.0,Finland,173.0,,DF,AC Oulu,Veikkausliiga,20,1508,75.4,3,0,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+dimitris-metaxas-77a7dc,Dimitris Metaxas,21.0,Greece,,,MF,AC Oulu,Veikkausliiga,24,1446,60.2,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+justin-rennicks-efeccb,Justin Rennicks,26.0,United States,180.0,Right,FW,AC Oulu,Veikkausliiga,21,1164,55.4,5,2,0.39,0.15,0.23,0.2,0.03,0.23,0.2,1.38,0.58,41.7,10.5,1.15,0.12,0.46,8.88,70.0,0.12,0.0,0.35,5.54,1.15,0.35,18.8,14.77,0.46,22.5,11.65,3.46,17.19,0.92,0.23,0.69,2.42,0.46,18.2,0.0,0.0,1.96,,,,,,,,,,,,,,,,,,0.2
+samuli-holtta-a40090,Samuli Hölttä,26.0,Finland,187.0,Right,DF,AC Oulu,Veikkausliiga,16,1308,81.8,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+danny-barrow-3cd461,Danny Barrow,30.0,Wales,170.0,,MF,AC Oulu,Veikkausliiga,22,1246,56.6,1,4,0.07,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+simon-bengtsson-8cb583,Simon Bengtsson,21.0,Sweden,177.0,,DF,Helsingborg,Superettan,2,15,7.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+marcos-andre-7c4419,Marcos André,22.0,Brazil,185.0,,FW,AC Oulu,Veikkausliiga,11,612,55.6,0,1,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksi-paananen-fd1b2e,Aleksi Paananen,32.0,Finland,165.0,Right,FW-MF,AC Oulu,Veikkausliiga,15,626,41.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+julius-korkko-c2ed77,Julius Körkkö,19.0,Finland,185.0,,MF,AC Oulu,Veikkausliiga,19,748,39.4,3,1,0.36,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+leon-bergsma-471bc8,Leon Bergsma,28.0,Netherlands,185.0,,DF,AC Oulu,Veikkausliiga,6,540,90.0,0,0,0.0,0.0,0.0,0.06,0.0,0.06,0.06,0.34,0.1,28.6,8.8,0.64,0.0,0.1,46.52,83.3,2.69,0.05,3.52,0.1,0.98,0.24,100.0,38.2,0.59,65.69,1.71,0.54,42.55,1.76,0.98,1.52,4.5,1.66,47.9,0.2,0.0,0.68,,,,,,,,,,,,,,,,,,0.3
+andre-alsanati-a44d4e,André Alsanati,,Iraq,165.0,,FW,Sirius,Allsvenskan,6,219,36.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+otto-salmensuu-41eb99,Otto Salmensuu,21.0,Finland,173.0,,MF,AC Oulu,Veikkausliiga,11,457,41.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+eelis-taskila-c140cc,Eelis Taskila,,Finland,190.0,,DF,AC Oulu,Veikkausliiga,3,234,78.0,0,1,,0.38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+musa-jatta-bbd5a2,Musa Jatta,20.0,Gambia,192.0,Left,DF,AC Oulu,Veikkausliiga,3,181,60.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+jowin-radzinski-3003be,Jowin Radzinski,,Poland,177.0,,DF,AC Oulu,Veikkausliiga,4,141,35.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+niklas-orjala-14bd00,Niklas Orjala,,Finland,179.0,,FW,AC Oulu,Veikkausliiga,7,224,32.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+asla-peltola-a0322d,Asla Peltola,,Finland,182.0,,MF,AC Oulu,Veikkausliiga,6,117,19.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+roope-salo-f2ba05,Roope Salo,21.0,Finland,,,MF,AC Oulu,Veikkausliiga,10,194,19.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jesse-huhtala-8c3301,Jesse Huhtala,,Finland,183.0,,FW,AC Oulu,Veikkausliiga,9,144,16.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+santeri-silander-d0fdb4,Santeri Silander,21.0,Finland,182.0,,DF,AC Oulu,Veikkausliiga,3,111,37.0,1,0,0.81,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+eemil-merikanto-7ca043,Eemil Merikanto,20.0,Finland,177.0,,MF,AC Oulu,Veikkausliiga,4,55,13.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eetu-saarela-89398e,Eetu Saarela,19.0,Finland,187.0,,DF,AC Oulu,Veikkausliiga,1,46,46.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+julius-paananen-f0cd6f,Julius Paananen,19.0,Finland,186.0,,MF,AC Oulu,Veikkausliiga,1,13,13.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+nuutti-kaikkonen-47f307,Nuutti Kaikkonen,,Finland,198.0,,GK,AC Oulu,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+otso-pekka-parkkila-7b5959,Otso-Pekka Parkkila,18.0,Finland,184.0,,DF,AC Oulu,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+johannes-pentti-0b9b31,Johannes Pentti,19.0,Finland,187.0,,GK,AC Oulu,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+onni-sillanpaa-74b918,Onni Sillanpää,,Finland,180.0,,GK,AC Oulu,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+matias-riikonen-9b343b,Matias Riikonen,23.0,Finland,187.0,,GK,IFK Mariehamn,Veikkausliiga,27,2430,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+robin-sid-b988db,Robin Sid,31.0,Finland,178.0,Right,MF,IFK Mariehamn,Veikkausliiga,27,2025,75.0,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+pedro-machado-2ccd66,Pedro Machado,29.0,Portugal,191.0,Right,DF,IFK Mariehamn,Veikkausliiga,24,2023,84.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+emmanuel-patut-1baeb4,Emmanuel Patut,22.0,Finland,181.0,,MF,IFK Mariehamn,Veikkausliiga,24,1878,78.2,1,1,0.05,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+daniel-enqvist-7ed413,Daniel Enqvist,24.0,Finland,185.0,Left,DF,IFK Mariehamn,Veikkausliiga,24,1854,77.2,2,1,0.1,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+sebastian-dahlstrom-586050,Sebastian Dahlström,29.0,Finland,180.0,,MF,IFK Mariehamn,Veikkausliiga,25,1806,72.2,4,2,0.2,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+adam-larsson-1d9773,Adam Larsson,26.0,Sweden,184.0,,DF-FW,IFK Mariehamn,Veikkausliiga,25,1840,73.6,11,2,0.54,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+muhamed-tehe-olawale-9d7fb6,Muhamed Tehe Olawale,26.0,Côte d'Ivoire,187.0,,FW,IFK Mariehamn,Veikkausliiga,26,1710,65.8,4,1,0.21,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+eero-matti-auvinen-010915,Eero-Matti Auvinen,,Finland,188.0,,DF,IFK Mariehamn,Veikkausliiga,23,1682,73.1,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+michael-fonsell-784597,Michael Fonsell,22.0,Finland,,,DF,IFK Mariehamn,Veikkausliiga,21,1491,71.0,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+hugo-9b05b0,Hugo,26.0,,190.0,,FW,IFK Mariehamn,Veikkausliiga,22,1378,62.6,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,85.0
+patrik-raitanen-ceb6e1,Patrik Raitanen,,Finland,187.0,Right,DF,IFK Mariehamn,Veikkausliiga,16,1237,77.3,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jiri-nissinen-e26e49,Jiri Nissinen,28.0,Finland,180.0,,DF-MF,IFK Mariehamn,Veikkausliiga,23,1251,54.4,0,2,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+jayden-reid-3ab65c,Jayden Reid,24.0,England,185.0,,FW,IFK Mariehamn,Veikkausliiga,16,779,48.7,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+matias-ojala-e0aff0,Matias Ojala,30.0,Finland,167.0,Both,MF,IFK Mariehamn,Veikkausliiga,21,744,35.4,0,2,,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+amadou-sabo-5efda6,Amadou Sabo,21.0,Niger,181.0,,MF,IFK Mariehamn,Veikkausliiga,10,613,61.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kalle-wallius-17228a,Kalle Wallius,22.0,Finland,174.0,,DF,IFK Mariehamn,Veikkausliiga,7,500,71.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+leo-andersson-de64cf,Leo Andersson,21.0,Finland,185.0,,FW,IFK Mariehamn,Veikkausliiga,19,403,21.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+emmanuel-okereke-43099a,Emmanuel Okereke,22.0,Nigeria,190.0,Right,DF,IFK Mariehamn,Veikkausliiga,11,448,40.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+oskari-sallinen-8fc4c4-1,Oskari Sallinen,24.0,Finland,173.0,,MF,IFK Mariehamn,Veikkausliiga,17,351,20.6,3,0,0.77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+noah-nurmi-572eab,Noah Nurmi,24.0,Finland,181.0,,DF,IFK Mariehamn,Veikkausliiga,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+wille-nunez-582d65,Wille Nuñez,18.0,Finland,170.0,,FW,IFK Mariehamn,Veikkausliiga,2,10,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+max-peterson-b14486,Max Peterson,26.0,United States,,,MF,IFK Mariehamn,Veikkausliiga,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arvid-lundberg-2c8fc8,Arvid Lundberg,19.0,Finland,190.0,,FW,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+ola-melander-8c4a1c,Ola Melander,17.0,Finland,,,MF,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marc-nordqvist-d9bef0,Marc Nordqvist,,Finland,187.0,,GK,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aleksi-partanen-7a7741,Aleksi Partanen,,Finland,184.0,,GK,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hussein-suleman-61feed,Hussein Suleman,,Ghana,,,MF,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+johannes-viitala-c906d4-1,Johannes Viitala,19.0,Finland,196.0,,GK,IFK Mariehamn,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+michael-lopez-ef2cbc,Michael López,28.0,Argentina,181.0,Right,FW,Lahti,Veikkausliiga,23,1748,76.0,9,4,0.46,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+mikko-viitikko-d1485b,Mikko Viitikko,,Finland,190.0,Right,DF,Lahti,Veikkausliiga,20,1646,82.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+matias-vainionpaa-9dd239,Matias Vainionpää,,Finland,193.0,,DF,Lahti,Veikkausliiga,26,1820,70.0,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+riku-selander-359954,Riku Selander,31.0,Finland,173.0,Right,DF-MF,Lahti,Veikkausliiga,22,1710,77.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+pablo-andrade-c648cb,Pablo Andrade,31.0,Brazil,179.0,,MF,Lahti,Veikkausliiga,19,1619,85.2,3,1,0.17,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+luke-ivanovic-ff21e2,Luke Ivanovic,25.0,Australia,189.0,,FW,Lahti,Veikkausliiga,24,1456,60.7,6,0,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+samuel-pasanen-9c2000,Samuel Pasanen,19.0,Finland,173.0,,MF,Lahti,Veikkausliiga,23,1520,66.1,3,2,0.18,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+julius-tauriainen-7da323,Julius Tauriainen,24.0,Finland,175.0,,DF-MF,Lahti,Veikkausliiga,15,1211,80.7,1,3,0.07,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+otso-koskinen-b3e792,Otso Koskinen,,Finland,179.0,,MF,Lahti,Veikkausliiga,21,1198,57.0,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+dylan-fox-53b618,Dylan Fox,31.0,Australia,186.0,Right,DF,Lahti,Veikkausliiga,14,1188,84.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+josh-oluwayemi-365819,Josh Oluwayemi,24.0,Nigeria,185.0,,GK,Wellington,A-League Men,18,1620,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+eemeli-virta-20996a,Eemeli Virta,,Finland,184.0,,MF,Lahti,Veikkausliiga,14,1077,76.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+luquinhas-1df518,Luquinhas,28.0,Brazil,169.0,,MF,Lahti,Veikkausliiga,13,1085,83.5,1,3,0.08,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+benjamin-mulahalilovic-b69a1f,Benjamin Mulahalilović,27.0,Bosnia and Herzegovina,180.0,,MF,Lahti,Veikkausliiga,14,1078,77.0,0,3,,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+osku-maukonen-5528d4,Osku Maukonen,18.0,Finland,185.0,,GK,Lahti,Veikkausliiga,12,1052,87.7,0,1,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+akseli-puukko-28da97,Akseli Puukko,19.0,Finland,180.0,,DF,Lahti,Veikkausliiga,15,1039,69.3,0,1,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+colin-odutayo-a6bae1,Colin Odutayo,24.0,Netherlands,177.0,,FW,Lahti,Veikkausliiga,11,862,78.4,3,1,0.31,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+felix-strau-ad19b0,Felix Strauß,24.0,Austria,186.0,Right,DF,Lahti,Veikkausliiga,9,810,90.0,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+bubacar-djalo-2a6bcb,Bubacar Djaló,,Portugal,188.0,,MF,Lahti,Veikkausliiga,8,652,81.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jordao-42df94,Jordão,,Portugal,173.0,Right,DF,Lahti,Veikkausliiga,9,481,53.4,1,2,0.19,0.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marius-konkkola-57ebfb,Marius Könkkölä,22.0,Finland,172.0,Left,FW,Lahti,Veikkausliiga,18,553,30.7,0,1,,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+tommi-jantti-46d3da,Tommi Jäntti,,Finland,179.0,,MF,Lahti,Veikkausliiga,15,500,33.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+topias-inkinen-db4dd3,Topias Inkinen,,Finland,,,DF,Lahti,Veikkausliiga,4,340,85.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+asaad-babiker-17b886,Asaad Babiker,,,182.0,,FW,Lahti,Veikkausliiga,17,482,28.4,0,1,,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+david-mikhail-3100a6,David Mikhail,26.0,Sweden,188.0,,GK,Värnamo,Allsvenskan,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vilho-huovila-41395b,Vilho Huovila,19.0,Finland,184.0,,FW,Lahti,Veikkausliiga,4,58,14.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+tobias-karkulowski-47ad8c,Tobias Karkulowski,,Finland,184.0,,FW,Lahti,Veikkausliiga,1,36,36.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+viljami-jokiranta-fb03fc,Viljami Jokiranta,,Finland,178.0,,MF,Lahti,Veikkausliiga,3,17,5.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+daniel-koskipalo-cd729d,Daniel Koskipalo,,Finland,177.0,,DF,Lahti,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anton-munukka-2382ce,Anton Munukka,,Finland,187.0,,GK,Lahti,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+nikke-oksanen-9c7569,Nikke Oksanen,,Finland,,,MF,Lahti,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+enoch-kofi-adu-f0ecdb,Enoch Kofi Adu,35.0,Ghana,178.0,Right,MF,Ekenäs IF,Veikkausliiga,26,2228,85.7,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+simon-lindholm-18faca,Simon Lindholm,24.0,Finland,193.0,,MF,Ekenäs IF,Veikkausliiga,27,2109,78.1,2,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+ramilson-ad1b27,Ramilson,26.0,Brazil,189.0,,GK,Ekenäs IF,Veikkausliiga,24,2160,90.0,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+joel-lehtonen-a1342e,Joel Lehtonen,26.0,Finland,181.0,,DF,Ekenäs IF,Veikkausliiga,23,1901,82.7,1,5,0.05,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kalle-katz-d6a435,Kalle Katz,,Finland,185.0,,DF,Ekenäs IF,Veikkausliiga,19,1710,90.0,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+vaino-vehkonen-db6a35,Väinö Vehkonen,24.0,Finland,190.0,Left,DF,Ekenäs IF,Veikkausliiga,22,1681,76.4,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+nasiru-mohammed-bd2ed5,Nasiru Mohammed,31.0,Ghana,169.0,Right,FW-MF,Ekenäs IF,Veikkausliiga,23,1427,62.0,1,3,0.06,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+eetu-puro-06acfd,Eetu Puro,28.0,Finland,177.0,Right,MF,Ekenäs IF,Veikkausliiga,20,1382,69.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+salomo-ojala-300c92,Salomo Ojala,28.0,Finland,187.0,,FW,Ekenäs IF,Veikkausliiga,26,1310,50.4,7,3,0.48,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+arian-kabashi-98cd83,Arian Kabashi,29.0,Kosovo,178.0,,DF,Ekenäs IF,Veikkausliiga,12,1035,86.2,1,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+alexander-leksell-d0d96f,Alexander Leksell,28.0,Sweden,176.0,,DF,Ekenäs IF,Veikkausliiga,15,1033,68.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+kingsley-gyamfi-6bc8ec,Kingsley Gyamfi,23.0,Ghana,,,DF,Hammarby,Allsvenskan,4,37,9.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+emil-pallas-b6aff0,Emil Pallas,24.0,Finland,176.0,,MF,Ekenäs IF,Veikkausliiga,20,958,47.9,1,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+benjamin-hjertstrand-c93041,Benjamin Hjertstrand,,Sweden,179.0,Left,DF,Ekenäs IF,Veikkausliiga,10,814,81.4,0,1,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lucas-kaufmann-0b837e,Lucas Kaufmann,34.0,Brazil,170.0,,FW,Ekenäs IF,Veikkausliiga,11,791,71.9,3,0,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+abdoulaye-kante-a29fde-1,Abdoulaye Kanté,,France,180.0,,FW,Ekenäs IF,Veikkausliiga,10,689,68.9,1,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0
+tiemoko-fofana-19d100,Tiemoko Fofana,,Côte d'Ivoire,180.0,Right,FW,Ekenäs IF,Veikkausliiga,12,685,57.1,2,0,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+stanislav-yefimov-6dff3e,Stanislav Yefimov,,Russia,170.0,Right,MF,Ekenäs IF,Veikkausliiga,15,674,44.9,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+noah-lundstrom-9f6439,Noah Lundström,,Finland,180.0,,FW,Ekenäs IF,Veikkausliiga,18,688,38.2,2,0,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+frank-owusu-0aa12d,Frank Owusu,,Ghana,176.0,,MF,Ekenäs IF,Veikkausliiga,6,422,70.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+roni-pietsalo-ae66d0,Roni Pietsalo,,Finland,183.0,,MF,Ekenäs IF,Veikkausliiga,11,407,37.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+fahad-maxamed-5350ed,Fahad Maxamed,25.0,Somalia,,,DF,Ekenäs IF,Veikkausliiga,8,391,48.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arttu-sivonen-e40bc1,Arttu Sivonen,,Finland,,,MF,Ekenäs IF,Veikkausliiga,11,324,29.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jakob-gottberg-aee057,Jakob Gottberg,23.0,Finland,,,MF,Ekenäs IF,Veikkausliiga,4,168,42.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+elton-hedstrom-cfc35f,Elton Hedström,22.0,Sweden,,,FW,Ekenäs IF,Veikkausliiga,8,214,26.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+samuel-anini-jr-acddcb-1,Samuel Anini Jr,,Finland,175.0,,MF,Ekenäs IF,Veikkausliiga,2,92,46.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+nikos-giannakopoulos-eff9b5,Nikos Giannakopoulos,32.0,Greece,192.0,,GK,Ekenäs IF,Veikkausliiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+otto-huuhtanen-ccf0e4,Otto Huuhtanen,,Finland,185.0,Right,GK,Ekenäs IF,Veikkausliiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jere-koponen-43337d,Jere Koponen,,Finland,186.0,Right,GK,Ekenäs IF,Veikkausliiga,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tobias-fagerstrom-9ace2a,Tobias Fagerström,25.0,Finland,175.0,,MF,Ekenäs IF,Veikkausliiga,5,69,13.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+august-bjorklund-5729d6,August Björklund,23.0,Finland,176.0,,MF,Ekenäs IF,Veikkausliiga,5,39,7.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+henri-malundama-97219a,Henri Malundama,,Finland,177.0,,MF,Ekenäs IF,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+onni-rintamaki-09db09,Onni Rintamäki,,Finland,196.0,,GK,Ekenäs IF,Veikkausliiga,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
