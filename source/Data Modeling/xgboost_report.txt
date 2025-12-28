@@ -1,0 +1,40 @@
+============================================================
+XGBOOST MODEL - FINAL REPORT
+============================================================
+
+DATASET
+Total:    16,453 samples
+Cleaned:  16,266 samples
+Features: 58
+
+DATA SPLIT
+Train:      10,409 (64.0%)
+Validation: 2,603 (16.0%)
+Test:       3,254 (20.0%)
+
+PERFORMANCE METRICS
+Cross-Validation R²: 0.7828
+Test R²:             0.7802
+Test RMSE:           €3.18M
+Test MAE:            €1.18M
+
+BEST HYPERPARAMETERS
+colsample_bytree: 0.9
+learning_rate: 0.07
+max_depth: 5
+min_child_weight: 4
+n_estimators: 250
+subsample: 0.9
+
+OUTPUT FILES
+✓ xgb_target.png
+✓ xgb_features.png
+✓ xgb_evaluation.png
+✓ xgboost_model.pkl
+✓ scaler.pkl
+✓ features.pkl
+✓ metadata.pkl
+
+============================================================
+PROJECT COMPLETE
+============================================================
