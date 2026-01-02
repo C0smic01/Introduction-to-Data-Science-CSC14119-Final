@@ -268,7 +268,7 @@ LEAGUE_CONFIG = {
     "Chilean Primera División": f"https://fbref.com/en/comps/35/2024/2024-Chilean-Primera-Division-Stats",
     "Ukrainian Premier League": f"https://fbref.com/en/comps/39/{SEASON}/{SEASON}-Ukrainian-Premier-League-Stats",
     "Indian Super League": f"https://fbref.com/en/comps/82/Indian-Super-League-Stats",
-    "EFL League Two": f"https://fbref.com/en/comps/16/{SEASON}/{SEASON}-League-Two-Stats"
+    "EFL League Two": f"https://fbref.com/en/comps/16/{SEASON}/{SEASON}-League-Two-Stats",
 }
 
 # URL
