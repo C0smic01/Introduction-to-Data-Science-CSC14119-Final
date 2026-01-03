@@ -1,237 +1,227 @@
-import numpy as np
 import pandas as pd
-import lightgbm as lgb
-from sklearn.model_selection import GridSearchCV, cross_val_score, KFold
+import numpy as np
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV, KFold
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+import lightgbm as lgb
 import joblib
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
+import warnings
+warnings.filterwarnings('ignore')
 
 
-class LightGBMTrainer:
-    def __init__(self, param_grid=None, cv_folds=5, random_state=42):
+class FootballPlayerValuePredictor:
+    def __init__(self, random_state=42):
         self.random_state = random_state
-        self.cv_folds = cv_folds
+        self.scaler = StandardScaler()
+        self.label_encoders = {}
+        self.selected_features = None
         self.model = None
-        self.best_params = None
-        self.cv_scores = None
-        self.param_grid = param_grid or {
-            'n_estimators': [100, 200, 300],
-            'max_depth': [5, 7, 9],
-            'learning_rate': [0.01, 0.05, 0.1],
-            'num_leaves': [31, 50, 70],
-            'min_child_samples': [20, 30, 40],
-            'subsample': [0.8, 0.9, 1.0],
-            'colsample_bytree': [0.8, 0.9, 1.0]
-        }
+        self.feature_cols = None
+        
+    def engineer_features(self, df):
+        df_features = df.copy()
+        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        
+        skewed_features = []
+        for col in numeric_cols:
+            if col not in ['market_value', 'is_GK', 'is_DF', 'is_MF', 'is_FW']:
+                skewness = abs(df_features[col].skew())
+                if skewness > 1.0:
+                    df_features[f'{col}_log'] = np.log1p(df_features[col])
+                    skewed_features.append(col)
+        
+        if 'goals' in df_features.columns and 'shots_per90' in df_features.columns:
+            df_features['goals_per_shot'] = df_features['goals'] / df_features['shots_per90'].replace(0, 0.01)
+        
+        if 'passes_completed_per90' in df_features.columns and 'pass_completion_pct' in df_features.columns:
+            df_features['pass_efficiency'] = df_features['passes_completed_per90'] * df_features['pass_completion_pct'] / 100
+        
+        if all(col in df_features.columns for col in ['interceptions_per90', 'blocks_per90']):
+            df_features['defensive_contribution'] = df_features['interceptions_per90'] + df_features['blocks_per90']
+        
+        if all(col in df_features.columns for col in ['progressive_passes_per90', 'progressive_carries_per90']):
+            df_features['total_progressive'] = df_features['progressive_passes_per90'] + df_features['progressive_carries_per90']
+        
+        df_features['age_experience'] = df_features['age'] * np.log1p(df_features['minutes_played'])
+        
+        if 'minutes_played' in df_features.columns and 'appearances' in df_features.columns:
+            df_features['minutes_per_game'] = df_features['minutes_played'] / df_features['appearances'].replace(0, 1)
+        
+        key_features = ['goals', 'assists', 'minutes_played']
+        for feat in key_features:
+            if feat in df_features.columns:
+                df_features[f'{feat}_squared'] = df_features[feat] ** 2
+        
+        categorical_cols = ['nationality', 'position', 'current_club', 'league']
+        
+        for col in ['nationality', 'current_club']:
+            if col in df_features.columns:
+                target_mean = df_features.groupby(col)['market_value'].mean()
+                df_features[f'{col}_target_enc'] = df_features[col].map(target_mean)
+                df_features[f'{col}_target_enc'].fillna(df_features['market_value'].mean(), inplace=True)
+        
+        for col in ['position', 'league']:
+            if col in df_features.columns:
+                if col not in self.label_encoders:
+                    self.label_encoders[col] = LabelEncoder()
+                    df_features[f'{col}_label_enc'] = self.label_encoders[col].fit_transform(df_features[col].astype(str))
+                else:
+                    df_features[f'{col}_label_enc'] = self.label_encoders[col].transform(df_features[col].astype(str))
+        
+        for col in categorical_cols:
+            if col in df_features.columns:
+                freq = df_features[col].value_counts()
+                df_features[f'{col}_freq'] = df_features[col].map(freq)
+        
+        return df_features
     
-    def train_with_gridsearch(self, X_train, y_train, X_val=None, y_val=None, verbose=True):
-        base_model = lgb.LGBMRegressor(
-            random_state=self.random_state,
-            n_jobs=-1,
-            force_col_wise=True
+    def select_features(self, df_features, corr_threshold=0.05):
+        exclude_cols = ['market_value', 'position_category', 'nationality', 'position', 
+                        'current_club', 'league']
+        
+        feature_cols = [col for col in df_features.columns 
+                        if col not in exclude_cols 
+                        and df_features[col].dtype in ['int64', 'float64']]
+        
+        X_temp = df_features[feature_cols].fillna(0)
+        y_temp = df_features['market_value']
+        
+        correlations = {}
+        for col in feature_cols:
+            try:
+                correlations[col] = abs(X_temp[col].corr(y_temp))
+            except:
+                correlations[col] = 0
+        
+        selected_features = [feat for feat, corr in correlations.items() if corr > corr_threshold]
+        
+        return selected_features, correlations
+    
+    def prepare_data(self, df, test_size=0.2, val_size=0.2):
+        df_features = self.engineer_features(df)
+        
+        self.selected_features, correlations = self.select_features(df_features)
+        
+        Q1 = df_features['market_value'].quantile(0.01)
+        Q3 = df_features['market_value'].quantile(0.99)
+        df_clean = df_features[(df_features['market_value'] >= Q1) & 
+                                (df_features['market_value'] <= Q3)].copy()
+        
+        X = df_clean[self.selected_features].fillna(0)
+        y = df_clean['market_value']
+        y_log = np.log1p(y)
+        
+        X_temp, X_test, y_temp, y_test = train_test_split(
+            X, y_log, test_size=test_size, random_state=self.random_state, shuffle=True
         )
         
-        kfold = KFold(n_splits=self.cv_folds, shuffle=True, random_state=self.random_state)
+        X_train, X_val, y_train, y_val = train_test_split(
+            X_temp, y_temp, test_size=val_size, random_state=self.random_state, shuffle=True
+        )
+        
+        X_train_scaled = self.scaler.fit_transform(X_train)
+        X_val_scaled = self.scaler.transform(X_val)
+        X_test_scaled = self.scaler.transform(X_test)
+        
+        return (X_train_scaled, X_val_scaled, X_test_scaled, 
+                y_train, y_val, y_test, df_clean, correlations)
+    
+    def train(self, X_train, y_train, X_val=None, y_val=None):
+        self.model = lgb.LGBMRegressor(
+            n_estimators=200,
+            learning_rate=0.05,
+            max_depth=6,
+            num_leaves=31,
+            min_child_samples=20,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            reg_alpha=0.1,
+            reg_lambda=0.1,
+            random_state=self.random_state,
+            n_jobs=-1,
+            verbose=-1
+        )
+        
+        self.model.fit(X_train, y_train)
+        
+        return self.model
+    
+    def tune_hyperparameters(self, X_train, y_train, cv=5):
+        param_grid = {
+            'n_estimators': [150, 200, 250],
+            'learning_rate': [0.03, 0.05, 0.07],
+            'max_depth': [5, 6, 7],
+            'num_leaves': [25, 31, 40],
+            'min_child_samples': [15, 20, 25]
+        }
+        
+        base_model = lgb.LGBMRegressor(
+            random_state=self.random_state, 
+            n_jobs=-1, 
+            verbose=-1
+        )
         
         grid_search = GridSearchCV(
             estimator=base_model,
-            param_grid=self.param_grid,
-            cv=kfold,
+            param_grid=param_grid,
+            cv=cv,
             scoring='r2',
             n_jobs=-1,
-            verbose=1 if verbose else 0
+            verbose=1
         )
         
         grid_search.fit(X_train, y_train)
         
-        self.best_params = grid_search.best_params_
         self.model = grid_search.best_estimator_
         
-        self.cv_scores = cross_val_score(
-            self.model, X_train, y_train,
-            cv=kfold, scoring='r2', n_jobs=-1
-        )
-        
-        if verbose:
-            print(f"\nBest Parameters: {self.best_params}")
-            print(f"CV R² Score: {self.cv_scores.mean():.4f} ± {self.cv_scores.std():.4f}")
-        
-        if X_val is not None and y_val is not None:
-            val_score = self.model.score(X_val, y_val)
-            if verbose:
-                print(f"Validation R² Score: {val_score:.4f}")
-        
-        return self
-    
-    def train_with_early_stopping(self, X_train, y_train, X_val, y_val, 
-                                   n_estimators=1000, early_stopping_rounds=50, verbose=True):
-        if self.best_params is None:
-            params = {
-                'max_depth': 7,
-                'learning_rate': 0.05,
-                'num_leaves': 50,
-                'min_child_samples': 30,
-                'subsample': 0.9,
-                'colsample_bytree': 0.9
-            }
-        else:
-            params = self.best_params.copy()
-            params.pop('n_estimators', None)
-        
-        self.model = lgb.LGBMRegressor(
-            n_estimators=n_estimators,
-            random_state=self.random_state,
-            n_jobs=-1,
-            force_col_wise=True,
-            **params
-        )
-        
-        self.model.fit(
-            X_train, y_train,
-            eval_set=[(X_val, y_val)],
-            eval_metric='rmse',
-            callbacks=[lgb.early_stopping(early_stopping_rounds, verbose=verbose)]
-        )
-        
-        return self
+        return grid_search.best_params_, grid_search.best_score_, grid_search
     
     def evaluate(self, X_test, y_test):
-        y_pred = self.model.predict(X_test)
+        y_test_pred_log = self.model.predict(X_test)
+        y_test_pred = np.expm1(y_test_pred_log)
+        y_test_orig = np.expm1(y_test)
         
         metrics = {
-            'r2': r2_score(y_test, y_pred),
-            'mse': mean_squared_error(y_test, y_pred),
-            'rmse': np.sqrt(mean_squared_error(y_test, y_pred)),
-            'mae': mean_absolute_error(y_test, y_pred),
-            'mape': np.mean(np.abs((y_test - y_pred) / y_test)) * 100
+            'r2': r2_score(y_test, y_test_pred_log),
+            'mse': mean_squared_error(y_test_orig, y_test_pred),
+            'rmse': np.sqrt(mean_squared_error(y_test_orig, y_test_pred)),
+            'mae': mean_absolute_error(y_test_orig, y_test_pred),
+            'mape': np.mean(np.abs((y_test_orig - y_test_pred) / y_test_orig)) * 100
         }
         
-        return metrics, y_pred
+        return metrics, y_test_pred_log
     
-    def get_feature_importance(self, feature_names, top_n=20):
-        if self.model is None:
-            raise ValueError("Model must be trained first")
+    def cross_validate(self, X_train, y_train, cv=5):
+        kfold = KFold(n_splits=cv, shuffle=True, random_state=self.random_state)
+        cv_scores = cross_val_score(self.model, X_train, y_train, 
+                                    cv=kfold, scoring='r2', n_jobs=-1)
+        
+        return cv_scores.mean(), cv_scores.std(), cv_scores
+    
+    def get_feature_importance(self, top_n=20):
+        if self.model is None or not hasattr(self.model, 'feature_importances_'):
+            return None
         
         importances = self.model.feature_importances_
-        indices = np.argsort(importances)[::-1][:top_n]
+        indices = np.argsort(importances)[-top_n:]
         
-        return pd.DataFrame({
-            'feature': [feature_names[i] for i in indices],
-            'importance': importances[indices]
-        })
+        feature_importance = {
+            'features': [self.selected_features[i] for i in indices],
+            'importances': importances[indices]
+        }
+        
+        return feature_importance
     
-    def save(self, filepath):
-        joblib.dump({
-            'model': self.model,
-            'best_params': self.best_params,
-            'cv_scores': self.cv_scores,
-            'param_grid': self.param_grid
-        }, filepath)
+    def save(self, model_path='lightgbm_model.pkl', 
+             scaler_path='scaler.pkl', 
+             features_path='selected_features.pkl'):
+        joblib.dump(self.model, model_path)
+        joblib.dump(self.scaler, scaler_path)
+        joblib.dump(self.selected_features, features_path)
     
-    @classmethod
-    def load(cls, filepath):
-        data = joblib.load(filepath)
-        trainer = cls(param_grid=data['param_grid'])
-        trainer.model = data['model']
-        trainer.best_params = data['best_params']
-        trainer.cv_scores = data['cv_scores']
-        return trainer
-
-
-def plot_predictions(y_true, y_pred, title="Actual vs Predicted", save_path=None):
-    plt.figure(figsize=(10, 6))
-    
-    plt.scatter(y_true, y_pred, alpha=0.5, s=30)
-    
-    min_val = min(y_true.min(), y_pred.min())
-    max_val = max(y_true.max(), y_pred.max())
-    plt.plot([min_val, max_val], [min_val, max_val], 'r--', lw=2, label='Perfect Prediction')
-    
-    plt.xlabel('Actual Value (M€)', fontsize=12)
-    plt.ylabel('Predicted Value (M€)', fontsize=12)
-    plt.title(title, fontsize=14, fontweight='bold')
-    plt.legend()
-    plt.grid(alpha=0.3)
-    
-    r2 = r2_score(y_true, y_pred)
-    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
-    plt.text(0.05, 0.95, f'R² = {r2:.4f}\nRMSE = €{rmse:.2f}M',
-             transform=plt.gca().transAxes, fontsize=11,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
-    
-    if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    
-    plt.show()
-
-
-def plot_residuals(y_true, y_pred, save_path=None):
-    residuals = y_true - y_pred
-    
-    fig, axes = plt.subplots(1, 3, figsize=(18, 5))
-    
-    axes[0].hist(residuals, bins=50, edgecolor='black', alpha=0.7, color='skyblue')
-    axes[0].axvline(0, color='red', linestyle='--', lw=2)
-    axes[0].set_xlabel('Residuals (M€)', fontsize=11)
-    axes[0].set_ylabel('Frequency', fontsize=11)
-    axes[0].set_title('Residuals Distribution', fontsize=13, fontweight='bold')
-    axes[0].grid(alpha=0.3)
-    
-    axes[1].scatter(y_pred, residuals, alpha=0.5, s=30)
-    axes[1].axhline(0, color='red', linestyle='--', lw=2)
-    axes[1].set_xlabel('Predicted Value (M€)', fontsize=11)
-    axes[1].set_ylabel('Residuals (M€)', fontsize=11)
-    axes[1].set_title('Residuals vs Predicted', fontsize=13, fontweight='bold')
-    axes[1].grid(alpha=0.3)
-    
-    stats.probplot(residuals, dist="norm", plot=axes[2])
-    axes[2].set_title('Q-Q Plot', fontsize=13, fontweight='bold')
-    axes[2].grid(alpha=0.3)
-    
-    plt.tight_layout()
-    
-    if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    
-    plt.show()
-
-
-def plot_feature_importance(importance_df, top_n=20, save_path=None):
-    plt.figure(figsize=(10, 8))
-    
-    importance_df_top = importance_df.head(top_n)
-    
-    plt.barh(range(len(importance_df_top)), importance_df_top['importance'], alpha=0.7, color='steelblue')
-    plt.yticks(range(len(importance_df_top)), importance_df_top['feature'])
-    plt.xlabel('Importance', fontsize=12)
-    plt.ylabel('Feature', fontsize=12)
-    plt.title(f'Top {top_n} Feature Importances', fontsize=14, fontweight='bold')
-    plt.gca().invert_yaxis()
-    plt.grid(alpha=0.3, axis='x')
-    
-    if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    
-    plt.show()
-
-
-def print_metrics(metrics, cv_scores=None):
-    print("=" * 80)
-    print("MODEL EVALUATION METRICS")
-    print("=" * 80)
-    print(f"\nTest Set Performance:")
-    print(f"  R² Score:  {metrics['r2']:.4f}")
-    print(f"  MSE:       €{metrics['mse']:.2f}M²")
-    print(f"  RMSE:      €{metrics['rmse']:.2f}M")
-    print(f"  MAE:       €{metrics['mae']:.2f}M")
-    print(f"  MAPE:      {metrics['mape']:.2f}%")
-    
-    if cv_scores is not None:
-        print(f"\nCross-Validation Performance:")
-        print(f"  CV R² Score: {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
-        print(f"  Min CV R²:   {cv_scores.min():.4f}")
-        print(f"  Max CV R²:   {cv_scores.max():.4f}")
-    
-    print("=" * 80)
+    def load(self, model_path='lightgbm_model.pkl', 
+             scaler_path='scaler.pkl', 
+             features_path='selected_features.pkl'):
+        self.model = joblib.load(model_path)
+        self.scaler = joblib.load(scaler_path)
+        self.selected_features = joblib.load(features_path)
