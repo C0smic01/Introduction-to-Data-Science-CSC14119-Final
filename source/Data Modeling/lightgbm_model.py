@@ -6,6 +6,8 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import lightgbm as lgb
 import joblib
 import warnings
+from tqdm.auto import tqdm
+import time
 warnings.filterwarnings('ignore')
 
 
@@ -19,17 +21,21 @@ class FootballPlayerValuePredictor:
         self.feature_cols = None
         
     def engineer_features(self, df):
+        print("🔄 Feature Engineering Progress:")
         df_features = df.copy()
         numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
         
+        print("  ⏳ Log transformations...")
         skewed_features = []
-        for col in numeric_cols:
+        for col in tqdm(numeric_cols, desc="  ", leave=False):
             if col not in ['market_value', 'is_GK', 'is_DF', 'is_MF', 'is_FW']:
                 skewness = abs(df_features[col].skew())
                 if skewness > 1.0:
                     df_features[f'{col}_log'] = np.log1p(df_features[col])
                     skewed_features.append(col)
         
+        print(f"  ✅ Created {len(skewed_features)} log features")
+        print("  ⏳ Creating ratio features...")
         if 'goals' in df_features.columns and 'shots_per90' in df_features.columns:
             df_features['goals_per_shot'] = df_features['goals'] / df_features['shots_per90'].replace(0, 0.01)
         
@@ -42,16 +48,19 @@ class FootballPlayerValuePredictor:
         if all(col in df_features.columns for col in ['progressive_passes_per90', 'progressive_carries_per90']):
             df_features['total_progressive'] = df_features['progressive_passes_per90'] + df_features['progressive_carries_per90']
         
+        print("  ⏳ Creating interaction features...")
         df_features['age_experience'] = df_features['age'] * np.log1p(df_features['minutes_played'])
         
         if 'minutes_played' in df_features.columns and 'appearances' in df_features.columns:
             df_features['minutes_per_game'] = df_features['minutes_played'] / df_features['appearances'].replace(0, 1)
         
+        print("  ⏳ Creating polynomial features...")
         key_features = ['goals', 'assists', 'minutes_played']
         for feat in key_features:
             if feat in df_features.columns:
                 df_features[f'{feat}_squared'] = df_features[feat] ** 2
         
+        print("  ⏳ Encoding categorical variables...")
         categorical_cols = ['nationality', 'position', 'current_club', 'league']
         
         for col in ['nationality', 'current_club']:
@@ -73,6 +82,7 @@ class FootballPlayerValuePredictor:
                 freq = df_features[col].value_counts()
                 df_features[f'{col}_freq'] = df_features[col].map(freq)
         
+        print(f"  ✅ Feature engineering completed! Total features: {len(df_features.columns)}")
         return df_features
     
     def select_features(self, df_features, corr_threshold=0.05):
@@ -98,15 +108,25 @@ class FootballPlayerValuePredictor:
         return selected_features, correlations
     
     def prepare_data(self, df, test_size=0.2, val_size=0.2):
+        start_time = time.time()
+        print("\n" + "="*60)
+        print("📊 DATA PREPARATION PIPELINE")
+        print("="*60)
+        
         df_features = self.engineer_features(df)
         
+        print("\n⏳ Selecting features by correlation...")
         self.selected_features, correlations = self.select_features(df_features)
+        print(f"  ✅ Selected {len(self.selected_features)} features")
         
+        print("\n⏳ Removing outliers...")
         Q1 = df_features['market_value'].quantile(0.01)
         Q3 = df_features['market_value'].quantile(0.99)
         df_clean = df_features[(df_features['market_value'] >= Q1) & 
                                 (df_features['market_value'] <= Q3)].copy()
+        print(f"  ✅ Kept {len(df_clean):,}/{len(df_features):,} samples ({len(df_clean)/len(df_features)*100:.1f}%)")
         
+        print("\n⏳ Splitting data (Train/Val/Test: 64%/16%/20%)...")
         X = df_clean[self.selected_features].fillna(0)
         y = df_clean['market_value']
         y_log = np.log1p(y)
@@ -119,14 +139,22 @@ class FootballPlayerValuePredictor:
             X_temp, y_temp, test_size=val_size, random_state=self.random_state, shuffle=True
         )
         
+        print("\n⏳ Scaling features with StandardScaler...")
         X_train_scaled = self.scaler.fit_transform(X_train)
         X_val_scaled = self.scaler.transform(X_val)
         X_test_scaled = self.scaler.transform(X_test)
+        
+        elapsed = time.time() - start_time
+        print(f"\n✅ Data preparation completed in {elapsed:.2f}s")
+        print("="*60)
         
         return (X_train_scaled, X_val_scaled, X_test_scaled, 
                 y_train, y_val, y_test, df_clean, correlations)
     
     def train(self, X_train, y_train, X_val=None, y_val=None):
+        start_time = time.time()
+        print("\n⏳ Training LightGBM model...")
+        
         self.model = lgb.LGBMRegressor(
             n_estimators=200,
             learning_rate=0.05,
@@ -144,9 +172,17 @@ class FootballPlayerValuePredictor:
         
         self.model.fit(X_train, y_train)
         
+        elapsed = time.time() - start_time
+        print(f"✅ Training completed in {elapsed:.2f}s")
+        
         return self.model
     
     def tune_hyperparameters(self, X_train, y_train, cv=5):
+        start_time = time.time()
+        print("\n" + "="*60)
+        print("🔍 HYPERPARAMETER TUNING - GridSearchCV")
+        print("="*60)
+        
         param_grid = {
             'n_estimators': [150, 200, 250],
             'learning_rate': [0.03, 0.05, 0.07],
@@ -154,6 +190,13 @@ class FootballPlayerValuePredictor:
             'num_leaves': [25, 31, 40],
             'min_child_samples': [15, 20, 25]
         }
+        
+        total_combinations = np.prod([len(v) for v in param_grid.values()])
+        print(f"\n📊 Search space: {total_combinations} combinations")
+        print(f"📊 Cross-validation: {cv}-fold")
+        print(f"📊 Total fits: {total_combinations * cv}")
+        print(f"\n⏳ This may take 5-15 minutes depending on dataset size...")
+        print(f"⏳ Started at: {time.strftime('%H:%M:%S')}\n")
         
         base_model = lgb.LGBMRegressor(
             random_state=self.random_state, 
@@ -167,12 +210,17 @@ class FootballPlayerValuePredictor:
             cv=cv,
             scoring='r2',
             n_jobs=-1,
-            verbose=1
+            verbose=2
         )
         
         grid_search.fit(X_train, y_train)
         
         self.model = grid_search.best_estimator_
+        
+        elapsed = time.time() - start_time
+        print(f"\n✅ Grid search completed in {elapsed/60:.2f} minutes ({elapsed:.1f}s)")
+        print(f"✅ Finished at: {time.strftime('%H:%M:%S')}")
+        print("="*60)
         
         return grid_search.best_params_, grid_search.best_score_, grid_search
     
@@ -192,9 +240,15 @@ class FootballPlayerValuePredictor:
         return metrics, y_test_pred_log
     
     def cross_validate(self, X_train, y_train, cv=5):
+        start_time = time.time()
+        print(f"\n⏳ Running {cv}-fold cross-validation...")
+        
         kfold = KFold(n_splits=cv, shuffle=True, random_state=self.random_state)
         cv_scores = cross_val_score(self.model, X_train, y_train, 
                                     cv=kfold, scoring='r2', n_jobs=-1)
+        
+        elapsed = time.time() - start_time
+        print(f"✅ Cross-validation completed in {elapsed:.2f}s")
         
         return cv_scores.mean(), cv_scores.std(), cv_scores
     
