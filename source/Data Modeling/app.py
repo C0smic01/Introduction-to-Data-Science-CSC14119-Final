@@ -216,6 +216,39 @@ st.markdown("""
         background: linear-gradient(90deg, rgba(0, 255, 135, 0.2), rgba(96, 239, 255, 0.2));
         border-bottom: 2px solid #00ff87;
     }
+    
+    /* ========== CUSTOM: Tiêu đề h4 màu nổi bật ========== */
+    h4 {
+        color: #00ff87 !important;
+        font-family: 'Bebas Neue', sans-serif !important;
+        font-size: 1.4rem !important;
+        letter-spacing: 1.5px !important;
+        border-bottom: 2px solid rgba(96, 239, 255, 0.3);
+        padding-bottom: 8px;
+        margin-bottom: 15px !important;
+    }
+    
+    /* Labels cho input fields sáng hơn */
+    .stSelectbox label, .stNumberInput label, .stSlider label {
+        color: #ccd6f6 !important;
+        font-weight: 500 !important;
+    }
+    
+    /* Màu chữ được chọn trong selectbox (Position, League, Club) */
+    .stSelectbox [data-baseweb="select"] span {
+        color: #00ff87 !important;
+    }
+    
+    /* Màu chữ trong dropdown menu */
+    [data-baseweb="menu"] li {
+        color: #ccd6f6 !important;
+    }
+    
+    /* Hover trong dropdown */
+    [data-baseweb="menu"] li:hover {
+        background-color: rgba(0, 255, 135, 0.2) !important;
+        color: #00ff87 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
