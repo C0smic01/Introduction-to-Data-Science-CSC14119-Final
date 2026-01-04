@@ -1,0 +1,692 @@
+player_id,player_name,age,nationality,height,foot,position,current_club,league,appearances,minutes_played,minutes_per_game,goals,assists,goals_per_90,assists_per_90,npg_per90,npxg_per90,xag_per90,npxg_xag_per90,xg_per90,shots_per90,shots_on_target_per90,shots_on_target_pct,avg_shot_distance,sca_per90,gca_per90,key_passes_per90,passes_completed_per90,pass_completion_pct,passes_into_final_third_per90,passes_into_penalty_area_per90,progressive_passes_per90,progressive_passes_rec_per90,progressive_carries_per90,take_ons_per90,take_on_success_pct,carries_per90,carries_into_final_third_per90,touches_per90,touches_att_third_per90,touches_att_pen_per90,passes_received_per90,tackles_per90,interceptions_per90,blocks_per90,ball_recoveries_per90,aerials_won_per90,aerial_win_pct,yellow_cards_per90,red_cards_per90,fouls_committed_per90,goals_against_per90,shots_on_target_against_per90,saves_per90,save_percentage,clean_sheet_pct,psxg_per_shot,psxg_ga_per90,penalty_save_pct,passes_attempted_per90,launch_pct,avg_pass_length,def_actions_outside_pen_per90,avg_distance_def_actions,crosses_stopped_pct,wins_per90,draws_per90,losses_per90,market_value
+tomoki-hayakawa-b7aa72,Tomoki Hayakawa,26,Japan,186.0,Right,GK,Kashima Antlers,J1 League,36,3240,90.0,0,1,,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+naomichi-ueda-597ca0,Naomichi Ueda,31,Japan,186.0,Right,DF,Kashima Antlers,J1 League,36,3240,90.0,2,5,0.06,0.14,0.0,0.03,0.04,0.06,0.03,0.25,0.13,50.0,9.9,1.01,0.0,0.63,36.33,76.9,2.66,0.51,2.66,0.0,0.76,0.13,100.0,34.43,0.25,54.05,0.89,0.63,36.2,0.51,0.76,0.63,4.56,1.65,59.1,0.0,0.0,0.38,,,,,,,,,,,,,,,,,,1.0
+yuma-suzuki-b0a403,Yuma Suzuki,29,Japan,180.0,Right,FW,Kashima Antlers,J1 League,36,3073,85.4,10,5,0.29,0.15,0.19,0.28,0.11,0.39,0.28,1.78,1.13,63.2,13.6,2.16,0.28,0.94,16.7,62.5,2.16,0.47,2.53,8.16,0.94,0.75,53.3,21.68,0.94,35.85,16.14,4.04,32.85,0.19,0.28,0.47,2.35,2.63,32.9,0.38,0.0,0.94,,,,,,,,,,,,,,,,,,2.2
+leonardo-433135,Leonardo,30,Brazil,178.0,,FW,Kashima Antlers,J1 League,32,2268,70.9,19,0,0.75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ryuta-koike-f8f5b3,Ryuta Koike,30,Japan,170.0,,DF-MF,Kashima Antlers,J1 League,29,2341,80.7,1,3,0.04,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+aleksandar-cavric-cec904,Aleksandar Čavrić,31,Serbia,186.0,Right,FW-MF,Kashima Antlers,J1 League,31,1955,63.1,3,4,0.14,0.18,0.58,0.38,0.21,0.6,0.54,2.5,1.15,46.2,11.8,2.5,0.58,1.35,14.23,67.3,1.35,0.77,2.69,5.77,2.12,1.35,43.8,17.5,0.58,31.54,16.35,6.35,21.35,0.58,0.0,0.38,2.12,1.54,44.4,0.0,0.0,0.77,,,,,,,,,,,,,,,,,,1.5
+kim-taehyeon-28c25b,Kim Taehyeon,25,Korea Republic,186.0,Left,DF,Kashima Antlers,J1 League,28,1981,70.8,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kimito-nono-fbf4b5,Kimito Nono,23,Japan,179.0,,DF,Kashima Antlers,J1 League,25,1784,71.4,1,2,0.05,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+koki-anzai-00143b,Koki Anzai,30,Japan,172.0,Right,DF,Kashima Antlers,J1 League,19,1672,88.0,0,4,0.0,0.22,0.0,0.02,0.02,0.04,0.02,0.39,0.11,27.3,23.6,1.65,0.14,0.49,33.48,73.5,2.24,0.6,2.94,4.31,1.51,0.56,47.1,25.39,0.95,53.51,13.9,0.46,29.49,1.05,0.88,0.7,5.04,1.33,54.3,0.14,0.0,1.54,,,,,,,,,,,,,,,,,,1.0
+yu-funabashi-29c39b,Yu Funabashi,23,Japan,175.0,Right,MF,Kashima Antlers,J1 League,30,1496,49.9,2,2,0.12,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kento-misao-356ed7,Kento Misao,29,Japan,180.0,Right,DF-MF,Kashima Antlers,J1 League,27,1622,60.1,0,0,0.14,0.14,0.14,0.03,0.04,0.07,0.03,0.82,0.14,16.7,23.0,1.92,0.27,0.69,22.36,69.1,2.2,0.0,2.06,0.96,0.14,0.27,66.7,27.03,0.41,44.59,7.13,0.82,22.5,3.57,1.37,1.51,7.0,1.78,68.4,0.41,0.0,2.2,,,,,,,,,,,,,,,,,,0.55
+ikuma-sekigawa-73aa1f,Ikuma Sekigawa,25,Japan,183.0,,DF,Kashima Antlers,J1 League,14,1189,84.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3
+yuta-higuchi-ba5fb6,Yuta Higuchi,29,Japan,168.0,,MF,Kashima Antlers,J1 League,24,1264,52.7,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+gaku-shibasaki-2f22a0,Gaku Shibasaki,33,Japan,175.0,Right,MF,Kashima Antlers,J1 League,19,965,50.8,0,0,0.0,0.33,0.0,0.0,0.33,0.33,0.0,0.33,0.0,0.0,29.5,3.0,0.33,2.0,55.0,84.6,7.0,0.67,7.0,1.0,1.33,0.0,,38.67,1.0,74.33,6.0,0.33,42.67,2.33,1.33,1.33,11.0,0.0,0.0,0.0,0.0,1.67,,,,,,,,,,,,,,,,,,0.4
+kei-chinen-bba465,Kei Chinen,30,Japan,177.0,,FW-MF,Kashima Antlers,J1 League,27,1323,49.0,4,0,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+yuta-matsumura-33af39,Yuta Matsumura,24,Indonesia,170.0,,MF,Kashima Antlers,J1 League,36,1369,38.0,2,5,0.13,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+ryotaro-araki-3aeb03,Ryotaro Araki,23,Japan,170.0,,FW-MF,Kashima Antlers,J1 League,17,703,41.4,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+ryoya-ogawa-6481d4,Ryoya Ogawa,29,Japan,179.0,Left,DF-MF,Sint-Truiden,Belgian Pro League,29,2449,84.4,2,4,0.07,0.15,0.08,0.09,0.2,0.29,0.09,0.62,0.16,25.0,9.9,2.02,0.31,1.32,34.35,71.1,2.8,1.01,3.65,6.06,2.33,0.62,72.7,38.01,2.02,60.54,18.73,2.18,36.68,1.48,1.32,1.63,3.03,1.09,53.8,0.16,0.0,0.78,,,,,,,,,,,,,,,,,,1.5
+elber-281b11,Élber,33,Brazil,170.0,Right,FW-MF,Kashima Antlers,J1 League,10,642,64.2,1,1,0.14,0.14,0.19,0.21,0.15,0.35,0.21,2.27,1.01,44.4,18.7,4.35,0.38,1.89,36.26,80.9,4.79,1.51,6.87,7.82,4.6,2.65,73.7,36.77,2.59,52.22,22.07,2.52,41.94,0.38,0.63,0.63,4.04,1.32,60.0,0.0,0.06,0.69,,,,,,,,,,,,,,,,,,0.75
+keisuke-tsukui-35995a,Keisuke Tsukui,21,Japan,180.0,,DF,Kashima Antlers,J1 League,17,761,44.8,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kyosuke-tagawa-2f9052,Kyosuke Tagawa,26,Japan,181.0,,FW-MF,Kashima Antlers,J1 League,23,707,30.7,3,1,0.38,0.13,0.15,0.12,0.11,0.23,0.12,0.98,0.38,38.5,16.3,1.36,0.08,0.6,8.15,59.7,0.45,0.15,0.53,3.4,0.53,0.23,27.3,11.93,0.38,21.59,8.83,2.11,15.78,0.76,0.3,0.15,1.59,2.49,45.2,0.0,0.0,1.59,,,,,,,,,,,,,,,,,,0.4
+talles-9a4e62,Talles,27,Brazil,181.0,Right,MF,Kashima Antlers,J1 League,12,329,27.4,1,0,0.27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0
+shu-morooka-4dbe7e,Shu Morooka,24,Japan,174.0,Right,MF,Kashima Antlers,J1 League,11,450,40.9,2,0,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+shuhei-mizoguchi-94a914,Shūhei Mizoguchi,21,Japan,174.0,,DF,Kashima Antlers,J1 League,10,286,28.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+homare-tokuda-a94a69,Homare Tokuda,18,Japan,186.0,,FW,Kashima Antlers,J1 League,9,117,13.0,2,0,1.54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+mihiro-sato-a97f19,Mihiro Satō,18,Japan,147.0,,DF,Kashima Antlers,J1 League,2,14,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+minato-yoshida-fd0dc1,Minato Yoshida,17,Japan,171.0,,FW,Kashima Antlers,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kaito-chida-104419,Kaito Chida,31,Japan,185.0,,DF,Kashima Antlers,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+yuji-kajikawa-ed1199,Yuji Kajikawa,34,Japan,185.0,,GK,Kashima Antlers,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+haruto-matsumoto-2ff158,Haruto Matsumoto,19,Japan,176.0,,DF,Kashima Antlers,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anthony-motosuna-e9258c,Anthony Motosuna,16,Japan,190.0,,DF,Kashima Antlers,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+taiyo-koga-6212d2,Taiyo Koga,27,Japan,182.0,,DF,Kashiwa Reysol,J1 League,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3
+ryosuke-kojima-cb750f,Ryosuke Kojima,28,Japan,183.0,,GK,Kashiwa Reysol,J1 League,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+yoshio-koizumi-da5cd1,Yoshio Koizumi,29,Japan,172.0,,MF,Kashiwa Reysol,J1 League,33,2722,82.5,7,3,0.23,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+tomoya-koyamatsu-58d947,Tomoya Koyamatsu,30,Japan,171.0,,DF-FW-MF,Kashiwa Reysol,J1 League,35,2563,73.2,3,10,0.11,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+yuki-kakita-a6bc8b,Yuki Kakita,28,Japan,187.0,,FW,Kashiwa Reysol,J1 League,36,2217,61.6,6,5,0.24,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+wataru-harada-3b85cc,Wataru Harada,29,Japan,178.0,,DF,Kashiwa Reysol,J1 League,30,2535,84.5,2,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+tojiro-kubo-eb3031,Tojiro Kubo,26,Japan,167.0,,MF,Kashiwa Reysol,J1 League,29,2423,83.6,7,4,0.26,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+yuto-yamada-4a12fe,Yuto Yamada,25,Japan,168.0,,MF,Kashiwa Reysol,J1 League,25,1839,73.6,2,2,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+masaki-watai-cfc18b,Masaki Watai,26,Japan,168.0,,MF,Kashiwa Reysol,J1 League,28,1527,54.5,1,2,0.06,0.12,0.17,0.05,0.17,0.21,0.05,0.69,0.35,50.0,18.1,3.29,0.35,1.91,31.91,79.3,1.73,1.91,4.51,6.42,2.25,0.52,23.1,26.88,0.87,47.86,20.81,2.25,36.76,1.04,0.35,0.52,4.16,0.0,0.0,0.35,0.17,1.73,,,,,,,,,,,,,,,,,,0.4
+koki-kumasaka-a28167,Koki Kumasaka,24,Japan,185.0,,MF,Kashiwa Reysol,J1 League,18,1575,87.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+nobuteru-nakagawa-b0f1d5,Nobuteru Nakagawa,23,Japan,173.0,,MF,Kashiwa Reysol,J1 League,19,1514,79.7,3,3,0.18,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hiromu-mitsumaru-cd093c,Hiromu Mitsumaru,32,Japan,172.0,,DF-MF,Kashiwa Reysol,J1 League,16,1141,71.3,1,1,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+hayato-tanaka-c626a2,Hayato Tanaka,22,Japan,185.0,,DF,Kashiwa Reysol,J1 League,15,1163,77.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+mao-hosoya-7f8668,Mao Hosoya,24,Japan,177.0,Right,FW,Kashiwa Reysol,J1 League,34,1256,36.9,8,2,0.57,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+diego-4f1165,Diego,30,Brazil,183.0,Left,DF,Kashiwa Reysol,J1 League,32,1071,33.5,5,3,0.42,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+riki-harakawa-e2ceb7,Riki Harakawa,32,Japan,175.0,,MF,Kashiwa Reysol,J1 League,15,936,62.4,0,1,,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+hayato-nakama-f75090,Hayato Nakama,33,Japan,170.0,,MF,Kashiwa Reysol,J1 League,22,906,41.2,2,3,0.2,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+daiki-sugioka-23af37,Daiki Sugioka,27,Japan,182.0,,DF-MF,Kashiwa Reysol,J1 League,13,860,66.2,0,2,0.0,0.21,0.0,0.0,0.1,0.1,0.0,0.33,0.0,0.0,30.8,1.67,1.0,0.67,36.33,74.1,2.67,0.33,5.0,4.67,1.0,0.33,50.0,23.0,1.33,59.67,15.0,0.0,29.33,1.33,1.0,1.0,4.67,2.33,70.0,0.0,0.0,2.67,,,,,,,,,,,,,,,,,,0.65
+seiya-baba-26e12e,Seiya Baba,24,Japan,179.0,,DF-MF,Kashiwa Reysol,J1 League,10,576,57.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+tomoya-inukai-44d1f3,Tomoya Inukai,32,Japan,180.0,,DF,Kashiwa Reysol,J1 League,11,377,34.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+sachiro-toshima-dc8dc0,Sachiro Toshima,30,Japan,170.0,,MF,Kashiwa Reysol,J1 League,11,351,31.9,1,0,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+kosuke-kinoshita-c48330,Kosuke Kinoshita,31,Japan,182.0,Right,FW,Kashiwa Reysol,J1 League,14,393,28.1,3,2,0.69,0.46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+yusuke-segawa-330afb,Yusuke Segawa,31,Japan,170.0,,FW-MF,Kashiwa Reysol,J1 League,10,380,38.0,3,1,0.71,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+yusei-yamanouchi-4e27c8,Yusei Yamanouchi,22,Japan,180.0,,DF,Kashiwa Reysol,J1 League,3,185,61.7,0,1,,0.49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eiji-shirai-f2e133,Eiji Shirai,30,Japan,176.0,,MF,Kashiwa Reysol,J1 League,6,125,20.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+shun-nakajima-87c40f,Shun Nakajima,23,Japan,173.0,,MF,Kashiwa Reysol,J1 League,5,108,21.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+yudai-konishi-ddc517,Yudai Konishi,27,Japan,169.0,,FW-MF,Kashiwa Reysol,J1 League,4,121,30.2,1,1,0.74,0.74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+shumpei-naruse-759585,Shumpei Naruse,24,Japan,165.0,,DF,Kashiwa Reysol,J1 League,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+yota-komi-c92c17,Yota Komi,23,Japan,169.0,,MF,Kashiwa Reysol,J1 League,7,117,16.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+kohei-tezuka-fd60b1,Kohei Tezuka,29,Japan,176.0,,MF,Kashiwa Reysol,J1 League,2,41,20.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+eiichi-katayama-b4caa9,Eiichi Katayama,34,Japan,180.0,,DF-FW,Kashiwa Reysol,J1 League,2,29,14.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+takuya-shimamura-738c9b,Takuya Shimamura,26,Japan,170.0,Left,FW-MF,Kashiwa Reysol,J1 League,1,19,19.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+kenta-matsumoto-35505d,Kenta Matsumoto,28,Japan,185.0,,GK,Kashiwa Reysol,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+kengo-nagai-ba36ac,Kengo Nagai,31,Japan,183.0,Right,GK,Kashiwa Reysol,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+hiroki-noda-45fcb4,Hiroki Noda,28,Japan,181.0,Right,DF,Kashiwa Reysol,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+haruki-saruta-b3f4ee,Haruki Saruta,26,Japan,191.0,,GK,Kashiwa Reysol,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+daiya-maekawa-7b904f,Daiya Maekawa,31,Japan,191.0,,GK,Vissel Kobe,J1 League,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+tetsushi-yamakawa-2ce8c3,Tetsushi Yamakawa,28,Japan,186.0,,DF,Vissel Kobe,J1 League,36,3192,88.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3
+taisei-miyashiro-633970,Taisei Miyashiro,25,Japan,178.0,,FW-MF,Vissel Kobe,J1 League,32,2650,82.8,11,4,0.37,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3
+takahiro-ogihara-df1d41,Takahiro Ogihara,34,Japan,184.0,,MF,Vissel Kobe,J1 League,34,2752,80.9,2,3,0.07,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+matheus-thuler-db9d3f,Matheus Thuler,26,Brazil,185.0,Right,DF,Vissel Kobe,J1 League,30,2525,84.2,3,1,0.11,0.04,0.0,0.01,0.0,0.01,0.01,0.11,0.0,0.0,9.8,0.11,0.0,0.0,28.95,82.8,0.63,0.0,1.26,0.11,0.32,0.0,,26.53,0.11,43.68,1.16,0.32,25.26,2.21,0.95,0.95,3.79,1.58,62.5,0.32,0.11,1.26,,,,,,,,,,,,,,,,,,1.8
+yosuke-ideguchi-7c1bcb,Yosuke Ideguchi,29,Japan,171.0,Right,MF,Vissel Kobe,J1 League,28,2393,85.5,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+gotoku-sakai-654bc2,Gōtoku Sakai,34,Japan,176.0,Both,DF-MF,Vissel Kobe,J1 League,29,2261,78.0,1,1,0.04,0.04,0.0,0.03,0.03,0.06,0.03,0.71,0.2,27.8,24.2,1.57,0.04,0.51,40.75,75.7,4.56,0.83,5.94,2.67,1.89,0.83,46.7,31.15,1.1,63.88,12.94,0.87,34.5,1.97,1.73,1.57,5.11,1.46,46.8,0.08,0.0,1.18,,,,,,,,,,,,,,,,,,0.4
+daiju-sasaki-b7b289,Daiju Sasaki,35,Japan,180.0,,FW-MF,Vissel Kobe,J1 League,29,2046,70.6,5,7,0.22,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+yuya-kuwasaki-c17cf3,Yuya Kuwasaki,27,Japan,176.0,Right,MF,Vissel Kobe,J1 League,29,1782,61.4,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+erik-lima-5315ff,Erik Lima,31,Brazil,170.0,,FW-MF,Vissel Kobe,J1 League,27,1713,63.4,8,4,0.42,0.21,0.11,0.19,0.04,0.24,0.19,0.99,0.44,44.4,13.1,1.86,0.22,0.99,19.6,81.4,1.09,0.0,0.88,5.26,1.97,1.31,48.0,24.09,1.31,33.5,11.61,2.52,25.29,1.53,0.44,0.44,4.49,0.44,28.6,0.22,0.0,1.42,,,,,,,,,,,,,,,,,,1.2
+yuya-osako-e5d6a0,Yuya Osako,35,Japan,182.0,Right,FW-MF,Vissel Kobe,J1 League,29,1921,66.2,8,3,0.37,0.14,0.0,0.06,0.2,0.26,0.06,1.18,0.47,40.0,17.4,3.07,0.35,1.18,19.49,68.2,2.24,0.83,3.54,4.96,1.65,1.42,57.1,23.03,0.83,39.92,14.88,2.48,27.76,1.42,0.59,0.71,5.43,2.6,46.8,0.35,0.0,1.65,,,,,,,,,,,,,,,,,,0.6
+rikuto-hirose-2a54f4,Rikuto Hirose,30,Japan,172.0,,DF-MF,Vissel Kobe,J1 League,27,1644,60.9,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+yuki-honda-34fa1c,Yuki Honda,34,Japan,172.0,,DF,Vissel Kobe,J1 League,25,1313,52.5,0,2,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+katsuya-nagato-bd1280,Katsuya Nagato,30,Japan,172.0,Left,DF-MF,Vissel Kobe,J1 League,17,1272,74.8,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+yoshinori-muto-d5d50d,Yoshinori Mutō,33,Japan,178.0,Right,FW-MF,Vissel Kobe,J1 League,17,1140,67.1,1,1,0.08,0.08,0.08,0.2,0.1,0.3,0.2,1.76,0.4,22.7,15.6,2.17,0.24,0.88,12.11,65.7,0.72,0.24,1.68,5.7,1.12,1.2,65.2,15.48,1.2,28.48,17.09,3.37,19.89,0.96,0.24,0.4,3.69,3.13,47.0,0.08,0.0,2.25,,,,,,,,,,,,,,,,,,0.9
+koya-yuruki-f6892d,Koya Yuruki,30,Japan,183.0,Right,FW-MF,Vissel Kobe,J1 League,24,911,38.0,2,1,0.2,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+nanasei-iino-3e49f7,Nanasei Iino,29,Japan,173.0,,MF,Vissel Kobe,J1 League,20,567,28.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+haruya-ide-460a80,Haruya Ide,31,Japan,168.0,Right,MF,Vissel Kobe,J1 League,18,619,34.4,0,1,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+jean-patric-d95998,Jean Patric,28,Brazil,175.0,Right,FW-MF,Vissel Kobe,J1 League,18,544,30.2,0,0,0.32,0.16,0.32,0.18,0.06,0.24,0.18,2.4,0.96,40.0,18.4,2.4,0.32,0.96,15.67,77.8,1.28,0.48,1.44,6.71,2.56,0.8,33.3,18.06,1.12,31.49,13.11,2.24,20.3,0.48,0.64,1.28,2.88,0.96,54.5,0.32,0.0,2.24,,,,,,,,,,,,,,,,,,0.4
+riku-matsuda-611f4c,Riku Matsuda,34,Japan,171.0,,DF-MF,Vissel Kobe,J1 League,2,135,67.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kakeru-yamauchi-3f7ed6,Kakeru Yamauchi,23,Japan,177.0,,MF,Vissel Kobe,J1 League,10,182,18.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+mitsuki-hidaka-bc5e09,Mitsuki Hidaka,22,Japan,176.0,,MF,Vissel Kobe,J1 League,3,151,50.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+takuya-iwanami-57729b,Takuya Iwanami,31,Japan,186.0,,DF,Vissel Kobe,J1 League,7,134,19.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kento-hamasaki-e4f386,Kento Hamasaki,18,Japan,164.0,,MF,Vissel Kobe,J1 League,3,125,41.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+caetano-be8cf9,Caetano,26,Brazil,182.0,Left,DF,Vissel Kobe,J1 League,3,108,36.0,0,0,0.0,0.0,0.0,0.02,0.0,0.02,0.02,0.22,0.0,0.0,8.2,0.6,0.07,0.07,53.97,90.4,2.84,0.0,2.62,0.0,0.15,0.07,50.0,41.26,0.37,69.14,1.57,0.45,50.76,0.9,1.42,1.42,4.63,1.35,54.5,0.22,0.0,0.75,,,,,,,,,,,,,,,,,,1.8
+mitsuki-saito-b075b4,Mitsuki Saito,26,Japan,166.0,,MF,Vissel Kobe,J1 League,2,104,52.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+rikuto-hashimoto-dc16a0,Rikuto Hashimoto,20,Japan,170.0,,MF,Vissel Kobe,J1 League,1,45,45.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+gustavo-klismahn-d4970f,Gustavo Klismahn,26,Brazil,179.0,Left,MF,Vissel Kobe,J1 League,9,116,12.9,0,0,0.0,0.51,0.0,0.05,0.19,0.22,0.05,0.68,0.34,50.0,25.7,3.05,0.68,1.53,19.83,63.6,1.69,0.85,3.22,3.22,1.53,0.85,45.5,23.56,1.02,41.53,16.78,1.86,24.92,1.86,1.02,1.19,5.25,1.02,46.2,0.0,0.0,1.36,,,,,,,,,,,,,,,,,,0.6
+ren-komatsu-8d42a3,Ren Komatsu,27,Japan,183.0,,FW,Vissel Kobe,J1 League,4,54,13.5,0,1,,1.67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+niina-tominaga-9c028b,Niina Tominaga,21,Japan,175.0,,FW,Vissel Kobe,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+shota-arai-8dbdc1,Shota Arai,37,Japan,185.0,,GK,Vissel Kobe,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ryosuke-irie-8afabe,Ryosuke Irie,21,Japan,183.0,,DF,Vissel Kobe,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yuta-koike-f4a244,Yuta Koike,29,Japan,167.0,,DF,Vissel Kobe,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+haruka-motoyama-d3458d,Haruka Motoyama,26,Japan,171.0,,DF,Vissel Kobe,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+powell-obi-ce5850,Powell Obi,27,Japan,193.0,,GK,Vissel Kobe,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+gakuji-ota-82e3e2,Gakuji Ota,34,Japan,190.0,,GK,Kyoto Sanga,J1 League,34,3060,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+yoshinori-suzuki-7f16d0,Yoshinori Suzuki,33,Japan,185.0,,DF,Kyoto Sanga,J1 League,35,3024,86.4,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+taichi-hara-9331a2,Taichi Hara,26,Japan,190.0,,FW,Kyoto Sanga,J1 League,32,2685,83.9,5,10,0.17,0.34,0.0,0.32,0.07,0.41,0.32,1.98,0.54,27.3,10.3,1.26,0.18,0.72,11.52,51.6,0.9,0.18,1.44,3.6,0.54,0.36,100.0,18.9,0.54,31.32,12.96,4.68,25.38,0.54,0.36,0.54,2.52,7.02,47.0,0.18,0.0,1.26,,,,,,,,,,,,,,,,,,1.2
+taiki-hirato-69d474,Taiki Hirato,28,Japan,177.0,,MF,Kyoto Sanga,J1 League,33,2383,72.2,0,6,,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+yuta-miyamoto-c78b37,Yūta Miyamoto,25,Japan,170.0,Right,DF,Kyoto Sanga,J1 League,31,2522,81.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hidehiro-sugai-6bd4d7,Hidehiro Sugai,27,Japan,172.0,,DF,Kyoto Sanga,J1 League,35,2473,70.7,2,4,0.07,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+shimpei-fukuoka-45ff4c,Shimpei Fukuoka,25,Japan,170.0,,MF,Kyoto Sanga,J1 League,29,2096,72.3,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kyo-sato-7bd179,Kyō Satō,25,Japan,168.0,,DF,Kyoto Sanga,J1 League,33,2060,62.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+shinnosuke-fukuda-2726d0,Shinnosuke Fukuda,25,Japan,173.0,,DF,Kyoto Sanga,J1 League,29,2000,69.0,4,1,0.18,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+rafael-elias-12aeae,Rafael Elias,26,Brazil,179.0,Right,FW,Kyoto Sanga,J1 League,25,1812,72.5,16,4,0.79,0.2,0.17,0.45,0.12,0.55,0.45,2.83,1.17,41.2,15.2,2.5,0.0,0.83,11.33,64.8,0.83,0.67,1.67,6.17,1.17,1.0,50.0,15.5,0.67,27.83,16.17,4.33,20.83,1.33,0.17,0.5,2.0,1.67,27.8,0.5,0.0,2.67,,,,,,,,,,,,,,,,,,2.5
+sota-kawasaki-3cfea6,Sota Kawasaki,24,Japan,172.0,,MF,Kyoto Sanga,J1 League,23,1789,77.8,4,1,0.2,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+temma-matsuda-faa625,Temma Matsuda,30,Japan,164.0,,FW-MF,Kyoto Sanga,J1 League,23,1083,47.1,3,3,0.25,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+marco-tulio-033b83,Marco Túlio,27,Brazil,177.0,Right,FW-MF,Kyoto Sanga,J1 League,16,999,62.4,6,2,0.54,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+joao-pedro-mendes-a464de,João Pedro Mendes,26,Brazil,185.0,Right,MF,Kyoto Sanga,J1 League,21,1043,49.7,1,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+masaya-okugawa-9ce7af,Masaya Okugawa,29,Japan,176.0,Right,FW-MF,Kyoto Sanga,J1 League,27,1270,47.0,7,2,0.5,0.14,0.28,0.14,0.05,0.19,0.14,1.14,0.53,46.9,16.5,1.53,0.11,0.96,10.38,60.5,1.1,0.39,1.67,4.3,1.42,0.71,38.5,14.33,0.89,28.09,12.02,2.52,15.15,1.64,0.71,1.03,4.05,0.78,28.2,0.0,0.0,0.85,,,,,,,,,,,,,,,,,,1.0
+shun-nagasawa-86182a,Shun Nagasawa,37,Japan,192.0,Right,FW,Kyoto Sanga,J1 League,22,851,38.7,3,3,0.32,0.32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+shohei-takeda-07d71a,Shohei Takeda,31,Japan,181.0,,MF,Kyoto Sanga,J1 League,15,816,54.4,1,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+takuji-yonemoto-498809,Takuji Yonemoto,34,Japan,177.0,,MF,Kyoto Sanga,J1 League,17,517,30.4,2,0,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+patrick-62ec13,Patrick,28,Brazil,188.0,Right,DF,Kyoto Sanga,J1 League,17,637,37.5,0,0,0.0,0.0,0.0,0.04,0.02,0.06,0.04,0.4,0.2,50.0,10.6,1.0,0.0,0.2,50.6,81.6,3.8,0.0,3.6,0.4,0.6,0.2,100.0,41.4,0.2,72.8,1.6,0.8,46.6,1.0,1.0,0.4,6.0,2.2,64.7,0.2,0.0,0.4,,,,,,,,,,,,,,,,,,0.9
+hisashi-tawiah-73581c,Hisashi Tawiah,27,Japan,191.0,,DF,Kyoto Sanga,J1 League,8,429,53.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+leo-gomes-5715d6,Leo Gomes,28,Brazil,183.0,Right,MF,Kyoto Sanga,J1 League,11,342,31.1,0,0,0.0,0.0,0.0,0.02,0.02,0.02,0.02,0.56,0.0,0.0,32.2,1.31,0.0,0.38,32.63,87.4,4.13,0.19,3.38,0.94,1.31,1.13,75.0,29.25,1.13,46.13,6.94,0.0,30.75,1.5,1.13,0.75,4.69,0.75,36.4,0.19,0.0,1.31,,,,,,,,,,,,,,,,,,0.325
+murilo-costa-d6a0e1,Murilo Costa,31,Brazil,177.0,Left,FW-MF,Kyoto Sanga,J1 League,11,294,26.7,0,0,0.0,0.44,0.0,0.29,0.13,0.44,0.29,2.79,1.03,36.8,19.0,4.4,0.44,1.76,20.26,68.3,0.73,1.03,2.2,7.34,2.5,1.32,36.0,23.93,1.62,41.26,22.9,3.82,26.43,1.17,0.29,1.03,4.26,0.44,60.0,0.0,0.0,0.59,,,,,,,,,,,,,,,,,,0.85
+ryuma-nakano-70e302,Ryuma Nakano,23,Japan,166.0,,MF,Kyoto Sanga,J1 League,15,460,30.7,1,1,0.2,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+fuki-yamada-3c3366,Fūki Yamada,24,Japan,181.0,Left,MF,Kyoto Sanga,J1 League,10,358,35.8,0,2,0.18,0.5,0.18,0.2,0.16,0.37,0.2,1.83,0.55,30.0,19.7,3.1,0.37,2.37,19.17,70.9,0.55,0.73,1.83,9.31,1.28,0.37,20.0,19.35,0.55,35.78,20.63,2.19,21.72,1.1,0.0,0.91,2.92,0.18,16.7,0.37,0.18,2.01,,,,,,,,,,,,,,,,,,0.7
+gu-sung-yun-8dfe80,Gu Sung-yun,31,Korea Republic,195.0,,GK,Kyoto Sanga,J1 League,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mitsuki-saito-b075b4-1,Mitsuki Saito,26,Japan,166.0,,MF,Kyoto Sanga,J1 League,2,108,54.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+sora-hiraga-283695,Sora Hiraga,20,Japan,172.0,Right,FW,Kyoto Sanga,J1 League,11,202,18.4,1,0,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+shogo-asada-4225d5,Shogo Asada,27,Japan,186.0,Left,DF,Kyoto Sanga,J1 League,6,63,10.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+barreto-857c87,Barreto,29,Brazil,181.0,,MF,Kyoto Sanga,J1 League,2,9,4.5,0,0,0.08,0.08,0.08,0.12,0.04,0.16,0.12,0.83,0.28,33.3,20.6,1.5,0.2,0.67,28.84,84.3,2.92,0.47,3.63,1.38,0.71,0.67,54.8,21.54,0.71,44.9,7.62,1.3,25.84,2.29,0.71,2.01,5.45,1.14,69.0,0.2,0.0,1.97,,,,,,,,,,,,,,,,,,6.0
+kodai-nagata-1c387d,Kodai Nagata,23,Japan,180.0,,DF,Kyoto Sanga,J1 League,1,5,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kentaro-kakoi-c0c624,Kentaro Kakoi,34,Japan,190.0,,GK,Kyoto Sanga,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+kazunari-kita-09ddb5,Kazunari Kita,20,Japan,186.0,,DF,Kyoto Sanga,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+keisuke-osako-38285f,Keisuke Ōsako,26,Japan,185.0,,GK,Sanfrecce,J1 League,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7
+sho-sasaki-955cab,Sho Sasaki,36,Japan,176.0,Right,DF,Sanfrecce,J1 League,35,3052,87.2,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+hayato-araki-f1db99,Hayato Araki,29,Japan,186.0,,DF,Sanfrecce,J1 League,35,2962,84.6,3,2,0.09,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7
+hayao-kawabe-88784a,Hayao Kawabe,30,Japan,170.0,Right,MF,Sanfrecce,J1 League,35,2918,83.4,2,1,0.06,0.03,0.33,0.15,0.1,0.25,0.15,1.58,0.79,50.0,17.6,2.84,0.33,1.54,25.28,68.6,3.21,1.26,4.33,5.21,1.58,0.65,40.0,30.08,1.58,46.65,21.09,2.56,28.08,1.16,0.47,0.93,4.19,0.75,32.7,0.09,0.0,1.16,,,,,,,,,,,,,,,,,,3.5
+ryo-germain-40ba87,Ryo Germain,30,Japan,182.0,,FW-MF,Sanfrecce,J1 League,34,2840,83.5,4,3,0.13,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+tsukasa-shiotani-d935d1,Tsukasa Shiotani,36,Japan,182.0,Right,DF-MF,Sanfrecce,J1 League,34,2627,77.3,2,1,0.07,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+shuto-nakano-71bbd2,Shuto Nakano,25,Japan,183.0,,DF-MF,Sanfrecce,J1 League,35,2649,75.7,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+shunki-higashi-747517,Shunki Higashi,25,Japan,180.0,,MF,Sanfrecce,J1 League,35,2081,59.5,3,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+satoshi-tanaka-480d57,Satoshi Tanaka,23,Japan,173.0,,MF,Sanfrecce,J1 League,26,2095,80.6,1,1,0.04,0.04,0.0,0.02,0.02,0.04,0.02,0.29,0.0,0.0,25.4,1.44,0.1,0.29,22.6,78.1,2.4,0.1,2.5,0.29,0.38,0.19,40.0,24.04,0.58,38.17,5.67,0.29,21.35,2.88,1.35,0.87,5.29,0.58,40.0,0.19,0.0,1.44,,,,,,,,,,,,,,,,,,1.3
+kato-mutsuki-4ffac4,Kato Mutsuki,28,Japan,177.0,,FW-MF,Sanfrecce,J1 League,33,1965,59.5,3,2,0.14,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sota-nakamura-5744f8,Sota Nakamura,23,Japan,175.0,,FW,Sanfrecce,J1 League,30,1956,65.2,5,6,0.23,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+naoto-arai-ba287b,Naoto Arai,29,Japan,173.0,,DF-MF,Sanfrecce,J1 League,27,1297,48.0,4,2,0.28,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+naoki-maeda-d8949b,Naoki Maeda,31,Japan,175.0,Left,FW-MF,Sanfrecce,J1 League,27,998,37.0,2,1,0.18,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+valere-germain-eded1b,Valère Germain,35,France,180.0,Right,FW-MF,Macarthur FC,A-League Men,17,1509,88.8,7,1,0.42,0.06,0.26,0.33,0.08,0.41,0.33,2.49,0.78,31.6,12.7,1.83,0.39,0.78,19.23,68.7,1.7,0.78,1.96,6.02,0.78,0.13,50.0,23.94,0.92,40.94,17.66,4.58,26.42,1.7,0.78,1.05,2.49,4.19,43.2,0.13,0.13,1.31,,,,,,,,,,,,,,,,,,0.65
+kosuke-kinoshita-c48330-1,Kosuke Kinoshita,31,Japan,182.0,Right,FW,Sanfrecce,J1 League,18,823,45.7,5,2,0.55,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+yotaro-nakajima-6fe873,Yotaro Nakajima,19,Japan,174.0,,MF,Sanfrecce,J1 League,16,803,50.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+daiki-suga-c7837b,Daiki Suga,27,Japan,171.0,,DF-FW-MF,Sanfrecce,J1 League,21,804,38.3,1,1,0.11,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+kim-jusung-a80ae8,Kim Jusung,24,Korea Republic,186.0,,DF,Sanfrecce,J1 League,8,649,81.1,1,1,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tolgay-arslan-6d1ab9,Tolgay Arslan,35,Germany,179.0,Right,MF,Sanfrecce,J1 League,7,313,44.7,2,0,0.58,0.0,0.07,0.16,0.12,0.28,0.16,1.86,0.37,20.0,21.1,3.27,0.0,1.11,36.04,80.2,3.79,1.41,5.72,2.75,3.34,1.11,41.7,35.15,2.3,57.23,17.39,1.93,37.46,2.16,0.89,1.41,5.8,0.59,66.7,0.22,0.0,1.11,,,,,,,,,,,,,,,,,,0.75
+taichi-yamasaki-f969b6,Taichi Yamasaki,24,Japan,180.0,,DF,Sanfrecce,J1 League,6,279,46.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+shion-inoue-d42386,Shion Inoue,28,Japan,167.0,,MF,Sanfrecce,J1 League,4,218,54.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+sota-koshimichi-eb6487,Sota Koshimichi,21,Japan,180.0,,MF,Sanfrecce,J1 League,19,203,10.7,0,1,,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+marcos-junior-5ee6ce,Marcos Júnior,32,Brazil,167.0,,FW-MF,Sanfrecce,J1 League,4,28,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+motoki-ohara-2b1ce0,Motoki Ohara,25,Japan,170.0,,MF,Sanfrecce,J1 League,2,25,12.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+hiroya-matsumoto-d85761,Hiroya Matsumoto,25,Japan,180.0,,MF,Sanfrecce,J1 League,4,18,4.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+alen-inoue-b0f0b7,Alen Inoue,19,Japan,176.0,,FW,Sanfrecce,J1 League,1,8,8.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+yusuke-chajima-6d539f,Yusuke Chajima,34,Japan,166.0,,MF,Sanfrecce,J1 League,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+shimon-kobayashi-0614fb,Shimon Kobayashi,17,Japan,167.0,,FW,Sanfrecce,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+osamu-henry-iyoha-0ceb7c,Osamu Henry Iyoha,27,Japan,181.0,Left,DF,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+cailen-hill-76e3ec,Cailen Hill,23,Japan,194.0,,GK,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jeong-minki-244e53,Jeong Minki,29,Korea Republic,190.0,,GK,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+makoto-mitsuta-e76bdb,Makoto Mitsuta,26,Japan,170.0,,MF,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+taishi-semba-8fadde,Taishi Semba,26,Japan,164.0,,MF,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+yudai-tanaka-202bbe,Yudai Tanaka,30,Japan,187.0,Left,GK,Sanfrecce,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+louis-yamaguchi-c90c31,Louis Yamaguchi,27,Japan,186.0,Right,GK,Kawa Frontale,J1 League,33,2970,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+asahi-sasaki-742f2b,Asahi Sasaki,25,Japan,180.0,,DF,Kawa Frontale,J1 League,35,2831,80.9,3,2,0.1,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+yasuto-wakizaka-7a89fe,Yasuto Wakizaka,30,Japan,172.0,,MF,Kawa Frontale,J1 League,34,2780,81.8,7,7,0.23,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4
+marcinho-5833e1,Marcinho,30,Brazil,173.0,Right,FW-MF,Kawa Frontale,J1 League,35,2313,66.1,6,3,0.23,0.12,0.38,0.35,0.21,0.58,0.35,1.54,1.35,87.5,14.5,2.88,0.38,1.92,13.27,75.8,0.77,0.58,1.35,5.96,3.46,1.15,37.5,18.46,2.12,28.65,15.77,3.65,20.38,1.73,0.58,0.77,3.65,0.58,50.0,0.38,0.0,0.96,,,,,,,,,,,,,,,,,,0.4
+yuki-yamamoto-f39551,Yuki Yamamoto,28,Japan,173.0,,MF,Kawa Frontale,J1 League,33,2577,78.1,4,3,0.14,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+so-kawahara-98b471,So Kawahara,27,Japan,169.0,,MF,Kawa Frontale,J1 League,35,2388,68.2,2,2,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+tatsuya-ito-e32118,Tatsuya Ito,28,Japan,166.0,Right,FW-MF,Kawa Frontale,J1 League,34,2020,59.4,12,3,0.53,0.13,0.0,0.08,0.11,0.19,0.08,1.07,0.36,33.3,17.0,3.47,0.36,1.16,26.32,76.1,1.87,2.4,4.0,9.87,5.34,2.05,40.4,35.57,2.31,47.13,21.61,4.45,38.24,1.42,0.53,2.49,4.8,0.0,0.0,0.09,0.0,1.33,,,,,,,,,,,,,,,,,,0.5
+sota-miura-db547d,Sota Miura,25,Japan,178.0,Left,DF,Kawa Frontale,J1 League,23,2054,89.3,0,6,,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+yuichi-maruyama-d5df31,Yuichi Maruyama,36,Japan,183.0,Left,DF,Kawa Frontale,J1 League,24,1958,81.6,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+sai-van-wermeskerken-258be2,Sai van Wermeskerken,31,Japan,178.0,Right,DF,Kawa Frontale,J1 League,24,1969,82.0,0,4,0.05,0.18,0.05,0.03,0.08,0.12,0.03,0.8,0.27,33.3,27.2,1.66,0.0,0.43,43.13,80.9,3.05,0.69,3.69,1.34,0.8,0.53,47.6,30.57,0.64,63.28,8.5,0.32,33.83,2.83,1.18,0.64,6.25,0.53,40.0,0.05,0.0,1.23,,,,,,,,,,,,,,,,,,0.5
+kota-takai-0dcf15,Kōta Takai,21,Japan,192.0,,DF,Kawa Frontale,J1 League,22,1906,86.6,2,0,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0
+erison-029d93,Erison,26,Brazil,184.0,,FW,Kawa Frontale,J1 League,27,1493,55.3,12,3,0.72,0.18,0.26,0.17,0.09,0.26,0.17,1.85,0.79,42.9,13.1,1.59,0.0,0.93,7.53,74.0,0.53,0.13,0.79,3.17,0.53,0.26,40.0,9.65,0.53,19.69,9.78,3.96,14.01,0.4,0.0,0.53,0.53,2.64,46.5,0.0,0.0,0.79,,,,,,,,,,,,,,,,,,2.0
+kento-tachibanada-614ab1,Kento Tachibanada,27,Japan,168.0,Right,MF,Kawa Frontale,J1 League,30,1292,43.1,1,0,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+shin-yamada-c815b7,Shin Yamada,25,Japan,175.0,,FW,Kawa Frontale,J1 League,21,1142,54.4,2,1,0.16,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+akihiro-ienaga-fe5d12,Akihiro Ienaga,39,Japan,173.0,,FW-MF,Kawa Frontale,J1 League,27,1157,42.9,1,1,0.08,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+filip-uremovic-a88a70,Filip Uremović,28,Croatia,186.0,Right,DF,Hajduk Split,Croatian Football League,31,2778,89.6,2,1,0.06,0.03,0.0,0.05,0.02,0.06,0.05,0.47,0.16,33.3,12.7,0.47,0.0,0.21,26.8,78.1,0.83,0.1,0.89,0.05,0.16,0.1,100.0,20.02,0.16,45.99,1.72,0.89,20.49,1.98,1.88,0.94,4.33,2.87,59.1,0.42,0.05,1.41,,,,,,,,,,,,,,,,,,3.0
+jesiel-747d93,Jesiel,31,Brazil,186.0,Right,DF,Kawa Frontale,J1 League,10,624,62.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+shuto-tanabe-1c0cfa,Shūto Tanabe,23,Japan,180.0,,DF,Kawa Frontale,J1 League,9,342,38.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+yuto-ozeki-55a407,Yuto Ozeki,20,Japan,178.0,,MF,Kawa Frontale,J1 League,23,550,23.9,2,2,0.33,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+yu-kobayashi-cd7910,Yu Kobayashi,38,Japan,177.0,Right,FW-MF,Kawa Frontale,J1 League,13,324,24.9,1,0,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+jung-sung-ryong-5f0693,Jung Sung-ryong,40,Korea Republic,186.0,Right,GK,Kawa Frontale,J1 League,3,270,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cesar-haydar-6c1c1a,Cesar Haydar,24,Colombia,183.0,Left,DF,Kawa Frontale,J1 League,3,222,74.0,1,0,0.41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+ryota-oshima-bbe0da,Ryota Oshima,32,Japan,168.0,Right,MF,Kawa Frontale,J1 League,4,205,51.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+lazar-romanic-f3225c,Lazar Romanić,27,Serbia,179.0,Right,FW-MF,Kawa Frontale,J1 League,7,213,30.4,2,0,0.85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+soma-kanda-e5182c,Soma Kanda,19,Japan,178.0,,FW,Kawa Frontale,J1 League,8,187,23.4,1,0,0.48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+patrick-verhon-b79d73,Patrick Verhon,21,Brazil,174.0,,MF,Kawa Frontale,J1 League,2,132,66.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+yusuke-segawa-330afb-1,Yusuke Segawa,31,Japan,170.0,,FW-MF,Kawa Frontale,J1 League,8,204,25.5,1,1,0.44,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+shintaro-kurumaya-136235,Shintaro Kurumaya,33,Japan,178.0,,DF,Kawa Frontale,J1 League,2,148,74.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+hinata-yamauchi-04bb32,Hinata Yamauchi,24,Japan,170.0,,MF,Kawa Frontale,J1 League,3,103,34.3,1,1,0.87,0.87,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+ten-miyagi-7bb23a,Ten Miyagi,24,Japan,176.0,,FW,Kawa Frontale,J1 League,19,370,19.5,4,0,0.97,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+ryota-kamihashi-5368a9,Ryota Kamihashi,23,Japan,193.0,Left,DF,Kawa Frontale,J1 League,3,90,30.0,0,1,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hiroto-noda-74f576,Hiroto Noda,19,Japan,179.0,,DF,Kawa Frontale,J1 League,1,4,4.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kaito-tsuchiya-8185ca,Kaito Tsuchiya,19,Japan,181.0,,DF,Kawa Frontale,J1 League,1,3,3.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shunsuke-ando-1bb24e,Shunsuke Andō,35,Japan,185.0,,GK,Kawa Frontale,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+toya-myogan-f013cc,Toya Myogan,21,Japan,178.0,,MF,Kawa Frontale,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+gen-shoji-d7c77e,Gen Shoji,32,Japan,182.0,Right,DF,Machida Zelvia,J1 League,36,3240,90.0,2,1,0.06,0.03,0.0,0.01,0.07,0.07,0.01,0.11,0.0,0.0,33.0,0.5,0.06,0.33,34.5,84.8,2.44,0.22,3.94,0.06,0.17,0.22,100.0,25.33,0.17,48.44,0.61,0.06,27.67,1.33,1.17,1.22,6.11,1.17,48.8,0.11,0.0,0.5,,,,,,,,,,,,,,,,,,0.4
+kosei-tani-89b718,Kosei Tani,25,Japan,189.0,,GK,Machida Zelvia,J1 League,35,3150,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+hiroyuki-mae-f86bd4,Hiroyuki Mae,30,Japan,173.0,,MF,Machida Zelvia,J1 League,32,2700,84.4,0,2,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+daihachi-okamura-adfe3a,Daihachi Okamura,28,Japan,183.0,,DF,Machida Zelvia,J1 League,30,2595,86.5,4,2,0.14,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+yuki-soma-54fb8a,Yuki Soma,28,Japan,165.0,Right,FW-MF,Machida Zelvia,J1 League,32,2514,78.6,9,9,0.32,0.32,0.24,0.14,0.13,0.27,0.14,1.24,0.62,50.0,18.1,2.1,0.24,1.24,15.93,67.9,1.34,0.72,1.38,6.34,2.81,0.57,46.2,18.84,1.1,30.81,13.02,2.19,21.75,1.0,0.19,0.57,3.48,0.52,57.9,0.14,0.0,1.38,,,,,,,,,,,,,,,,,,1.5
+kotaro-hayashi-e1cc97,Kotaro Hayashi,25,Japan,170.0,,DF-MF,Machida Zelvia,J1 League,31,2410,77.7,4,1,0.15,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+takuma-nishimura-180c4b,Takuma Nishimura,29,Japan,178.0,,FW-MF,Machida Zelvia,J1 League,28,2118,75.6,7,4,0.3,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+yuta-nakayama-50da04,Yuta Nakayama,28,Japan,181.0,Left,DF-MF,Machida Zelvia,J1 League,30,2348,78.3,1,3,0.04,0.11,0.0,0.01,0.03,0.04,0.01,0.21,0.05,25.0,30.5,1.01,0.11,0.53,33.82,80.1,3.4,0.64,3.4,1.38,1.01,0.16,37.5,24.85,0.69,51.24,6.53,0.11,27.88,1.49,0.9,1.33,5.42,1.96,52.9,0.11,0.0,0.74,,,,,,,,,,,,,,,,,,1.2
+ibrahim-dresevic-a1bc1b,Ibrahim Drešević,28,Kosovo,186.0,Right,DF,Machida Zelvia,J1 League,31,2276,73.4,1,0,0.04,0.0,0.0,0.01,0.04,0.05,0.01,0.31,0.04,14.3,26.9,0.92,0.0,0.35,45.24,82.0,2.8,0.31,3.24,0.31,0.18,0.31,63.6,36.53,0.22,66.66,2.5,0.57,38.93,1.84,1.58,1.71,6.96,1.62,51.4,0.22,0.04,1.05,,,,,,,,,,,,,,,,,,1.7
+henry-mochizuki-960858,Henry Mochizuki,24,Japan,,,MF,Machida Zelvia,J1 League,30,2264,75.5,1,1,0.04,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hokuto-shimoda-09b0c0,Hokuto Shimoda,34,Japan,171.0,,MF,Machida Zelvia,J1 League,34,1944,57.2,1,1,0.05,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+oh-sehun-b59307,Oh Sehun,26,Korea Republic,193.0,Left,FW,Machida Zelvia,J1 League,29,1391,48.0,2,1,0.13,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shota-fujio-083bf4,Shota Fujio,24,Japan,180.0,,FW,Machida Zelvia,J1 League,33,1331,40.3,2,2,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+na-sang-ho-06127b,Na Sang-ho,29,Korea Republic,172.0,Right,FW-MF,Machida Zelvia,J1 League,33,1271,38.5,6,3,0.42,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+keiya-sento-cf67c5,Keiya Sento,30,Japan,171.0,Right,MF,Machida Zelvia,J1 League,25,896,35.8,1,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+ryuho-kikuchi-dae0d2,Ryuho Kikuchi,28,Japan,188.0,,DF,Machida Zelvia,J1 League,9,706,78.4,2,0,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+mitchell-duke-2026b6,Mitchell Duke,34,Australia,182.0,,FW-MF,Machida Zelvia,J1 League,23,692,30.1,2,0,0.26,0.0,0.33,0.13,0.0,0.13,0.13,2.33,1.33,57.1,17.6,1.67,0.67,0.33,12.0,57.1,0.67,0.0,1.0,3.0,0.33,0.33,50.0,15.33,1.33,32.33,13.67,3.67,20.67,0.0,0.67,1.67,3.67,3.67,47.8,0.33,0.0,2.0,,,,,,,,,,,,,,,,,,0.325
+ryohei-shirasaki-6361b6,Ryōhei Shirasaki,32,Japan,180.0,,FW-MF,Machida Zelvia,J1 League,19,601,31.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+asahi-masuyama-0e7aee,Asahi Masuyama,28,Japan,173.0,,DF-FW-MF,Machida Zelvia,J1 League,5,348,69.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+hotaka-nakamura-e98027,Hotaka Nakamura,28,Japan,177.0,,DF,Machida Zelvia,J1 League,3,169,56.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+kanji-kuwayama-75f045,Kanji Kuwayama,23,Japan,184.0,,FW,Machida Zelvia,J1 League,20,289,14.4,1,1,0.31,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+takaya-numata-83196b,Takaya Numata,26,Japan,173.0,Right,FW,Machida Zelvia,J1 League,12,160,13.3,1,0,0.56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+neta-lavi-199a2a,Neta Lavi,29,Israel,177.0,,MF,Machida Zelvia,J1 League,4,133,33.2,0,0,0.0,0.0,0.0,0.0,0.06,0.06,0.0,0.19,0.0,0.0,11.5,2.69,0.38,1.34,43.94,83.6,3.84,0.38,5.57,0.58,2.3,0.58,75.0,39.15,2.11,63.33,5.95,0.19,40.3,4.41,1.73,0.96,7.48,0.58,75.0,0.38,0.0,1.73,,,,,,,,,,,,,,,,,,0.8
+tatsuya-morita-4f4f7b,Tatsuya Morita,35,Japan,191.0,,GK,Machida Zelvia,J1 League,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+daigo-takahashi-65e220,Daigo Takahashi,26,Japan,164.0,,MF,Machida Zelvia,J1 League,1,4,4.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+yoshiaki-arai-53322b,Yoshiaki Arai,30,Japan,187.0,,GK,Machida Zelvia,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+tomoki-imai-2c2085,Tomoki Imai,35,Japan,178.0,,DF,Machida Zelvia,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+yuki-nakashima-807a44,Yuki Nakashima,41,Japan,175.0,Right,FW,Machida Zelvia,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+takumi-narasaka-b91937,Takumi Narasaka,23,Japan,187.0,,DF,Machida Zelvia,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+byron-vasquez-22719f,Byron Vásquez,25,Chile,175.0,Both,MF,Machida Zelvia,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+jun-ichimori-451e1b,Jun Ichimori,34,Japan,181.0,,GK,Gamba Osaka,J1 League,36,3240,90.0,0,1,,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+riku-handa-dab6d4,Riku Handa,23,Japan,176.0,,DF,Gamba Osaka,J1 League,36,3230,89.7,1,4,0.03,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+shinnosuke-nakatani-532f44,Shinnosuke Nakatani,29,Japan,180.0,,DF,Gamba Osaka,J1 League,33,2970,90.0,2,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+keisuke-kurokawa-15cb67,Keisuke Kurokawa,28,Japan,173.0,,DF-MF,Gamba Osaka,J1 League,35,2765,79.0,2,2,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+shota-fukuoka-7e2b9b,Shota Fukuoka,30,Japan,180.0,,DF,Gamba Osaka,J1 League,32,2748,85.9,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+makoto-mitsuta-e76bdb-1,Makoto Mitsuta,26,Japan,170.0,,MF,Gamba Osaka,J1 League,32,2418,75.6,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+ryoya-yamashita-caee1a,Ryoya Yamashita,28,Japan,164.0,,MF,Gamba Osaka,J1 League,32,2058,64.3,7,1,0.31,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+takashi-usami-5779ee,Takashi Usami,33,Japan,178.0,Right,FW-MF,Gamba Osaka,J1 League,29,1930,66.6,8,2,0.37,0.09,0.1,0.22,0.06,0.28,0.22,2.76,0.72,25.9,21.0,3.17,0.51,1.33,18.53,67.3,1.84,0.61,3.07,4.51,2.66,1.33,61.9,22.32,1.13,38.09,15.97,2.05,23.04,1.84,0.82,1.54,5.43,0.41,26.7,0.1,0.0,0.82,,,,,,,,,,,,,,,,,,0.55
+tokuma-suzuki-15552e,Tokuma Suzuki,28,Japan,168.0,,MF,Gamba Osaka,J1 League,32,1878,58.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+deniz-hummet-2882f9,Deniz Hummet,29,Turkey,187.0,Right,FW,Djurgården,Allsvenskan,30,2252,75.1,14,3,0.56,0.12,0.42,0.27,0.04,0.32,0.27,2.54,0.85,33.3,18.1,1.69,0.21,0.85,10.99,76.5,0.21,0.21,0.63,5.7,1.06,0.0,0.0,13.73,1.48,23.03,11.2,4.01,15.21,0.63,0.85,0.0,2.54,0.63,30.0,0.21,0.0,1.06,,,,,,,,,,,,,,,,,,2.2
+neta-lavi-199a2a-1,Neta Lavi,29,Israel,177.0,,MF,Gamba Osaka,J1 League,18,1310,72.8,1,2,0.07,0.14,0.0,0.0,0.06,0.06,0.0,0.19,0.0,0.0,11.5,2.69,0.38,1.34,43.94,83.6,3.84,0.38,5.57,0.58,2.3,0.58,75.0,39.15,2.11,63.33,5.95,0.19,40.3,4.41,1.73,0.96,7.48,0.58,75.0,0.38,0.0,1.73,,,,,,,,,,,,,,,,,,0.8
+issam-jebali-0de9ab,Issam Jebali,33,Tunisia,189.0,,FW-MF,Gamba Osaka,J1 League,28,1370,48.9,5,5,0.33,0.33,0.0,0.25,0.1,0.35,0.25,1.48,0.49,33.3,10.4,2.47,0.0,0.99,12.36,71.4,0.0,0.49,0.0,5.44,0.99,0.49,50.0,17.8,0.49,29.67,13.35,4.45,20.77,1.48,0.0,0.49,3.96,0.99,11.8,0.0,0.0,4.95,,,,,,,,,,,,,,,,,,0.25
+juan-alano-fe502f,Juan Alano,29,Brazil,174.0,,FW-MF,Gamba Osaka,J1 League,27,1262,46.7,1,7,0.07,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+shuto-abe-99a907,Shuto Abe,27,Japan,171.0,,MF,RWDM,Challenger Pro League,27,2219,82.2,2,1,0.08,0.04,0.06,0.08,0.08,0.16,0.08,0.98,0.37,37.5,21.5,1.34,0.12,0.55,32.03,75.3,3.6,0.43,4.27,2.14,0.73,0.37,42.9,35.21,0.92,54.24,9.52,1.28,31.0,2.87,0.79,1.28,5.92,0.61,37.0,0.24,0.0,1.95,,,,,,,,,,,,,,,,,,0.8
+shu-kurata-650fa7,Shu Kurata,37,Japan,172.0,Right,FW-MF,Gamba Osaka,J1 League,24,1035,43.1,4,0,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+rin-mito-427957,Rin Mito,23,Japan,180.0,,MF,Gamba Osaka,J1 League,21,918,43.7,1,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+welton-felipe-71dc5b,Welton Felipe,28,Brazil,175.0,,MF,Gamba Osaka,J1 League,14,743,53.1,1,2,0.12,0.24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0
+takeru-kishimoto-171af0,Takeru Kishimoto,28,Japan,174.0,,DF-FW,Gamba Osaka,J1 League,23,663,28.8,4,0,0.54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+genta-miura-f52797,Genta Miura,30,Japan,183.0,Right,DF,Gamba Osaka,J1 League,7,435,62.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+ryo-hatsuse-0d4dcf,Ryo Hatsuse,28,Japan,175.0,Both,DF,Gamba Osaka,J1 League,5,330,66.0,0,2,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+shogo-sasaki-80951b,Shogo Sasaki,25,Japan,184.0,,DF,Gamba Osaka,J1 League,7,323,46.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+kanji-okunuki-c96ccf,Kanji Okunuki,26,Japan,171.0,,FW-MF,Gamba Osaka,J1 League,11,310,28.2,1,1,0.29,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+ryotaro-meshino-f0a4ef,Ryotaro Meshino,27,Japan,171.0,Right,FW-MF,Gamba Osaka,J1 League,7,295,42.1,0,1,0.57,0.31,0.57,0.43,0.17,0.61,0.43,4.92,2.08,42.3,22.4,4.73,0.0,1.7,26.28,81.3,2.65,0.19,2.46,8.32,1.32,1.32,50.0,31.01,2.08,44.43,20.99,2.65,36.11,1.51,0.0,0.76,4.92,0.0,0.0,0.19,0.0,1.13,,,,,,,,,,,,,,,,,,0.275
+yusei-egawa-57ac54,Yusei Egawa,25,Japan,175.0,,DF,Gamba Osaka,J1 League,5,155,31.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+harumi-minamino-cbd75a,Harumi Minamino,21,Japan,176.0,,MF,Gamba Osaka,J1 League,9,175,19.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+gaku-nawata-52e86b,Gakū Nawata,19,Japan,171.0,,FW,Gamba Osaka,J1 League,3,84,28.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+shoji-toyama-ebae15,Shoji Toyama,23,Japan,175.0,,FW,Gamba Osaka,J1 League,5,84,16.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+shinya-nakano-19ffc9,Shinya Nakano,22,Japan,167.0,,DF,Gamba Osaka,J1 League,7,27,3.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+masaaki-higashiguchi-9fc0b8,Masaaki Higashiguchi,39,Japan,184.0,Right,GK,Gamba Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+rui-araki-40d153,Rui Araki,18,Japan,194.0,,GK,Gamba Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+aolin-zhang-94db95,Aolin Zhang,20,Japan,194.0,Left,GK,Gamba Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marius-hibraten-fd591c,Marius Høibråten,30,Norway,184.0,Left,DF,Urawa Reds,J1 League,35,3150,90.0,2,0,0.06,0.0,0.0,0.02,0.02,0.04,0.02,0.2,0.0,0.0,7.8,1.2,0.0,0.2,94.79,93.5,4.99,0.2,7.18,0.4,2.2,0.0,0.0,70.64,1.4,109.56,2.39,0.4,88.0,0.4,0.2,0.8,4.39,2.99,75.0,0.0,0.0,0.4,,,,,,,,,,,,,,,,,,1.3
+danilo-boza-37fb76,Danilo Boza,27,Brazil,185.0,Right,DF,Urawa Reds,J1 League,34,3060,90.0,1,0,0.03,0.03,0.1,0.09,0.01,0.1,0.09,0.92,0.32,34.5,13.0,0.76,0.03,0.13,48.61,90.0,2.29,0.13,2.8,0.32,0.64,0.25,44.4,38.78,0.54,63.59,3.31,1.43,44.7,0.76,1.05,1.27,3.31,2.42,65.0,0.06,0.0,0.16,,,,,,,,,,,,,,,,,,1.6
+shusaku-nishikawa-315142,Shusaku Nishikawa,39,Japan,183.0,Left,GK,Urawa Reds,J1 League,34,2978,87.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kaito-yasui-b955f0,Kaito Yasui,25,Japan,174.0,Right,MF,Urawa Reds,J1 League,36,2974,82.6,1,1,0.03,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+matheus-savio-d531f4,Matheus Sávio,28,Brazil,172.0,Right,MF,Urawa Reds,J1 League,35,2546,72.7,4,7,0.14,0.25,0.14,0.21,0.08,0.29,0.21,2.62,0.97,36.8,22.2,3.17,0.14,1.52,25.4,77.0,2.62,0.28,4.14,6.07,0.97,1.66,63.2,27.61,1.24,43.07,16.7,1.66,29.54,2.35,0.28,0.55,4.69,0.28,16.7,0.0,0.0,0.83,,,,,,,,,,,,,,,,,,1.5
+takuro-kaneko-5343b6,Takuro Kaneko,28,Japan,178.0,,MF,Kortrijk,Belgian Pro League,16,894,55.9,1,0,0.1,0.0,0.1,0.1,0.14,0.23,0.1,1.11,0.2,18.2,15.2,3.22,0.2,1.71,22.25,62.4,1.51,1.51,2.82,9.97,5.03,2.11,47.7,31.31,2.52,47.92,25.97,4.63,29.8,2.01,0.7,1.41,4.13,0.81,36.4,0.2,0.0,1.21,,,,,,,,,,,,,,,,,,1.5
+samuel-gustafson-3a0300,Samuel Gustafson,30,Sweden,186.0,Right,MF,Urawa Reds,J1 League,30,2278,75.9,2,1,0.08,0.04,0.0,0.03,0.1,0.14,0.03,0.51,0.17,33.3,18.8,2.72,0.17,1.53,73.7,88.8,13.25,1.53,11.04,2.72,1.36,0.17,100.0,52.3,1.53,90.17,17.49,0.17,70.3,1.36,0.34,1.36,6.45,0.85,50.0,0.34,0.0,1.19,,,,,,,,,,,,,,,,,,2.3
+hirokazu-ishihara-ffb2b4,Hirokazu Ishihara,26,Japan,169.0,,DF-MF,Urawa Reds,J1 League,28,2262,80.8,1,2,0.04,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+yoichi-naganuma-cfa93e,Yoichi Naganuma,28,Japan,177.0,,DF-MF,Urawa Reds,J1 League,25,1854,74.2,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+ryoma-watanabe-c8d64a,Ryoma Watanabe,29,Japan,176.0,,DF-FW-MF,Urawa Reds,J1 League,27,1802,66.7,7,2,0.35,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3
+yusuke-matsuo-ab88c2,Yusuke Matsuo,28,Japan,170.0,,FW-MF,Urawa Reds,J1 League,32,1854,57.9,4,0,0.19,0.11,0.0,0.15,0.06,0.23,0.15,2.16,0.97,45.0,17.4,2.48,0.11,1.19,16.92,67.1,1.29,0.86,2.69,6.79,3.45,0.32,37.5,25.98,2.05,34.92,15.84,2.8,24.68,1.94,0.54,0.43,3.66,0.54,31.3,0.0,0.0,0.65,,,,,,,,,,,,,,,,,,0.75
+takuya-ogiwara-b72abd,Takuya Ogiwara,26,Japan,182.0,,DF,Dinamo Zagreb,Croatian Football League,6,348,58.0,0,0,0.4,0.0,0.4,0.12,0.04,0.2,0.12,0.81,0.4,50.0,21.6,0.81,0.4,0.4,24.22,69.0,0.4,0.81,0.4,4.84,2.02,0.81,40.0,25.43,1.61,47.22,14.53,2.02,25.83,4.44,0.81,0.81,1.61,0.4,100.0,0.4,0.0,0.81,,,,,,,,,,,,,,,,,,0.85
+takahiro-sekine-adf87b,Takahiro Sekine,30,Japan,167.0,,DF-MF,Urawa Reds,J1 League,34,1428,42.0,1,3,0.06,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+taishi-matsumoto-c10bbb,Taishi Matsumoto,27,Japan,178.0,Left,MF,Urawa Reds,J1 League,28,1311,46.8,3,2,0.21,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+thiago-santana-846a97,Thiago Santana,32,Brazil,184.0,Right,FW,Urawa Reds,J1 League,17,971,57.1,4,0,0.37,0.0,0.71,0.5,0.11,0.6,0.59,3.2,1.54,48.1,16.1,1.78,0.36,0.83,8.06,61.3,0.95,0.12,0.83,4.51,1.3,1.19,55.6,17.55,0.47,25.38,12.69,4.39,21.23,0.59,0.12,0.71,2.13,2.61,32.8,0.36,0.0,1.19,,,,,,,,,,,,,,,,,,1.0
+hiiro-komori-a0a4f5,Hiiro komori,25,Japan,178.0,,FW,Urawa Reds,J1 League,11,473,43.0,4,0,0.76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+isaac-kiese-thelin-3d9d29,Isaac Kiese Thelin,33,Sweden,189.0,Right,FW,Malmö,Allsvenskan,26,1817,69.9,15,4,0.74,0.2,0.0,0.5,0.07,0.56,0.5,2.66,1.33,50.0,12.3,1.66,0.0,1.0,7.97,70.6,0.33,0.33,0.66,2.66,0.33,0.0,0.0,11.62,0.66,22.58,12.95,4.65,16.27,0.66,0.0,0.66,1.0,2.99,37.5,0.33,0.0,1.99,,,,,,,,,,,,,,,,,,1.2
+shoya-nakajima-2b92b5,Shoya Nakajima,31,Japan,164.0,Right,FW-MF,Urawa Reds,J1 League,15,425,28.3,1,0,0.21,0.1,0.05,0.18,0.2,0.39,0.18,2.29,0.76,33.3,22.0,4.23,0.36,1.89,19.88,72.0,3.11,0.87,5.25,5.2,2.6,1.73,51.5,26.14,1.78,37.56,17.58,1.94,27.27,1.02,0.2,0.36,4.43,0.05,7.7,0.05,0.0,0.31,,,,,,,,,,,,,,,,,,0.65
+tomoaki-okubo-9bd8e9,Tomoaki Okubo,27,Japan,170.0,,MF,Urawa Reds,J1 League,15,320,21.3,1,0,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+genki-haraguchi-fd363f,Genki Haraguchi,34,Japan,177.0,Right,FW-MF,Urawa Reds,J1 League,21,433,20.6,0,2,0.0,0.42,0.0,0.0,0.04,0.04,0.0,0.0,0.0,,,1.24,0.0,1.24,16.51,60.6,1.65,0.41,2.06,4.13,0.41,0.0,0.0,19.4,1.24,37.98,14.04,1.65,20.64,2.48,1.24,0.41,6.19,1.65,66.7,0.0,0.0,2.48,,,,,,,,,,,,,,,,,,0.4
+ayumi-niekawa-4a7e87,Ayumi Niekawa,31,Japan,195.0,,GK,Urawa Reds,J1 League,3,262,87.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+kenta-nemoto-715b5f,Kenta Nemoto,22,Japan,184.0,,DF,Urawa Reds,J1 League,3,187,62.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kai-shibato-79b1ea,Kai Shibato,30,Japan,180.0,,MF,Urawa Reds,J1 League,8,233,29.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+rikito-inoue-877e64,Rikito Inoue,28,Japan,178.0,Right,DF-MF,Urawa Reds,J1 League,2,98,49.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+toshiki-takahashi-ad6f33,Toshiki Takahashi,27,Japan,182.0,,FW,Urawa Reds,J1 League,3,92,30.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+jumpei-hayakawa-36889a,Jumpei Hayakawa,20,Japan,163.0,,MF,Urawa Reds,J1 League,5,83,16.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+naoki-maeda-d8949b-1,Naoki Maeda,31,Japan,175.0,Left,FW-MF,Urawa Reds,J1 League,3,57,19.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+motoki-nagakura-57ed88,Motoki Nagakura,26,Japan,176.0,Right,FW,Urawa Reds,J1 League,13,142,10.9,1,1,0.63,0.63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+rio-nitta-9df9f5,Rio Nitta,22,Japan,174.0,,FW,Urawa Reds,J1 League,4,18,4.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+hiroki-abe-460b58,Hiroki Abe,26,Japan,171.0,,FW-MF,Urawa Reds,J1 League,1,10,10.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+yudai-fujiwara-3ed779,Yudai Fujiwara,23,Japan,180.0,,DF,Urawa Reds,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+toshikazu-teruuchi-99d1fd,Toshikazu Teruuchi,19,Japan,172.0,,FW,Urawa Reds,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shun-yoshida-e2f20e,Shun Yoshida,29,Japan,185.0,,GK,Urawa Reds,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shinnosuke-hatanaka-65880e,Shinnosuke Hatanaka,30,Japan,184.0,,DF,Cerezo Osaka,J1 League,31,2716,87.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+koki-fukui-581a4d,Koki Fukui,30,Japan,184.0,,GK,Cerezo Osaka,J1 League,28,2519,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+lucas-fernandes-2a1012,Lucas Fernandes,31,Brazil,174.0,Right,FW-MF,Cerezo Osaka,J1 League,32,2467,77.1,7,15,0.26,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0
+rafael-ratao-d4697c,Rafael Ratão,30,Brazil,176.0,Right,FW-MF,Cerezo Osaka,J1 League,34,2395,70.4,17,3,0.64,0.11,0.46,0.34,0.1,0.43,0.34,2.77,1.27,45.8,17.1,2.66,0.46,0.81,28.31,76.8,3.23,0.69,4.39,7.05,1.62,1.39,40.0,27.73,1.39,50.6,23.57,2.66,36.28,2.89,0.23,0.81,6.01,1.16,43.5,0.23,0.0,1.39,,,,,,,,,,,,,,,,,,2.7
+hayato-okuda-d78cc1,Hayato Okuda,24,Japan,174.0,,DF,Cerezo Osaka,J1 League,29,2292,79.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+motohiko-nakajima-82af9b,Motohiko Nakajima,26,Japan,170.0,,FW-MF,Cerezo Osaka,J1 League,34,2132,62.7,5,2,0.21,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+thiago-764033,Thiago,25,Brazil,179.0,Right,FW-MF,Cerezo Osaka,J1 League,32,1667,52.1,4,4,0.22,0.22,0.32,0.32,0.15,0.47,0.32,2.11,0.96,45.5,16.8,2.56,0.38,1.28,24.41,80.4,1.79,1.02,2.82,8.65,3.07,1.41,38.6,29.53,1.6,45.35,19.6,4.04,31.84,1.99,0.51,1.41,5.25,0.45,38.9,0.06,0.0,1.73,,,,,,,,,,,,,,,,,,0.7
+shunta-tanaka-fccd5b,Shunta Tanaka,28,Japan,183.0,,DF-MF,Cerezo Osaka,J1 League,27,2104,77.9,3,0,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4
+ryuya-nishio-04f6fd,Ryūya Nishio,24,Japan,180.0,,DF,Cerezo Osaka,J1 League,25,1809,72.4,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+hinata-kida-187adc,Hinata Kida,25,Japan,171.0,,MF,Cerezo Osaka,J1 League,28,1530,54.6,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+shinji-kagawa-bf0619,Shinji Kagawa,36,Japan,175.0,Right,FW-MF,Cerezo Osaka,J1 League,31,1689,54.5,2,2,0.11,0.11,0.12,0.07,0.09,0.17,0.17,1.25,0.25,20.0,22.3,3.0,0.37,1.0,35.7,76.9,3.25,0.75,4.62,4.99,2.0,0.75,40.0,40.07,2.37,56.05,19.6,1.5,37.45,1.12,0.25,1.25,5.99,0.75,33.3,0.37,0.0,0.87,,,,,,,,,,,,,,,,,,0.25
+ryosuke-shindo-e41430,Ryosuke Shindo,29,Japan,178.0,,DF,Cerezo Osaka,J1 League,20,1631,81.5,2,0,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+sota-kitano-4c8181,Sota Kitano,21,Japan,172.0,,MF,Cerezo Osaka,J1 League,19,1417,74.6,4,4,0.25,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.5
+masaya-shibayama-c0e3ca,Masaya Shibayama,23,Japan,161.0,,MF,Cerezo Osaka,J1 League,28,1138,40.6,4,2,0.32,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+niko-takahashi-c9d6be,Niko Takahashi,20,Japan,173.0,,DF,Cerezo Osaka,J1 League,21,1130,53.8,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+kyohei-noborizato-148a81,Kyohei Noborizato,35,Japan,168.0,,DF-MF,Cerezo Osaka,J1 League,13,819,63.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+dion-cools-69653d,Dion Cools,29,Malaysia,185.0,Right,DF-MF,Cerezo Osaka,J1 League,12,800,66.7,1,1,0.11,0.11,0.0,0.03,0.11,0.14,0.03,0.28,0.0,0.0,19.1,2.38,0.28,0.84,32.7,68.4,2.66,1.12,3.07,4.05,1.82,0.42,50.0,26.13,1.26,59.25,14.53,0.84,27.53,2.93,2.52,0.98,4.19,1.12,66.7,0.42,0.0,1.54,,,,,,,,,,,,,,,,,,1.0
+kim-jin-hyeon-488c3c,Kim Jin-hyeon,38,Korea Republic,192.0,Right,GK,Cerezo Osaka,J1 League,9,721,80.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ayumu-ohata-f54405,Ayumu Ohata,24,Japan,168.0,,DF,Cerezo Osaka,J1 League,10,713,71.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+rikito-inoue-877e64-1,Rikito Inoue,28,Japan,178.0,Right,DF-MF,Cerezo Osaka,J1 League,9,701,77.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+kakeru-funaki-fc99e8,Kakeru Funaki,27,Japan,177.0,,DF,Cerezo Osaka,J1 League,9,570,63.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+reiya-sakata-bd765c,Reiya Sakata,21,Japan,170.0,,MF,Cerezo Osaka,J1 League,22,702,31.9,0,1,,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+vitor-bueno-f6f805,Vitor Bueno,31,Brazil,185.0,Right,FW-MF,Cerezo Osaka,J1 League,15,449,29.9,3,0,0.6,0.0,0.36,0.07,0.21,0.28,0.07,1.78,1.07,60.0,28.5,3.56,0.0,2.49,23.83,71.3,1.42,2.13,4.62,3.56,1.07,1.42,66.7,20.63,2.13,40.91,17.79,1.42,27.39,0.71,0.0,0.36,2.13,0.36,16.7,0.0,0.0,0.71,,,,,,,,,,,,,,,,,,1.5
+shion-homma-1d41a0,Shion Homma,25,Japan,161.0,,MF,Cerezo Osaka,J1 League,16,620,38.8,0,2,,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kyohei-yoshino-01496a,Kyohei Yoshino,31,Japan,182.0,,DF-MF,Cerezo Osaka,J1 League,11,386,35.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+satoki-uejo-ab1a38,Satoki Uejo,28,Japan,166.0,Right,FW,Cerezo Osaka,J1 League,9,307,34.1,1,0,0.29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+kengo-furuyama-bd2c87,Kengo Furuyama,23,Japan,178.0,,FW,Cerezo Osaka,J1 League,6,158,26.3,2,0,1.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+takumi-nakamura-8513e9,Takumi Nakamura,24,Japan,179.0,,DF,Cerezo Osaka,J1 League,2,38,19.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+hiroaki-okuno-134cd9,Hiroaki Okuno,36,Japan,171.0,,FW-MF,Cerezo Osaka,J1 League,1,20,20.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+yuichi-hirano-182b03,Yuichi Hirano,29,Japan,175.0,Right,MF,Cerezo Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+chimezie-kai-ezemuokwe-834c58,Chimezie Kai Ezemuokwe,16,Japan,182.0,,DF,Cerezo Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eiji-kubo-b95ece,Eiji Kubo,18,Japan,177.0,,MF,Cerezo Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kazuma-makiguchi-56a364,Kazuma Makiguchi,21,Japan,188.0,,GK,Cerezo Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+jaroensak-wonggorn-1c9e76,Jaroensak Wonggorn,28,Thailand,168.0,,MF,Cerezo Osaka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+takahiro-ko-4a52f3,Takahiro Ko,27,Japan,172.0,,MF,FC Tokyo,J1 League,31,2597,83.8,2,4,0.07,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0
+kota-tawaratsumida-4ee01b,Kota Tawaratsumida,21,Japan,177.0,,MF,FC Tokyo,J1 League,34,2061,60.6,2,2,0.09,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+kento-hashimoto-d848c4,Kento Hashimoto,32,Japan,181.0,Right,MF,FC Tokyo,J1 League,28,1927,68.8,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+kein-sato-761312,Kein Sato,24,Japan,178.0,,FW,FC Tokyo,J1 League,34,2049,60.3,7,5,0.31,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+kanta-doi-a832b9,Kanta Doi,21,Japan,186.0,,DF,FC Tokyo,J1 League,21,1778,84.7,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+masato-morishige-4c5fbe,Masato Morishige,38,Japan,183.0,Right,DF-MF,FC Tokyo,J1 League,21,1643,78.2,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+teruhito-nakagawa-63bbb8,Teruhito Nakagawa,33,Japan,161.0,,FW-MF,FC Tokyo,J1 League,31,1454,46.9,2,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+keita-endo-bc1851,Keita Endo,28,Japan,175.0,Right,FW-MF,FC Tokyo,J1 League,21,1414,67.3,4,0,0.25,0.0,0.2,0.28,0.38,0.65,0.28,1.58,0.59,37.5,15.4,3.16,0.0,1.38,14.8,67.6,0.99,0.79,1.38,6.51,3.16,0.99,41.7,17.96,1.18,33.16,13.62,3.16,20.33,1.58,1.18,0.99,5.13,0.99,35.7,0.0,0.0,1.78,,,,,,,,,,,,,,,,,,0.45
+marcelo-ryan-6d8b09,Marcelo Ryan,23,Brazil,188.0,Right,FW,FC Tokyo,J1 League,28,1604,57.3,8,1,0.45,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+yuto-nagatomo-315f04,Yuto Nagatomo,39,Japan,170.0,Right,DF-MF,FC Tokyo,J1 League,25,1545,61.8,0,2,0.0,0.12,0.0,0.0,0.04,0.04,0.0,0.0,0.0,,,0.86,0.0,0.43,33.59,71.6,3.01,0.86,1.72,3.45,2.15,1.29,75.0,27.13,1.72,52.54,15.5,0.0,29.28,1.72,0.0,0.86,4.74,0.43,33.3,0.0,0.0,2.58,,,,,,,,,,,,,,,,,,0.125
+taishi-nozawa-6d2db2,Taishi Nozawa,22,Japan,191.0,,GK,FC Tokyo,J1 League,17,1530,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.17,3.5,2.33,66.7,0.0,0.3,-0.12,,26.17,42.7,37.6,0.67,12.2,14.1,0.17,0.17,0.67,
+soma-anzai-d7d0e2,Soma Anzai,23,Japan,175.0,,MF,FC Tokyo,J1 League,28,1615,57.7,2,3,0.11,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+kosuke-shirai-95595a,Kosuke Shirai,31,Japan,165.0,,DF-MF,FC Tokyo,J1 League,19,1263,66.5,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+kei-koizumi-3e11f6,Kei Koizumi,30,Japan,173.0,,DF-MF,FC Tokyo,J1 League,28,1527,54.5,1,1,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+teppei-oka-8e4076,Teppei Oka,24,Japan,185.0,,DF,FC Tokyo,J1 League,21,1302,62.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+alexander-scholz-a7e01c,Alexander Scholz,33,Denmark,189.0,Right,DF,FC Tokyo,J1 League,14,1260,90.0,2,0,0.14,0.0,0.17,0.02,0.08,0.12,0.15,0.5,0.33,66.7,24.7,1.67,0.17,0.67,43.67,84.5,2.83,0.5,4.5,0.17,0.67,0.67,100.0,32.5,0.33,60.67,3.17,0.83,32.67,1.5,2.0,1.33,8.33,1.33,61.5,0.17,0.0,0.5,,,,,,,,,,,,,,,,,,1.5
+kim-seung-gyu-087dc3,Kim Seung-gyu,35,Korea Republic,184.0,Right,GK,FC Tokyo,J1 League,14,1260,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,4.75,2.75,63.2,25.0,0.3,-0.35,0.0,24.75,28.3,31.5,1.25,15.2,6.4,0.25,0.25,0.5,0.65
+sei-muroya-b5a750,Sei Muroya,31,Japan,174.0,Right,DF-MF,FC Tokyo,J1 League,15,1199,79.9,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+motoki-nagakura-57ed88-1,Motoki Nagakura,26,Japan,176.0,Right,FW,FC Tokyo,J1 League,10,762,76.2,4,1,0.47,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+seiji-kimura-ecdd1e,Seiji Kimura,24,Japan,184.0,,DF,FC Tokyo,J1 League,9,734,81.6,0,0,0.0,0.0,0.0,0.03,0.01,0.05,0.03,0.7,0.0,0.0,8.9,0.87,0.09,0.17,48.09,89.5,2.35,0.09,2.96,0.35,0.26,0.09,50.0,31.74,0.26,64.87,2.87,1.39,40.96,1.3,0.7,1.13,2.7,2.17,56.8,0.0,0.0,0.35,,,,,,,,,,,,,,,,,,0.55
+keigo-higashi-5d1c7f,Keigo Higashi,35,Japan,178.0,,FW-MF,FC Tokyo,J1 League,18,694,38.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+henrique-trevisan-f0c44e,Henrique Trevisan,28,Brazil,185.0,Left,DF,FC Tokyo,J1 League,10,691,69.1,1,1,0.13,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+reon-nozawa-e415e2,Reon Nozawa,22,Japan,174.0,,FW,FC Tokyo,J1 League,23,625,27.2,1,1,0.14,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+marcos-guilherme-d6c28f,Marcos Guilherme,30,Brazil,172.0,Right,FW-MF,FC Tokyo,J1 League,10,555,55.5,0,0,0.15,0.0,0.15,0.13,0.04,0.18,0.13,1.33,0.44,33.3,19.6,2.52,0.44,0.89,40.86,88.2,2.22,0.44,5.33,7.55,2.22,0.59,57.1,34.05,2.22,52.4,21.76,2.22,39.82,1.18,0.44,0.3,3.85,0.59,50.0,0.15,0.0,0.74,,,,,,,,,,,,,,,,,,0.9
+kashif-bangunagande-75d408,Kashif Bangunagande,24,Japan,174.0,,DF,FC Tokyo,J1 League,8,571,71.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yasuki-kimoto-176947,Yasuki Kimoto,32,Japan,183.0,,DF-MF,FC Tokyo,J1 League,7,470,67.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+go-hatano-ea9f25,Go Hatano,27,Japan,198.0,,GK,FC Tokyo,J1 League,5,450,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+keita-yamashita-61fe0a,Keita Yamashita,29,Japan,184.0,,FW,FC Tokyo,J1 League,12,407,33.9,1,0,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+maki-kitahara-74bdfd,Maki Kitahara,16,Japan,174.0,,FW,FC Tokyo,J1 League,7,237,33.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+everton-984f10,Everton,28,Brazil,174.0,,FW-MF,FC Tokyo,J1 League,6,181,30.2,0,0,0.0,0.0,0.0,0.04,0.14,0.18,0.04,1.38,0.39,28.6,27.4,2.36,0.0,1.58,17.53,79.5,1.38,0.0,2.17,5.51,2.17,2.17,50.0,21.86,1.77,35.65,17.13,2.76,24.22,1.18,0.2,0.79,3.54,0.59,15.0,0.79,0.0,1.58,,,,,,,,,,,,,,,,,,7.0
+kyota-tokiwa-a41a78,Kyota Tokiwa,23,Japan,173.0,,MF,FC Tokyo,J1 League,7,135,19.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+tsuyoshi-ogashiwa-1bf4bb,Tsuyoshi Ogashiwa,27,Japan,167.0,,FW-MF,FC Tokyo,J1 League,3,66,22.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+koki-tsukagawa-00a7b0,Koki Tsukagawa,31,Japan,184.0,,MF,FC Tokyo,J1 League,1,20,20.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+tsuna-kominato-72c7ef,Tsuna Kominato,21,Japan,178.0,,FW,FC Tokyo,J1 League,1,7,7.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+taiyo-yamaguchi-83bdcf,Taiyo Yamaguchi,19,Japan,183.0,,FW,FC Tokyo,J1 League,2,7,3.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+masataka-kobayashi-cca2ee,Masataka Kobayashi,20,Japan,191.0,,GK,FC Tokyo,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+hisatoshi-nishido-d5edd5,Hisatoshi Nishido,24,Japan,179.0,,MF,FC Tokyo,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+tsubasa-terayama-94824c,Tsubasa Terayama,25,Japan,179.0,,MF,FC Tokyo,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+tomoya-ando-b44fee,Tomoya Ando,26,Japan,190.0,Right,DF,Avispa Fukuoka,J1 League,34,3015,88.7,4,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+daiki-matsuoka-8c53e3,Daiki Matsuoka,24,Japan,170.0,,MF,Avispa Fukuoka,J1 League,34,2952,86.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+kazuya-konno-5b9684,Kazuya Konno,28,Japan,161.0,,MF,Avispa Fukuoka,J1 League,35,2268,64.8,3,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+tomoya-miki-632a9c,Tomoya Miki,27,Japan,172.0,,MF,Avispa Fukuoka,J1 League,27,2246,83.2,6,1,0.24,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+shintaro-nago-e00ded,Shintaro Nago,29,Japan,168.0,,MF,Avispa Fukuoka,J1 League,36,2258,62.7,2,5,0.08,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+kazuki-fujimoto-6eea64,Kazuki Fujimoto,27,Japan,179.0,,MF,Avispa Fukuoka,J1 League,30,1772,59.1,1,3,0.05,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+masaya-tashiro-06f14d,Masaya Tashiro,32,Japan,185.0,,DF,Avispa Fukuoka,J1 League,25,1911,76.4,1,1,0.05,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+takumi-kamijima-307231,Takumi Kamijima,28,Japan,186.0,,DF,Avispa Fukuoka,J1 League,26,1800,69.2,2,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+takaaki-shichi-031764,Takaaki Shichi,31,Japan,177.0,,DF-MF,Avispa Fukuoka,J1 League,22,1631,74.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+yuma-obata-d7dae0,Yuma Obata,24,Japan,183.0,,GK,Avispa Fukuoka,J1 League,18,1620,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+yota-maejima-25027b,Yota Maejima,28,Japan,178.0,,DF-MF,Avispa Fukuoka,J1 League,25,1728,69.1,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+yuto-iwasaki-0ae23d,Yuto Iwasaki,27,Japan,172.0,,FW-MF,Avispa Fukuoka,J1 League,33,1653,50.1,1,2,0.05,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+masaaki-murakami-221510,Masaaki Murakami,33,Japan,185.0,,GK,Avispa Fukuoka,J1 League,14,1260,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+tatsuki-nara-fb99e1,Tatsuki Nara,32,Japan,180.0,,DF,Avispa Fukuoka,J1 League,14,1191,85.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+shahab-zahedi-e986ea,Shahab Zahedi,30,Iran,187.0,Right,FW-MF,Avispa Fukuoka,J1 League,21,959,45.7,0,1,0.35,0.09,0.35,0.18,0.14,0.32,0.18,2.81,0.7,25.0,21.0,1.76,0.35,0.35,10.55,55.6,1.05,0.35,1.76,3.52,0.35,2.11,50.0,18.63,0.35,35.51,16.88,2.81,23.2,1.05,0.7,1.05,3.87,3.52,55.6,0.35,0.0,3.16,,,,,,,,,,,,,,,,,,0.7
+masato-yuzawa-9e5b64,Masato Yuzawa,32,Japan,179.0,,DF-MF,Avispa Fukuoka,J1 League,18,862,47.9,1,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+yu-hashimoto-559602,Yu Hashimoto,23,Japan,171.0,,DF,Avispa Fukuoka,J1 League,23,954,41.5,0,3,,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+masato-shigemi-ea3fcb,Masato Shigemi,24,Japan,171.0,,MF,Avispa Fukuoka,J1 League,23,935,40.7,1,1,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+hiroki-akino-9f26e3,Hiroki Akino,31,Japan,176.0,,MF,Avispa Fukuoka,J1 League,19,782,41.2,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+wellington-1899f1,Wellington,37,Brazil,186.0,,FW,Avispa Fukuoka,J1 League,29,1023,35.3,2,1,0.18,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yuji-kitajima-5fe8d5,Yuji Kitajima,25,Japan,169.0,,MF,Avispa Fukuoka,J1 League,10,592,59.2,1,2,0.15,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+shosei-usui-683bcc,Shosei Usui,24,Japan,183.0,Right,FW,Avispa Fukuoka,J1 League,9,576,64.0,3,0,0.47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+nassim-ben-khalifa-4ab516,Nassim Ben Khalifa,33,Switzerland,180.0,Right,FW-MF,Avispa Fukuoka,J1 League,13,404,31.1,1,0,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+takumi-nagaishi-0ccd1b,Takumi Nagaishi,29,Japan,191.0,,GK,Avispa Fukuoka,J1 League,4,360,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+sonosuke-sato-91cbd4,Sonosuke Sato,22,Japan,175.0,,FW,Avispa Fukuoka,J1 League,6,282,47.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+takeshi-kanamori-f7356b,Takeshi Kanamori,31,Japan,171.0,,FW-MF,Avispa Fukuoka,J1 League,13,194,14.9,1,0,0.46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+itsuki-oda-fc5585,Itsuki Oda,27,Japan,173.0,Right,MF,Avispa Fukuoka,J1 League,5,178,35.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+jurato-ikeda-5f37ad,Jurato Ikeda,29,Japan,187.0,,DF,Avispa Fukuoka,J1 League,2,124,62.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+hanan-sani-brown-a09342,Hanan Sani Brown,19,Japan,184.0,,FW,Avispa Fukuoka,J1 League,2,30,15.0,1,0,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ichika-maeda-98f0c1,Ichika Maeda,19,Japan,175.0,,MF,Avispa Fukuoka,J1 League,1,12,12.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+seiya-inoue-7f8181,Seiya Inoue,26,Japan,187.0,,DF,Avispa Fukuoka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hikaru-maeda-5169b2,Hikaru Maeda,17,Japan,176.0,,FW,Avispa Fukuoka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kim-moonhyeon-5d3892,Kim Moonhyeon,23,Korea Republic,,,DF,Avispa Fukuoka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kazuaki-suganuma-d5ee70,Kazuaki Suganuma,24,Japan,186.0,,GK,Avispa Fukuoka,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+matheus-bueno-94843e,Matheus Bueno,27,Brazil,178.0,,MF,S-Pulse,J1 League,35,3134,89.5,1,2,0.03,0.06,0.0,0.03,0.06,0.1,0.03,0.8,0.16,20.0,24.7,3.52,0.32,0.96,43.88,80.8,6.41,0.48,7.05,1.6,1.12,1.44,60.0,35.55,0.8,64.38,14.57,1.12,46.44,1.44,0.96,0.8,6.73,0.48,75.0,0.16,0.0,1.44,,,,,,,,,,,,,,,,,,0.6
+jelani-sumiyoshi-eb7428,Jelani Sumiyoshi,28,Japan,181.0,Right,DF,S-Pulse,J1 League,31,2576,83.1,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+takashi-inui-4a9961,Takashi Inui,37,Japan,169.0,Right,FW-MF,S-Pulse,J1 League,36,2504,69.6,3,2,0.11,0.07,0.05,0.12,0.08,0.21,0.12,1.83,0.84,45.9,20.2,2.13,0.05,0.69,17.47,66.5,1.29,0.79,2.72,5.89,2.92,1.29,41.3,23.4,1.09,37.45,21.23,2.37,26.32,0.64,0.59,0.94,4.4,0.3,23.1,0.0,0.0,1.39,,,,,,,,,,,,,,,,,,0.15
+sodai-hasukawa-b1846a,Sodai Hasukawa,27,Japan,182.0,,DF,S-Pulse,J1 League,30,2452,81.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+zento-uno-25a6a6,Zento Uno,22,Japan,176.0,Right,MF,S-Pulse,J1 League,27,1995,73.9,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+koya-kitagawa-3cdba8,Koya Kitagawa,29,Japan,178.0,Right,FW,S-Pulse,J1 League,35,2173,62.1,10,0,0.41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+reon-yamahara-d8d4f7,Reon Yamahara,26,Japan,165.0,,DF-MF,S-Pulse,J1 League,28,2069,73.9,1,3,0.04,0.13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+yuya-oki-58cd08,Yuya Oki,26,Japan,184.0,Right,GK,S-Pulse,J1 League,23,2070,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kai-matsuzaki-8d74b7,Kai Matsuzaki,28,Japan,172.0,,MF,S-Pulse,J1 League,31,1756,56.6,4,5,0.21,0.26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+capixaba-809993,Capixaba,28,Brazil,170.0,Left,FW-MF,S-Pulse,J1 League,25,1763,70.5,2,2,0.1,0.1,0.05,0.07,0.09,0.16,0.07,1.2,0.33,27.3,21.4,1.85,0.05,0.87,16.45,67.3,1.14,0.65,2.23,5.88,2.56,0.98,30.0,24.41,1.69,37.16,14.11,1.74,23.97,2.23,1.04,0.98,3.7,0.6,32.4,0.33,0.0,1.31,,,,,,,,,,,,,,,,,,6.0
+sen-takagi-7eb66d,Sen Takagi,23,Japan,173.0,,DF,S-Pulse,J1 League,27,1750,64.8,2,3,0.1,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+yutaka-yoshida-bc621e,Yutaka Yoshida,35,Japan,168.0,,DF-MF,S-Pulse,J1 League,19,1224,64.4,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+yuji-takahashi-f9cfd7,Yuji Takahashi,32,Japan,185.0,,DF,S-Pulse,J1 League,15,1216,81.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+togo-umeda-4364d2,Togo Umeda,25,Japan,182.0,,GK,S-Pulse,J1 League,13,1170,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+kengo-kitazume-ccdaba,Kengo Kitazume,33,Japan,177.0,,DF-MF,S-Pulse,J1 League,20,1157,57.9,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+toshiki-takahashi-ad6f33-1,Toshiki Takahashi,27,Japan,182.0,,FW,S-Pulse,J1 League,12,937,78.1,4,1,0.38,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+hikaru-nakahara-a51dc9,Hikaru Nakahara,29,Japan,169.0,,MF,S-Pulse,J1 League,26,994,38.2,2,2,0.18,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+mateus-brunetti-f0da33,Mateus Brunetti,26,Brazil,184.0,Left,DF,S-Pulse,J1 League,8,600,75.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+kim-min-tae-0d11e7,Kim Min-tae,32,Korea Republic,187.0,,DF-MF,S-Pulse,J1 League,6,540,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+masaki-yumiba-38ad79,Masaki Yumiba,23,Japan,173.0,,MF,S-Pulse,J1 League,12,499,41.6,0,1,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+shinya-yajima-533175,Shinya Yajima,31,Japan,171.0,,MF,S-Pulse,J1 League,28,926,33.1,1,1,0.1,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+yudai-shimamoto-36d971,Yudai Shimamoto,19,Japan,180.0,,MF,S-Pulse,J1 League,11,377,34.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+kazuki-kozuka-861342,Kazuki Kozuka,31,Japan,172.0,,MF,S-Pulse,J1 League,15,405,27.0,2,0,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+kento-haneda-a0f6e6,Kento Haneda,28,Japan,184.0,,MF,S-Pulse,J1 League,6,203,33.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+ahmed-ahmedov-2936e8,Ahmed Ahmedov,30,Bulgaria,184.0,Left,FW,S-Pulse,J1 League,9,247,27.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+kota-miyamoto-4c909b,Kota Miyamoto,29,Japan,176.0,,MF,S-Pulse,J1 League,7,225,32.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+motoki-nishihara-3eca07,Motoki Nishihara,18,Japan,180.0,,FW,S-Pulse,J1 League,12,268,22.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+haruto-hidaka-0ceba7,Haruto Hidaka,21,Japan,176.0,,DF,S-Pulse,J1 League,1,67,67.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+douglas-tanque-9b1d23,Douglas Tanque,32,Brazil,188.0,Left,FW,S-Pulse,J1 League,9,143,15.9,1,0,0.63,0.07,0.26,0.29,0.05,0.34,0.38,3.2,1.1,34.5,20.5,2.28,0.18,0.66,12.81,63.9,1.36,0.15,1.55,2.76,0.88,0.85,63.9,15.24,0.81,32.83,13.1,3.28,23.23,0.96,0.22,1.1,2.58,5.41,54.6,0.29,0.0,2.72,,,,,,,,,,,,,,,,,,0.6
+kanta-chiba-10103b,Kanta Chiba,22,Japan,178.0,,FW,S-Pulse,J1 League,7,75,10.7,1,0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+alfredo-stephens-d0c258,Alfredo Stephens,30,Panama,178.0,,FW-MF,S-Pulse,J1 League,4,58,14.5,0,0,0.0,0.3,0.0,0.13,0.12,0.25,0.13,1.59,0.3,18.8,14.3,2.48,0.6,0.89,12.02,71.2,0.79,0.7,1.09,4.17,1.09,0.2,22.2,12.32,1.19,26.32,13.21,2.68,20.07,0.5,0.4,0.1,2.98,2.68,29.3,0.3,0.0,2.48,,,,,,,,,,,,,,,,,,0.4
+sean-kotake-1bb9b2,Sean Kotake,19,Japan,180.0,,MF,S-Pulse,J1 League,2,19,9.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+riku-gunji-a21687,Riku Gunji,20,Japan,176.0,,FW,S-Pulse,J1 League,1,18,18.0,1,0,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+rinsei-ohata-b6758e,Rinsei Ohata,22,Japan,177.0,,MF,S-Pulse,J1 League,2,9,4.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yuji-doi-008bbc,Yuji Doi,18,Japan,168.0,Left,MF,S-Pulse,J1 League,1,5,5.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yui-inokoshi-b6e0b0,Yui Inokoshi,24,Japan,185.0,,GK,S-Pulse,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+sena-saito-1a5e8a,Sena Saito,25,Japan,171.0,Right,FW,S-Pulse,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+matheus-caldeira-vidotto-de-oliveira-ae0604,Matheus Caldeira Vidotto de Oliveira,31,Brazil,189.0,Right,GK,Tokyo Verdy,J1 League,36,3240,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+hiroto-taniguchi-2e303f,Hiroto Taniguchi,26,Japan,181.0,,DF,Tokyo Verdy,J1 League,34,2987,87.9,3,1,0.09,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+yuta-arai-3a7c3d,Yūta Arai,22,Japan,166.0,,MF,Tokyo Verdy,J1 League,35,2618,74.8,2,1,0.07,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kosuke-saito-37577d,Kosuke Saito,28,Japan,167.0,,MF,Tokyo Verdy,J1 League,35,2558,73.1,1,3,0.04,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+kazuya-miyahara-902ae9,Kazuya Miyahara,29,Japan,172.0,,DF-MF,Tokyo Verdy,J1 League,30,2519,84.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+koki-morita-adaeff,Koki Morita,25,Japan,167.0,,MF,Tokyo Verdy,J1 League,31,2477,79.9,0,3,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+rei-hirakawa-a703ba,Rei Hirakawa,25,Japan,175.0,,MF,Tokyo Verdy,J1 League,32,2132,66.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+yuto-tsunashima-27da91,Yuto Tsunashima,25,Japan,188.0,,DF,Tokyo Verdy,J1 League,23,1998,86.9,3,1,0.14,0.05,0.0,0.07,0.01,0.08,0.07,0.6,0.3,50.0,14.1,1.09,0.1,0.3,49.82,85.9,3.68,0.0,4.08,0.8,0.7,0.1,100.0,42.46,0.8,69.12,3.68,0.9,47.83,1.79,1.49,1.99,3.28,2.39,64.9,0.2,0.0,1.79,,,,,,,,,,,,,,,,,,0.75
+itsuki-someno-1151e8,Itsuki Someno,24,Japan,181.0,,FW,Tokyo Verdy,J1 League,35,1929,55.1,4,4,0.19,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+daiki-fukazawa-872a32,Daiki Fukazawa,27,Japan,174.0,,DF,Tokyo Verdy,J1 League,21,1808,86.1,1,0,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+yuya-fukuda-147113,Yuya Fukuda,26,Japan,176.0,,MF,Tokyo Verdy,J1 League,29,1649,56.9,1,2,0.05,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+hijiri-onaga-c15c95,Hijiri Onaga,30,Japan,171.0,,DF-MF,Tokyo Verdy,J1 League,24,1746,72.8,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+yudai-kimura-0e10e3,Yūdai Kimura,24,Japan,184.0,Right,FW,Tokyo Verdy,J1 League,20,1293,64.7,2,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+naoki-hayashi-6a34c2,Naoki Hayashi,27,Japan,181.0,,DF,Tokyo Verdy,J1 League,14,1126,80.4,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+hiroto-yamami-bab1e7,Hiroto Yamami,26,Japan,165.0,,MF,Tokyo Verdy,J1 League,18,923,51.3,1,2,0.1,0.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+yuan-matsuhashi-2093ee,Yuan Matsuhashi,24,Japan,172.0,,MF,Tokyo Verdy,J1 League,32,1203,37.6,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+kaito-chida-104419-1,Kaito Chida,31,Japan,185.0,,DF,Tokyo Verdy,J1 League,8,600,75.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+yosuke-uchida-90092d,Yosuke Uchida,23,Japan,167.0,,DF,Tokyo Verdy,J1 League,8,550,68.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shoji-toyama-ebae15-1,Shoji Toyama,23,Japan,175.0,,FW,Tokyo Verdy,J1 League,9,275,30.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+goki-yamada-285653,Goki Yamada,25,Japan,170.0,,FW,Tokyo Verdy,J1 League,3,174,58.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+soma-meshino-129eb9,Soma Meshino,24,Japan,167.0,,MF,Tokyo Verdy,J1 League,17,332,19.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+tetsuyuki-inami-cf9f93,Tetsuyuki Inami,26,Japan,178.0,,MF,Tokyo Verdy,J1 League,15,312,20.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+hayato-hirao-816031,Hayato Hirao,20,Japan,176.0,,FW,Tokyo Verdy,J1 League,6,207,34.5,1,0,0.43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shuhei-kawasaki-c5f9b5,Shuhei Kawasaki,24,Japan,168.0,Right,FW,Tokyo Verdy,J1 League,14,272,19.4,1,0,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ryosuke-shirai-c84966,Ryosuke Shirai,20,Japan,183.0,,FW,Tokyo Verdy,J1 League,10,206,20.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+issei-kumatoriya-153587,Issei Kumatoriya,22,Japan,166.0,,MF,Tokyo Verdy,J1 League,11,182,16.5,1,0,0.49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+shimon-teranuma-ac6a52,Shimon Teranuma,24,Japan,188.0,,FW,Tokyo Verdy,J1 League,8,145,18.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+ryota-inoue-da547d,Ryota Inoue,25,Japan,186.0,,DF,Tokyo Verdy,J1 League,1,85,85.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kaito-suzuki-bdc586,Kaito Suzuki,23,Japan,182.0,,DF,Tokyo Verdy,J1 League,6,59,9.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+taiju-yoshida-bf1263,Taiju Yoshida,25,Japan,174.0,,DF,Tokyo Verdy,J1 League,1,12,12.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+gakuto-kawamura-5f8098,Gakuto Kawamura,19,Japan,177.0,,MF,Tokyo Verdy,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yuya-nagasawa-50a602,Yuya Nagasawa,29,Japan,185.0,,GK,Tokyo Verdy,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+shion-nakayama-ebc308,Shion Nakayama,18,Japan,170.0,,FW,Tokyo Verdy,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+maaya-sako-d3201e,Maaya Sako,23,Japan,193.0,,DF,Tokyo Verdy,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+joi-yamamoto-ae2084,Jōi Yamamoto,19,Japan,185.0,,MF,Tokyo Verdy,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+svend-brodersen-e7bede,Svend Brodersen,28,Germany,188.0,Both,GK,Fagi Okayama,J1 League,35,3114,89.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+ataru-esaka-3a9be3,Ataru Esaka,33,Japan,175.0,,FW-MF,Fagi Okayama,J1 League,36,2704,75.1,5,5,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+daichi-tagami-4bed68,Daichi Tagami,32,Japan,179.0,,DF,Fagi Okayama,J1 League,29,2579,88.9,1,0,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ibuki-fujita-51f50b,Ibuki Fujita,34,Japan,170.0,,MF,Fagi Okayama,J1 League,27,2301,85.2,0,1,,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+yugo-tatsuta-4c6303,Yugo Tatsuta,27,Japan,191.0,,DF,Fagi Okayama,J1 League,26,2250,86.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+takaya-kimura-89c040,Takaya Kimura,27,Japan,175.0,,MF,Fagi Okayama,J1 League,35,2021,57.7,4,0,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ryunosuke-sato-52042f,Ryūnosuke Satō,19,Japan,168.0,Right,MF,Fagi Okayama,J1 League,26,1865,71.7,6,2,0.29,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+kota-kudo-12b90f,Kota Kudo,22,Japan,180.0,,DF,Fagi Okayama,J1 League,24,1862,77.6,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+hijiri-kato-1e420f,Hijiri Kato,24,Japan,171.0,,DF,Fagi Okayama,J1 League,25,1768,70.7,0,3,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+ryo-tabei-c56616,Ryo Tabei,26,Japan,172.0,,MF,Fagi Okayama,J1 League,23,1522,66.2,1,5,0.06,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+lucas-marcos-a2c1df,Lucas Marcos,30,Brazil,191.0,,FW,Fagi Okayama,J1 League,36,1963,54.5,4,1,0.18,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kazunari-ichimi-c0057a,Kazunari Ichimi,28,Japan,183.0,,FW,Fagi Okayama,J1 League,31,1350,43.5,5,0,0.33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+kaito-abe-f38d72,Kaito Abe,26,Japan,182.0,,DF,Fagi Okayama,J1 League,19,1462,76.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+yoshitake-suzuki-2686bb,Yoshitake Suzuki,27,Japan,182.0,,DF-MF,Fagi Okayama,J1 League,17,1372,80.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+masaya-matsumoto-363b43,Masaya Matsumoto,30,Japan,169.0,,FW-MF,Fagi Okayama,J1 League,26,1424,54.8,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+hiroto-iwabuchi-eab996,Hiroto Iwabuchi,28,Japan,177.0,,MF,Fagi Okayama,J1 League,30,1064,35.5,3,0,0.25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+yuta-kamiya-e7187b,Yuta Kamiya,28,Japan,176.0,,MF,Fagi Okayama,J1 League,34,1456,42.8,1,3,0.06,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+takahiro-yanagi-4035be,Takahiro Yanagi,28,Japan,183.0,,DF-MF,Fagi Okayama,J1 League,19,946,49.8,1,2,0.1,0.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+eiji-miyamoto-2919c6,Eiji Miyamoto,27,Japan,173.0,,MF,Fagi Okayama,J1 League,9,626,69.6,0,1,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+haruka-motoyama-d3458d-1,Haruka Motoyama,26,Japan,171.0,,DF,Fagi Okayama,J1 League,10,505,50.5,0,1,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+kaito-fujii-727b9b,Kaito Fujii,22,Japan,173.0,,DF,Fagi Okayama,J1 League,9,387,43.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+rui-sueyoshi-27f9d8,Rui Sueyoshi,29,Japan,166.0,,MF,Fagi Okayama,J1 League,5,217,43.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+yasutaka-yanagi-42a5e2,Yasutaka Yanagi,31,Japan,187.0,,DF-FW,Fagi Okayama,J1 League,4,142,35.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+goro-kawanami-d2dc84,Goro Kawanami,34,Japan,192.0,,GK,Fagi Okayama,J1 League,2,124,62.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+werik-popo-791c78,Werik Popó,24,Brazil,190.0,Both,FW,Fagi Okayama,J1 League,11,215,19.5,0,0,0.52,0.17,0.52,0.45,0.14,0.59,0.45,2.8,0.87,31.3,12.2,1.05,0.17,0.87,13.11,82.4,0.35,0.17,0.87,5.94,0.87,0.52,30.0,15.2,0.35,28.49,12.23,5.42,17.3,0.35,0.0,1.57,2.1,1.92,50.0,0.7,0.0,1.92,,,,,,,,,,,,,,,,,,0.35
+ryo-takeuchi-b07834,Ryo Takeuchi,34,Japan,173.0,,MF,Fagi Okayama,J1 League,11,162,14.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+noah-kenshin-browne-c5cd71,Noah Kenshin Browne,24,Japan,188.0,,FW,Fagi Okayama,J1 League,11,135,12.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+gleyson-4bedfb,Gleyson,29,Brazil,180.0,,FW,Fagi Okayama,J1 League,3,28,9.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+riku-saga-1a3b9b,Riku Saga,27,Japan,166.0,Right,DF,Fagi Okayama,J1 League,2,27,13.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+yuji-wakasa-713fa2,Yuji Wakasa,29,Japan,171.0,,MF,Fagi Okayama,J1 League,1,11,11.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+ryunosuke-ota-be3494,Ryunosuke Ota,23,Japan,185.0,,FW,Fagi Okayama,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+keita-saito-20ab82,Keita Saito,32,Japan,180.0,,FW,Fagi Okayama,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+yoko-iesaka-38015f,Yoko Iesaka,23,Japan,170.0,,MF,Fagi Okayama,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+junki-kanayama-5837ea,Junki Kanayama,37,Japan,186.0,,GK,Fagi Okayama,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+kohei-kawakami-3b095a,Kohei Kawakami,24,Japan,187.0,,GK,Fagi Okayama,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+masato-sasaki-9eb7c7,Masato Sasaki,23,Japan,183.0,,GK,Fagi Okayama,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+park-iru-gyu-b094c1,Park Iru-gyu,35,Japan,180.0,,GK,Marinos,J1 League,27,2430,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+asahi-uenaka-85b6e3,Asahi Uenaka,24,Japan,179.0,,MF,Marinos,J1 League,31,2240,72.3,7,4,0.28,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+takuya-kida-ef464c,Takuya Kida,31,Japan,170.0,,MF,Marinos,J1 League,24,1897,79.0,2,1,0.09,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+ren-kato-470bc1,Ren Kato,25,Japan,175.0,,DF,Marinos,J1 League,25,1914,76.6,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+jeisson-quinones-8060e0,Jeisson Quiñones,28,Colombia,185.0,,DF,Marinos,J1 League,21,1775,84.5,2,1,0.1,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yan-matheus-11b955,Yan Matheus,27,Brazil,175.0,Left,FW-MF,Marinos,J1 League,24,1710,71.2,5,3,0.26,0.16,0.2,0.22,0.19,0.41,0.33,1.92,0.56,28.9,21.5,3.95,0.56,1.57,22.17,67.4,1.16,1.21,3.49,5.47,2.18,1.27,41.7,25.21,2.48,45.86,23.94,2.73,26.57,2.43,0.66,1.21,5.11,0.3,20.7,0.25,0.0,0.76,,,,,,,,,,,,,,,,,,1.6
+anderson-lopes-7cfa73,Anderson Lopes,32,Brazil,180.0,Left,FW-MF,Marinos,J1 League,20,1703,85.2,2,1,0.11,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5
+riku-yamane-fde4de,Riku Yamane,22,Japan,173.0,Right,MF,Marinos,J1 League,28,1801,64.3,1,2,0.05,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+kota-watanabe-5a5b18,Kota Watanabe,27,Japan,165.0,,MF,Marinos,J1 League,29,1737,59.9,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+ken-matsubara-489aa4,Ken Matsubara,32,Japan,180.0,,DF-MF,Marinos,J1 League,21,1619,77.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+thomas-deng-83e049,Thomas Deng,28,Australia,179.0,,DF,Marinos,J1 League,20,1688,84.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+daiya-tono-39bfc0,Daiya Tono,26,Japan,165.0,,MF,Marinos,J1 League,21,1385,66.0,5,1,0.32,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+katsuya-nagato-bd1280-1,Katsuya Nagato,30,Japan,172.0,Left,DF-MF,Marinos,J1 League,17,1261,74.2,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.85
+toichi-suzuki-0fe2da,Toichi Suzuki,25,Japan,165.0,,DF-MF,Marinos,J1 League,23,1333,58.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+kenta-inoue-b13294,Kenta Inoue,27,Japan,176.0,,MF,Marinos,J1 League,27,1300,48.1,0,4,,0.28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kodjo-aziangbe-a69064,Kodjo Aziangbe,21,Togo,180.0,,MF,Marinos,J1 League,20,1221,61.0,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+ryo-miyaichi-2d1a5a,Ryo Miyaichi,32,Japan,183.0,Both,FW-MF,Marinos,J1 League,22,1064,48.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+jun-amano-dcf0c3,Jun Amano,34,Japan,175.0,,MF,Marinos,J1 League,31,1024,33.0,4,2,0.35,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kaina-tanimura-e0d3df,Kaina Tanimura,27,Japan,181.0,,FW-MF,Marinos,J1 League,13,818,62.9,6,0,0.66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+hiroki-iikura-51348f,Hiroki Iikura,39,Japan,181.0,,GK,Marinos,J1 League,9,810,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+kosei-suwama-dbe0a1,Kosei Suwama,22,Japan,186.0,,DF,Marinos,J1 League,12,788,65.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+jordy-croux-f04eb1,Jordy Croux,31,Belgium,172.0,Left,DF-FW-MF,Marinos,J1 League,10,674,67.4,1,5,0.13,0.67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+ryotaro-tsunoda-30e098,Ryotaro Tsunoda,26,Japan,183.0,,DF,Kortrijk,Belgian Pro League,6,454,75.7,0,0,0.0,0.0,0.0,0.02,0.0,0.04,0.02,0.59,0.2,33.3,21.3,0.2,0.0,0.2,29.34,69.2,2.58,0.4,3.77,0.2,0.59,0.4,100.0,28.55,0.59,59.67,2.58,0.59,23.39,2.38,2.38,1.39,5.55,4.56,65.7,0.2,0.0,0.99,,,,,,,,,,,,,,,,,,0.5
+elber-281b11-1,Élber,33,Brazil,170.0,Right,FW-MF,Marinos,J1 League,18,708,39.3,1,0,0.13,0.13,0.19,0.21,0.15,0.35,0.21,2.27,1.01,44.4,18.7,4.35,0.38,1.89,36.26,80.9,4.79,1.51,6.87,7.82,4.6,2.65,73.7,36.77,2.59,52.22,22.07,2.52,41.94,0.38,0.63,0.63,4.04,1.32,60.0,0.0,0.06,0.69,,,,,,,,,,,,,,,,,,0.75
+taiki-watanabe-b62a72,Taiki Watanabe,26,Japan,181.0,,DF,Marinos,J1 League,9,556,61.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+sandy-walsh-363e99,Sandy Walsh,30,Indonesia,185.0,Right,DF-MF,Mechelen,Belgian Pro League,6,199,33.2,0,0,0.0,0.06,0.0,0.12,0.07,0.19,0.12,0.59,0.18,30.0,11.3,1.36,0.06,0.65,42.96,80.4,3.43,0.65,4.02,3.61,0.95,0.18,23.1,41.07,1.24,61.07,12.6,1.72,38.17,1.48,1.01,0.53,3.96,1.07,56.3,0.18,0.0,1.24,,,,,,,,,,,,,,,,,,0.8
+dean-david-cbb5cf,Dean David,29,Israel,184.0,,FW,Marinos,J1 League,9,291,32.3,2,0,0.62,0.0,0.23,0.48,0.02,0.51,0.48,3.68,0.92,25.0,16.0,0.92,0.0,0.69,11.51,69.4,1.15,0.0,1.15,4.83,2.3,0.23,25.0,15.88,0.46,25.09,8.98,2.53,16.34,0.23,0.46,0.23,4.14,1.15,27.8,0.0,0.0,0.23,,,,,,,,,,,,,,,,,,2.2
+yuri-nascimento-de-araujo-fc3dde,Yuri Nascimento de Araujo,29,Brazil,170.0,,FW,Marinos,J1 League,8,278,34.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+kanta-sekitomi-ba8f2a,Kanta Sekitomi,20,Japan,177.0,,DF,Marinos,J1 League,3,172,57.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+joji-onaiu-042c2b,Joji Onaiu,25,Japan,,,MF,Marinos,J1 League,3,72,24.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kosuke-matsumura-0e190c,Kosuke Matsumura,21,Japan,172.0,,DF,Marinos,J1 League,8,127,15.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kazuya-yamamura-f32b0c,Kazuya Yamamura,35,Japan,186.0,,DF-MF,Marinos,J1 League,5,36,7.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hiroto-asada-c13fea,Hiroto Asada,17,Japan,180.0,,FW,Marinos,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+takuto-kimura-d0af8a,Takuto Kimura,25,Japan,170.0,,MF,Marinos,J1 League,1,1,1.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+ryoya-kimura-8a1fd8,Ryoya Kimura,22,Japan,188.0,,GK,Marinos,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+koei-mochizuki-0eb8af,Kōei Mochizuki,19,Japan,,,FW,Marinos,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reno-noguchi-7fc0d3,Reno Noguchi,19,Japan,178.0,,DF,Marinos,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sho-inagaki-156e2e,Sho Inagaki,33,Japan,175.0,,MF,Grampus,J1 League,36,3240,90.0,9,5,0.25,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+ryuji-izumi-db15db,Ryuji Izumi,32,Japan,173.0,,MF,Grampus,J1 League,35,2662,76.1,4,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+yota-sato-b2cdc1,Yota Sato,27,Japan,183.0,Right,DF,Grampus,J1 League,25,2191,87.6,5,0,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kenedyegbus-mikuni-87777d,Kenedyegbus Mikuni,25,Japan,192.0,,DF,Grampus,J1 League,25,2116,84.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+keiya-shiihashi-2e4a96,Keiya Shiihashi,28,Japan,177.0,,DF-MF,Grampus,J1 League,28,2115,75.5,2,1,0.09,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+tsukasa-morishima-07f231,Tsukasa Morishima,28,Japan,175.0,,MF,Grampus,J1 League,34,2002,58.9,1,5,0.04,0.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+teruki-hara-1224c9,Teruki Hara,27,Japan,180.0,,DF-MF,Grampus,J1 League,27,1997,74.0,3,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+katsuhiro-nakayama-5b7771,Katsuhiro Nakayama,29,Japan,180.0,,MF,Grampus,J1 League,26,1701,65.4,0,2,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+mateus-b87503,Mateus,31,Brazil,167.0,,FW-MF,Grampus,J1 League,25,1648,65.9,5,2,0.27,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.0
+kensuke-nagai-03b33d,Kensuke Nagai,36,Japan,177.0,,FW-MF,Grampus,J1 League,34,1637,48.1,2,2,0.11,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+shuhei-tokumoto-f22455,Shuhei Tokumoto,30,Japan,170.0,,MF,Grampus,J1 League,24,1512,63.0,2,0,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+yuki-nogami-5ab7a8,Yuki Nogami,34,Japan,180.0,,DF-MF,Grampus,J1 League,27,1611,59.7,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+yuya-yamagishi-d9fcc9,Yuya Yamagishi,32,Japan,183.0,,FW-MF,Grampus,J1 League,28,1467,52.4,3,5,0.18,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+alexandre-pisano-e257f7,Alexandre Pisano,19,Japan,196.0,,GK,Grampus,J1 League,15,1350,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+yohei-takeda-b6e234,Yohei Takeda,38,Japan,190.0,,GK,Grampus,J1 League,14,1260,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+takuya-uchida-097c01,Takuya Uchida,27,Japan,177.0,,DF-MF,Grampus,J1 League,15,1026,68.4,0,2,,0.18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+akinari-kawazura-98e5b6,Akinari Kawazura,31,Japan,183.0,,DF,Grampus,J1 League,19,1104,58.1,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+haruya-fujii-cfdfcd,Haruya Fujii,24,Japan,185.0,,DF,Kortrijk,Belgian Pro League,18,1544,85.8,0,0,0.0,0.0,0.0,0.02,0.0,0.02,0.02,0.2,0.0,0.0,7.4,0.8,0.0,0.0,40.8,86.1,4.8,0.2,4.8,0.4,0.6,0.4,66.7,40.2,1.0,58.4,4.4,0.4,38.4,0.8,1.4,1.8,3.6,2.8,70.0,0.0,0.0,0.4,,,,,,,,,,,,,,,,,,2.0
+daniel-schmidt-3ab66c,Daniel Schmidt,33,Japan,197.0,Right,GK,Gent,Belgian Pro League,1,90,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.67,4.17,2.5,68.0,25.0,0.28,-0.2,0.0,29.08,32.4,33.3,1.0,14.4,7.2,0.25,0.25,0.5,0.7
+soichiro-mori-511c0e,Soichiro Mori,18,Japan,181.0,,DF,Grampus,J1 League,10,537,53.7,1,1,0.17,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+yuya-asano-064437,Yuya Asano,28,Japan,170.0,Left,FW-MF,Grampus,J1 League,25,763,30.5,0,1,,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+yudai-kimura-0e10e3-1,Yūdai Kimura,24,Japan,184.0,Right,FW,Grampus,J1 League,12,602,50.2,1,0,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kasper-junker-39ff6c,Kasper Junker,31,Denmark,186.0,Left,FW,Grampus,J1 League,14,429,30.6,1,0,0.21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+daiki-miya-43426b,Daiki Miya,29,Japan,186.0,,DF,Grampus,J1 League,5,345,69.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+gen-kato-85c60a,Gen Kato,22,Japan,182.0,,MF,Grampus,J1 League,8,247,30.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+taichi-kikuchi-d39dfc,Taichi Kikuchi,26,Japan,160.0,,DF-MF,Grampus,J1 League,18,412,22.9,1,2,0.22,0.44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+masahito-ono-4d3247,Masahito Ono,29,Japan,172.0,,DF,Grampus,J1 League,7,129,18.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ryosuke-yamanaka-6af398,Ryosuke Yamanaka,32,Japan,170.0,,DF-MF,Grampus,J1 League,4,45,11.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+shungo-sugiura-0d34cb,Shungo Sugiura,19,Japan,174.0,,MF,Grampus,J1 League,4,22,5.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+daichi-sugimoto-0931ca,Daichi Sugimoto,32,Japan,186.0,,GK,Grampus,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+haruto-suzuki-f9a539,Haruto Suzuki,20,Japan,164.0,,MF,Grampus,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+boniface-nduka-075bcb,Boniface Nduka,29,Japan,183.0,Right,DF,Yokohama FC,J1 League,35,3105,88.7,2,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+kota-yamada-d79782,Kota Yamada,26,Japan,175.0,,MF,Yokohama FC,J1 League,31,2466,79.5,2,1,0.07,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8
+kaili-shimbo-bd7945,Kaili Shimbo,23,Japan,171.0,,DF-MF,Yokohama FC,J1 League,32,2362,73.8,0,2,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+lukian-araujo-de-almeida-40b7ec,Lukian Araújo de Almeida,34,Brazil,182.0,,FW-MF,Yokohama FC,J1 League,29,1967,67.8,3,1,0.14,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+yuri-dd1944,Yuri,31,Brazil,174.0,,MF,Yokohama FC,J1 League,31,2209,71.3,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+akinori-ichikawa-02d3c9,Akinori Ichikawa,27,Japan,190.0,,GK,Yokohama FC,J1 League,23,2070,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+towa-yamane-716cb6,Towa Yamane,26,Japan,167.0,,MF,Yokohama FC,J1 League,29,1866,64.3,1,3,0.05,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+akito-fukumori-f9dae3,Akito Fukumori,32,Japan,183.0,Left,DF,Yokohama FC,J1 League,27,1924,71.3,0,2,,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+makito-ito-62ef9f,Makito Ito,33,Japan,183.0,,DF,Yokohama FC,J1 League,26,1877,72.2,2,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+kosuke-yamazaki-0f6a65,Kosuke Yamazaki,29,Japan,182.0,,DF,Yokohama FC,J1 League,22,1872,85.1,0,1,,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+soromon-sakuragawa-dfe54f,Soromon Sakuragawa,24,Japan,,,FW,Yokohama FC,J1 League,34,1681,49.4,4,3,0.21,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yoshiaki-komai-797139,Yoshiaki Komai,33,Japan,168.0,,DF-FW-MF,Yokohama FC,J1 League,21,1461,69.6,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.375
+hinata-ogura-8b7d11,Hinata Ogura,24,Japan,185.0,,MF,Yokohama FC,J1 League,23,1286,55.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+musashi-suzuki-90f647,Musashi Suzuki,31,Japan,185.0,Right,FW-MF,Yokohama FC,J1 League,21,1183,56.3,2,1,0.15,0.08,0.08,0.21,0.09,0.31,0.21,2.34,0.78,33.3,16.4,1.88,0.08,0.86,15.94,76.1,1.02,0.16,1.17,7.34,1.72,0.47,25.0,19.61,1.72,33.2,16.41,3.36,27.03,0.86,0.16,0.78,1.8,2.03,41.3,0.08,0.0,1.88,,,,,,,,,,,,,,,,,,0.3
+joao-paulo-8700c5,João Paulo,29,Brazil,178.0,,FW-MF,Yokohama FC,J1 League,19,1131,59.5,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jakub-sowik-50a9fd,Jakub Słowik,34,Poland,190.0,Right,GK,Yokohama FC,J1 League,11,990,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+katsuya-iwatake-2dafec,Katsuya Iwatake,29,Japan,175.0,,DF,Yokohama FC,J1 League,11,883,80.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kyo-hosoi-69c1e4,Kyo Hosoi,22,Japan,183.0,,DF,Yokohama FC,J1 League,8,720,90.0,1,1,0.12,0.12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+junya-suzuki-0d006e,Junya Suzuki,29,Japan,175.0,Right,DF,Yokohama FC,J1 League,18,689,38.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+keisuke-muroi-667a17,Keisuke Muroi,25,Japan,170.0,,FW,Yokohama FC,J1 League,15,607,40.5,2,0,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+adailton-e936aa,Adaílton,34,Brazil,179.0,,FW-MF,Yokohama FC,J1 League,12,596,49.7,3,0,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+toma-murata-aa1913,Toma Murata,25,Japan,173.0,,FW,Yokohama FC,J1 League,17,689,40.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+mizuki-arai-615279,Mizuki Arai,28,Japan,170.0,,MF,Yokohama FC,J1 League,9,409,45.4,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+naoya-komazawa-f77d46,Naoya Komazawa,23,Japan,178.0,,FW,Yokohama FC,J1 League,9,290,32.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+phelipe-megiolaro-46e77d,Phelipe Megiolaro,26,Brazil,185.0,Right,GK,Yokohama FC,J1 League,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.84,5.32,3.48,72.7,10.0,0.3,0.12,0.0,24.19,21.2,28.0,1.16,14.4,2.5,0.19,0.39,0.39,0.125
+takanari-endo-0f8924,Takanari Endo,23,Japan,172.0,,MF,Yokohama FC,J1 League,11,291,26.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sho-ito-faf78c,Sho Ito,37,Japan,184.0,,FW,Yokohama FC,J1 League,15,215,14.3,1,0,0.42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ryo-kubota-3c0c6a,Ryo Kubota,24,Japan,175.0,,MF,Yokohama FC,J1 League,6,204,34.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+keijiro-ogawa-adfeb1,Keijiro Ogawa,33,Japan,170.0,,FW-MF,Yokohama FC,J1 League,10,181,18.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+koki-kumakura-606bef,Koki Kumakura,23,Japan,174.0,,MF,Yokohama FC,J1 League,4,63,15.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yoshihiro-nakano-e5d738,Yoshihiro Nakano,32,Japan,176.0,,MF,Yokohama FC,J1 League,3,32,10.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kaito-mori-ab80f1,Kaito Mori,25,Japan,185.0,,FW,Yokohama FC,J1 League,2,30,15.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+kantaro-maeda-e6eab7,Kantaro Maeda,18,Japan,177.0,,FW,Yokohama FC,J1 League,1,27,27.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+michel-fa9797,Michel,28,Brazil,,,MF,Yokohama FC,J1 League,2,9,4.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+masaki-endo-deff48,Masaki Endo,24,Japan,188.0,,GK,Yokohama FC,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+ryo-ishii-648f1e,Ryo Ishii,25,Japan,191.0,,GK,Yokohama FC,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tsubasa-shibuya-78c57d,Tsubasa Shibuya,30,Japan,188.0,,GK,Yokohama FC,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+yuto-suzuki-b7030f,Yuto Suzuki,31,Japan,182.0,,DF-MF,Shonan Bellmare,J1 League,34,2747,80.8,2,1,0.07,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.65
+akito-suzuki-8a234d,Akito Suzuki,22,Japan,178.0,,FW,Shonan Bellmare,J1 League,35,2722,77.8,9,3,0.3,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+kosuke-onose-56435b,Kosuke Onose,32,Japan,176.0,,MF,Shonan Bellmare,J1 League,31,2359,76.1,1,6,0.04,0.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kohei-okuno-42c6fa,Kohei Okuno,25,Japan,174.0,,MF,Shonan Bellmare,J1 League,29,1948,67.2,2,1,0.09,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+tomoya-fujii-e1e4d2,Tomoya Fujii,26,Japan,173.0,,MF,Shonan Bellmare,J1 League,29,2049,70.7,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+taiyo-hiraoka-7ed739,Taiyo Hiraoka,23,Japan,173.0,Right,MF,Shonan Bellmare,J1 League,28,1665,59.5,4,1,0.22,0.05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.55
+junnosuke-suzuki-9be282,Junnosuke Suzuki,22,Japan,180.0,,DF,Shonan Bellmare,J1 League,21,1855,88.3,0,0,0.0,0.3,0.0,0.06,0.06,0.12,0.06,1.19,0.3,25.0,24.0,2.67,0.59,1.19,32.97,79.9,4.16,1.49,3.56,3.56,2.38,1.19,100.0,25.54,1.78,49.9,12.18,1.49,30.3,2.38,0.89,1.19,3.56,1.19,44.4,0.3,0.0,1.49,,,,,,,,,,,,,,,,,,0.65
+naoto-kamifukumoto-6dc490,Naoto Kamifukumoto,36,Japan,182.0,,GK,Shonan Bellmare,J1 League,20,1800,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+taiga-hata-94992d,Taiga Hata,23,Japan,175.0,,MF,Shonan Bellmare,J1 League,20,1630,81.5,0,3,0.0,0.17,0.0,0.09,0.1,0.19,0.09,0.37,0.15,40.0,12.7,2.28,0.22,0.81,43.53,79.0,3.46,1.1,4.86,6.92,1.77,0.22,50.0,29.31,1.18,62.46,17.82,1.25,38.0,1.1,0.52,1.4,3.24,1.03,35.9,0.0,0.0,0.44,,,,,,,,,,,,,,,,,,1.0
+kazunari-ono-7e9375,Kazunari Ono,36,Japan,180.0,,DF,Shonan Bellmare,J1 League,21,1424,67.8,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+sho-fukuda-ab3dbf,Sho Fukuda,24,Japan,173.0,,FW,Shonan Bellmare,J1 League,18,1323,73.5,4,2,0.27,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+kim-min-tae-0d11e7-1,Kim Min-tae,32,Korea Republic,187.0,,DF-MF,Shonan Bellmare,J1 League,15,1299,86.6,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+koki-tachi-96190b,Koki Tachi,27,Japan,173.0,,DF,Shonan Bellmare,J1 League,15,1194,79.6,1,0,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+masaki-ikeda-b68c73,Masaki Ikeda,26,Japan,176.0,,MF,Shonan Bellmare,J1 League,22,951,43.2,1,1,0.09,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+hiroaki-okuno-134cd9-1,Hiroaki Okuno,36,Japan,171.0,,FW-MF,Shonan Bellmare,J1 League,20,1164,58.2,0,1,,0.08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+hiroya-matsumoto-d85761-1,Hiroya Matsumoto,25,Japan,180.0,,MF,Shonan Bellmare,J1 League,13,1059,81.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.225
+yutaro-oda-4d93a4,Yutaro Oda,24,Japan,180.0,,MF,Shonan Bellmare,J1 League,22,901,41.0,1,0,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+sere-matsumura-476f6d,Sere Matsumura,21,Japan,184.0,,DF,Shonan Bellmare,J1 League,13,790,60.8,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.15
+shusuke-ota-d1de66,Shusuke Ota,29,Japan,176.0,,MF,Shonan Bellmare,J1 League,8,525,65.6,1,0,0.17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+akimi-barada-f02602,Akimi Barada,34,Japan,173.0,,MF,Shonan Bellmare,J1 League,25,872,34.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+shinya-nakano-19ffc9-1,Shinya Nakano,22,Japan,167.0,,DF,Shonan Bellmare,J1 League,8,638,79.8,0,1,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+william-popp-3494e8,William Popp,31,Japan,191.0,,GK,Shonan Bellmare,J1 League,7,630,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+kota-sanada-245ab0,Kota Sanada,26,Japan,190.0,,GK,Shonan Bellmare,J1 League,7,630,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.05
+kazuki-oiwa-331bb6,Kazuki Oiwa,36,Japan,182.0,,DF,Shonan Bellmare,J1 League,14,625,44.6,1,0,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+ze-ricardo-f922d9,Zé Ricardo,26,Brazil,180.0,Right,MF,Shonan Bellmare,J1 League,7,413,59.0,0,0,0.0,0.08,0.0,0.03,0.07,0.1,0.03,1.35,0.59,43.8,29.7,3.28,0.17,0.93,46.68,83.0,6.9,0.76,7.4,0.93,1.35,2.19,54.2,41.64,1.43,68.8,10.85,0.25,47.78,2.1,1.26,1.68,6.22,1.09,65.0,0.42,0.0,2.78,,,,,,,,,,,,,,,,,,0.65
+luiz-phellype-263491,Luiz Phellype,32,Brazil,188.0,Right,FW,Shonan Bellmare,J1 League,20,552,27.6,4,1,0.65,0.16,0.75,0.3,0.04,0.3,0.3,3.39,1.13,33.3,15.1,1.51,0.38,0.38,6.03,53.3,0.0,0.0,0.38,2.64,0.0,0.0,0.0,13.93,0.0,27.87,12.05,3.39,18.83,1.13,0.0,1.13,2.26,3.39,28.1,0.38,0.0,1.13,,,,,,,,,,,,,,,,,,0.65
+ryo-nemoto-e79e3b,Ryo Nemoto,25,Japan,183.0,,FW,Shonan Bellmare,J1 League,10,261,26.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+rio-nitta-9df9f5-1,Rio Nitta,22,Japan,174.0,,FW,Shonan Bellmare,J1 League,11,419,38.1,1,2,0.21,0.43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+shun-yoshida-e2f20e-1,Shun Yoshida,29,Japan,185.0,,GK,Shonan Bellmare,J1 League,2,180,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sena-ishibashi-7220a3,Sena Ishibashi,19,Japan,180.0,,MF,Shonan Bellmare,J1 League,9,226,25.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lukian-araujo-de-almeida-40b7ec-1,Lukian Araújo de Almeida,34,Brazil,182.0,,FW-MF,Shonan Bellmare,J1 League,5,168,33.6,1,0,0.54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+naoya-takahashi-7b0827,Naoya Takahashi,24,Japan,179.0,,DF,Shonan Bellmare,J1 League,6,151,25.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+keigo-watanabe-710ca3,Keigo Watanabe,23,Japan,185.0,,FW,Shonan Bellmare,J1 League,4,106,26.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hisatsugu-ishii-8679d5,Hisatsugu Ishii,20,Japan,170.0,,MF,Shonan Bellmare,J1 League,13,293,22.5,1,0,0.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.175
+soki-tamura-0f4a10,Sōki Tamura,23,Japan,165.0,,MF,Shonan Bellmare,J1 League,3,25,8.3,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+-a56cb6,,30,Japan,185.0,,GK,Shonan Bellmare,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+koshiro-itohara-ca8230,Koshiro Itohara,27,Japan,185.0,,GK,Shonan Bellmare,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.075
+motoki-hasegawa-0c900c,Motoki Hasegawa,26,Japan,177.0,,FW-MF,Albirex Niigata,J1 League,36,2900,80.6,7,3,0.22,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9
+soya-fujiwara-198007,Soya Fujiwara,30,Japan,169.0,Right,DF,Albirex Niigata,J1 League,32,2880,90.0,0,1,,0.03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+michael-fitzgerald-beaca3,Michael Fitzgerald,37,New Zealand,185.0,Right,DF,Albirex Niigata,J1 League,29,2417,83.3,1,0,0.04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jin-okumura-2e2a96,Jin Okumura,24,Japan,168.0,Right,MF,Albirex Niigata,J1 League,34,1951,57.4,3,2,0.14,0.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kaito-taniguchi-b084b7,Kaito Taniguchi,30,Japan,177.0,,FW-MF,Albirex Niigata,J1 League,27,1559,57.7,2,1,0.12,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+yuto-horigome-8c3d27,Yuto Horigome,31,Japan,168.0,,DF-MF,Albirex Niigata,J1 League,24,1557,64.9,1,1,0.06,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+taiki-arai-a83979,Taiki Arai,28,Japan,174.0,Left,MF,Albirex Niigata,J1 League,23,1586,69.0,1,0,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kento-hashimoto-679dea,Kento Hashimoto,25,Japan,173.0,Left,DF,Albirex Niigata,J1 League,26,1662,63.9,0,2,,0.11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.75
+yuji-hoshi-e10971,Yuji Hoshi,33,Japan,170.0,,DF-MF,Albirex Niigata,J1 League,20,1496,74.8,0,1,,0.06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+jason-geria-c4deea,Jason Geria,32,Australia,178.0,Right,DF,Albirex Niigata,J1 League,22,1428,64.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+hayato-inamura-42301a,Hayato Inamura,23,Japan,181.0,Left,DF,Albirex Niigata,J1 League,16,1372,85.8,1,1,0.07,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+kazuki-fujita-d9da82,Kazuki Fujita,24,Japan,186.0,,GK,Albirex Niigata,J1 League,15,1350,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+ryuga-tashiro-c8b183,Ryuga Tashiro,27,Japan,185.0,,GK,Albirex Niigata,J1 League,14,1260,90.0,0,1,,0.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.275
+eiji-shirai-f2e133-1,Eiji Shirai,30,Japan,176.0,,MF,Albirex Niigata,J1 League,13,1161,89.3,2,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+hiroki-akiyama-89e028,Hiroki Akiyama,24,Japan,175.0,,MF,Albirex Niigata,J1 League,15,1048,69.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+yota-komi-c92c17-1,Yota Komi,23,Japan,169.0,,MF,Albirex Niigata,J1 League,16,946,59.1,2,1,0.19,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7
+abdelrahman-saidi-3966b7,Abdelrahman Saidi,26,Sweden,186.0,Both,FW,Albirex Niigata,J1 League,11,754,68.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2
+yuji-ono-590b8e,Yuji Ono,32,Japan,170.0,Right,FW-MF,Albirex Niigata,J1 League,11,630,57.3,0,1,,0.14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.3
+fumiya-hayakawa-8dbc80,Fumiya Hayakawa,31,Japan,170.0,,DF,Albirex Niigata,J1 League,11,662,60.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+daisuke-yoshimitsu-c322dc,Daisuke Yoshimitsu,32,Japan,187.0,Right,GK,Albirex Niigata,J1 League,7,630,90.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+eiji-miyamoto-2919c6-1,Eiji Miyamoto,27,Japan,173.0,,MF,Albirex Niigata,J1 League,10,599,59.9,0,1,,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+shusuke-ota-d1de66-1,Shusuke Ota,29,Japan,176.0,,MF,Albirex Niigata,J1 League,11,572,52.0,1,0,0.16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4
+danilo-e90a36,Danilo,26,Brazil,174.0,,MF,Albirex Niigata,J1 League,17,675,39.7,3,1,0.4,0.13,0.0,0.14,0.03,0.17,0.14,1.71,0.39,23.1,22.8,1.84,0.13,0.53,18.13,72.3,1.31,0.26,1.84,5.52,2.1,1.58,44.4,25.62,1.97,40.07,16.16,1.84,26.28,1.58,2.37,1.31,4.6,0.66,35.7,0.13,0.0,0.66,,,,,,,,,,,,,,,,,,3.0
+takuya-shimamura-738c9b-1,Takuya Shimamura,26,Japan,170.0,Left,FW-MF,Albirex Niigata,J1 League,13,596,45.8,1,1,0.15,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.45
+keisuke-kasai-503a5e,Keisuke Kasai,23,Japan,180.0,,MF,Albirex Niigata,J1 League,18,527,29.3,1,2,0.17,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.125
+ken-yamura-a5ffd6,Ken Yamura,28,Japan,168.0,,FW,Albirex Niigata,J1 League,23,549,23.9,4,0,0.66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5
+matheus-moraes-b44c30,Matheus Moraes,25,Brazil,176.0,Left,FW,Albirex Niigata,J1 League,10,512,51.2,2,2,0.35,0.35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kakeru-funaki-fc99e8-1,Kakeru Funaki,27,Japan,177.0,,DF,Albirex Niigata,J1 League,6,469,78.2,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6
+hiroto-uemura-63900b,Hiroto Uemura,24,Japan,173.0,,DF,Albirex Niigata,J1 League,10,459,45.9,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.35
+yoshiaki-takagi-fe8edd,Yoshiaki Takagi,32,Japan,169.0,,MF,Albirex Niigata,J1 League,18,398,22.1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+kazuhiko-chiba-0725e5,Kazuhiko Chiba,40,Japan,183.0,,DF-MF,Albirex Niigata,J1 League,4,358,89.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+motoki-ohara-2b1ce0-1,Motoki Ohara,25,Japan,170.0,,MF,Albirex Niigata,J1 League,7,336,48.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+kodai-mori-52e619,Kodai Mori,26,Japan,183.0,,DF,Albirex Niigata,J1 League,2,50,25.0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.325
+yamato-wakatsuki-3595a4,Yamato Wakatsuki,23,Japan,170.0,,FW,Albirex Niigata,J1 League,8,135,16.9,1,0,0.67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+miguel-silveira-054e3c,Miguel Silveira,22,Brazil,174.0,Right,FW,Albirex Niigata,J1 League,6,80,13.3,1,0,1.12,0.32,0.16,0.14,0.41,0.54,0.14,1.59,0.96,60.0,16.3,3.82,0.8,2.55,19.27,63.0,2.71,1.91,5.58,6.05,2.71,0.32,16.7,26.92,1.59,43.49,19.43,2.87,26.6,1.91,0.16,1.43,4.46,0.48,37.5,0.16,0.0,1.27,,,,,,,,,,,,,,,,,,0.4
+riku-ochiai-c757e6,Riku Ochiai,26,Japan,175.0,,MF,Albirex Niigata,J1 League,2,11,5.5,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.25
+shosei-okamoto-5f1da1,Shosei Okamoto,25,Japan,184.0,,DF,Albirex Niigata,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2
+yushin-otake-498ac0,Yushin Otake,20,Japan,170.0,,MF,Albirex Niigata,J1 League,0,0,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
