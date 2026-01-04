@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV, KFold
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV, RandomizedSearchCV, KFold
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import lightgbm as lgb
 import joblib
@@ -177,31 +177,47 @@ class FootballPlayerValuePredictor:
         
         return self.model
     
-    def tune_hyperparameters(self, X_train, y_train, cv=5):
+    def tune_hyperparameters(self, X_train, y_train, cv=3, sample_size=5000):
         start_time = time.time()
         print("\n" + "="*60)
-        print("🔍 HYPERPARAMETER TUNING - GridSearchCV")
+        print("🔍 HYPERPARAMETER TUNING - GridSearchCV (Optimized)")
         print("="*60)
         
+        # CRITICAL: Sample data for faster tuning
+        if len(X_train) > sample_size:
+            print(f"⚠️  Dataset too large ({len(X_train):,} samples)")
+            print(f"⚠️  Sampling {sample_size:,} samples for faster tuning...")
+            indices = np.random.choice(len(X_train), sample_size, replace=False)
+            X_sample = X_train[indices]
+            y_sample = y_train.iloc[indices] if hasattr(y_train, 'iloc') else y_train[indices]
+        else:
+            X_sample = X_train
+            y_sample = y_train
+            print(f"✓ Using full dataset ({len(X_train):,} samples)")
+        
+        # REDUCED parameter grid - only most impactful combinations
         param_grid = {
-            'n_estimators': [150, 200, 250],
-            'learning_rate': [0.03, 0.05, 0.07],
-            'max_depth': [5, 6, 7],
-            'num_leaves': [25, 31, 40],
-            'min_child_samples': [15, 20, 25]
+            'n_estimators': [150, 200],
+            'learning_rate': [0.05, 0.07],
+            'max_depth': [5, 6],
+            'num_leaves': [31],
+            'min_child_samples': [20]
         }
         
         total_combinations = np.prod([len(v) for v in param_grid.values()])
-        print(f"\n📊 Search space: {total_combinations} combinations")
-        print(f"📊 Cross-validation: {cv}-fold")
+        print(f"\n📊 Search space: {total_combinations} combinations (reduced from 243)")
+        print(f"📊 Cross-validation: {cv}-fold (reduced from 5)")
         print(f"📊 Total fits: {total_combinations * cv}")
-        print(f"\n⏳ This may take 5-15 minutes depending on dataset size...")
-        print(f"⏳ Started at: {time.strftime('%H:%M:%S')}\n")
+        print(f"📊 Estimated time: ~{total_combinations * cv * 2} minutes")
+        print(f"\n⏳ Started at: {time.strftime('%H:%M:%S')}\n")
         
         base_model = lgb.LGBMRegressor(
             random_state=self.random_state, 
             n_jobs=-1, 
-            verbose=-1
+            verbose=-1,
+            # Speed optimizations
+            force_col_wise=True,
+            max_bin=255
         )
         
         grid_search = GridSearchCV(
@@ -213,9 +229,23 @@ class FootballPlayerValuePredictor:
             verbose=2
         )
         
-        grid_search.fit(X_train, y_train)
+        grid_search.fit(X_sample, y_sample)
         
-        self.model = grid_search.best_estimator_
+        # Retrain best model on FULL training data
+        print(f"\n✓ Grid search completed on sample!")
+        print(f"\n🔄 Retraining best model on full dataset ({len(X_train):,} samples)...")
+        
+        best_model_full = lgb.LGBMRegressor(
+            **grid_search.best_params_,
+            random_state=self.random_state,
+            n_jobs=-1,
+            verbose=-1,
+            force_col_wise=True,
+            max_bin=255
+        )
+        best_model_full.fit(X_train, y_train)
+        
+        self.model = best_model_full
         
         elapsed = time.time() - start_time
         print(f"\n✅ Grid search completed in {elapsed/60:.2f} minutes ({elapsed:.1f}s)")
@@ -223,6 +253,88 @@ class FootballPlayerValuePredictor:
         print("="*60)
         
         return grid_search.best_params_, grid_search.best_score_, grid_search
+    
+    def tune_hyperparameters_random(self, X_train, y_train, cv=3, n_iter=20, sample_size=5000):
+        """
+        Faster alternative using RandomizedSearchCV
+        Tests random combinations instead of exhaustive grid
+        """
+        start_time = time.time()
+        print("\n" + "="*60)
+        print("🎲 HYPERPARAMETER TUNING - RandomizedSearchCV (FAST)")
+        print("="*60)
+        
+        # Sample data for faster tuning
+        if len(X_train) > sample_size:
+            print(f"⚠️  Sampling {sample_size:,}/{len(X_train):,} samples for tuning...")
+            indices = np.random.choice(len(X_train), sample_size, replace=False)
+            X_sample = X_train[indices]
+            y_sample = y_train.iloc[indices] if hasattr(y_train, 'iloc') else y_train[indices]
+        else:
+            X_sample = X_train
+            y_sample = y_train
+        
+        # Parameter distributions for random search
+        param_dist = {
+            'n_estimators': [100, 150, 200, 250, 300],
+            'learning_rate': [0.01, 0.03, 0.05, 0.07, 0.1],
+            'max_depth': [4, 5, 6, 7, 8],
+            'num_leaves': [20, 25, 31, 40, 50],
+            'min_child_samples': [10, 15, 20, 25, 30],
+            'subsample': [0.7, 0.8, 0.9, 1.0],
+            'colsample_bytree': [0.7, 0.8, 0.9, 1.0]
+        }
+        
+        print(f"\n📊 Random search: {n_iter} iterations")
+        print(f"📊 Cross-validation: {cv}-fold")
+        print(f"📊 Total fits: {n_iter * cv}")
+        print(f"📊 Estimated time: ~{n_iter * cv * 1.5:.0f} minutes")
+        print(f"\n⏳ Started at: {time.strftime('%H:%M:%S')}\n")
+        
+        base_model = lgb.LGBMRegressor(
+            random_state=self.random_state,
+            n_jobs=-1,
+            verbose=-1,
+            force_col_wise=True,
+            max_bin=255
+        )
+        
+        random_search = RandomizedSearchCV(
+            estimator=base_model,
+            param_distributions=param_dist,
+            n_iter=n_iter,
+            cv=cv,
+            scoring='r2',
+            n_jobs=-1,
+            verbose=2,
+            random_state=self.random_state
+        )
+        
+        random_search.fit(X_sample, y_sample)
+        
+        # Retrain on full data
+        print(f"\n✓ Random search completed!")
+        print(f"\n🔄 Retraining best model on full dataset...")
+        
+        best_model_full = lgb.LGBMRegressor(
+            **random_search.best_params_,
+            random_state=self.random_state,
+            n_jobs=-1,
+            verbose=-1,
+            force_col_wise=True,
+            max_bin=255
+        )
+        best_model_full.fit(X_train, y_train)
+        
+        self.model = best_model_full
+        
+        elapsed = time.time() - start_time
+        print(f"\n✅ Random search completed in {elapsed/60:.2f} minutes")
+        print(f"✅ Finished at: {time.strftime('%H:%M:%S')}")
+        print("="*60)
+        
+        return random_search.best_params_, random_search.best_score_, random_search
+    
     
     def evaluate(self, X_test, y_test):
         y_test_pred_log = self.model.predict(X_test)
