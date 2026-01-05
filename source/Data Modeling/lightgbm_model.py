@@ -236,6 +236,10 @@ print("✅ Feature scaling completed with StandardScaler")
 # ## 🤖 5. INITIAL MODEL TRAINING
 
 # %%
+
+# Tính thời gian feature engineering
+fe_time = time.time() - fe_start
+
 print("\n" + "="*80)
 print("🤖 INITIAL MODEL TRAINING")
 print("="*80)
