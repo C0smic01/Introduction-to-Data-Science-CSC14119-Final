@@ -1,832 +1,914 @@
 """
-⚽ Football Player Transfer Value Prediction System
-Streamlit UI for predicting player market value using ML models
+Football Player Market Value Predictor - Streamlit GUI
+========================================================
+File: app.py
+Run: streamlit run app.py
+
+Features:
+- Tab 1: Upload CSV file for batch prediction
+- Tab 2: Select player from existing dataset
+- Tab 3: Manual input (key features only)
 """
 
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+import joblib
+import os
 
-# Page configuration
-st.set_page_config(
-    page_title="⚽ Football Transfer Predictor",
-    page_icon="⚽",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-# Custom CSS for beautiful styling
-st.markdown("""
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
-    
-    /* Main theme */
-    .stApp {
-        background: linear-gradient(135deg, #0a1628 0%, #1a2f4a 50%, #0d1f36 100%);
-    }
-    
-    /* Header styling */
-    .main-header {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 3.5rem;
-        background: linear-gradient(90deg, #00ff87, #60efff, #00ff87);
-        background-size: 200% auto;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
-        animation: shine 3s linear infinite;
-        margin-bottom: 0;
-        letter-spacing: 3px;
-    }
-    
-    @keyframes shine {
-        to { background-position: 200% center; }
-    }
-    
-    .sub-header {
-        font-family: 'Roboto', sans-serif;
-        color: #8892b0;
-        text-align: center;
-        font-size: 1.1rem;
-        margin-top: -10px;
-        margin-bottom: 30px;
-    }
-    
-    /* Card styling */
-    .metric-card {
-        background: linear-gradient(145deg, rgba(26, 47, 74, 0.8), rgba(13, 31, 54, 0.9));
-        border: 1px solid rgba(0, 255, 135, 0.2);
-        border-radius: 16px;
-        padding: 24px;
-        margin: 10px 0;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
-    }
-    
-    .metric-card:hover {
-        border-color: rgba(0, 255, 135, 0.5);
-        transform: translateY(-2px);
-        transition: all 0.3s ease;
-    }
-    
-    .metric-value {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 2.8rem;
-        color: #00ff87;
-        margin: 0;
-    }
-    
-    .metric-label {
-        font-family: 'Roboto', sans-serif;
-        color: #8892b0;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    
-    /* Prediction result */
-    .prediction-box {
-        background: linear-gradient(145deg, rgba(0, 255, 135, 0.1), rgba(96, 239, 255, 0.1));
-        border: 2px solid #00ff87;
-        border-radius: 20px;
-        padding: 40px;
-        text-align: center;
-        margin: 30px 0;
-        box-shadow: 0 0 40px rgba(0, 255, 135, 0.2);
-    }
-    
-    .prediction-value {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 5rem;
-        background: linear-gradient(90deg, #00ff87, #60efff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin: 0;
-    }
-    
-    .prediction-label {
-        font-family: 'Roboto', sans-serif;
-        color: #ccd6f6;
-        font-size: 1.2rem;
-        margin-top: 10px;
-    }
-    
-    /* Model selector */
-    .model-card {
-        background: rgba(26, 47, 74, 0.6);
-        border: 2px solid transparent;
-        border-radius: 12px;
-        padding: 20px;
-        text-align: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    
-    .model-card.selected {
-        border-color: #00ff87;
-        background: rgba(0, 255, 135, 0.1);
-    }
-    
-    /* Sidebar */
-    .css-1d391kg {
-        background: linear-gradient(180deg, #0a1628 0%, #1a2f4a 100%);
-    }
-    
-    /* Input fields */
-    .stSelectbox > div > div {
-        background-color: rgba(26, 47, 74, 0.8);
-        border-color: rgba(0, 255, 135, 0.3);
-    }
-    
-    .stNumberInput > div > div > input {
-        background-color: rgba(26, 47, 74, 0.8);
-        border-color: rgba(0, 255, 135, 0.3);
-        color: #ccd6f6;
-    }
-    
-    /* Buttons */
-    .stButton > button {
-        background: linear-gradient(90deg, #00ff87, #60efff);
-        color: #0a1628;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        border: none;
-        border-radius: 30px;
-        padding: 15px 40px;
-        font-size: 1.1rem;
-        letter-spacing: 1px;
-        transition: all 0.3s ease;
-        width: 100%;
-    }
-    
-    .stButton > button:hover {
-        transform: scale(1.02);
-        box-shadow: 0 0 30px rgba(0, 255, 135, 0.4);
-    }
-    
-    /* Section headers */
-    .section-header {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 1.8rem;
-        color: #60efff;
-        border-left: 4px solid #00ff87;
-        padding-left: 15px;
-        margin: 30px 0 20px 0;
-        letter-spacing: 2px;
-    }
-    
-    /* Stats grid */
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-        margin: 20px 0;
-    }
-    
-    /* Footer */
-    .footer {
-        text-align: center;
-        color: #8892b0;
-        font-size: 0.9rem;
-        margin-top: 50px;
-        padding: 20px;
-        border-top: 1px solid rgba(0, 255, 135, 0.2);
-    }
-    
-    /* Hide Streamlit branding */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    
-    /* Tab styling */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    
-    .stTabs [data-baseweb="tab"] {
-        background-color: rgba(26, 47, 74, 0.6);
-        border-radius: 8px;
-        color: #8892b0;
-        padding: 10px 20px;
-    }
-    
-    .stTabs [aria-selected="true"] {
-        background: linear-gradient(90deg, rgba(0, 255, 135, 0.2), rgba(96, 239, 255, 0.2));
-        border-bottom: 2px solid #00ff87;
-    }
-    
-    /* ========== CUSTOM: Tiêu đề h4 màu nổi bật ========== */
-    h4 {
-        color: #00ff87 !important;
-        font-family: 'Bebas Neue', sans-serif !important;
-        font-size: 1.4rem !important;
-        letter-spacing: 1.5px !important;
-        border-bottom: 2px solid rgba(96, 239, 255, 0.3);
-        padding-bottom: 8px;
-        margin-bottom: 15px !important;
-    }
-    
-    /* Labels cho input fields sáng hơn */
-    .stSelectbox label, .stNumberInput label, .stSlider label {
-        color: #ccd6f6 !important;
-        font-weight: 500 !important;
-    }
-    
-    /* Màu chữ được chọn trong selectbox (Position, League, Club) */
-    .stSelectbox [data-baseweb="select"] span {
-        color: #00ff87 !important;
-    }
-    
-    /* Màu chữ trong dropdown menu */
-    [data-baseweb="menu"] li {
-        color: #ccd6f6 !important;
-    }
-    
-    /* Hover trong dropdown */
-    [data-baseweb="menu"] li:hover {
-        background-color: rgba(0, 255, 135, 0.2) !important;
-        color: #00ff87 !important;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-# Initialize session state
-if 'prediction_history' not in st.session_state:
-    st.session_state.prediction_history = []
-
-# Header
-st.markdown('<h1 class="main-header">⚽ FOOTBALL TRANSFER PREDICTOR</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">AI-Powered Player Market Value Estimation System</p>', unsafe_allow_html=True)
-
-# Model metrics (from notebooks)
-MODEL_METRICS = {
-    "Random Forest": {
-        "r2": 0.7080,
-        "rmse": 4.11,
-        "mae": 1.52,
-        "cv_score": 0.7040,
-        "icon": "🌲",
-        "color": "#2ecc71",
-        "description": "Ensemble learning với nhiều decision trees"
-    },
-    "XGBoost": {
-        "r2": 0.7802,
-        "rmse": 3.18,
-        "mae": 1.18,
-        "cv_score": 0.7828,
-        "icon": "🚀",
-        "color": "#3498db",
-        "description": "Gradient boosting với regularization"
-    },
-    "LightGBM": {
-        "r2": 0.78,  # Estimated
-        "rmse": 3.20,
-        "mae": 1.20,
-        "cv_score": 0.78,
-        "icon": "⚡",
-        "color": "#9b59b6",
-        "description": "Light gradient boosting - Đang phát triển"
-    }
+# ============================================================
+# CONFIGURATION
+# ============================================================
+# Model paths for all 3 models
+MODELS_CONFIG = {
+    'Random Forest': 'pkl/RF_final_model.pkl',
+    'XGBoost': 'pkl/XGB_final_model.pkl',
+    'LightGBM': 'pkl/LGB_final_model.pkl'
 }
+FEATURES_PATH = "pkl/selected_features.pkl"
+DATASET_PATH = "football_players_dataset.csv"  # Original dataset
 
-# Feature configurations
-POSITIONS = ["GK", "DF", "MF", "FW"]
-LEAGUES = [
-    "Premier League", "La Liga", "Bundesliga", "Serie A", "Ligue 1",
-    "Eredivisie", "Primeira Liga", "Championship", "MLS", "A-League Men",
-    "Saudi Pro League", "Other"
+# Top 10 most important features (from feature importance analysis)
+KEY_FEATURES = [
+    'age', 'minutes_played', 'appearances',
+    'goals', 'assists', 'goals_per_90',
+    'progressive_carries_per90', 'progressive_passes_per90',
+    'passes_completed_per90', 'sca_per90'
 ]
 
-TOP_CLUBS = [
-    "Manchester City", "Real Madrid", "Bayern Munich", "Liverpool",
-    "Arsenal", "Barcelona", "Paris Saint-Germain", "Inter Milan",
-    "Borussia Dortmund", "Chelsea", "Manchester United", "Juventus",
-    "AC Milan", "Atlético Madrid", "Tottenham Hotspur", "Napoli",
-    "Newcastle United", "Aston Villa", "Brighton", "West Ham United",
-    "Other"
-]
+# ============================================================
+# LOAD RESOURCES
+# ============================================================
+@st.cache_resource
+def load_all_models():
+    """Load all 3 trained models."""
+    models = {}
+    for model_name, model_path in MODELS_CONFIG.items():
+        try:
+            models[model_name] = joblib.load(model_path)
+        except Exception as e:
+            st.warning(f"Failed to load {model_name}: {str(e)}")
+            models[model_name] = None
+    return models
 
-# Sidebar - Model Selection
-with st.sidebar:
-    st.markdown("### 🤖 MODEL SELECTION")
-    
-    selected_model = st.selectbox(
-        "Choose ML Model",
-        list(MODEL_METRICS.keys()),
-        index=1,  # Default to XGBoost
-        help="Select the machine learning model for prediction"
-    )
-    
-    model_info = MODEL_METRICS[selected_model]
-    
-    st.markdown(f"""
-    <div class="metric-card">
-        <h3 style="color: {model_info['color']}; margin: 0;">
-            {model_info['icon']} {selected_model}
-        </h3>
-        <p style="color: #8892b0; font-size: 0.85rem; margin: 10px 0;">
-            {model_info['description']}
-        </p>
-        <hr style="border-color: rgba(255,255,255,0.1);">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-            <div>
-                <p class="metric-label">R² Score</p>
-                <p style="color: #00ff87; font-size: 1.3rem; margin: 0;">{model_info['r2']:.4f}</p>
-            </div>
-            <div>
-                <p class="metric-label">RMSE</p>
-                <p style="color: #60efff; font-size: 1.3rem; margin: 0;">€{model_info['rmse']:.2f}M</p>
-            </div>
-            <div>
-                <p class="metric-label">MAE</p>
-                <p style="color: #ffd93d; font-size: 1.3rem; margin: 0;">€{model_info['mae']:.2f}M</p>
-            </div>
-            <div>
-                <p class="metric-label">CV Score</p>
-                <p style="color: #ff6b6b; font-size: 1.3rem; margin: 0;">{model_info['cv_score']:.4f}</p>
-            </div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    st.markdown("---")
-    st.markdown("### 📊 MODEL COMPARISON")
-    
-    # Model comparison chart
-    fig_compare = go.Figure()
-    
-    models = list(MODEL_METRICS.keys())
-    r2_scores = [MODEL_METRICS[m]["r2"] for m in models]
-    colors = [MODEL_METRICS[m]["color"] for m in models]
-    
-    fig_compare.add_trace(go.Bar(
-        x=models,
-        y=r2_scores,
-        marker_color=colors,
-        text=[f"{s:.2%}" for s in r2_scores],
-        textposition='outside'
-    ))
-    
-    fig_compare.update_layout(
-        title=dict(text="R² Score Comparison", font=dict(color="#ccd6f6")),
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
-        font=dict(color="#8892b0"),
-        height=250,
-        margin=dict(l=20, r=20, t=40, b=20),
-        yaxis=dict(range=[0, 1], gridcolor='rgba(255,255,255,0.1)'),
-        xaxis=dict(gridcolor='rgba(255,255,255,0.1)')
-    )
-    
-    st.plotly_chart(fig_compare, use_container_width=True)
+@st.cache_resource
+def load_features(_models):
+    """Load required features list from the first available model."""
+    # Try to get features from model itself (most reliable)
+    for model_name, model in _models.items():
+        if model is not None and hasattr(model, 'feature_names_in_'):
+            return list(model.feature_names_in_)
 
-# Main content area
-tab1, tab2, tab3 = st.tabs(["🎯 PREDICTION", "📈 ANALYTICS", "ℹ️ ABOUT"])
+    # Fallback to pkl file
+    try:
+        return joblib.load(FEATURES_PATH)
+    except:
+        return None
 
-with tab1:
-    st.markdown('<p class="section-header">PLAYER INFORMATION</p>', unsafe_allow_html=True)
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("#### 👤 Basic Info")
-        age = st.slider("Age", min_value=16, max_value=42, value=25, 
-                       help="Player's current age")
-        position = st.selectbox("Position", POSITIONS, index=2,
-                               help="Primary playing position")
-        league = st.selectbox("League", LEAGUES, index=0,
-                             help="Current league")
-        club = st.selectbox("Club", TOP_CLUBS, index=0,
-                           help="Current club")
-    
-    with col2:
-        st.markdown("#### ⚽ Match Statistics")
-        appearances = st.number_input("Appearances", min_value=0, max_value=60, value=30,
-                                      help="Total appearances this season")
-        minutes_played = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500,
-                                         help="Total minutes played")
-        goals = st.number_input("Goals", min_value=0, max_value=50, value=8,
-                               help="Total goals scored")
-        assists = st.number_input("Assists", min_value=0, max_value=30, value=5,
-                                 help="Total assists")
-    
-    with col3:
-        st.markdown("#### 📊 Advanced Metrics")
-        xg_per90 = st.number_input("xG per 90", min_value=0.0, max_value=1.5, value=0.35, step=0.01,
-                                   help="Expected goals per 90 minutes")
-        xag_per90 = st.number_input("xAG per 90", min_value=0.0, max_value=1.0, value=0.20, step=0.01,
-                                    help="Expected assists per 90 minutes")
-        progressive_carries = st.number_input("Progressive Carries/90", min_value=0.0, max_value=15.0, value=3.5, step=0.1,
-                                              help="Progressive carries per 90 minutes")
-        pass_completion = st.number_input("Pass Completion %", min_value=50.0, max_value=100.0, value=82.0, step=0.1,
-                                          help="Pass completion percentage")
+@st.cache_data
+def load_dataset():
+    """Load original dataset for player selection."""
+    try:
+        df = pd.read_csv(DATASET_PATH)
+        return df
+    except:
+        return None
 
-    st.markdown("---")
+# ============================================================
+# FEATURE ENGINEERING (same as training)
+# ============================================================
+def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Apply feature engineering pipeline."""
+    df = df.copy()
     
-    # Prediction button
-    col_btn1, col_btn2, col_btn3 = st.columns([1, 2, 1])
-    with col_btn2:
-        predict_clicked = st.button("🔮 PREDICT MARKET VALUE", use_container_width=True)
+    # 1. Log transformations
+    for col in ['minutes_played', 'goals', 'assists', 'appearances']:
+        if col in df.columns:
+            df[f'{col}_log'] = np.log1p(df[col])
     
-    if predict_clicked:
-        # Simulate prediction (replace with actual model prediction)
-        with st.spinner("🔄 Analyzing player data..."):
-            import time
-            time.sleep(1)  # Simulate processing
-            
-            # Feature engineering (simplified)
-            base_value = 5.0  # Base value in millions
-            
-            # Age factor (peak at 25-27)
-            if 23 <= age <= 28:
-                age_factor = 1.3
-            elif age < 23:
-                age_factor = 1.1
-            elif age > 30:
-                age_factor = 0.7
+    # 2. Performance ratios
+    if 'goals_per_90' in df.columns and 'shots_per90' in df.columns:
+        df['conversion_rate'] = df['goals_per_90'] / df['shots_per90'].replace(0, 0.01)
+    
+    if 'key_passes_per90' in df.columns and 'passes_completed_per90' in df.columns:
+        df['key_pass_ratio'] = df['key_passes_per90'] / df['passes_completed_per90'].replace(0, 0.01)
+    
+    if 'interceptions_per90' in df.columns and 'blocks_per90' in df.columns:
+        df['defensive_contribution'] = df['interceptions_per90'] + df['blocks_per90']
+    
+    if 'progressive_passes_per90' in df.columns and 'progressive_carries_per90' in df.columns:
+        df['total_progressive'] = df['progressive_passes_per90'] + df['progressive_carries_per90']
+    
+    # 3. Interaction features
+    if 'age' in df.columns and 'minutes_played' in df.columns:
+        df['age_experience'] = df['age'] * np.log1p(df['minutes_played'])
+    
+    if 'minutes_played' in df.columns and 'appearances' in df.columns:
+        df['minutes_per_game'] = df['minutes_played'] / df['appearances'].replace(0, 1)
+    
+    # 4. Polynomial features
+    for col in ['goals', 'assists', 'minutes_played']:
+        if col in df.columns:
+            df[f'{col}_squared'] = df[col] ** 2
+    
+    # 5. Categorical encoding (frequency) - skip if columns don't exist
+    for col in ['nationality', 'current_club', 'league', 'position']:
+        if col in df.columns:
+            freq = df[col].map(df[col].value_counts())
+            df[f'{col}_freq'] = freq.fillna(1)
+        else:
+            # Create default frequency encoding if column doesn't exist
+            df[f'{col}_freq'] = 1
+
+    # 6. League label encoding
+    if 'league' in df.columns:
+        league_map = {league: i for i, league in enumerate(df['league'].unique())}
+        df['league_label_enc'] = df['league'].map(league_map).fillna(0)
+    else:
+        df['league_label_enc'] = 0
+    
+    return df
+
+def prepare_for_prediction(df: pd.DataFrame, required_features: list,
+                           training_data: pd.DataFrame = None) -> pd.DataFrame:
+    """Prepare data for model prediction."""
+
+    df = df.copy()
+
+    # Calculate target encoding from training data if available
+    nationality_target_mean = 1.5  # Default value
+    club_target_mean = 1.5  # Default value
+
+    if training_data is not None and 'market_value' in training_data.columns:
+        # Calculate target encoding maps from training data
+        if 'nationality' in training_data.columns and 'nationality' in df.columns:
+            nationality_map = training_data.groupby('nationality')['market_value'].mean().to_dict()
+            df['nationality_target_enc'] = df['nationality'].map(nationality_map).fillna(nationality_target_mean)
+        elif 'nationality' not in df.columns:
+            df['nationality_target_enc'] = nationality_target_mean
+
+        if 'current_club' in training_data.columns and 'current_club' in df.columns:
+            club_map = training_data.groupby('current_club')['market_value'].mean().to_dict()
+            df['current_club_target_enc'] = df['current_club'].map(club_map).fillna(club_target_mean)
+        elif 'current_club' not in df.columns:
+            df['current_club_target_enc'] = club_target_mean
+    else:
+        # No training data, use defaults
+        if 'nationality_target_enc' not in df.columns:
+            df['nationality_target_enc'] = nationality_target_mean
+        if 'current_club_target_enc' not in df.columns:
+            df['current_club_target_enc'] = club_target_mean
+
+    # Set default values for categorical columns if not present (for frequency encoding)
+    if 'nationality' not in df.columns:
+        df['nationality'] = 'Unknown'
+    if 'current_club' not in df.columns:
+        df['current_club'] = 'Unknown'
+    if 'league' not in df.columns:
+        df['league'] = 'Unknown'
+    if 'position' not in df.columns:
+        df['position'] = 'Unknown'
+
+    # Apply feature engineering
+    df_eng = engineer_features(df)
+
+    # Ensure all required features exist with default values
+    for feat in required_features:
+        if feat not in df_eng.columns:
+            # Set reasonable defaults based on feature name
+            if feat == 'nationality_target_enc':
+                df_eng[feat] = nationality_target_mean
+            elif feat == 'current_club_target_enc':
+                df_eng[feat] = club_target_mean
+            elif 'freq' in feat:
+                df_eng[feat] = 1  # Frequency default
+            elif 'label_enc' in feat:
+                df_eng[feat] = 0  # Encoding default
             else:
-                age_factor = 1.0
-            
-            # Position factor
-            pos_factors = {"FW": 1.4, "MF": 1.2, "DF": 0.9, "GK": 0.7}
-            pos_factor = pos_factors.get(position, 1.0)
-            
-            # League factor
-            league_factors = {
-                "Premier League": 2.0, "La Liga": 1.5, "Bundesliga": 1.4,
-                "Serie A": 1.3, "Ligue 1": 1.2, "Other": 0.5
-            }
-            league_factor = league_factors.get(league, 0.8)
-            
-            # Performance factors
-            goals_factor = 1 + (goals * 0.05)
-            assists_factor = 1 + (assists * 0.03)
-            xg_factor = 1 + (xg_per90 * 0.5)
-            minutes_factor = min(minutes_played / 2000, 1.5)
-            
-            # Calculate predicted value
-            predicted_value = (
-                base_value 
-                * age_factor 
-                * pos_factor 
-                * league_factor 
-                * goals_factor 
-                * assists_factor 
-                * xg_factor 
-                * minutes_factor
-            )
-            
-            # Add some randomness based on model
-            np.random.seed(42)
-            model_variance = {"Random Forest": 0.15, "XGBoost": 0.10, "LightGBM": 0.12}
-            variance = model_variance.get(selected_model, 0.1)
-            predicted_value *= np.random.uniform(1 - variance, 1 + variance)
-            
-            # Cap values
-            predicted_value = max(0.1, min(predicted_value, 200))
-            
-            # Confidence interval
-            rmse = MODEL_METRICS[selected_model]["rmse"]
-            lower_bound = max(0.1, predicted_value - rmse)
-            upper_bound = predicted_value + rmse
-        
-        # Display prediction
-        st.markdown(f"""
-        <div class="prediction-box">
-            <p class="metric-label">PREDICTED MARKET VALUE</p>
-            <p class="prediction-value">€{predicted_value:.2f}M</p>
-            <p class="prediction-label">
-                Confidence Range: €{lower_bound:.2f}M - €{upper_bound:.2f}M
-            </p>
-            <p style="color: #8892b0; font-size: 0.9rem; margin-top: 15px;">
-                Model: {model_info['icon']} {selected_model} | R²: {model_info['r2']:.4f}
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        # Store prediction
-        st.session_state.prediction_history.append({
-            "model": selected_model,
-            "age": age,
-            "position": position,
-            "league": league,
-            "value": predicted_value
-        })
-        
-        # Feature contribution visualization
-        st.markdown('<p class="section-header">PREDICTION BREAKDOWN</p>', unsafe_allow_html=True)
-        
-        contributions = {
-            "Age Factor": age_factor * 20,
-            "Position": pos_factor * 20,
-            "League": league_factor * 15,
-            "Goals": goals_factor * 15,
-            "xG Performance": xg_factor * 15,
-            "Minutes Played": minutes_factor * 15
-        }
-        
-        fig_contrib = go.Figure(go.Bar(
-            x=list(contributions.values()),
-            y=list(contributions.keys()),
-            orientation='h',
-            marker=dict(
-                color=['#00ff87', '#60efff', '#ffd93d', '#ff6b6b', '#9b59b6', '#3498db'],
-                line=dict(color='rgba(255,255,255,0.3)', width=1)
-            ),
-            text=[f"{v:.1f}%" for v in contributions.values()],
-            textposition='outside'
-        ))
-        
-        fig_contrib.update_layout(
-            title=dict(text="Factor Contributions", font=dict(color="#ccd6f6", size=16)),
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color="#8892b0"),
-            height=350,
-            margin=dict(l=20, r=80, t=50, b=20),
-            xaxis=dict(
-                title="Contribution (%)",
-                gridcolor='rgba(255,255,255,0.1)',
-                range=[0, max(contributions.values()) * 1.2]
-            ),
-            yaxis=dict(gridcolor='rgba(255,255,255,0.1)')
-        )
-        
-        st.plotly_chart(fig_contrib, use_container_width=True)
-        
-        # Comparison with similar players
-        col_comp1, col_comp2 = st.columns(2)
-        
-        with col_comp1:
-            st.markdown("#### 🎯 Value Distribution")
-            
-            # Simulated distribution
-            np.random.seed(42)
-            similar_values = np.random.lognormal(mean=np.log(predicted_value), sigma=0.5, size=100)
-            
-            fig_dist = go.Figure()
-            fig_dist.add_trace(go.Histogram(
-                x=similar_values,
-                nbinsx=20,
-                marker_color='rgba(0, 255, 135, 0.6)',
-                marker_line=dict(color='#00ff87', width=1)
-            ))
-            fig_dist.add_vline(x=predicted_value, line_dash="dash", line_color="#ff6b6b",
-                              annotation_text=f"Your Player: €{predicted_value:.1f}M")
-            
-            fig_dist.update_layout(
-                paper_bgcolor='rgba(0,0,0,0)',
-                plot_bgcolor='rgba(0,0,0,0)',
-                font=dict(color="#8892b0"),
-                height=300,
-                margin=dict(l=20, r=20, t=20, b=40),
-                xaxis=dict(title="Market Value (€M)", gridcolor='rgba(255,255,255,0.1)'),
-                yaxis=dict(title="Count", gridcolor='rgba(255,255,255,0.1)')
-            )
-            st.plotly_chart(fig_dist, use_container_width=True)
-        
-        with col_comp2:
-            st.markdown("#### 📊 Model Predictions")
-            
-            # Compare all models
-            model_predictions = {}
-            for model_name in MODEL_METRICS.keys():
-                var = {"Random Forest": 1.05, "XGBoost": 1.0, "LightGBM": 1.02}
-                model_predictions[model_name] = predicted_value * var.get(model_name, 1.0)
-            
-            fig_models = go.Figure(go.Bar(
-                x=list(model_predictions.keys()),
-                y=list(model_predictions.values()),
-                marker_color=[MODEL_METRICS[m]["color"] for m in model_predictions.keys()],
-                text=[f"€{v:.2f}M" for v in model_predictions.values()],
-                textposition='outside'
-            ))
-            
-            fig_models.update_layout(
-                paper_bgcolor='rgba(0,0,0,0)',
-                plot_bgcolor='rgba(0,0,0,0)',
-                font=dict(color="#8892b0"),
-                height=300,
-                margin=dict(l=20, r=20, t=20, b=40),
-                yaxis=dict(title="Predicted Value (€M)", gridcolor='rgba(255,255,255,0.1)'),
-                xaxis=dict(gridcolor='rgba(255,255,255,0.1)')
-            )
-            st.plotly_chart(fig_models, use_container_width=True)
+                df_eng[feat] = 0  # Numeric default
 
-with tab2:
-    st.markdown('<p class="section-header">MODEL PERFORMANCE ANALYTICS</p>', unsafe_allow_html=True)
+    # Select only required features in the correct order
+    df_final = df_eng[required_features].copy()
+
+    # Fill NaN with appropriate defaults
+    df_final = df_final.fillna(0)
+
+    return df_final
+
+def predict_values(model, X: pd.DataFrame) -> np.ndarray:
+    """Make predictions and convert from log scale."""
+    log_preds = model.predict(X)
+    predictions = np.expm1(log_preds)
+    return np.maximum(0, predictions)  # Ensure non-negative
+
+# ============================================================
+# STREAMLIT UI
+# ============================================================
+def main():
+    # Page config
+    st.set_page_config(
+        page_title="⚽ Player Value Predictor",
+        page_icon="⚽",
+        layout="wide"
+    )
     
-    col_a1, col_a2 = st.columns(2)
+    # Header
+    st.title("⚽ Football Player Market Value Predictor")
+    st.markdown("Predict player market value using Machine Learning")
+    st.markdown("---")
+
+    # Load resources
+    models = load_all_models()
+    required_features = load_features(models)
+    dataset = load_dataset()
+
+    # Check if resources loaded
+    if required_features is None:
+        st.error("❌ Features list not found! Please ensure 'pkl/selected_features.pkl' exists.")
+        st.stop()
+
+    # Count successfully loaded models
+    loaded_models = {name: model for name, model in models.items() if model is not None}
+
+    if len(loaded_models) == 0:
+        st.error("❌ No models found! Please ensure model files exist in 'pkl/' folder.")
+        st.info("💡 Run the training notebooks first to generate the model files.")
+        st.stop()
+
+    # Sidebar - Model Selection
+    st.sidebar.header("🎯 Model Selection")
+    selected_model_name = st.sidebar.selectbox(
+        "Choose a prediction model:",
+        options=list(loaded_models.keys()),
+        help="Select which machine learning model to use for predictions"
+    )
+    selected_model = loaded_models[selected_model_name]
+
+    # Model info in sidebar
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("📊 Model Info")
+    model_descriptions = {
+        'Random Forest': "Ensemble of decision trees. Robust and interpretable.",
+        'XGBoost': "Gradient boosting. High performance and accuracy.",
+        'LightGBM': "Fast gradient boosting. Efficient for large datasets."
+    }
+    st.sidebar.info(model_descriptions.get(selected_model_name, ""))
+
+    # Success message
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.success(f"✅ {len(loaded_models)}/{len(MODELS_CONFIG)} models loaded")
+    with col2:
+        st.info(f"📊 {len(required_features)} features")
+    with col3:
+        if dataset is not None:
+            st.info(f"👥 {len(dataset):,} players in database")
+
+    st.info(f"🎯 **Selected Model:** {selected_model_name}")
+    st.markdown("---")
     
-    with col_a1:
-        # Feature importance (from notebooks)
-        st.markdown("#### 🔝 Top 10 Important Features")
-        
-        features = [
-            "Current Club", "Age", "Goals + Assists", "Minutes Played",
-            "Performance Score", "Minutes² ", "Appearances", "League Quality",
-            "Experience", "Passes Received/90"
-        ]
-        importance = [0.58, 0.074, 0.066, 0.054, 0.050, 0.048, 0.024, 0.019, 0.015, 0.011]
-        
-        fig_imp = go.Figure(go.Bar(
-            x=importance,
-            y=features,
-            orientation='h',
-            marker=dict(
-                color=importance,
-                colorscale=[[0, '#60efff'], [0.5, '#00ff87'], [1, '#ffd93d']],
-                line=dict(color='rgba(255,255,255,0.3)', width=1)
-            ),
-            text=[f"{v:.1%}" for v in importance],
-            textposition='outside'
-        ))
-        
-        fig_imp.update_layout(
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color="#8892b0"),
-            height=400,
-            margin=dict(l=20, r=80, t=20, b=20),
-            xaxis=dict(title="Importance", gridcolor='rgba(255,255,255,0.1)'),
-            yaxis=dict(gridcolor='rgba(255,255,255,0.1)')
-        )
-        st.plotly_chart(fig_imp, use_container_width=True)
+    # ========================================
+    # TABS
+    # ========================================
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "📁 Upload CSV File",
+        "🔍 Select from Database",
+        "✏️ Manual Input",
+        "📊 Model Comparison"
+    ])
     
-    with col_a2:
-        # Model metrics comparison
-        st.markdown("#### 📈 Model Metrics Comparison")
+    # ========================================
+    # TAB 1: UPLOAD CSV
+    # ========================================
+    with tab1:
+        st.header("📁 Batch Prediction from CSV")
+        st.markdown("Upload a CSV file with player statistics to predict market values.")
         
-        metrics_df = pd.DataFrame([
-            {"Model": name, "Metric": "R²", "Value": data["r2"]}
-            for name, data in MODEL_METRICS.items()
-        ] + [
-            {"Model": name, "Metric": "CV Score", "Value": data["cv_score"]}
-            for name, data in MODEL_METRICS.items()
-        ])
+        # Download template
+        if dataset is not None:
+            template_df = dataset.head(3).drop(columns=['market_value'], errors='ignore')
+            csv_template = template_df.to_csv(index=False)
+            st.download_button(
+                label="📥 Download CSV Template",
+                data=csv_template,
+                file_name="player_template.csv",
+                mime="text/csv"
+            )
         
-        fig_metrics = px.bar(
-            metrics_df,
-            x="Model",
-            y="Value",
-            color="Metric",
-            barmode="group",
-            color_discrete_sequence=["#00ff87", "#60efff"]
-        )
+        # File uploader
+        uploaded_file = st.file_uploader("Upload your CSV file", type=['csv'])
         
-        fig_metrics.update_layout(
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color="#8892b0"),
-            height=400,
-            legend=dict(orientation="h", yanchor="bottom", y=1.02),
-            yaxis=dict(title="Score", gridcolor='rgba(255,255,255,0.1)', range=[0, 1]),
-            xaxis=dict(gridcolor='rgba(255,255,255,0.1)')
-        )
-        st.plotly_chart(fig_metrics, use_container_width=True)
+        if uploaded_file is not None:
+            try:
+                # Read uploaded file
+                upload_df = pd.read_csv(uploaded_file)
+                st.write(f"📊 Loaded {len(upload_df)} players")
+                
+                # Show preview
+                with st.expander("Preview uploaded data"):
+                    st.dataframe(upload_df.head(10))
+                
+                # Predict button
+                if st.button("🚀 Predict Market Values", key="predict_csv"):
+                    with st.spinner(f"Processing with {selected_model_name}..."):
+                        # Prepare data
+                        X = prepare_for_prediction(upload_df, required_features, dataset)
+
+                        # Predict
+                        predictions = predict_values(selected_model, X)
+                        
+                        # Add predictions to dataframe
+                        result_df = upload_df.copy()
+                        result_df['Predicted_Value_EUR_M'] = predictions.round(2)
+                        
+                        # Sort by predicted value
+                        result_df = result_df.sort_values('Predicted_Value_EUR_M', ascending=False)
+                        
+                        # Display results
+                        st.success("✅ Prediction complete!")
+                        
+                        # Show top predictions
+                        st.subheader("🏆 Top 10 Most Valuable Players")
+                        display_cols = ['Predicted_Value_EUR_M']
+                        if 'current_club' in result_df.columns:
+                            display_cols = ['current_club'] + display_cols
+                        if 'age' in result_df.columns:
+                            display_cols = ['age'] + display_cols
+                        
+                        st.dataframe(result_df.head(10)[display_cols])
+                        
+                        # Statistics
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("Average Value", f"€{predictions.mean():.2f}M")
+                        with col2:
+                            st.metric("Median Value", f"€{np.median(predictions):.2f}M")
+                        with col3:
+                            st.metric("Max Value", f"€{predictions.max():.2f}M")
+                        with col4:
+                            st.metric("Min Value", f"€{predictions.min():.2f}M")
+                        
+                        # Download results
+                        csv_result = result_df.to_csv(index=False)
+                        st.download_button(
+                            label="📥 Download Results CSV",
+                            data=csv_result,
+                            file_name="predictions_result.csv",
+                            mime="text/csv"
+                        )
+                        
+            except Exception as e:
+                st.error(f"❌ Error processing file: {str(e)}")
     
-    # RMSE Comparison
-    st.markdown("#### 📉 Error Metrics (Lower is Better)")
+    # ========================================
+    # TAB 2: SELECT FROM DATABASE
+    # ========================================
+    with tab2:
+        st.header("🔍 Select Player from Database")
+        
+        if dataset is None:
+            st.warning("⚠️ Dataset not found. Please ensure 'input/football_players_dataset.csv' exists.")
+        else:
+            # Filters
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                # League filter
+                leagues = ['All'] + sorted(dataset['league'].unique().tolist())
+                selected_league = st.selectbox("🏆 League", leagues)
+            
+            with col2:
+                # Club filter
+                if selected_league == 'All':
+                    clubs = ['All'] + sorted(dataset['current_club'].unique().tolist())
+                else:
+                    clubs = ['All'] + sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
+                selected_club = st.selectbox("🏟️ Club", clubs)
+            
+            with col3:
+                # Position filter
+                positions = ['All', 'Defender', 'Midfielder', 'Forward']
+                selected_position = st.selectbox("📍 Position", positions)
+            
+            # Apply filters
+            filtered_df = dataset.copy()
+            if selected_league != 'All':
+                filtered_df = filtered_df[filtered_df['league'] == selected_league]
+            if selected_club != 'All':
+                filtered_df = filtered_df[filtered_df['current_club'] == selected_club]
+            if selected_position != 'All':
+                pos_map = {'Defender': 'is_DF', 'Midfielder': 'is_MF', 'Forward': 'is_FW'}
+                filtered_df = filtered_df[filtered_df[pos_map[selected_position]] == 1]
+            
+            st.write(f"📊 Found {len(filtered_df)} players")
+            
+            # Player selection
+            if len(filtered_df) > 0:
+                # Create display name
+                filtered_df['display_name'] = filtered_df['current_club'] + " - Age " + filtered_df['age'].astype(str)
+                
+                # Select player by index
+                player_idx = st.selectbox(
+                    "👤 Select Player",
+                    options=filtered_df.index.tolist(),
+                    format_func=lambda x: filtered_df.loc[x, 'display_name']
+                )
+                
+                selected_player = filtered_df.loc[[player_idx]]
+                
+                # Show player info
+                st.subheader("📋 Player Statistics")
+                
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    st.metric("Age", int(selected_player['age'].values[0]))
+                with col2:
+                    st.metric("Appearances", int(selected_player['appearances'].values[0]))
+                with col3:
+                    st.metric("Goals", int(selected_player['goals'].values[0]))
+                with col4:
+                    st.metric("Assists", int(selected_player['assists'].values[0]))
+                
+                # Show more stats
+                with st.expander("📊 View All Statistics"):
+                    st.dataframe(selected_player.T)
+                
+                # Actual vs Predicted
+                actual_value = selected_player['market_value'].values[0]
+                
+                # Predict
+                if st.button("🎯 Predict Market Value", key="predict_select"):
+                    with st.spinner(f"Calculating with {selected_model_name}..."):
+                        X = prepare_for_prediction(selected_player, required_features, dataset)
+                        prediction = predict_values(selected_model, X)[0]
+                        
+                        st.markdown("---")
+                        st.subheader("💰 Prediction Result")
+                        
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("🎯 Predicted Value", f"€{prediction:.2f}M")
+                        with col2:
+                            st.metric("📊 Actual Value", f"€{actual_value:.2f}M")
+                        with col3:
+                            diff = prediction - actual_value
+                            diff_pct = (diff / actual_value) * 100 if actual_value > 0 else 0
+                            st.metric("📈 Difference", f"€{diff:.2f}M", f"{diff_pct:+.1f}%")
     
-    col_e1, col_e2, col_e3 = st.columns(3)
-    
-    for col, (model_name, data) in zip([col_e1, col_e2, col_e3], MODEL_METRICS.items()):
-        with col:
+    # ========================================
+    # TAB 3: MANUAL INPUT
+    # ========================================
+    with tab3:
+        st.header("✏️ Manual Input")
+        st.markdown("Enter player information for market value prediction.")
+
+        st.info("💡 **Important:** League and Club heavily influence predictions (Club = 58% importance!)")
+
+        # Create input form
+        with st.form("manual_input_form"):
+            st.subheader("👤 Basic Information")
+            col1, col2, col3 = st.columns(3)
+
+            with col1:
+                age = st.number_input("Age", min_value=16, max_value=45, value=25)
+            with col2:
+                appearances = st.number_input("Appearances (this season)", min_value=0, max_value=60, value=30)
+            with col3:
+                minutes = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500)
+
+            st.subheader("📍 Position & Club Information")
+            col1, col2, col3 = st.columns(3)
+
+            with col1:
+                position = st.selectbox("Primary Position", ["Defender", "Midfielder", "Forward"])
+
+            with col2:
+                # Get unique leagues from dataset
+                if dataset is not None:
+                    available_leagues = sorted(dataset['league'].unique().tolist())
+                    selected_league = st.selectbox("League", available_leagues,
+                                                   index=available_leagues.index("Premier League") if "Premier League" in available_leagues else 0,
+                                                   help="Player's current league - major factor in valuation")
+                else:
+                    selected_league = st.text_input("League", value="Premier League")
+
+            with col3:
+                # Get clubs from selected league
+                if dataset is not None and selected_league:
+                    league_clubs = sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
+                    if len(league_clubs) > 0:
+                        selected_club = st.selectbox("Current Club", league_clubs,
+                                                    help="Player's club - most important factor (58% importance!)")
+                    else:
+                        selected_club = st.text_input("Current Club", value="Unknown")
+                else:
+                    selected_club = st.text_input("Current Club", value="Unknown")
+
+            # Nationality
+            if dataset is not None:
+                available_nationalities = sorted(dataset['nationality'].unique().tolist())
+                nationality = st.selectbox("Nationality", available_nationalities,
+                                          index=0,
+                                          help="Player's nationality")
+            else:
+                nationality = st.text_input("Nationality", value="Unknown")
+            
+            st.subheader("⚽ Goal Contributions")
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                goals = st.number_input("Total Goals", min_value=0, max_value=50, value=5)
+            with col2:
+                assists = st.number_input("Total Assists", min_value=0, max_value=30, value=5)
+            with col3:
+                goals_per_90 = st.number_input("Goals per 90 min", min_value=0.0, max_value=2.0, value=0.2, step=0.05)
+            
+            st.subheader("📈 Advanced Stats (per 90 minutes)")
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                progressive_carries = st.number_input("Progressive Carries", min_value=0.0, max_value=15.0, value=3.0, step=0.5)
+            with col2:
+                progressive_passes = st.number_input("Progressive Passes", min_value=0.0, max_value=15.0, value=5.0, step=0.5)
+            with col3:
+                sca = st.number_input("Shot-Creating Actions", min_value=0.0, max_value=10.0, value=3.0, step=0.5)
+            
+            passes_completed = st.slider("Passes Completed per 90", min_value=10.0, max_value=100.0, value=45.0)
+            
+            # Submit button
+            submitted = st.form_submit_button("🎯 Predict Market Value", use_container_width=True)
+        
+        if submitted:
+            # Create input dictionary
+            input_data = {
+                'age': age,
+                'nationality': nationality,
+                'current_club': selected_club,
+                'league': selected_league,
+                'appearances': appearances,
+                'minutes_played': minutes,
+                'is_DF': 1 if position == "Defender" else 0,
+                'is_MF': 1 if position == "Midfielder" else 0,
+                'is_FW': 1 if position == "Forward" else 0,
+                'goals': goals,
+                'assists': assists,
+                'goals_per_90': goals_per_90,
+                'progressive_carries_per90': progressive_carries,
+                'progressive_passes_per90': progressive_passes,
+                'sca_per90': sca,
+                'passes_completed_per90': passes_completed,
+                # Default values for other features
+                'npg_per90': goals_per_90 * 0.85,
+                'xg_per90': goals_per_90 * 0.9,
+                'xag_per90': assists / max(appearances, 1) * 90 / max(minutes / max(appearances, 1), 1) * 0.8,
+                'shots_per90': goals_per_90 * 4,
+                'shots_on_target_per90': goals_per_90 * 2,
+                'shots_on_target_pct': 40.0,
+                'avg_shot_distance': 16.0,
+                'gca_per90': sca * 0.3,
+                'key_passes_per90': sca * 0.5,
+                'pass_completion_pct': 80.0,
+                'passes_into_final_third_per90': passes_completed * 0.15,
+                'passes_into_penalty_area_per90': passes_completed * 0.05,
+                'progressive_passes_rec_per90': progressive_passes * 0.8,
+                'take_ons_per90': progressive_carries * 0.5,
+                'carries_into_final_third_per90': progressive_carries * 0.4,
+                'touches_att_third_per90': 20.0,
+                'touches_att_pen_per90': 5.0,
+                'passes_received_per90': passes_completed * 0.8,
+                'interceptions_per90': 1.5 if position == "Defender" else 1.0,
+                'blocks_per90': 1.5 if position == "Defender" else 0.8,
+                'ball_recoveries_per90': 5.0,
+                'aerials_won_per90': 2.0 if position == "Defender" else 1.0,
+                'yellow_cards_per90': 0.15,
+                'fouls_committed_per90': 1.0,
+            }
+
+            # Create DataFrame
+            input_df = pd.DataFrame([input_data])
+            
+            with st.spinner(f"Calculating market value with {selected_model_name}..."):
+                # Prepare and predict
+                X = prepare_for_prediction(input_df, required_features, dataset)
+                prediction = predict_values(selected_model, X)[0]
+            
+            # Display result
+            st.markdown("---")
+            st.subheader("💰 Predicted Market Value")
+            
+            # Big number display
             st.markdown(f"""
-            <div class="metric-card" style="text-align: center;">
-                <h4 style="color: {data['color']}; margin: 0;">{data['icon']} {model_name}</h4>
-                <div style="margin: 15px 0;">
-                    <p class="metric-label">RMSE</p>
-                    <p style="color: #ff6b6b; font-size: 1.8rem; margin: 0;">€{data['rmse']:.2f}M</p>
-                </div>
-                <div>
-                    <p class="metric-label">MAE</p>
-                    <p style="color: #ffd93d; font-size: 1.8rem; margin: 0;">€{data['mae']:.2f}M</p>
-                </div>
+            <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); border-radius: 15px; margin: 20px 0;">
+                <h1 style="color: white; font-size: 48px; margin: 0;">€{prediction:.2f}M</h1>
+                <p style="color: #ccc; font-size: 18px;">Estimated Market Value</p>
             </div>
             """, unsafe_allow_html=True)
-    
-    # Prediction history
-    if st.session_state.prediction_history:
-        st.markdown('<p class="section-header">PREDICTION HISTORY</p>', unsafe_allow_html=True)
-        
-        history_df = pd.DataFrame(st.session_state.prediction_history)
-        
-        fig_history = px.scatter(
-            history_df,
-            x="age",
-            y="value",
-            color="model",
-            size="value",
-            hover_data=["position", "league"],
-            color_discrete_map={
-                "Random Forest": "#2ecc71",
-                "XGBoost": "#3498db",
-                "LightGBM": "#9b59b6"
-            }
-        )
-        
-        fig_history.update_layout(
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color="#8892b0"),
-            height=350,
-            xaxis=dict(title="Age", gridcolor='rgba(255,255,255,0.1)'),
-            yaxis=dict(title="Predicted Value (€M)", gridcolor='rgba(255,255,255,0.1)')
-        )
-        st.plotly_chart(fig_history, use_container_width=True)
+            
+            # Value range interpretation
+            if prediction < 1:
+                tier = "🔵 Lower League / Youth Player"
+            elif prediction < 5:
+                tier = "🟢 Solid Squad Player"
+            elif prediction < 15:
+                tier = "🟡 First Team Regular"
+            elif prediction < 40:
+                tier = "🟠 Key Player / Star"
+            elif prediction < 80:
+                tier = "🔴 Elite Player"
+            else:
+                tier = "⭐ World Class"
+            
+            st.info(f"**Player Tier:** {tier}")
+            
+            # Show input summary
+            with st.expander("📋 Input Summary"):
+                summary_df = pd.DataFrame({
+                    'Feature': ['Age', 'Position', 'Appearances', 'Minutes', 'Goals', 'Assists', 
+                               'Goals/90', 'Progressive Carries/90', 'Progressive Passes/90', 'SCA/90'],
+                    'Value': [age, position, appearances, minutes, goals, assists,
+                             goals_per_90, progressive_carries, progressive_passes, sca]
+                })
+                st.table(summary_df)
 
-with tab3:
-    st.markdown('<p class="section-header">ABOUT THIS PROJECT</p>', unsafe_allow_html=True)
-    
-    col_about1, col_about2 = st.columns([2, 1])
-    
-    with col_about1:
-        st.markdown("""
-        ### 🎯 Project Overview
-        
-        This system predicts football player market values using machine learning models 
-        trained on comprehensive player statistics and market data.
-        
-        ### 📊 Dataset
-        - **Samples:** 16,453 players
-        - **Features:** 46 original features
-        - **Target:** Market value (€M)
-        - **Data Split:** 64% Train / 16% Validation / 20% Test
-        
-        ### 🤖 Models Used
-        
-        1. **Random Forest** 🌲
-           - Ensemble of decision trees
-           - Good interpretability
-           - R² Score: 0.7080
-        
-        2. **XGBoost** 🚀
-           - Gradient boosting with regularization
-           - Best performance
-           - R² Score: 0.7802
-        
-        3. **LightGBM** ⚡
-           - Light gradient boosting
-           - Fast training
-           - Currently in development
-        
-        ### 🔑 Key Features
-        - Current club (58% importance)
-        - Age (7.4% importance)
-        - Goals + Assists performance
-        - Minutes played
-        - League quality
-        
-        ### 📈 Methodology
-        - Feature engineering with log transformations
-        - Target encoding for categorical variables
-        - 5-Fold Cross-Validation
-        - Hyperparameter tuning with GridSearchCV
-        """)
-    
-    with col_about2:
-        st.markdown("""
-        ### 🛠️ Tech Stack
-        
-        - **Python 3.11**
-        - **Scikit-learn**
-        - **XGBoost**
-        - **LightGBM**
-        - **Streamlit**
-        - **Plotly**
-        
-        ---
-        
-        ### 📁 Output Files
-        
-        ✅ Model files (.pkl)  
-        ✅ Scalers  
-        ✅ Feature lists  
-        ✅ Evaluation charts  
-        ✅ Final reports  
-        
-        ---
-        
-        ### 👥 Team
-        
-        - Person 1: Random Forest
-        - Person 2: XGBoost  
-        - Person 3: LightGBM
-        
-        ---
-        
-        ### 📧 Contact
-        
-        For questions or feedback, please reach out to the development team.
-        """)
+    # ========================================
+    # TAB 4: MODEL COMPARISON
+    # ========================================
+    with tab4:
+        st.header("📊 Compare All Models")
+        st.markdown("Compare predictions from all available models on the same input data.")
 
-# Footer
-st.markdown("""
-<div class="footer">
-    <p>⚽ Football Transfer Value Prediction System | Built with Streamlit & Machine Learning</p>
-    <p style="font-size: 0.8rem;">© 2025 | Data Science Project</p>
-</div>
-""", unsafe_allow_html=True)
+        if len(loaded_models) < 2:
+            st.warning("⚠️ Need at least 2 models to compare. Only {} model(s) loaded.".format(len(loaded_models)))
+        else:
+            st.info(f"💡 Comparing {len(loaded_models)} models: {', '.join(loaded_models.keys())}")
+
+            # ========================================
+            # Comparison Input Options
+            # ========================================
+            comparison_method = st.radio(
+                "Choose input method:",
+                ["🔍 Select Player from Database", "✏️ Manual Input"],
+                horizontal=True
+            )
+
+            player_data = None
+
+            # ========================================
+            # METHOD 1: SELECT FROM DATABASE
+            # ========================================
+            if comparison_method == "🔍 Select Player from Database":
+                if dataset is None:
+                    st.warning("⚠️ Dataset not found.")
+                else:
+                    # Simplified player selection
+                    col1, col2 = st.columns(2)
+
+                    with col1:
+                        leagues = ['All'] + sorted(dataset['league'].unique().tolist())
+                        selected_league = st.selectbox("🏆 League", leagues, key="comp_league")
+
+                    with col2:
+                        if selected_league == 'All':
+                            clubs = ['All'] + sorted(dataset['current_club'].unique().tolist())
+                        else:
+                            clubs = ['All'] + sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
+                        selected_club = st.selectbox("🏟️ Club", clubs, key="comp_club")
+
+                    # Apply filters
+                    filtered_df = dataset.copy()
+                    if selected_league != 'All':
+                        filtered_df = filtered_df[filtered_df['league'] == selected_league]
+                    if selected_club != 'All':
+                        filtered_df = filtered_df[filtered_df['current_club'] == selected_club]
+
+                    if len(filtered_df) > 0:
+                        # Create display name
+                        filtered_df['display_name'] = filtered_df['current_club'] + " - Age " + filtered_df['age'].astype(str)
+
+                        # Select player
+                        player_idx = st.selectbox(
+                            "👤 Select Player",
+                            options=filtered_df.index.tolist(),
+                            format_func=lambda x: filtered_df.loc[x, 'display_name'],
+                            key="comp_player"
+                        )
+
+                        player_data = filtered_df.loc[[player_idx]]
+
+                        # Show player info
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("Age", int(player_data['age'].values[0]))
+                        with col2:
+                            st.metric("Appearances", int(player_data['appearances'].values[0]))
+                        with col3:
+                            st.metric("Goals", int(player_data['goals'].values[0]))
+                        with col4:
+                            st.metric("Assists", int(player_data['assists'].values[0]))
+
+            # ========================================
+            # METHOD 2: MANUAL INPUT
+            # ========================================
+            else:
+                with st.form("comparison_manual_form"):
+                    st.subheader("👤 Basic Information")
+                    col1, col2, col3 = st.columns(3)
+
+                    with col1:
+                        age = st.number_input("Age", min_value=16, max_value=45, value=25, key="comp_age")
+                    with col2:
+                        appearances = st.number_input("Appearances", min_value=0, max_value=60, value=30, key="comp_app")
+                    with col3:
+                        minutes = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500, key="comp_min")
+
+                    st.subheader("📍 Position & Club Information")
+                    col1, col2, col3, col4 = st.columns(4)
+
+                    with col1:
+                        position = st.selectbox("Position", ["Defender", "Midfielder", "Forward"], key="comp_pos")
+
+                    with col2:
+                        if dataset is not None:
+                            available_leagues = sorted(dataset['league'].unique().tolist())
+                            comp_league = st.selectbox("League", available_leagues,
+                                                       index=available_leagues.index("Premier League") if "Premier League" in available_leagues else 0,
+                                                       key="comp_league_select")
+                        else:
+                            comp_league = "Premier League"
+
+                    with col3:
+                        if dataset is not None and comp_league:
+                            league_clubs = sorted(dataset[dataset['league'] == comp_league]['current_club'].unique().tolist())
+                            if len(league_clubs) > 0:
+                                comp_club = st.selectbox("Club", league_clubs, key="comp_club_select")
+                            else:
+                                comp_club = "Unknown"
+                        else:
+                            comp_club = "Unknown"
+
+                    with col4:
+                        if dataset is not None:
+                            available_nationalities = sorted(dataset['nationality'].unique().tolist())
+                            comp_nationality = st.selectbox("Nationality", available_nationalities, index=0, key="comp_nationality")
+                        else:
+                            comp_nationality = "Unknown"
+
+                    st.subheader("⚽ Performance Stats")
+                    col1, col2, col3 = st.columns(3)
+
+                    with col1:
+                        goals = st.number_input("Goals", min_value=0, max_value=50, value=5, key="comp_goals")
+                    with col2:
+                        assists = st.number_input("Assists", min_value=0, max_value=30, value=5, key="comp_assists")
+                    with col3:
+                        goals_per_90 = st.number_input("Goals per 90", min_value=0.0, max_value=2.0, value=0.2, step=0.05, key="comp_g90")
+
+                    submitted = st.form_submit_button("🎯 Load Data for Comparison", use_container_width=True)
+
+                if submitted:
+                    # Create manual input dataframe
+                    input_data = {
+                        'age': age,
+                        'nationality': comp_nationality,
+                        'current_club': comp_club,
+                        'league': comp_league,
+                        'appearances': appearances,
+                        'minutes_played': minutes,
+                        'is_DF': 1 if position == "Defender" else 0,
+                        'is_MF': 1 if position == "Midfielder" else 0,
+                        'is_FW': 1 if position == "Forward" else 0,
+                        'goals': goals,
+                        'assists': assists,
+                        'goals_per_90': goals_per_90,
+                        'progressive_carries_per90': 3.0,
+                        'progressive_passes_per90': 5.0,
+                        'sca_per90': 3.0,
+                        'passes_completed_per90': 45.0,
+                        'npg_per90': goals_per_90 * 0.85,
+                        'xg_per90': goals_per_90 * 0.9,
+                        'xag_per90': assists / max(appearances, 1) * 90 / max(minutes / max(appearances, 1), 1) * 0.8,
+                        'shots_per90': goals_per_90 * 4,
+                        'shots_on_target_per90': goals_per_90 * 2,
+                        'shots_on_target_pct': 40.0,
+                        'avg_shot_distance': 16.0,
+                        'gca_per90': 1.0,
+                        'key_passes_per90': 2.0,
+                        'pass_completion_pct': 80.0,
+                        'passes_into_final_third_per90': 7.0,
+                        'passes_into_penalty_area_per90': 2.0,
+                        'progressive_passes_rec_per90': 4.0,
+                        'take_ons_per90': 1.5,
+                        'carries_into_final_third_per90': 1.5,
+                        'touches_att_third_per90': 20.0,
+                        'touches_att_pen_per90': 5.0,
+                        'passes_received_per90': 35.0,
+                        'interceptions_per90': 1.5 if position == "Defender" else 1.0,
+                        'blocks_per90': 1.5 if position == "Defender" else 0.8,
+                        'ball_recoveries_per90': 5.0,
+                        'aerials_won_per90': 2.0 if position == "Defender" else 1.0,
+                        'yellow_cards_per90': 0.15,
+                        'fouls_committed_per90': 1.0,
+                    }
+                    player_data = pd.DataFrame([input_data])
+
+            # ========================================
+            # COMPARISON RESULTS
+            # ========================================
+            if player_data is not None:
+                if st.button("🚀 Compare All Models", key="compare_btn", use_container_width=True):
+                    with st.spinner("Running predictions on all models..."):
+                        # Prepare data
+                        X = prepare_for_prediction(player_data, required_features, dataset)
+
+                        # Get predictions from all models
+                        predictions = {}
+                        for model_name, model in loaded_models.items():
+                            pred = predict_values(model, X)[0]
+                            predictions[model_name] = pred
+
+                        # Display results
+                        st.markdown("---")
+                        st.subheader("💰 Prediction Results")
+
+                        # Show predictions in columns
+                        cols = st.columns(len(predictions))
+                        for idx, (model_name, pred_value) in enumerate(predictions.items()):
+                            with cols[idx]:
+                                st.metric(
+                                    label=f"**{model_name}**",
+                                    value=f"€{pred_value:.2f}M"
+                                )
+
+                        # Calculate statistics
+                        pred_values = list(predictions.values())
+                        avg_prediction = np.mean(pred_values)
+                        min_prediction = np.min(pred_values)
+                        max_prediction = np.max(pred_values)
+                        std_prediction = np.std(pred_values)
+
+                        st.markdown("---")
+                        st.subheader("📈 Ensemble Statistics")
+
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("Average (Ensemble)", f"€{avg_prediction:.2f}M")
+                        with col2:
+                            st.metric("Min Prediction", f"€{min_prediction:.2f}M")
+                        with col3:
+                            st.metric("Max Prediction", f"€{max_prediction:.2f}M")
+                        with col4:
+                            st.metric("Std Deviation", f"€{std_prediction:.2f}M")
+
+                        # Comparison table
+                        st.markdown("---")
+                        st.subheader("📊 Detailed Comparison")
+
+                        comparison_df = pd.DataFrame({
+                            'Model': list(predictions.keys()),
+                            'Prediction (€M)': [f"€{v:.2f}M" for v in predictions.values()],
+                            'Diff from Avg': [f"{v - avg_prediction:+.2f}M" for v in predictions.values()],
+                            'Diff from Avg (%)': [f"{((v - avg_prediction) / avg_prediction * 100):+.1f}%" if avg_prediction > 0 else "N/A" for v in predictions.values()]
+                        })
+
+                        st.dataframe(comparison_df, use_container_width=True, hide_index=True)
+
+                        # Show actual value if available
+                        if 'market_value' in player_data.columns:
+                            actual_value = player_data['market_value'].values[0]
+                            st.markdown("---")
+                            st.subheader("🎯 Comparison with Actual Value")
+
+                            col1, col2 = st.columns(2)
+                            with col1:
+                                st.metric("📊 Actual Market Value", f"€{actual_value:.2f}M")
+                            with col2:
+                                ensemble_diff = avg_prediction - actual_value
+                                ensemble_diff_pct = (ensemble_diff / actual_value) * 100 if actual_value > 0 else 0
+                                st.metric("📈 Ensemble vs Actual", f"€{ensemble_diff:.2f}M", f"{ensemble_diff_pct:+.1f}%")
+
+                            # Model accuracy comparison
+                            accuracy_df = pd.DataFrame({
+                                'Model': list(predictions.keys()),
+                                'Prediction': [f"€{v:.2f}M" for v in predictions.values()],
+                                'Error': [f"{v - actual_value:+.2f}M" for v in predictions.values()],
+                                'Error (%)': [f"{((v - actual_value) / actual_value * 100):+.1f}%" if actual_value > 0 else "N/A" for v in predictions.values()],
+                                'Absolute Error': [f"€{abs(v - actual_value):.2f}M" for v in predictions.values()]
+                            })
+
+                            st.dataframe(accuracy_df, use_container_width=True, hide_index=True)
+
+                        # Recommendation
+                        st.markdown("---")
+                        st.info(f"💡 **Recommendation:** The ensemble average (€{avg_prediction:.2f}M) combines all models and typically provides the most robust prediction.")
+
+    # Footer
+    st.markdown("---")
+    st.markdown("""
+    <div style="text-align: center; color: #888; font-size: 14px;">
+        <p>⚽ Football Player Market Value Predictor | Built with Streamlit</p>
+        <p>Model: Random Forest / XGBoost / LightGBM | Data: Football Statistics</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()
