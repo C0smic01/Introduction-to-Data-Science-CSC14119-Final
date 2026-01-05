@@ -69,67 +69,89 @@ numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
 # 1. Log transformation
 print("\n⏳ Log transformation...")
 skewed_features = []
-for col in tqdm(numeric_cols, desc="  ", leave=False):
-    if col not in ['market_value', 'is_GK', 'is_DF', 'is_MF', 'is_FW']:
-        if abs(df_features[col].skew()) > 1.0:
+for col in numeric_cols:
+    if col not in ['market_value', 'is_DF', 'is_MF', 'is_FW']:
+        skewness = abs(df_features[col].skew())
+        if skewness > 1.0:
             df_features[f'{col}_log'] = np.log1p(df_features[col])
             skewed_features.append(col)
 print(f"  ✅ Transformed {len(skewed_features)} features")
 
 # 2. Ratio features
 print("⏳ Creating ratio features...")
-if 'goals' in df_features.columns and 'shots_per90' in df_features.columns:
-    df_features['goals_per_shot'] = df_features['goals'] / df_features['shots_per90'].replace(0, 0.01)
+# ===== 1. CONVERSION RATE (tỉ lệ ghi bàn/cú sút) =====
+# Dùng cùng đơn vị per90
+if 'goals_per_90' in df_features.columns and 'shots_per90' in df_features.columns:
+    df_features['conversion_rate'] = df_features['goals_per_90'] / df_features['shots_per90'].replace(0, 0.01)
+    print("DONE: conversion_rate")
 
-if 'passes_completed_per90' in df_features.columns and 'pass_completion_pct' in df_features.columns:
-    df_features['pass_efficiency'] = df_features['passes_completed_per90'] * df_features['pass_completion_pct'] / 100
+# ===== 2. PASS EFFICIENCY =====
+if 'key_passes_per90' in df_features.columns and 'passes_completed_per90' in df_features.columns:
+    df_features['key_pass_ratio'] = df_features['key_passes_per90'] / df_features['passes_completed_per90'].replace(0, 0.01)
+    print("DONE: key_pass_ratio (tỉ lệ pass quan trọng)")
 
+# ===== 3. DEFENSIVE CONTRIBUTION =====
 if all(col in df_features.columns for col in ['interceptions_per90', 'blocks_per90']):
     df_features['defensive_contribution'] = df_features['interceptions_per90'] + df_features['blocks_per90']
+    print("DONE: defensive_contribution")
 
+# ===== 4. TOTAL PROGRESSIVE  =====
 if all(col in df_features.columns for col in ['progressive_passes_per90', 'progressive_carries_per90']):
     df_features['total_progressive'] = df_features['progressive_passes_per90'] + df_features['progressive_carries_per90']
+    print("DONE: total_progressive")
 print("  ✅ Created 4 ratio features")
 
 # 3. Interaction features
 print("⏳ Creating interaction features...")
 df_features['age_experience'] = df_features['age'] * np.log1p(df_features['minutes_played'])
+print("DONE: age_experience")
+
 if 'minutes_played' in df_features.columns and 'appearances' in df_features.columns:
     df_features['minutes_per_game'] = df_features['minutes_played'] / df_features['appearances'].replace(0, 1)
+    print("DONE: minutes_per_game")
 print("  ✅ Created 2 interaction features")
 
 # 4. Polynomial features
 print("⏳ Creating polynomial features...")
-for feat in ['goals', 'assists', 'minutes_played']:
+key_features = ['goals', 'assists', 'minutes_played']
+
+for feat in key_features:
     if feat in df_features.columns:
         df_features[f'{feat}_squared'] = df_features[feat] ** 2
+        print(f"DONE: {feat}_squared")
 print("  ✅ Created 3 polynomial features")
 
 # 5. Encoding
 print("⏳ Encoding categorical variables...")
 categorical_cols = ['nationality', 'position', 'current_club', 'league']
 
-for col in ['nationality', 'current_club']:
-    if col in df_features.columns:
-        target_mean = df_features.groupby(col)['market_value'].mean()
-        df_features[f'{col}_target_enc'] = df_features[col].map(target_mean)
-        df_features[f'{col}_target_enc'].fillna(df_features['market_value'].mean(), inplace=True)
+temp_cols = ['calculated_mpg', 'calculated_sum']
+df_features.drop(columns=[c for c in temp_cols if c in df_features.columns], inplace=True)
 
-le = LabelEncoder()
-for col in ['position', 'league']:
-    if col in df_features.columns:
-        df_features[f'{col}_label_enc'] = le.fit_transform(df_features[col].astype(str))
-
+# 1. FREQUENCY ENCODING 
 for col in categorical_cols:
     if col in df_features.columns:
         freq = df_features[col].value_counts()
         df_features[f'{col}_freq'] = df_features[col].map(freq)
+        print(f"   ✓ {col}: {df_features[col].nunique()} unique values → freq encoded")
 
-print("  ✅ Encoded categorical variables")
+# 2. LABEL ENCODING 
+le_position = LabelEncoder()
+le_league = LabelEncoder()
 
-fe_time = time.time() - fe_start
-print(f"\n✅ Feature engineering completed in {fe_time:.2f}s")
-print(f"📊 Total features: {len(df_features.columns)}")
+if 'league' in df_features.columns:
+    df_features['league_label_enc'] = le_league.fit_transform(df_features['league'].astype(str))
+    print(f"   DONE: league: {df_features['league'].nunique()} classes → label encoded")
+# 3. VERIFY ORIGINAL CATEGORICAL COLUMNS PRESERVED
+for col in ['nationality', 'current_club']:
+    if col in df_features.columns:
+        print(f"   - {col}: {df_features[col].nunique()} unique values (preserved)")
+    else:
+        print(f"   WARNING: {col} not found!")
+
+print(f"\nFeature Engineering Complete!")
+print(f"   - Total features: {len(df_features.columns)}")
+print(f"   - Ready for feature selection")
 
 # %% [markdown]
 # ## 🎯 3. FEATURE SELECTION
