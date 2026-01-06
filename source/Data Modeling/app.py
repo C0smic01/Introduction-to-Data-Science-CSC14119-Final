@@ -334,7 +334,7 @@ def main():
                         if 'age' in result_df.columns:
                             display_cols = ['age'] + display_cols
 
-                        st.dataframe(result_df[display_cols], use_container_width=True)
+                        st.dataframe(result_df[display_cols], width='stretch')
                         
                         # Statistics
                         col1, col2, col3, col4 = st.columns(4)
@@ -550,7 +550,7 @@ def main():
             passes_completed = st.slider("Passes Completed per 90", min_value=10.0, max_value=100.0, value=45.0)
             
             # Submit button
-            submitted = st.form_submit_button("Predict Market Value", use_container_width=True)
+            submitted = st.form_submit_button("Predict Market Value", width='stretch')
         
         if submitted:
             # Create input dictionary
@@ -778,7 +778,7 @@ def main():
                     with col3:
                         goals_per_90 = st.number_input("Goals per 90", min_value=0.0, max_value=2.0, value=0.2, step=0.05, key="comp_g90")
 
-                    submitted = st.form_submit_button("Load Data for Comparison", use_container_width=True)
+                    submitted = st.form_submit_button("Load Data for Comparison", width='stretch')
 
                 if submitted:
                     # Create manual input dataframe
@@ -851,7 +851,7 @@ def main():
             # COMPARISON RESULTS
             # ========================================
             if player_data is not None:
-                if st.button("Compare All Models", key="compare_btn", use_container_width=True):
+                if st.button("Compare All Models", key="compare_btn", width='stretch'):
                     with st.spinner("Running predictions on all models..."):
                         # Prepare data
                         X = prepare_for_prediction(player_data, required_features, dataset)
@@ -906,7 +906,7 @@ def main():
                             'Diff from Avg (%)': [f"{((v - avg_prediction) / avg_prediction * 100):+.1f}%" if avg_prediction > 0 else "N/A" for v in predictions.values()]
                         })
 
-                        st.dataframe(comparison_df, use_container_width=True, hide_index=True)
+                        st.dataframe(comparison_df, width='stretch', hide_index=True)
 
                         # Show actual value if available
                         if 'market_value' in player_data.columns:
@@ -931,7 +931,7 @@ def main():
                                 'Absolute Error': [f"€{abs(v - actual_value):.2f}M" for v in predictions.values()]
                             })
 
-                            st.dataframe(accuracy_df, use_container_width=True, hide_index=True)
+                            st.dataframe(accuracy_df, width='stretch', hide_index=True)
 
                         # Recommendation
                         st.markdown("---")
