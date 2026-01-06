@@ -15,7 +15,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning)
 # ============================================================
 # CONFIGURATION
 # ============================================================
@@ -404,9 +405,10 @@ def main():
             
             # Player selection
             if len(filtered_df) > 0:
-                # Create display name
-                filtered_df['display_name'] = filtered_df['current_club'] + " - Age " + filtered_df['age'].astype(str)
-                
+                # Create display name (make a copy to avoid Arrow conversion issues)
+                filtered_df = filtered_df.copy()
+                filtered_df['display_name'] = filtered_df['current_club'].astype(str) + " - Age " + filtered_df['age'].astype(str)
+
                 # Select player by index
                 player_idx = st.selectbox(
                     "👤 Select Player",
@@ -431,7 +433,12 @@ def main():
                 
                 # Show more stats
                 with st.expander("📊 View All Statistics"):
-                    st.dataframe(selected_player.T)
+                    # Convert to display-friendly format to avoid Arrow serialization issues
+                    display_stats = selected_player.T.copy()
+                    display_stats.columns = ['Value']
+                    # Convert all values to string to avoid type conflicts
+                    display_stats['Value'] = display_stats['Value'].astype(str)
+                    st.dataframe(display_stats)
                 
                 # Actual vs Predicted
                 actual_value = selected_player['market_value'].values[0]
@@ -682,8 +689,9 @@ def main():
                         filtered_df = filtered_df[filtered_df['current_club'] == selected_club]
 
                     if len(filtered_df) > 0:
-                        # Create display name
-                        filtered_df['display_name'] = filtered_df['current_club'] + " - Age " + filtered_df['age'].astype(str)
+                        # Create display name (make a copy to avoid Arrow conversion issues)
+                        filtered_df = filtered_df.copy()
+                        filtered_df['display_name'] = filtered_df['current_club'].astype(str) + " - Age " + filtered_df['age'].astype(str)
 
                         # Select player
                         player_idx = st.selectbox(
@@ -810,6 +818,27 @@ def main():
                         'fouls_committed_per90': 1.0,
                     }
                     player_data = pd.DataFrame([input_data])
+
+                    # Save to session state so it persists after form submit
+                    st.session_state['comparison_player_data'] = player_data
+                    st.success("✅ Data loaded! Click 'Compare All Models' button below to see predictions.")
+
+                # Check if we have data in session state
+                if 'comparison_player_data' in st.session_state:
+                    player_data = st.session_state['comparison_player_data']
+
+                    # Show loaded data summary
+                    st.markdown("---")
+                    st.subheader("📋 Loaded Player Data")
+                    col1, col2, col3, col4 = st.columns(4)
+                    with col1:
+                        st.metric("Age", int(player_data['age'].values[0]))
+                    with col2:
+                        st.metric("Position", "Defender" if player_data['is_DF'].values[0] == 1 else ("Midfielder" if player_data['is_MF'].values[0] == 1 else "Forward"))
+                    with col3:
+                        st.metric("Club", player_data['current_club'].values[0])
+                    with col4:
+                        st.metric("League", player_data['league'].values[0])
 
             # ========================================
             # COMPARISON RESULTS
