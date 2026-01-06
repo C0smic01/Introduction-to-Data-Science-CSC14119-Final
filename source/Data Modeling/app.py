@@ -208,13 +208,14 @@ def predict_values(model, X: pd.DataFrame) -> np.ndarray:
 def main():
     # Page config
     st.set_page_config(
-        page_title="⚽ Player Value Predictor",
-        page_icon="⚽",
-        layout="wide"
+        page_title="Player Value Predictor",
+        page_icon="",
+        layout="wide",
+        initial_sidebar_state="expanded"
     )
     
     # Header
-    st.title("⚽ Football Player Market Value Predictor")
+    st.title("Football Player Market Value Predictor")
     st.markdown("Predict player market value using Machine Learning")
     st.markdown("---")
 
@@ -225,19 +226,19 @@ def main():
 
     # Check if resources loaded
     if required_features is None:
-        st.error("❌ Features list not found! Please ensure 'pkl/selected_features.pkl' exists.")
+        st.error("Features list not found! Please ensure 'pkl/selected_features.pkl' exists.")
         st.stop()
 
     # Count successfully loaded models
     loaded_models = {name: model for name, model in models.items() if model is not None}
 
     if len(loaded_models) == 0:
-        st.error("❌ No models found! Please ensure model files exist in 'pkl/' folder.")
-        st.info("💡 Run the training notebooks first to generate the model files.")
+        st.error("No models found! Please ensure model files exist in 'pkl/' folder.")
+        st.info("Run the training notebooks first to generate the model files.")
         st.stop()
 
     # Sidebar - Model Selection
-    st.sidebar.header("🎯 Model Selection")
+    st.sidebar.header("Model Selection")
     selected_model_name = st.sidebar.selectbox(
         "Choose a prediction model:",
         options=list(loaded_models.keys()),
@@ -247,7 +248,7 @@ def main():
 
     # Model info in sidebar
     st.sidebar.markdown("---")
-    st.sidebar.subheader("📊 Model Info")
+    st.sidebar.subheader("Model Info")
     model_descriptions = {
         'Random Forest': "Ensemble of decision trees. Robust and interpretable.",
         'XGBoost': "Gradient boosting. High performance and accuracy.",
@@ -258,31 +259,31 @@ def main():
     # Success message
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.success(f"✅ {len(loaded_models)}/{len(MODELS_CONFIG)} models loaded")
+        st.success(f"{len(loaded_models)}/{len(MODELS_CONFIG)} models loaded")
     with col2:
-        st.info(f"📊 {len(required_features)} features")
+        st.info(f"{len(required_features)} features")
     with col3:
         if dataset is not None:
-            st.info(f"👥 {len(dataset):,} players in database")
+            st.info(f"{len(dataset):,} players in database")
 
-    st.info(f"🎯 **Selected Model:** {selected_model_name}")
+    st.info(f"**Selected Model:** {selected_model_name}")
     st.markdown("---")
-    
+
     # ========================================
     # TABS
     # ========================================
     tab1, tab2, tab3, tab4 = st.tabs([
-        "📁 Upload CSV File",
-        "🔍 Select from Database",
-        "✏️ Manual Input",
-        "📊 Model Comparison"
+        "Upload CSV File",
+        "Select from Database",
+        "Manual Input",
+        "Model Comparison"
     ])
     
     # ========================================
     # TAB 1: UPLOAD CSV
     # ========================================
     with tab1:
-        st.header("📁 Batch Prediction from CSV")
+        st.header("Batch Prediction from CSV")
         st.markdown("Upload a CSV file with player statistics to predict market values.")
         
         # Download template
@@ -290,7 +291,7 @@ def main():
             template_df = dataset.head(3).drop(columns=['market_value'], errors='ignore')
             csv_template = template_df.to_csv(index=False)
             st.download_button(
-                label="📥 Download CSV Template",
+                label="Download CSV Template",
                 data=csv_template,
                 file_name="player_template.csv",
                 mime="text/csv"
@@ -303,40 +304,37 @@ def main():
             try:
                 # Read uploaded file
                 upload_df = pd.read_csv(uploaded_file)
-                st.write(f"📊 Loaded {len(upload_df)} players")
+                st.write(f"Loaded {len(upload_df)} players")
                 
                 # Show preview
                 with st.expander("Preview uploaded data"):
                     st.dataframe(upload_df.head(10))
                 
                 # Predict button
-                if st.button("🚀 Predict Market Values", key="predict_csv"):
+                if st.button("Predict Market Values", key="predict_csv"):
                     with st.spinner(f"Processing with {selected_model_name}..."):
                         # Prepare data
                         X = prepare_for_prediction(upload_df, required_features, dataset)
 
                         # Predict
                         predictions = predict_values(selected_model, X)
-                        
-                        # Add predictions to dataframe
+
+                        # Add predictions to dataframe (keep original order)
                         result_df = upload_df.copy()
                         result_df['Predicted_Value_EUR_M'] = predictions.round(2)
-                        
-                        # Sort by predicted value
-                        result_df = result_df.sort_values('Predicted_Value_EUR_M', ascending=False)
-                        
+
                         # Display results
-                        st.success("✅ Prediction complete!")
-                        
-                        # Show top predictions
-                        st.subheader("🏆 Top 10 Most Valuable Players")
+                        st.success("Prediction complete!")
+
+                        # Show predictions in original CSV order
+                        st.subheader("Prediction Results")
                         display_cols = ['Predicted_Value_EUR_M']
                         if 'current_club' in result_df.columns:
                             display_cols = ['current_club'] + display_cols
                         if 'age' in result_df.columns:
                             display_cols = ['age'] + display_cols
-                        
-                        st.dataframe(result_df.head(10)[display_cols])
+
+                        st.dataframe(result_df[display_cols], width='stretch')
                         
                         # Statistics
                         col1, col2, col3, col4 = st.columns(4)
@@ -352,23 +350,23 @@ def main():
                         # Download results
                         csv_result = result_df.to_csv(index=False)
                         st.download_button(
-                            label="📥 Download Results CSV",
+                            label="Download Results CSV",
                             data=csv_result,
                             file_name="predictions_result.csv",
                             mime="text/csv"
                         )
                         
             except Exception as e:
-                st.error(f"❌ Error processing file: {str(e)}")
+                st.error(f"Error processing file: {str(e)}")
     
     # ========================================
     # TAB 2: SELECT FROM DATABASE
     # ========================================
     with tab2:
-        st.header("🔍 Select Player from Database")
+        st.header("Select Player from Database")
         
         if dataset is None:
-            st.warning("⚠️ Dataset not found. Please ensure 'input/football_players_dataset.csv' exists.")
+            st.warning("Dataset not found. Please ensure 'input/football_players_dataset.csv' exists.")
         else:
             # Filters
             col1, col2, col3 = st.columns(3)
@@ -376,7 +374,7 @@ def main():
             with col1:
                 # League filter
                 leagues = ['All'] + sorted(dataset['league'].unique().tolist())
-                selected_league = st.selectbox("🏆 League", leagues)
+                selected_league = st.selectbox("League", leagues)
             
             with col2:
                 # Club filter
@@ -384,12 +382,12 @@ def main():
                     clubs = ['All'] + sorted(dataset['current_club'].unique().tolist())
                 else:
                     clubs = ['All'] + sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
-                selected_club = st.selectbox("🏟️ Club", clubs)
+                selected_club = st.selectbox("Club", clubs)
             
             with col3:
                 # Position filter
                 positions = ['All', 'Defender', 'Midfielder', 'Forward']
-                selected_position = st.selectbox("📍 Position", positions)
+                selected_position = st.selectbox("Position", positions)
             
             # Apply filters
             filtered_df = dataset.copy()
@@ -401,7 +399,7 @@ def main():
                 pos_map = {'Defender': 'is_DF', 'Midfielder': 'is_MF', 'Forward': 'is_FW'}
                 filtered_df = filtered_df[filtered_df[pos_map[selected_position]] == 1]
             
-            st.write(f"📊 Found {len(filtered_df)} players")
+            st.write(f"Found {len(filtered_df)} players")
             
             # Player selection
             if len(filtered_df) > 0:
@@ -411,7 +409,7 @@ def main():
 
                 # Select player by index
                 player_idx = st.selectbox(
-                    "👤 Select Player",
+                    "Select Player",
                     options=filtered_df.index.tolist(),
                     format_func=lambda x: filtered_df.loc[x, 'display_name']
                 )
@@ -419,7 +417,7 @@ def main():
                 selected_player = filtered_df.loc[[player_idx]]
                 
                 # Show player info
-                st.subheader("📋 Player Statistics")
+                st.subheader("Player Statistics")
                 
                 col1, col2, col3, col4 = st.columns(4)
                 with col1:
@@ -432,7 +430,7 @@ def main():
                     st.metric("Assists", int(selected_player['assists'].values[0]))
                 
                 # Show more stats
-                with st.expander("📊 View All Statistics"):
+                with st.expander("View All Statistics"):
                     # Convert to display-friendly format to avoid Arrow serialization issues
                     display_stats = selected_player.T.copy()
                     display_stats.columns = ['Value']
@@ -444,106 +442,115 @@ def main():
                 actual_value = selected_player['market_value'].values[0]
                 
                 # Predict
-                if st.button("🎯 Predict Market Value", key="predict_select"):
+                if st.button("Predict Market Value", key="predict_select"):
                     with st.spinner(f"Calculating with {selected_model_name}..."):
                         X = prepare_for_prediction(selected_player, required_features, dataset)
                         prediction = predict_values(selected_model, X)[0]
                         
                         st.markdown("---")
-                        st.subheader("💰 Prediction Result")
+                        st.subheader("Prediction Result")
                         
                         col1, col2, col3 = st.columns(3)
                         with col1:
-                            st.metric("🎯 Predicted Value", f"€{prediction:.2f}M")
+                            st.metric("Predicted Value", f"€{prediction:.2f}M")
                         with col2:
-                            st.metric("📊 Actual Value", f"€{actual_value:.2f}M")
+                            st.metric("Actual Value", f"€{actual_value:.2f}M")
                         with col3:
                             diff = prediction - actual_value
                             diff_pct = (diff / actual_value) * 100 if actual_value > 0 else 0
-                            st.metric("📈 Difference", f"€{diff:.2f}M", f"{diff_pct:+.1f}%")
+                            st.metric("Difference", f"€{diff:.2f}M", f"{diff_pct:+.1f}%")
     
     # ========================================
     # TAB 3: MANUAL INPUT
     # ========================================
     with tab3:
-        st.header("✏️ Manual Input")
+        st.header("Manual Input")
         st.markdown("Enter player information for market value prediction.")
 
-        st.info("💡 **Important:** League and Club heavily influence predictions (Club = 58% importance!)")
+        st.info("**Important:** League and Club heavily influence predictions (Club = 58% importance!)")
 
-        # Create input form
+        # Initialize session state for league selection if not exists
+        if 'selected_manual_league' not in st.session_state:
+            st.session_state['selected_manual_league'] = "Premier League" if dataset is not None else "Premier League"
+
+        # League selection OUTSIDE form to allow dynamic club update
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            if dataset is not None:
+                available_leagues = sorted(dataset['league'].unique().tolist())
+                temp_league = st.selectbox("1. Select League:", available_leagues,
+                                           index=available_leagues.index(st.session_state['selected_manual_league'])
+                                                 if st.session_state['selected_manual_league'] in available_leagues else 0,
+                                           help="Select league first, then clubs will update below",
+                                           key="temp_manual_league")
+                if temp_league != st.session_state['selected_manual_league']:
+                    st.session_state['selected_manual_league'] = temp_league
+                    st.rerun()
+
+        st.markdown("---")
+
+        # Create input form (with all other fields including club based on selected league)
         with st.form("manual_input_form"):
-            st.subheader("👤 Basic Information")
-            col1, col2, col3 = st.columns(3)
+            st.subheader("2. Player & Club Information")
+            col1, col2, col3, col4 = st.columns(4)
 
             with col1:
-                age = st.number_input("Age", min_value=16, max_value=45, value=25)
-            with col2:
-                appearances = st.number_input("Appearances (this season)", min_value=0, max_value=60, value=30)
-            with col3:
-                minutes = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500)
-
-            st.subheader("📍 Position & Club Information")
-            col1, col2, col3 = st.columns(3)
-
-            with col1:
-                position = st.selectbox("Primary Position", ["Defender", "Midfielder", "Forward"])
+                position = st.selectbox("Position", ["Defender", "Midfielder", "Forward"])
 
             with col2:
-                # Get unique leagues from dataset
-                if dataset is not None:
-                    available_leagues = sorted(dataset['league'].unique().tolist())
-                    selected_league = st.selectbox("League", available_leagues,
-                                                   index=available_leagues.index("Premier League") if "Premier League" in available_leagues else 0,
-                                                   help="Player's current league - major factor in valuation")
-                else:
-                    selected_league = st.text_input("League", value="Premier League")
-
-            with col3:
                 # Get clubs from selected league
+                selected_league = st.session_state['selected_manual_league']
                 if dataset is not None and selected_league:
                     league_clubs = sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
                     if len(league_clubs) > 0:
                         selected_club = st.selectbox("Current Club", league_clubs,
-                                                    help="Player's club - most important factor (58% importance!)")
+                                                    help=f"Clubs in {selected_league}")
                     else:
-                        selected_club = st.text_input("Current Club", value="Unknown")
+                        selected_club = "Unknown"
                 else:
-                    selected_club = st.text_input("Current Club", value="Unknown")
+                    selected_club = "Unknown"
 
-            # Nationality
-            if dataset is not None:
-                available_nationalities = sorted(dataset['nationality'].unique().tolist())
-                nationality = st.selectbox("Nationality", available_nationalities,
-                                          index=0,
-                                          help="Player's nationality")
-            else:
-                nationality = st.text_input("Nationality", value="Unknown")
-            
-            st.subheader("⚽ Goal Contributions")
-            col1, col2, col3 = st.columns(3)
-            
-            with col1:
-                goals = st.number_input("Total Goals", min_value=0, max_value=50, value=5)
-            with col2:
-                assists = st.number_input("Total Assists", min_value=0, max_value=30, value=5)
             with col3:
-                goals_per_90 = st.number_input("Goals per 90 min", min_value=0.0, max_value=2.0, value=0.2, step=0.05)
-            
-            st.subheader("📈 Advanced Stats (per 90 minutes)")
+                # Nationality
+                if dataset is not None:
+                    available_nationalities = sorted(dataset['nationality'].unique().tolist())
+                    nationality = st.selectbox("Nationality", available_nationalities, index=0)
+                else:
+                    nationality = "Unknown"
+
+            with col4:
+                age = st.number_input("Age", min_value=16, max_value=45, value=25)
+
+            st.subheader("Performance Stats")
             col1, col2, col3 = st.columns(3)
-            
+
+            with col1:
+                appearances = st.number_input("Appearances", min_value=0, max_value=60, value=30)
+            with col2:
+                minutes = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500)
+            with col3:
+                goals = st.number_input("Total Goals", min_value=0, max_value=50, value=5)
+
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                assists = st.number_input("Total Assists", min_value=0, max_value=30, value=5)
+            with col2:
+                goals_per_90 = st.number_input("Goals per 90 min", min_value=0.0, max_value=2.0, value=0.2, step=0.05)
+
+            st.subheader("Advanced Stats (per 90 minutes)")
+            col1, col2, col3 = st.columns(3)
+
             with col1:
                 progressive_carries = st.number_input("Progressive Carries", min_value=0.0, max_value=15.0, value=3.0, step=0.5)
             with col2:
                 progressive_passes = st.number_input("Progressive Passes", min_value=0.0, max_value=15.0, value=5.0, step=0.5)
             with col3:
                 sca = st.number_input("Shot-Creating Actions", min_value=0.0, max_value=10.0, value=3.0, step=0.5)
-            
+
             passes_completed = st.slider("Passes Completed per 90", min_value=10.0, max_value=100.0, value=45.0)
             
             # Submit button
-            submitted = st.form_submit_button("🎯 Predict Market Value", use_container_width=True)
+            submitted = st.form_submit_button("Predict Market Value", width='stretch')
         
         if submitted:
             # Create input dictionary
@@ -601,7 +608,7 @@ def main():
             
             # Display result
             st.markdown("---")
-            st.subheader("💰 Predicted Market Value")
+            st.subheader("Predicted Market Value")
             
             # Big number display
             st.markdown(f"""
@@ -613,27 +620,27 @@ def main():
             
             # Value range interpretation
             if prediction < 1:
-                tier = "🔵 Lower League / Youth Player"
+                tier = "Lower League / Youth Player"
             elif prediction < 5:
-                tier = "🟢 Solid Squad Player"
+                tier = "Solid Squad Player"
             elif prediction < 15:
-                tier = "🟡 First Team Regular"
+                tier = "First Team Regular"
             elif prediction < 40:
-                tier = "🟠 Key Player / Star"
+                tier = "Key Player / Star"
             elif prediction < 80:
-                tier = "🔴 Elite Player"
+                tier = "Elite Player"
             else:
-                tier = "⭐ World Class"
+                tier = "World Class"
             
             st.info(f"**Player Tier:** {tier}")
             
             # Show input summary
-            with st.expander("📋 Input Summary"):
+            with st.expander("Input Summary"):
                 summary_df = pd.DataFrame({
-                    'Feature': ['Age', 'Position', 'Appearances', 'Minutes', 'Goals', 'Assists', 
+                    'Feature': ['Age', 'Position', 'Appearances', 'Minutes', 'Goals', 'Assists',
                                'Goals/90', 'Progressive Carries/90', 'Progressive Passes/90', 'SCA/90'],
-                    'Value': [age, position, appearances, minutes, goals, assists,
-                             goals_per_90, progressive_carries, progressive_passes, sca]
+                    'Value': [str(age), position, str(appearances), str(minutes), str(goals), str(assists),
+                             str(goals_per_90), str(progressive_carries), str(progressive_passes), str(sca)]
                 })
                 st.table(summary_df)
 
@@ -641,20 +648,20 @@ def main():
     # TAB 4: MODEL COMPARISON
     # ========================================
     with tab4:
-        st.header("📊 Compare All Models")
+        st.header("Compare All Models")
         st.markdown("Compare predictions from all available models on the same input data.")
 
         if len(loaded_models) < 2:
-            st.warning("⚠️ Need at least 2 models to compare. Only {} model(s) loaded.".format(len(loaded_models)))
+            st.warning("Need at least 2 models to compare. Only {} model(s) loaded.".format(len(loaded_models)))
         else:
-            st.info(f"💡 Comparing {len(loaded_models)} models: {', '.join(loaded_models.keys())}")
+            st.info(f"Comparing {len(loaded_models)} models: {', '.join(loaded_models.keys())}")
 
             # ========================================
             # Comparison Input Options
             # ========================================
             comparison_method = st.radio(
                 "Choose input method:",
-                ["🔍 Select Player from Database", "✏️ Manual Input"],
+                ["Select Player from Database", "Manual Input"],
                 horizontal=True
             )
 
@@ -663,23 +670,23 @@ def main():
             # ========================================
             # METHOD 1: SELECT FROM DATABASE
             # ========================================
-            if comparison_method == "🔍 Select Player from Database":
+            if comparison_method == "Select Player from Database":
                 if dataset is None:
-                    st.warning("⚠️ Dataset not found.")
+                    st.warning("Dataset not found.")
                 else:
                     # Simplified player selection
                     col1, col2 = st.columns(2)
 
                     with col1:
                         leagues = ['All'] + sorted(dataset['league'].unique().tolist())
-                        selected_league = st.selectbox("🏆 League", leagues, key="comp_league")
+                        selected_league = st.selectbox("League", leagues, key="comp_league")
 
                     with col2:
                         if selected_league == 'All':
                             clubs = ['All'] + sorted(dataset['current_club'].unique().tolist())
                         else:
                             clubs = ['All'] + sorted(dataset[dataset['league'] == selected_league]['current_club'].unique().tolist())
-                        selected_club = st.selectbox("🏟️ Club", clubs, key="comp_club")
+                        selected_club = st.selectbox("Club", clubs, key="comp_club")
 
                     # Apply filters
                     filtered_df = dataset.copy()
@@ -695,7 +702,7 @@ def main():
 
                         # Select player
                         player_idx = st.selectbox(
-                            "👤 Select Player",
+                            "Select Player",
                             options=filtered_df.index.tolist(),
                             format_func=lambda x: filtered_df.loc[x, 'display_name'],
                             key="comp_player"
@@ -719,7 +726,7 @@ def main():
             # ========================================
             else:
                 with st.form("comparison_manual_form"):
-                    st.subheader("👤 Basic Information")
+                    st.subheader("Basic Information")
                     col1, col2, col3 = st.columns(3)
 
                     with col1:
@@ -729,7 +736,7 @@ def main():
                     with col3:
                         minutes = st.number_input("Minutes Played", min_value=0, max_value=5000, value=2500, key="comp_min")
 
-                    st.subheader("📍 Position & Club Information")
+                    st.subheader("Position & Club Information")
                     col1, col2, col3, col4 = st.columns(4)
 
                     with col1:
@@ -761,7 +768,7 @@ def main():
                         else:
                             comp_nationality = "Unknown"
 
-                    st.subheader("⚽ Performance Stats")
+                    st.subheader("Performance Stats")
                     col1, col2, col3 = st.columns(3)
 
                     with col1:
@@ -771,7 +778,7 @@ def main():
                     with col3:
                         goals_per_90 = st.number_input("Goals per 90", min_value=0.0, max_value=2.0, value=0.2, step=0.05, key="comp_g90")
 
-                    submitted = st.form_submit_button("🎯 Load Data for Comparison", use_container_width=True)
+                    submitted = st.form_submit_button("Load Data for Comparison", width='stretch')
 
                 if submitted:
                     # Create manual input dataframe
@@ -821,7 +828,7 @@ def main():
 
                     # Save to session state so it persists after form submit
                     st.session_state['comparison_player_data'] = player_data
-                    st.success("✅ Data loaded! Click 'Compare All Models' button below to see predictions.")
+                    st.success("Data loaded! Click 'Compare All Models' button below to see predictions.")
 
                 # Check if we have data in session state
                 if 'comparison_player_data' in st.session_state:
@@ -829,7 +836,7 @@ def main():
 
                     # Show loaded data summary
                     st.markdown("---")
-                    st.subheader("📋 Loaded Player Data")
+                    st.subheader("Loaded Player Data")
                     col1, col2, col3, col4 = st.columns(4)
                     with col1:
                         st.metric("Age", int(player_data['age'].values[0]))
@@ -844,7 +851,7 @@ def main():
             # COMPARISON RESULTS
             # ========================================
             if player_data is not None:
-                if st.button("🚀 Compare All Models", key="compare_btn", use_container_width=True):
+                if st.button("Compare All Models", key="compare_btn", width='stretch'):
                     with st.spinner("Running predictions on all models..."):
                         # Prepare data
                         X = prepare_for_prediction(player_data, required_features, dataset)
@@ -857,7 +864,7 @@ def main():
 
                         # Display results
                         st.markdown("---")
-                        st.subheader("💰 Prediction Results")
+                        st.subheader("Prediction Results")
 
                         # Show predictions in columns
                         cols = st.columns(len(predictions))
@@ -876,7 +883,7 @@ def main():
                         std_prediction = np.std(pred_values)
 
                         st.markdown("---")
-                        st.subheader("📈 Ensemble Statistics")
+                        st.subheader("Ensemble Statistics")
 
                         col1, col2, col3, col4 = st.columns(4)
                         with col1:
@@ -890,7 +897,7 @@ def main():
 
                         # Comparison table
                         st.markdown("---")
-                        st.subheader("📊 Detailed Comparison")
+                        st.subheader("Detailed Comparison")
 
                         comparison_df = pd.DataFrame({
                             'Model': list(predictions.keys()),
@@ -899,21 +906,21 @@ def main():
                             'Diff from Avg (%)': [f"{((v - avg_prediction) / avg_prediction * 100):+.1f}%" if avg_prediction > 0 else "N/A" for v in predictions.values()]
                         })
 
-                        st.dataframe(comparison_df, use_container_width=True, hide_index=True)
+                        st.dataframe(comparison_df, width='stretch', hide_index=True)
 
                         # Show actual value if available
                         if 'market_value' in player_data.columns:
                             actual_value = player_data['market_value'].values[0]
                             st.markdown("---")
-                            st.subheader("🎯 Comparison with Actual Value")
+                            st.subheader("Comparison with Actual Value")
 
                             col1, col2 = st.columns(2)
                             with col1:
-                                st.metric("📊 Actual Market Value", f"€{actual_value:.2f}M")
+                                st.metric("Actual Market Value", f"€{actual_value:.2f}M")
                             with col2:
                                 ensemble_diff = avg_prediction - actual_value
                                 ensemble_diff_pct = (ensemble_diff / actual_value) * 100 if actual_value > 0 else 0
-                                st.metric("📈 Ensemble vs Actual", f"€{ensemble_diff:.2f}M", f"{ensemble_diff_pct:+.1f}%")
+                                st.metric("Ensemble vs Actual", f"€{ensemble_diff:.2f}M", f"{ensemble_diff_pct:+.1f}%")
 
                             # Model accuracy comparison
                             accuracy_df = pd.DataFrame({
@@ -924,17 +931,17 @@ def main():
                                 'Absolute Error': [f"€{abs(v - actual_value):.2f}M" for v in predictions.values()]
                             })
 
-                            st.dataframe(accuracy_df, use_container_width=True, hide_index=True)
+                            st.dataframe(accuracy_df, width='stretch', hide_index=True)
 
                         # Recommendation
                         st.markdown("---")
-                        st.info(f"💡 **Recommendation:** The ensemble average (€{avg_prediction:.2f}M) combines all models and typically provides the most robust prediction.")
+                        st.info(f"**Recommendation:** The ensemble average (€{avg_prediction:.2f}M) combines all models and typically provides the most robust prediction.")
 
     # Footer
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #888; font-size: 14px;">
-        <p>⚽ Football Player Market Value Predictor | Built with Streamlit</p>
+        <p>Football Player Market Value Predictor | Built with Streamlit</p>
         <p>Model: Random Forest / XGBoost / LightGBM | Data: Football Statistics</p>
     </div>
     """, unsafe_allow_html=True)
